@@ -136,7 +136,7 @@
       "portable_weights": false,
       "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
       "teacher_adapter_state": "not applicable",
-      "licence": "author-deferred; see RIGHTS_AND_LIMITATIONS.md",
+      "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
       "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
     },
     {
@@ -275,7 +275,7 @@
       "portable_weights": false,
       "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
       "teacher_adapter_state": "not applicable",
-      "licence": "author-deferred; see RIGHTS_AND_LIMITATIONS.md",
+      "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
       "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
     },
     {
@@ -415,7 +415,7 @@
       "portable_weights": false,
       "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
       "teacher_adapter_state": "not applicable",
-      "licence": "author-deferred; see RIGHTS_AND_LIMITATIONS.md",
+      "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
       "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
     },
     {
@@ -555,7 +555,7 @@
       "portable_weights": false,
       "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
       "teacher_adapter_state": "not applicable",
-      "licence": "author-deferred; see RIGHTS_AND_LIMITATIONS.md",
+      "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
       "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
     },
     {
@@ -696,7 +696,7 @@
       "portable_weights": false,
       "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
       "teacher_adapter_state": "not applicable",
-      "licence": "author-deferred; see RIGHTS_AND_LIMITATIONS.md",
+      "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
       "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
     },
     {
@@ -837,7 +837,7 @@
       "portable_weights": false,
       "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
       "teacher_adapter_state": "not applicable",
-      "licence": "author-deferred; see RIGHTS_AND_LIMITATIONS.md",
+      "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
       "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
     },
     {
@@ -976,7 +976,7 @@
       "portable_weights": false,
       "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
       "teacher_adapter_state": "Exported standalone inference model, no separate LoRA merge at load time",
-      "licence": "author-deferred; see RIGHTS_AND_LIMITATIONS.md",
+      "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
       "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
     },
     {
@@ -1116,7 +1116,7 @@
       "portable_weights": false,
       "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
       "teacher_adapter_state": "Exported standalone inference model, no separate LoRA merge at load time",
-      "licence": "author-deferred; see RIGHTS_AND_LIMITATIONS.md",
+      "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
       "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
     },
     {
@@ -1257,7 +1257,7 @@
       "portable_weights": false,
       "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
       "teacher_adapter_state": "Exported standalone inference model, no separate LoRA merge at load time",
-      "licence": "author-deferred; see RIGHTS_AND_LIMITATIONS.md",
+      "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
       "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
     },
     {
@@ -1396,7 +1396,7 @@
       "portable_weights": false,
       "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
       "teacher_adapter_state": "not applicable",
-      "licence": "author-deferred; see RIGHTS_AND_LIMITATIONS.md",
+      "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
       "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
     },
     {
@@ -1535,7 +1535,7 @@
       "portable_weights": false,
       "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
       "teacher_adapter_state": "not applicable",
-      "licence": "author-deferred; see RIGHTS_AND_LIMITATIONS.md",
+      "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
       "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
     }
   ],

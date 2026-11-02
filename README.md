@@ -87,5 +87,11 @@ python reproduce.py verify --output-dir /path/to/results/verify
 The figure/table reconstruction commands use the numerical source data bundled
 with this repository.
 
-Research-asset downloads and the archive DOI will be linked here when the
-Zenodo record is published.
+The reserved research-archive identifier is
+[10.5281/zenodo.23885754](https://doi.org/10.5281/zenodo.23885754).
+
+## Licences
+
+Source code is licensed under MIT. Author-owned data, figures and documentation
+are licensed under CC BY 4.0. Study model weights carry CC BY-NC 4.0.
+See [LICENSING.md](LICENSING.md) for scope and attribution.
