@@ -42,8 +42,6 @@ reference distribution; high support is `p > 0.1`, low support is `p <= 0.1`.
   absolute tail means and paired tail differences under the archived evaluation
   definitions. A top-`q` percent tail averages the largest `ceil(N*q/100)` atomic
   vector errors; differences are route minus its matched DFT-60 baseline.
-  Original per-atom caches and raw teacher-label records are retained in the
-  local research archive.
 - The nine MIL-120 paths have eleven images each and use the same DFT
   geometries for both predictions. For `e_i = 1000*(E_model_i - E_DFT_i)`,
   remove `(1-t_i)*e_0 + t_i*e_10` and average absolute residuals over images
@@ -109,9 +107,7 @@ commands write numerical summaries separately. `reexport` copies all 22
 approved SVGs exactly.
 
 The supplied models and labelled datasets support frozen-model evaluation on
-the ordered tests. Original native input/output records, complete dynamical logs
-and detailed controlled-experiment prediction caches are retained in the local
-research archive. The public source data include the reported curves, repeat-level
+the ordered tests. The source data provide the reported curves, repeat-level
 statistics and the work/timing records used by the documented numerical checks.
 
 ## Execution and portability

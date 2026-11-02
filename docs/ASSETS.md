@@ -34,9 +34,8 @@ describes model/runtime compatibility.
 The paper repository bundles figure/table source data, repeat-level statistics,
 sampling-work and timing records, and the inputs for its documented CPU numerical
 checks. Run reproduce.py verify, figures or tables as described in README.md.
-Original calculation outputs and detailed controlled-experiment prediction caches
-are retained in the local research archive. The public source tables preserve
-the reported controlled-experiment metrics and tail curves.
+The source tables provide the controlled-experiment metrics and tail curves
+for each configuration-selection repeat.
 
 ## Model evaluation
 

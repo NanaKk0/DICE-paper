@@ -85,8 +85,7 @@ python reproduce.py verify --output-dir /path/to/results/verify
 ```
 
 The figure/table reconstruction commands use the numerical source data bundled
-with this repository. Original calculation outputs and detailed controlled-experiment
-prediction caches are retained in the local research archive.
+with this repository.
 
 Research-asset downloads and the archive DOI will be linked here when the
 Zenodo record is published.
