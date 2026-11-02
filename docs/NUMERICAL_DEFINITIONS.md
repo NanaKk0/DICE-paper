@@ -38,19 +38,12 @@ reference distribution; high support is `p > 0.1`, low support is `p <= 0.1`.
 
 - Force-component RMSE: `sqrt(sum(force_ss) / sum(force_n))` over the common
   test. The direct-to-DICE reductions round to 47.6%, 21.9% and 18.8%.
-- With optional norm caches, the same RMSE is
-  `sqrt(mean(force_vector_error_norm**2) / 3)`. Vector P99 uses NumPy's default
-  linearly interpolated 0.99 quantile. A top-`q` percent tail averages the
-  largest `ceil(N*q/100)` vector errors; paired differences are route minus
-  the matched DFT-60 baseline. Negative differences remain negative.
-- Optional teacher raw-label checks compare T0/TR forces on forty unqueried
-  geometries in each of ten matched cases, using the explicit membership.
-  Stored-label results match their reconciliation values. Their small
-  differences from the final plotted fresh-batch audit (up to about
-  4.14e-7 eV/Angstrom RMSE and 4.15e-5 eV/Angstrom vector P99) are retained in
-  `raw_teacher_remaining40_reconciliation.csv`.
-  Twenty-two full-source-pool residual arrays independently reproduce the
-  Fig. 2 teacher-pool audit, whose evaluation includes the queried configurations.
+- Controlled-experiment source tables retain per-repeat RMSE, P99,
+  absolute tail means and paired tail differences under the archived evaluation
+  definitions. A top-`q` percent tail averages the largest `ceil(N*q/100)` atomic
+  vector errors; differences are route minus its matched DFT-60 baseline.
+  Original per-atom caches and raw teacher-label records are retained in the
+  local research archive.
 - The nine MIL-120 paths have eleven images each and use the same DFT
   geometries for both predictions. For `e_i = 1000*(E_model_i - E_DFT_i)`,
   remove `(1-t_i)*e_0 + t_i*e_10` and average absolute residuals over images
@@ -115,21 +108,11 @@ fit. The source CSV also provides HT-XRD values for their respective intervals.
 commands write numerical summaries separately. `reexport` copies all 22
 approved SVGs exactly.
 
-Actual input provenance is also supplied separately from numerical plotting.
-The research archive's `sampling/CONDITION_INDEX.csv` resolves all161 accepted
-representative conditions to inputs/seeds, including Python-native GCMC/Widom
-requests and ASE-relaxation effective contexts. Its
-`validation_records/native_physics/` contains the actual six 864-cation heating
-preparations and native heating/coexistence input/restart bindings. The local
-CPU-only `replay_thermal_observations.py` rebuilds the thermal bins and fits
-from74940 preserved native heating observations; the README gives its command.
-Original generators and launchers provide the corresponding execution records.
-`validation_records/native_protocols/` binds all plotted size-benchmark points
-to actual native inputs, includes the four original YSZ protocol files matched
-to all100 production receipts, and retains the distinct model-optimized
-MIL CI-NEB/FIRE setup and eighteen path summaries. These protocol records
-are separate from both the concurrency cost study and the common-DFT-geometry
-single-point path comparisons.
+The supplied models and labelled datasets support frozen-model evaluation on
+the ordered tests. Original native input/output records, complete dynamical logs
+and detailed controlled-experiment prediction caches are retained in the local
+research archive. The public source data include the reported curves, repeat-level
+statistics and the work/timing records used by the documented numerical checks.
 
 ## Execution and portability
 

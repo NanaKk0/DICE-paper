@@ -68,20 +68,25 @@ Export the main-text dataset-count table from its existing numerical source:
 python reproduce.py main_table --output-dir /path/to/results/main-table
 ```
 
-## Optional: models, training data and original records
+## Trained models and labelled datasets
 
-Download these separately for the corresponding research tasks. See
-[ASSETS.md](docs/ASSETS.md) for exactly which packages each task requires.
-MODEL_USE.md describes explicit native inference; its default checks paths only.
+DICE-models.zip supplies eleven trained study models. DICE-datasets.zip
+supplies labelled training/reference/test configurations, including the historical
+cross-phase student datasets and the independent 120-frame liquid–amorphous test.
+See [ASSETS.md](docs/ASSETS.md) for their contents and [MODEL_USE.md](MODEL_USE.md)
+for frozen-model evaluation with a compatible native environment.
 
-With all three retained asset archives extracted together, reconstruct duplicate paths and
-run the deeper CPU data checks:
+Extract these two archives into the same parent directory and verify their
+shared research-assets/ directory:
 
 ```sh
 python restore_assets.py /path/to/research-assets --restore --require-all --verify
-python reproduce.py verify --research-root /path/to/research-assets --output-dir /path/to/results/deep-check
-python /path/to/research-assets/original_records/verify_records.py
+python reproduce.py verify --output-dir /path/to/results/verify
 ```
+
+The figure/table reconstruction commands use the numerical source data bundled
+with this repository. Original calculation outputs and detailed controlled-experiment
+prediction caches are retained in the local research archive.
 
 Research-asset downloads and the archive DOI will be linked here when the
 Zenodo record is published.

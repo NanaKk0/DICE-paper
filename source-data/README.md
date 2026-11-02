@@ -12,8 +12,8 @@ Frozen numerical inputs for the current manuscript: six main figures, sixteen su
 
 The parent paper repository includes reproduce.py, plotting code and numerical
 definitions. Run its documented CPU commands using the bundled data.
-Models, datasets and extended evidence are optional,
-separate downloads described in ../docs/ASSETS.md.
+Trained models and labelled datasets are separate downloads described in
+../docs/ASSETS.md. The documented figure/table commands use the bundled source data.
 
 ## Statistical and physical conventions
 
