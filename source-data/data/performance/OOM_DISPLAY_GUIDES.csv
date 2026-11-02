@@ -1,0 +1,7 @@
+system,model,last_measured_atoms,last_measured_latency_ms,OOM_atoms_observed,display_only_endpoint_ms,last_segment_log_log_slope,role
+al2o3,Neo,3840,357.8413793103448,7680,720.1609314063161,1.0089991113420103,visual guide only; OOM latency not measured
+al2o3,Nano,7864320,516.4384615384615,15728640,1039.9709876501151,1.0098749278080787,visual guide only; OOM latency not measured
+mil,Neo,5120,332.5513793103448,10240,668.0373558966363,1.0063515240884529,visual guide only; OOM latency not measured
+mil,Nano,10485760,566.44,20971520,1106.4449179272613,0.9659365791575985,visual guide only; OOM latency not measured
+ysz,Neo,5056,359.2931034482759,10112,723.4406640185962,1.0097134496088622,visual guide only; OOM latency not measured
+ysz,Nano,10354688,599.3,20709376,1220.050467363796,1.0255905470537243,visual guide only; OOM latency not measured

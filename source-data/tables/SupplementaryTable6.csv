@@ -1,0 +1,14 @@
+Sampling mode,Atoms,"Teacher throughput
+(step s⁻¹)","Total steps
+(step)","Student time
+(h)","Teacher estimate
+(h)"
+NVT,64,343.77,"21,800,000",0.5864,17.6149
+NVT (dense output),64,314.75,"500,000",0.0434,0.4413
+NVT,79/92,270.40,"43,600,000",1.1753,44.7904
+NVT (dense output),79/92,241.82,"1,000,000",0.0810,1.1487
+NPT,64,346.32,"30,075,000",1.0313,24.1226
+NPT,79/92,275.08,"59,325,600",2.0312,59.9074
+Temperature-programmed NPT,64,354.59,"20,000,000",0.6694,15.6674
+Temperature-programmed NPT,79/92,275.70,"35,937,800",1.1728,36.2087
+System total,—,—,—,6.79,199.90

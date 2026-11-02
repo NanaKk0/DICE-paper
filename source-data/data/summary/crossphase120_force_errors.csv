@@ -1,0 +1,5 @@
+model,force_RMSE,high_RMSE,low_RMSE,model_zh
+Pretrained teacher,0.0740265704047681,0.06913738049291898,0.12360952046045709,预训练教师
+Adapted teacher,0.050579135723199296,0.04674153852947222,0.08824360951455536,适配教师
+Student before expansion,0.20851066716523534,,,扩展前学生
+Student after expansion,0.1756084843206125,,,扩展后学生

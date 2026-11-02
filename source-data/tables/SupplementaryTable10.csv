@@ -1,0 +1,4 @@
+System,Test configurations,Directly fine-tuned student,DICE-distilled student,Reduction (%)
+Al₂O₃,200,0.24590,0.12888,47.6
+YSZ,330,0.12282,0.09596,21.9
+MIL-120–CO₂,300,0.05617,0.04562,18.8

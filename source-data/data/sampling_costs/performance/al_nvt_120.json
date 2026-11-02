@@ -1,0 +1,46 @@
+{
+  "group": "al_nvt_120",
+  "kind": "nvt",
+  "parallel": 2,
+  "percentage": 100,
+  "tag": "confirm_fast",
+  "execution_mode": "classic",
+  "aggregate_rate": 128.31586644294367,
+  "rates": [
+    127.93120707100037,
+    128.31586644294367,
+    128.55031802901968
+  ],
+  "client_timings": [
+    [
+      [
+        300,
+        4.690020627
+      ],
+      [
+        300,
+        4.675862234
+      ],
+      [
+        300,
+        4.667433027
+      ]
+    ],
+    [
+      [
+        300,
+        4.689958991
+      ],
+      [
+        300,
+        4.6759611
+      ],
+      [
+        300,
+        4.667432376
+      ]
+    ]
+  ],
+  "units_per_repeat": 300,
+  "path": "/tmp/neo_sampling_speed_classic_20261019/benchmarks/al_nvt_120/p2_cap100_confirm_fast"
+}

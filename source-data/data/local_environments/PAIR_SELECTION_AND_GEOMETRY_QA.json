@@ -1,0 +1,284 @@
+{
+  "reference_frames": 140,
+  "test_frames": 120,
+  "source_radius_A": 2.8,
+  "reference_source": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/teach/train/dataset/train.xyz",
+  "reference_sha256": "afe470338db0e48a62191c7e012a7627a1732d4131c93c4e52a0d59df0992759",
+  "query_source": "/home/drq/DICE/analysis/al_cross_phase_local_support_20261024_v1/relabel_random120/relabelled.extxyz",
+  "query_sha256": "d43da1b63f37736b5c0febbececf31abe6f89c64c0ed2bf610c9fb150bb0b1b1",
+  "pairs": [
+    {
+      "coordination": 4,
+      "query_stratum_atoms": 573,
+      "query_total_Al_atoms": 5760,
+      "query_source_frame_zero_based": 287,
+      "query_test_frame_zero_based": 79,
+      "query_center_atom_zero_based": 40,
+      "query_structure_id": null,
+      "query_config_type": null,
+      "reference_frame_zero_based": 38,
+      "reference_center_atom_zero_based": 12,
+      "reference_structure_id": "sha256:cf803d3fa005e376b89b1e007114d69486d98d461d031002b8e542aeee02f012",
+      "reference_origin": "low_temperature_crystal_nvt",
+      "reference_source_group": "low_temperature_crystal_nvt:stage1_natoms160",
+      "class_median_SOAP_distance": 0.0633317902684211,
+      "selected_SOAP_distance": 0.0633317902684211,
+      "nearest_SOAP_cache_row": 4492,
+      "query_permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "rotation_query_to_reference": [
+        [
+          -0.36438466703620803,
+          -0.8753309921798902,
+          0.31783559989132987
+        ],
+        [
+          0.1035032158605365,
+          0.30111834010503097,
+          0.9479529680099744
+        ],
+        [
+          -0.9254787402936057,
+          0.37831653331801474,
+          -0.01912333346465402
+        ]
+      ],
+      "rotation_determinant": 1.000000000000001,
+      "O_site_rigid_RMSD_A": 0.2557101954488645,
+      "reference_AlO_distances_A": [
+        1.67587196238297,
+        1.8145553731316397,
+        1.8516674376613556,
+        1.9584973054974402
+      ],
+      "test_AlO_distances_A": [
+        1.6937989212874436,
+        2.0044218215984384,
+        1.8003459536711277,
+        1.8422539960540383
+      ],
+      "radius_A": 2.8,
+      "camera": {
+        "azimuth_degrees": 135,
+        "elevation_degrees": 55,
+        "projection_matrix": [
+          [
+            -0.7071067811865476,
+            0.5792279653395691,
+            -0.40557978767263886
+          ],
+          [
+            -0.7071067811865475,
+            -0.5792279653395692,
+            0.4055797876726389
+          ],
+          [
+            0.0,
+            0.5735764363510462,
+            0.8191520442889917
+          ]
+        ],
+        "reference_min_projected_spacing_A": 1.5034556055189041
+      },
+      "selection": "Retrospective coordination-class example; query closest to class median stored SOAP distance, then nearest same-element reference; no force-error/support/rigid-fit selection.",
+      "site_displacements_A": [
+        0.22205122460039448,
+        0.2665690185677096,
+        0.05970246395596094,
+        0.37097256504610465
+      ]
+    },
+    {
+      "coordination": 5,
+      "query_stratum_atoms": 1827,
+      "query_total_Al_atoms": 5760,
+      "query_source_frame_zero_based": 12,
+      "query_test_frame_zero_based": 4,
+      "query_center_atom_zero_based": 43,
+      "query_structure_id": null,
+      "query_config_type": null,
+      "reference_frame_zero_based": 87,
+      "reference_center_atom_zero_based": 28,
+      "reference_structure_id": "sha256:298e7c70e14f61f983b831ffd1925ccf4adac9209bb6adb87b4c217fd6faa513",
+      "reference_origin": "high_temperature_crystal_nvt",
+      "reference_source_group": "high_temperature_crystal_nvt:stage1_natoms80",
+      "class_median_SOAP_distance": 0.0757638812065124,
+      "selected_SOAP_distance": 0.0757638812065124,
+      "nearest_SOAP_cache_row": 10188,
+      "query_permutation": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rotation_query_to_reference": [
+        [
+          0.781446636293878,
+          0.5063418306223655,
+          -0.364635578608251
+        ],
+        [
+          -0.5671772199460225,
+          0.3328162633062844,
+          -0.7533547212655816
+        ],
+        [
+          -0.26009835793269354,
+          0.795519506637538,
+          0.547263701299367
+        ]
+      ],
+      "rotation_determinant": 0.999999999999998,
+      "O_site_rigid_RMSD_A": 0.383064919832949,
+      "reference_AlO_distances_A": [
+        1.7735015248690342,
+        1.7927686961976443,
+        1.8455564109476272,
+        2.1427130471763998,
+        2.1937604953545007
+      ],
+      "test_AlO_distances_A": [
+        1.745041568272801,
+        1.8075886260429936,
+        1.9971453452615795,
+        2.0075528937988145,
+        2.1435162295863304
+      ],
+      "radius_A": 2.8,
+      "camera": {
+        "azimuth_degrees": 285,
+        "elevation_degrees": 25,
+        "projection_matrix": [
+          [
+            0.9659258262890684,
+            -0.10938165494661481,
+            0.23456971600980406
+          ],
+          [
+            0.2588190451025203,
+            0.4082178936767349,
+            -0.8754260980655931
+          ],
+          [
+            0.0,
+            0.9063077870366499,
+            0.42261826174069944
+          ]
+        ],
+        "reference_min_projected_spacing_A": 1.472273547588111
+      },
+      "selection": "Retrospective coordination-class example; query closest to class median stored SOAP distance, then nearest same-element reference; no force-error/support/rigid-fit selection.",
+      "site_displacements_A": [
+        0.16214159350144483,
+        0.37547417993815907,
+        0.41208649834022665,
+        0.46955844296963867,
+        0.41966950617279347
+      ]
+    },
+    {
+      "coordination": 6,
+      "query_stratum_atoms": 2359,
+      "query_total_Al_atoms": 5760,
+      "query_source_frame_zero_based": 376,
+      "query_test_frame_zero_based": 104,
+      "query_center_atom_zero_based": 8,
+      "query_structure_id": null,
+      "query_config_type": null,
+      "reference_frame_zero_based": 128,
+      "reference_center_atom_zero_based": 29,
+      "reference_structure_id": "sha256:6d1f0b98226817837f8a283c703fb8aa0714e71b662a3ad7769c812e792aea50",
+      "reference_origin": "high_temperature_crystal_nvt",
+      "reference_source_group": "high_temperature_crystal_nvt:stage1_natoms80",
+      "class_median_SOAP_distance": 0.0707654133439064,
+      "selected_SOAP_distance": 0.0707654133439064,
+      "nearest_SOAP_cache_row": 15069,
+      "query_permutation": [
+        0,
+        3,
+        1,
+        2,
+        4,
+        5
+      ],
+      "rotation_query_to_reference": [
+        [
+          0.5587927745726501,
+          -0.2928938032990334,
+          -0.7758632966408613
+        ],
+        [
+          0.7670623705073626,
+          0.5381503115647099,
+          0.3492986715039596
+        ],
+        [
+          0.3152236584348082,
+          -0.7903211133152347,
+          0.5253823208018547
+        ]
+      ],
+      "rotation_determinant": 0.999999999999999,
+      "O_site_rigid_RMSD_A": 0.7882221236175718,
+      "reference_AlO_distances_A": [
+        1.6503160548808289,
+        1.8125928447570114,
+        1.8434981979923915,
+        1.870549738181858,
+        2.0544538493487843,
+        2.724368129176177
+      ],
+      "test_AlO_distances_A": [
+        1.6464412155312442,
+        1.9346149180134002,
+        1.7660892433566302,
+        1.820819916136683,
+        2.074673732855363,
+        2.621782690708747
+      ],
+      "radius_A": 2.8,
+      "camera": {
+        "azimuth_degrees": 75,
+        "elevation_degrees": 45,
+        "projection_matrix": [
+          [
+            -0.9659258262890683,
+            -0.1830127018922193,
+            0.18301270189221933
+          ],
+          [
+            0.25881904510252074,
+            -0.6830127018922193,
+            0.6830127018922194
+          ],
+          [
+            0.0,
+            0.7071067811865476,
+            0.7071067811865475
+          ]
+        ],
+        "reference_min_projected_spacing_A": 1.250931356899759
+      },
+      "selection": "Retrospective coordination-class example; query closest to class median stored SOAP distance, then nearest same-element reference; no force-error/support/rigid-fit selection.",
+      "site_displacements_A": [
+        0.42109615397661443,
+        0.8995115933050928,
+        0.6510407056267842,
+        0.43367696366293657,
+        0.8180096379047403,
+        1.2084089302372092
+      ]
+    }
+  ],
+  "no_training": true,
+  "no_new_inference": true,
+  "no_new_DFT": true,
+  "no_new_MD": true,
+  "selection_does_not_use_model_error_or_support": true,
+  "declaration": "Coordination-specific illustrative pairs, not a complete-coverage or accuracy claim; cases selected retrospectively."
+}

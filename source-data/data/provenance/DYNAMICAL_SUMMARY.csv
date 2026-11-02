@@ -1,0 +1,7 @@
+system,student,earliest_instability_ps,stable_duration_ps,evidence
+Al₂O₃,Directly fine-tuned,0.22,,Existing production-control records
+Al₂O₃,DICE-distilled,,1000.0,Fresh 1 ns MPS P3 runs
+10YSZ,Directly fine-tuned,0.3,,Existing production-control records
+10YSZ,DICE-distilled,,1000.0,Fresh 1 ns MPS P3 runs
+MIL-120,Directly fine-tuned,593.0,,Existing production-control records
+MIL-120,DICE-distilled,,1000.0,Existing 1 ns MIL-120 production runs

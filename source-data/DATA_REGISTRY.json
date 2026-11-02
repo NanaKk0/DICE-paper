@@ -1,0 +1,1408 @@
+{
+  "schema": 1,
+  "snapshot": "2026-11-01",
+  "figures": [
+    {
+      "id": "main:1",
+      "object": "Fig. 1",
+      "stem": "Fig1",
+      "artwork": "artwork/Fig1.svg",
+      "sources": []
+    },
+    {
+      "id": "main:2",
+      "object": "Fig. 2",
+      "stem": "Fig2",
+      "artwork": "artwork/Fig2.svg",
+      "sources": [
+        "data/controlled/Fig2b_random_paired_tail_differences.csv",
+        "data/controlled/Fig2c_teacher_pool_metrics.csv",
+        "data/controlled/support_transitions_common413.csv",
+        "data/controlled/Fig2f_supported_paired_tail_differences.csv",
+        "data/controlled/Fig2f_evaluation_membership.csv"
+      ]
+    },
+    {
+      "id": "main:3",
+      "object": "Fig. 3",
+      "stem": "Fig3",
+      "artwork": "artwork/Fig3.svg",
+      "sources": [
+        "data/crossphase/TEACHER_PLOTTED_DATA.csv",
+        "data/crossphase/STUDENT_PLOTTED_DATA.csv",
+        "data/crossphase/TRAINING_ADDITION_AUDIT.csv",
+        "data/crossphase/TRAINING_ADDITION_AUDIT.json",
+        "data/crossphase/TSNE_Al.csv",
+        "data/crossphase/TSNE_O.csv",
+        "data/crossphase/SUPPORT_HISTOGRAM.csv",
+        "data/local_environments/PAIR_SELECTION_AND_GEOMETRY_QA.json",
+        "data/local_environments/AlO4_coordinates_and_correspondence.csv",
+        "data/local_environments/AlO5_coordinates_and_correspondence.csv",
+        "data/local_environments/AlO6_coordinates_and_correspondence.csv"
+      ]
+    },
+    {
+      "id": "main:4",
+      "object": "Fig. 4",
+      "stem": "Fig4",
+      "artwork": "artwork/Fig4.svg",
+      "sources": [
+        "data/prediction_and_mil/frames.csv",
+        "data/provenance/YSZ500k_error_transitions.csv",
+        "data/ysz/validation_atoms.csv.gz",
+        "data/ysz/structural_cluster_bootstrap_weights.npz",
+        "data/accuracy/S_direct_YSZ500_parity_force.csv",
+        "data/phonons/S26_phonon_dispersion.csv",
+        "data/phonons/S26_q_path.json",
+        "data/prediction_and_mil/all_path_profiles.csv",
+        "data/mil120/mil_phase_order.csv"
+      ]
+    },
+    {
+      "id": "main:5",
+      "object": "Fig. 5",
+      "stem": "Fig5",
+      "artwork": "artwork/Fig5.svg",
+      "sources": [
+        "data/physical_validation/AL_EOS_PLOT.csv",
+        "data/physical_validation/AL_G_figure_source_data.csv",
+        "data/physical_validation/MIL_MEAN_SD.csv",
+        "data/physical_validation/MIL_REPLICATES.csv",
+        "data/physical_validation/CHEN_PARAMETERS.csv",
+        "data/physical_validation/YSZ_CONDUCTIVITY.csv",
+        "data/physical_validation/MODEL_MANIFEST.csv",
+        "data/physical_validation/YSZ_NE_RECEIPT.json"
+      ]
+    },
+    {
+      "id": "main:6",
+      "object": "Fig. 6",
+      "stem": "Fig6",
+      "artwork": "artwork/Fig6.svg",
+      "sources": [
+        "data/performance/THREE_SYSTEM_LATENCY.csv",
+        "data/performance/THREE_SYSTEM_TIMING_BLOCKS.csv",
+        "data/performance/OOM_OBSERVATIONS.csv",
+        "data/performance/OOM_DISPLAY_GUIDES.csv",
+        "data/performance/SIZE_LIMIT_SUMMARY.csv",
+        "data/sampling_costs/DEVELOPMENT_SAMPLING_COST.csv"
+      ]
+    },
+    {
+      "id": "supplement:1",
+      "object": "Supplementary Fig. 1",
+      "stem": "SupplementaryFig1",
+      "artwork": "artwork/SupplementaryFig1.svg",
+      "sources": [
+        "data/controlled/S2_supervision_allocation.csv"
+      ]
+    },
+    {
+      "id": "supplement:2",
+      "object": "Supplementary Fig. 2",
+      "stem": "SupplementaryFig2",
+      "artwork": "artwork/SupplementaryFig2.svg",
+      "sources": [
+        "data/controlled/S3_unqueried_teacher_pairs.csv"
+      ]
+    },
+    {
+      "id": "supplement:3",
+      "object": "Supplementary Fig. 3",
+      "stem": "SupplementaryFig3",
+      "artwork": "artwork/SupplementaryFig3.svg",
+      "sources": [
+        "data/controlled/S4_absolute_and_paired_tails.csv"
+      ]
+    },
+    {
+      "id": "supplement:4",
+      "object": "Supplementary Fig. 4",
+      "stem": "SupplementaryFig4",
+      "artwork": "artwork/SupplementaryFig4.svg",
+      "sources": [
+        "data/support/td_teacher_partitions.csv",
+        "data/support/S6_ALL_20_METRIC_VALUES.csv"
+      ]
+    },
+    {
+      "id": "supplement:5",
+      "object": "Supplementary Fig. 5",
+      "stem": "SupplementaryFig5",
+      "artwork": "artwork/SupplementaryFig5.svg",
+      "sources": [
+        "data/controlled/Fig2f_supported_paired_tail_differences.csv",
+        "data/controlled/Fig2f_evaluation_membership.csv"
+      ]
+    },
+    {
+      "id": "supplement:6",
+      "object": "Supplementary Fig. 6",
+      "stem": "SupplementaryFig6",
+      "artwork": "artwork/SupplementaryFig6.svg",
+      "sources": [
+        "data/accuracy/ENERGY_PARITY_200.csv",
+        "data/accuracy/FORCE_COMPONENT_PARITY_74040.csv",
+        "data/accuracy/MODEL_DATA_MANIFEST.json"
+      ]
+    },
+    {
+      "id": "supplement:7",
+      "object": "Supplementary Fig. 7",
+      "stem": "SupplementaryFig7",
+      "artwork": "artwork/SupplementaryFig7.svg",
+      "sources": [
+        "data/accuracy/S_direct_MIL_parity_energy.csv",
+        "data/provenance/PLAN.json",
+        "data/accuracy/S_direct_MIL_parity_force.csv"
+      ]
+    },
+    {
+      "id": "supplement:8",
+      "object": "Supplementary Fig. 8",
+      "stem": "SupplementaryFig8",
+      "artwork": "artwork/SupplementaryFig8.svg",
+      "sources": [
+        "data/accuracy/S_direct_YSZ500_parity_energy.csv",
+        "data/provenance/PLAN.json",
+        "data/accuracy/S_direct_YSZ500_parity_force.csv"
+      ]
+    },
+    {
+      "id": "supplement:9",
+      "object": "Supplementary Fig. 9",
+      "stem": "SupplementaryFig9",
+      "artwork": "artwork/SupplementaryFig9.svg",
+      "sources": [
+        "data/prediction_and_mil/all_EOS.csv"
+      ]
+    },
+    {
+      "id": "supplement:10",
+      "object": "Supplementary Fig. 10",
+      "stem": "SupplementaryFig10",
+      "artwork": "artwork/SupplementaryFig10.svg",
+      "sources": [
+        "data/prediction_and_mil/all_path_profiles.csv",
+        "data/prediction_and_mil/path_motion_reference.csv",
+        "data/prediction_and_mil/path_source_audit.csv"
+      ]
+    },
+    {
+      "id": "supplement:11",
+      "object": "Supplementary Fig. 11",
+      "stem": "SupplementaryFig11",
+      "artwork": "artwork/SupplementaryFig11.svg",
+      "sources": [
+        "data/physical_validation/MIL_relaxed_NEB_profiles.csv",
+        "data/physical_validation/MIL_barriers.csv"
+      ]
+    },
+    {
+      "id": "supplement:12",
+      "object": "Supplementary Fig. 12",
+      "stem": "SupplementaryFig12",
+      "artwork": "artwork/SupplementaryFig12.svg",
+      "sources": [
+        "data/physical_validation/Al_eleven_phase_comparison.csv",
+        "data/physical_validation/Al_phase_relax.csv",
+        "data/physical_validation/Al_phase_DFT.csv"
+      ]
+    },
+    {
+      "id": "supplement:13",
+      "object": "Supplementary Fig. 13",
+      "stem": "SupplementaryFig13",
+      "artwork": "artwork/SupplementaryFig13.svg",
+      "sources": [
+        "data/physical_validation/Al_phonon_band.csv",
+        "data/physical_validation/Al_phonon_path_metadata.json",
+        "data/physical_validation/Al_phonon_summary.csv"
+      ]
+    },
+    {
+      "id": "supplement:14",
+      "object": "Supplementary Fig. 14",
+      "stem": "SupplementaryFig14",
+      "artwork": "artwork/SupplementaryFig14.svg",
+      "sources": [
+        "data/physical_validation/AL_COEXISTENCE.csv",
+        "data/physical_validation/AL_INTERFACE_2330_2340.csv",
+        "data/physical_validation/AL_INTERFACE_2350.csv"
+      ]
+    },
+    {
+      "id": "supplement:15",
+      "object": "Supplementary Fig. 15",
+      "stem": "SupplementaryFig15",
+      "artwork": "artwork/SupplementaryFig15.svg",
+      "sources": [
+        "data/ysz/transport_normalized_whole_preparation_bootstrap.csv",
+        "data/ysz/transport_whole_preparation_bootstrap.csv",
+        "data/provenance/YSZ_NORMALIZED_DIFFUSION.csv"
+      ]
+    },
+    {
+      "id": "supplement:16",
+      "object": "Supplementary Fig. 16",
+      "stem": "SupplementaryFig16",
+      "artwork": "artwork/SupplementaryFig16.svg",
+      "sources": [
+        "data/physical_validation/YSZ_lattice_bins_common_window.csv",
+        "data/physical_validation/YSZ_thermal_coefficients_per_preparation.csv",
+        "data/experimental_references/verified_experimental_coefficients.csv",
+        "data/experimental_references/PROVENANCE.md"
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "number": 1,
+      "title": "Al₂O₃ development stages contributing to the final training set.",
+      "file": "tables/SupplementaryTable1.csv",
+      "note": "44 sampling blocks; 67,760 tasks; 2,580 final student training geometries.",
+      "sources": [
+        "data/development/FORMAL_TABLES_S1_S3.json",
+        "data/development/BLOCK_LINEAGE_148.csv",
+        "data/development/MATCHED_STRUCTURE_IDS.csv",
+        "data/development/TEACHER_REFERENCE_SNAPSHOTS.csv",
+        "data/development/SAMPLING_CONDITIONS.csv",
+        "data/development/REFERENCE_SOURCE_FILES.json"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "YSZ development stages contributing to the final training set.",
+      "file": "tables/SupplementaryTable2.csv",
+      "note": "47 sampling blocks; 1,740 tasks; 4,272 final student training geometries.",
+      "sources": [
+        "data/development/FORMAL_TABLES_S1_S3.json",
+        "data/development/BLOCK_LINEAGE_148.csv",
+        "data/development/MATCHED_STRUCTURE_IDS.csv",
+        "data/development/TEACHER_REFERENCE_SNAPSHOTS.csv",
+        "data/development/SAMPLING_CONDITIONS.csv",
+        "data/development/REFERENCE_SOURCE_FILES.json"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "MIL-120–CO₂ development stages contributing to the final training set.",
+      "file": "tables/SupplementaryTable3.csv",
+      "note": "57 sampling blocks; 5,538 tasks; 6,041 final student training geometries. The 5,561 high-support selections correspond to 5,547 unique retained geometries. The final teacher subsequently labelled all 6,041 final geometries without further geometry acquisition.",
+      "sources": [
+        "data/development/FORMAL_TABLES_S1_S3.json",
+        "data/development/BLOCK_LINEAGE_148.csv",
+        "data/development/MATCHED_STRUCTURE_IDS.csv",
+        "data/development/TEACHER_REFERENCE_SNAPSHOTS.csv",
+        "data/development/SAMPLING_CONDITIONS.csv",
+        "data/development/REFERENCE_SOURCE_FILES.json"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Al₂O₃ mode-resolved development-sampling costs.",
+      "file": "tables/SupplementaryTable4.csv",
+      "note": "",
+      "sources": [
+        "data/sampling_costs/FORMAL_26_SAMPLING_MODES.csv",
+        "data/sampling_costs/FORMAL_BLOCK_MODE_COSTS_219.csv",
+        "data/sampling_costs/Table_S1a.csv"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "MIL-120–CO₂ mode-resolved development-sampling costs.",
+      "file": "tables/SupplementaryTable5.csv",
+      "note": "",
+      "sources": [
+        "data/sampling_costs/FORMAL_26_SAMPLING_MODES.csv",
+        "data/sampling_costs/FORMAL_BLOCK_MODE_COSTS_219.csv",
+        "data/sampling_costs/Table_S1b.csv"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "YSZ mode-resolved development-sampling costs.",
+      "file": "tables/SupplementaryTable6.csv",
+      "note": "",
+      "sources": [
+        "data/sampling_costs/FORMAL_26_SAMPLING_MODES.csv",
+        "data/sampling_costs/FORMAL_BLOCK_MODE_COSTS_219.csv",
+        "data/sampling_costs/Table_S1c.csv"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Random-route accuracy on unselected configurations",
+      "file": "tables/SupplementaryTable7.csv",
+      "note": "Mean ± sample SD over five configuration-selection repeats; force units eV Å⁻¹. Each repeat excludes its full R50. Route codes identify students trained under each supervision scheme: A-T0, A-hybrid, A-TR, A-DFT20 and A-DFTref denote $T_0$, Hybrid, T_R, DFT-20 and DFT-60, respectively.",
+      "sources": [
+        "data/controlled/random_unselected_metric_summary.csv",
+        "data/controlled/random.csv",
+        "data/phonons/Table_S04.csv",
+        "data/phonons/Table_S04.csv"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Teacher errors beyond queried geometries",
+      "file": "tables/SupplementaryTable8.csv",
+      "note": "Mean ± sample SD over five matched configuration-selection repeats; force units eV Å⁻¹. Each teacher is evaluated on the same forty geometries per repeat, included in expanded student supervision but excluded from teacher adaptation.",
+      "sources": [
+        "data/controlled/remaining40_teacher_metric_summary.csv",
+        "data/controlled/remaining40.csv",
+        "data/phonons/Table_S05.csv",
+        "data/phonons/Table_S05.csv"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Force errors on the 120-configuration liquid–amorphous test set.",
+      "file": "tables/SupplementaryTable9.csv",
+      "note": "Values are pooled force-component RMSEs in eV Å⁻¹ on the same 120 test geometries and DFT labels. The fixed adapted-teacher router assigns high support at $p$ > 0.1 and low support at $p$ ≤ 0.1; partition errors are shown for the two teachers. The historical expansion students use 940 and 1320 training geometries, respectively, and 100k training steps; they are distinct from the final production students. The adapted teacher remains unchanged during expansion, with no additional target DFT references acquired; teacher adaptation uses 140 target DFT references.",
+      "sources": [
+        "data/summary/crossphase120_force_errors.csv",
+        "data/crossphase/PARTITION_ERRORS.csv"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Independent-test force errors of the final production students.",
+      "file": "tables/SupplementaryTable10.csv",
+      "note": "Force-component RMSEs are in eV Å⁻¹ and pool all Cartesian residuals on the common test set of each system. Both routes use the final 500k-step students. Reduction = 100 × (RMSE_direct − RMSE_DICE)/RMSE_direct, calculated before rounding.",
+      "sources": [
+        "data/summary/production_force_RMSE.csv",
+        "data/accuracy/ERROR_SUMMARY.csv",
+        "data/provenance/Al500k_full_errors.csv"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Dynamical stability of the final production students.",
+      "file": "tables/SupplementaryTable11.csv",
+      "note": "The table reports the earliest recorded instability time for each directly fine-tuned student, determined from the last stored frame. Timesteps are 1 fs for Al₂O₃ and YSZ and 0.5 fs for MIL-120.",
+      "sources": [
+        "data/provenance/DYNAMICAL_SUMMARY.csv",
+        "data/provenance/COMPLETED_1NS_RECEIPT.json",
+        "data/provenance/RUN_PLAN.json",
+        "data/prediction_and_mil/MD_RUN_RECORDS.csv"
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Endpoint-detrended interior energy-profile errors on nine common DFT paths.",
+      "file": "tables/SupplementaryTable12.csv",
+      "note": "MAEs are in meV per P40 framework cell and average the nine interior images of each eleven-image DFT path. Both models are evaluated on the same DFT geometries; $t$ is the normalised cumulative minimum-image Cartesian displacement along that DFT path. The endpoint-linear residual is removed before absolute averaging, as defined above. E-cell denotes the alternate fixed cell.",
+      "sources": [
+        "data/summary/MIL_nine_path_detrended_MAE.csv",
+        "data/mil120/path_metrics.csv",
+        "data/prediction_and_mil/all_path_profiles.csv"
+      ]
+    }
+  ],
+  "source_aliases": {
+    "evidence/necessity/PLAN.json": "data/provenance/PLAN.json",
+    "review-expanded-benefits/YSZ500k_error_transitions.csv": "data/provenance/YSZ500k_error_transitions.csv",
+    "review-physical-validation/source_data/YSZ_NORMALIZED_DIFFUSION.csv": "data/provenance/YSZ_NORMALIZED_DIFFUSION.csv",
+    "source_data/Main_Table1.csv": "data/provenance/Main_Table1.csv",
+    "source_data/ablation_gmm/random_metrics_per_repeat.csv": "data/controlled/random_metrics_per_repeat.csv",
+    "source_data/ablation_gmm/random_unselected_metric_summary.csv": "data/controlled/random_unselected_metric_summary.csv",
+    "source_data/ablation_gmm/remaining40_teacher_metric_summary.csv": "data/controlled/remaining40_teacher_metric_summary.csv",
+    "source_data/al500k_parity_20261030/ENERGY_PARITY_200.csv": "data/accuracy/ENERGY_PARITY_200.csv",
+    "source_data/al500k_parity_20261030/FORCE_COMPONENT_PARITY_74040.csv": "data/accuracy/FORCE_COMPONENT_PARITY_74040.csv",
+    "source_data/al500k_parity_20261030/MODEL_DATA_MANIFEST.json": "data/accuracy/MODEL_DATA_MANIFEST.json",
+    "source_data/atomic_support/source_data/SUPPORT_HISTOGRAM.csv": "data/crossphase/SUPPORT_HISTOGRAM.csv",
+    "source_data/atomic_support/source_data/TSNE_Al.csv": "data/crossphase/TSNE_Al.csv",
+    "source_data/atomic_support/source_data/TSNE_O.csv": "data/crossphase/TSNE_O.csv",
+    "source_data/crossphase120/PARTITION_ERRORS.csv": "data/crossphase/PARTITION_ERRORS.csv",
+    "source_data/development_lineage_20261031/BLOCK_LINEAGE_148.csv": "data/development/BLOCK_LINEAGE_148.csv",
+    "source_data/development_lineage_20261031/FORMAL_TABLES_S1_S3.json": "data/development/FORMAL_TABLES_S1_S3.json",
+    "source_data/development_lineage_20261031/MATCHED_STRUCTURE_IDS.csv": "data/development/MATCHED_STRUCTURE_IDS.csv",
+    "source_data/development_lineage_20261031/REFERENCE_SOURCE_FILES.json": "data/development/REFERENCE_SOURCE_FILES.json",
+    "source_data/development_lineage_20261031/SAMPLING_CONDITIONS.csv": "data/development/SAMPLING_CONDITIONS.csv",
+    "source_data/development_lineage_20261031/TEACHER_REFERENCE_SNAPSHOTS.csv": "data/development/TEACHER_REFERENCE_SNAPSHOTS.csv",
+    "source_data/fig2_revision/Fig2b_random_paired_tail_differences.csv": "data/controlled/Fig2b_random_paired_tail_differences.csv",
+    "source_data/fig2_revision/Fig2c_teacher_pool_metrics.csv": "data/controlled/Fig2c_teacher_pool_metrics.csv",
+    "source_data/fig2_revision/Fig2d_common413_partition_metrics.csv": "data/controlled/Fig2d_common413_partition_metrics.csv",
+    "source_data/fig2_revision/Fig2f_evaluation_membership.csv": "data/controlled/Fig2f_evaluation_membership.csv",
+    "source_data/fig2_revision/Fig2f_supported_paired_tail_differences.csv": "data/controlled/Fig2f_supported_paired_tail_differences.csv",
+    "source_data/fig2_revision/support_transitions_common413.csv": "data/controlled/support_transitions_common413.csv",
+    "source_data/fig2_revision/teacher_cross_pool_per_frame.csv": "data/controlled/teacher_cross_pool_per_frame.csv",
+    "source_data/fig3_e456_20261029/AlO4_coordinates_and_correspondence.csv": "data/local_environments/AlO4_coordinates_and_correspondence.csv",
+    "source_data/fig3_e456_20261029/AlO5_coordinates_and_correspondence.csv": "data/local_environments/AlO5_coordinates_and_correspondence.csv",
+    "source_data/fig3_e456_20261029/AlO6_coordinates_and_correspondence.csv": "data/local_environments/AlO6_coordinates_and_correspondence.csv",
+    "source_data/fig3_e456_20261029/PAIR_SELECTION_AND_GEOMETRY_QA.json": "data/local_environments/PAIR_SELECTION_AND_GEOMETRY_QA.json",
+    "source_data/fig3_progression_20261031/STUDENT_PLOTTED_DATA.csv": "data/crossphase/STUDENT_PLOTTED_DATA.csv",
+    "source_data/fig3_progression_20261031/TEACHER_PLOTTED_DATA.csv": "data/crossphase/TEACHER_PLOTTED_DATA.csv",
+    "source_data/fig3_progression_20261031/TRAINING_ADDITION_AUDIT.csv": "data/crossphase/TRAINING_ADDITION_AUDIT.csv",
+    "source_data/fig3_progression_20261031/TRAINING_ADDITION_AUDIT.json": "data/crossphase/TRAINING_ADDITION_AUDIT.json",
+    "source_data/fig6_three_systems_20261029/OOM_DISPLAY_GUIDES.csv": "data/performance/OOM_DISPLAY_GUIDES.csv",
+    "source_data/fig6_three_systems_20261029/OOM_OBSERVATIONS.csv": "data/performance/OOM_OBSERVATIONS.csv",
+    "source_data/fig6_three_systems_20261029/SIZE_LIMIT_SUMMARY.csv": "data/performance/SIZE_LIMIT_SUMMARY.csv",
+    "source_data/fig6_three_systems_20261029/THREE_SYSTEM_LATENCY.csv": "data/performance/THREE_SYSTEM_LATENCY.csv",
+    "source_data/fig6_three_systems_20261029/THREE_SYSTEM_TIMING_BLOCKS.csv": "data/performance/THREE_SYSTEM_TIMING_BLOCKS.csv",
+    "source_data/full_data/MD_RUN_RECORDS.csv": "data/prediction_and_mil/MD_RUN_RECORDS.csv",
+    "source_data/full_data/all_EOS.csv": "data/prediction_and_mil/all_EOS.csv",
+    "source_data/full_data/all_path_profiles.csv": "data/prediction_and_mil/all_path_profiles.csv",
+    "source_data/full_data/frames.csv": "data/prediction_and_mil/frames.csv",
+    "source_data/full_data/path_motion_reference.csv": "data/prediction_and_mil/path_motion_reference.csv",
+    "source_data/full_data/path_source_audit.csv": "data/prediction_and_mil/path_source_audit.csv",
+    "source_data/gao_thermal_reference_20261030/PROVENANCE.md": "data/experimental_references/PROVENANCE.md",
+    "source_data/gao_thermal_reference_20261030/verified_experimental_coefficients.csv": "data/experimental_references/verified_experimental_coefficients.csv",
+    "source_data/matched500k/Al500k_full_errors.csv": "data/provenance/Al500k_full_errors.csv",
+    "source_data/matched500k/Al500k_phonon_metrics.csv": "data/provenance/Al500k_phonon_metrics.csv",
+    "source_data/mil120/mil_phase_order.csv": "data/mil120/mil_phase_order.csv",
+    "source_data/mil120/path_metrics.csv": "data/mil120/path_metrics.csv",
+    "source_data/necessity/ERROR_SUMMARY.csv": "data/accuracy/ERROR_SUMMARY.csv",
+    "source_data/necessity/S_direct_MIL_parity_energy.csv": "data/accuracy/S_direct_MIL_parity_energy.csv",
+    "source_data/necessity/S_direct_MIL_parity_force.csv": "data/accuracy/S_direct_MIL_parity_force.csv",
+    "source_data/necessity/S_direct_YSZ500_parity_energy.csv": "data/accuracy/S_direct_YSZ500_parity_energy.csv",
+    "source_data/necessity/S_direct_YSZ500_parity_force.csv": "data/accuracy/S_direct_YSZ500_parity_force.csv",
+    "source_data/production_properties_additions_20261030/Al_eleven_phase_comparison.csv": "data/physical_validation/Al_eleven_phase_comparison.csv",
+    "source_data/production_properties_additions_20261030/Al_phase_DFT.csv": "data/physical_validation/Al_phase_DFT.csv",
+    "source_data/production_properties_additions_20261030/Al_phase_relax.csv": "data/physical_validation/Al_phase_relax.csv",
+    "source_data/production_properties_additions_20261030/Al_phonon_band.csv": "data/physical_validation/Al_phonon_band.csv",
+    "source_data/production_properties_additions_20261030/Al_phonon_path_metadata.json": "data/physical_validation/Al_phonon_path_metadata.json",
+    "source_data/production_properties_additions_20261030/Al_phonon_summary.csv": "data/physical_validation/Al_phonon_summary.csv",
+    "source_data/production_properties_additions_20261030/MIL_barriers.csv": "data/physical_validation/MIL_barriers.csv",
+    "source_data/production_properties_additions_20261030/MIL_relaxed_NEB_profiles.csv": "data/physical_validation/MIL_relaxed_NEB_profiles.csv",
+    "source_data/production_properties_additions_20261030/YSZ_lattice_bins_common_window.csv": "data/physical_validation/YSZ_lattice_bins_common_window.csv",
+    "source_data/production_properties_additions_20261030/YSZ_thermal_coefficients_per_preparation.csv": "data/physical_validation/YSZ_thermal_coefficients_per_preparation.csv",
+    "source_data/properties500k/AL_COEXISTENCE.csv": "data/physical_validation/AL_COEXISTENCE.csv",
+    "source_data/properties500k/AL_EOS_PLOT.csv": "data/physical_validation/AL_EOS_PLOT.csv",
+    "source_data/properties500k/AL_G_figure_source_data.csv": "data/physical_validation/AL_G_figure_source_data.csv",
+    "source_data/properties500k/AL_INTERFACE_2330_2340.csv": "data/physical_validation/AL_INTERFACE_2330_2340.csv",
+    "source_data/properties500k/AL_INTERFACE_2350.csv": "data/physical_validation/AL_INTERFACE_2350.csv",
+    "source_data/properties500k/CHEN_PARAMETERS.csv": "data/physical_validation/CHEN_PARAMETERS.csv",
+    "source_data/properties500k/MIL_MEAN_SD.csv": "data/physical_validation/MIL_MEAN_SD.csv",
+    "source_data/properties500k/MIL_REPLICATES.csv": "data/physical_validation/MIL_REPLICATES.csv",
+    "source_data/properties500k/MODEL_MANIFEST.csv": "data/physical_validation/MODEL_MANIFEST.csv",
+    "source_data/properties500k/YSZ_CONDUCTIVITY.csv": "data/physical_validation/YSZ_CONDUCTIVITY.csv",
+    "source_data/properties500k/YSZ_NE_RECEIPT.json": "data/physical_validation/YSZ_NE_RECEIPT.json",
+    "source_data/r01-r12/S26_phonon_dispersion.csv": "data/phonons/S26_phonon_dispersion.csv",
+    "source_data/r01-r12/S26_q_path.json": "data/phonons/S26_q_path.json",
+    "source_data/r01-r12/Table_S04.csv": "data/phonons/Table_S04.csv",
+    "source_data/r01-r12/Table_S05.csv": "data/phonons/Table_S05.csv",
+    "source_data/selected_si_evidence_20261030/MIL_nine_path_detrended_MAE.csv": "data/summary/MIL_nine_path_detrended_MAE.csv",
+    "source_data/selected_si_evidence_20261030/crossphase120_force_errors.csv": "data/summary/crossphase120_force_errors.csv",
+    "source_data/selected_si_evidence_20261030/production_force_RMSE.csv": "data/summary/production_force_RMSE.csv",
+    "source_data/si_S6_split_metrics_20261030/S6_ALL_20_METRIC_VALUES.csv": "data/support/S6_ALL_20_METRIC_VALUES.csv",
+    "source_data/si_S6_split_metrics_20261030/td_teacher_partitions.csv": "data/support/td_teacher_partitions.csv",
+    "source_data/si_final_tables/Table_S4.csv": "data/phonons/Table_S04.csv",
+    "source_data/si_final_tables/Table_S5.csv": "data/phonons/Table_S05.csv",
+    "source_data/si_note2_formal_sampling_20261030/DEVELOPMENT_SAMPLING_COST.csv": "data/sampling_costs/DEVELOPMENT_SAMPLING_COST.csv",
+    "source_data/si_note2_formal_sampling_20261030/FORMAL_26_SAMPLING_MODES.csv": "data/sampling_costs/FORMAL_26_SAMPLING_MODES.csv",
+    "source_data/si_note2_formal_sampling_20261030/FORMAL_ACCEPTED_BLOCKS_148.json": "data/sampling_costs/FORMAL_ACCEPTED_BLOCKS_148.json",
+    "source_data/si_note2_formal_sampling_20261030/FORMAL_BLOCK_MODE_COSTS_219.csv": "data/sampling_costs/FORMAL_BLOCK_MODE_COSTS_219.csv",
+    "source_data/si_note2_formal_sampling_20261030/Table_S1a.csv": "data/sampling_costs/Table_S1a.csv",
+    "source_data/si_note2_formal_sampling_20261030/Table_S1b.csv": "data/sampling_costs/Table_S1b.csv",
+    "source_data/si_note2_formal_sampling_20261030/Table_S1c.csv": "data/sampling_costs/Table_S1c.csv",
+    "source_data/si_note3_20261028/S2_supervision_allocation.csv": "data/controlled/S2_supervision_allocation.csv",
+    "source_data/si_note3_20261028/S3_unqueried_teacher_pairs.csv": "data/controlled/S3_unqueried_teacher_pairs.csv",
+    "source_data/si_note3_20261028/S4_absolute_and_paired_tails.csv": "data/controlled/S4_absolute_and_paired_tails.csv",
+    "source_data/si_note4_20261029/Fig2f_evaluation_membership.csv": "data/controlled/Fig2f_evaluation_membership.csv",
+    "source_data/si_note4_20261029/Fig2f_supported_paired_tail_differences.csv": "data/controlled/Fig2f_supported_paired_tail_differences.csv",
+    "source_data/table8_earliest_1ns_20261030/COMPLETED_1NS_RECEIPT.json": "data/provenance/COMPLETED_1NS_RECEIPT.json",
+    "source_data/table8_earliest_1ns_20261030/DYNAMICAL_SUMMARY.csv": "data/provenance/DYNAMICAL_SUMMARY.csv",
+    "source_data/table8_earliest_1ns_20261030/RUN_PLAN.json": "data/provenance/RUN_PLAN.json",
+    "source_data/tables/random.csv": "data/controlled/random.csv",
+    "source_data/tables/remaining40.csv": "data/controlled/remaining40.csv",
+    "source_data/ysz/MSD_representative_16_preparations.csv.gz": "data/ysz/MSD_representative_16_preparations.csv.gz",
+    "source_data/ysz/NE_experiment_comparison.csv": "data/physical_validation/YSZ_CONDUCTIVITY.csv",
+    "source_data/ysz/NE_summary.csv": "data/ysz/NE_summary.csv",
+    "source_data/ysz/structural_cluster_bootstrap_weights.npz": "data/ysz/structural_cluster_bootstrap_weights.npz",
+    "source_data/ysz/transport_fits_per_seed.csv": "data/ysz/transport_fits_per_seed.csv",
+    "source_data/ysz/transport_normalized_whole_preparation_bootstrap.csv": "data/ysz/transport_normalized_whole_preparation_bootstrap.csv",
+    "source_data/ysz/transport_whole_preparation_bootstrap.csv": "data/ysz/transport_whole_preparation_bootstrap.csv",
+    "source_data/ysz/validation_atoms.csv.gz": "data/ysz/validation_atoms.csv.gz"
+  },
+  "files": [
+    {
+      "file": "data/provenance/PLAN.json",
+      "bytes": 25158,
+      "sha256": "c784f991cfdeeb8df3e6b9a449809ec0daa25d0fe82907ffadbe59f541d95c1b"
+    },
+    {
+      "file": "data/provenance/YSZ500k_error_transitions.csv",
+      "bytes": 1185,
+      "sha256": "f6099ef1fd5a831214c93e3588adbaee40f4a7c93c14949237fe063e8b9c3335"
+    },
+    {
+      "file": "data/provenance/YSZ_NORMALIZED_DIFFUSION.csv",
+      "bytes": 2183,
+      "sha256": "5d49db148efee319b791c7b367909342216f5a12d3860a0c87a43fccf848cb9c"
+    },
+    {
+      "file": "data/provenance/Main_Table1.csv",
+      "bytes": 196,
+      "sha256": "3d586e1a8cd30dfd2eb0888b7d85729aba337da3255a1acf07f7d9c38732dd60"
+    },
+    {
+      "file": "data/controlled/random_metrics_per_repeat.csv",
+      "bytes": 22417,
+      "sha256": "847cf8a0e45b36408d609903873744b910b0e48617a8392ce6eb683bd3e78f31"
+    },
+    {
+      "file": "data/controlled/random_unselected_metric_summary.csv",
+      "bytes": 1148,
+      "sha256": "7471b52e00842a2ee16bbb25d5df48e4d8f256c95641a585b19b571e823236ab"
+    },
+    {
+      "file": "data/controlled/remaining40_teacher_metric_summary.csv",
+      "bytes": 467,
+      "sha256": "c1d4680a4a6517a10284dc3a4c0cdca55656056c1b04ba14f68519b5e352f6fb"
+    },
+    {
+      "file": "data/accuracy/ENERGY_PARITY_200.csv",
+      "bytes": 27941,
+      "sha256": "a49040986885a0451311dfba9653c967671d877c0eb0d9156138172d0951c2f2"
+    },
+    {
+      "file": "data/accuracy/FORCE_COMPONENT_PARITY_74040.csv",
+      "bytes": 2920398,
+      "sha256": "798d1c335701f62d3cd8b5ac479f0a2423a37c1c26c6f20de3e2c75e5d3fceb3"
+    },
+    {
+      "file": "data/accuracy/MODEL_DATA_MANIFEST.json",
+      "bytes": 2721,
+      "sha256": "6f47767b867d1df784d5d4c20e911f305569e983f7b46d87f003ae4f3a7ad759"
+    },
+    {
+      "file": "data/crossphase/SUPPORT_HISTOGRAM.csv",
+      "bytes": 43548,
+      "sha256": "8fbdec22b96f2415820ade769c6aefc9221109cc9ceb51aad0a99e148d3e63e2"
+    },
+    {
+      "file": "data/crossphase/TSNE_Al.csv",
+      "bytes": 1938317,
+      "sha256": "64d946264491326d5db64bfa81f99436404db6c80e92e6ec7ceb85d2bbf55a24"
+    },
+    {
+      "file": "data/crossphase/TSNE_O.csv",
+      "bytes": 2898636,
+      "sha256": "1c3ad9ebf244f68382a21581030114df6e225fbe2ff41a7b7c4c727923a8edb1"
+    },
+    {
+      "file": "data/crossphase/PARTITION_ERRORS.csv",
+      "bytes": 584,
+      "sha256": "f07318552a266466c271cf7f646acbc37c6ab4f21a7ce924cba082eb12e35dbc"
+    },
+    {
+      "file": "data/development/BLOCK_LINEAGE_148.csv",
+      "bytes": 26094,
+      "sha256": "2cbfabd2dcd0cf2dc446e7459c2145c2fe259331bf4dbb4448f5a0c9c219dd2e"
+    },
+    {
+      "file": "data/development/FORMAL_TABLES_S1_S3.json",
+      "bytes": 19279,
+      "sha256": "5946fb0452502939c76b56dfd92091acb97c4080e9b5359e48eb480815c23449"
+    },
+    {
+      "file": "data/development/MATCHED_STRUCTURE_IDS.csv",
+      "bytes": 1508724,
+      "sha256": "ff30669fc2483ceb5aac08ca9e85a6a18dfbfea5f4272d3c5914679fc3e2099c"
+    },
+    {
+      "file": "data/development/REFERENCE_SOURCE_FILES.json",
+      "bytes": 72530,
+      "sha256": "d53251c7ad5b73bf82445cb5ae6ac14174711f5105dd45755201cfe598cfc79a"
+    },
+    {
+      "file": "data/development/SAMPLING_CONDITIONS.csv",
+      "bytes": 70063,
+      "sha256": "0122e6843ff7f0763025e80b04c68096567afe218fcb262f03085f11682a6d43"
+    },
+    {
+      "file": "data/development/TEACHER_REFERENCE_SNAPSHOTS.csv",
+      "bytes": 3876,
+      "sha256": "ea4692bdc3286e2672d02c3cf115534a65aed2cffb04e025713e11cc97c53de9"
+    },
+    {
+      "file": "data/controlled/Fig2b_random_paired_tail_differences.csv",
+      "bytes": 508917,
+      "sha256": "daa6976624b43d0c557831003e4f78f6cf1c163120c8a0f70ba8fc3866a7ce18"
+    },
+    {
+      "file": "data/controlled/Fig2c_teacher_pool_metrics.csv",
+      "bytes": 2877,
+      "sha256": "d9f14006c966218774ca1c361f113d8f6a6e1e7918ca8f655b5ca9225db6736a"
+    },
+    {
+      "file": "data/controlled/Fig2d_common413_partition_metrics.csv",
+      "bytes": 1224,
+      "sha256": "a51235de3b59cbb65ce834dac84ee6206ea1a5f035ebe518cb9fbc9980c9d0e4"
+    },
+    {
+      "file": "data/controlled/Fig2f_evaluation_membership.csv",
+      "bytes": 348821,
+      "sha256": "2446192d882eb2afe2789b286f09ba3d474308ff1b9f39823dc9a08cf944e0a2"
+    },
+    {
+      "file": "data/controlled/Fig2f_supported_paired_tail_differences.csv",
+      "bytes": 152303,
+      "sha256": "26f1ebe46964fc764489b101f48dd8c37e6be38212e52a9de1d0605a61c03d06"
+    },
+    {
+      "file": "data/controlled/support_transitions_common413.csv",
+      "bytes": 520360,
+      "sha256": "533f2b7ae99c60c468c3e164317071b21c59957cb9ae9f8e19334e114487d937"
+    },
+    {
+      "file": "data/controlled/teacher_cross_pool_per_frame.csv",
+      "bytes": 1199090,
+      "sha256": "e8071bf9ba882e5565b76956069451b85809f0f1c007af899184df6cc996886d"
+    },
+    {
+      "file": "data/local_environments/AlO4_coordinates_and_correspondence.csv",
+      "bytes": 1410,
+      "sha256": "e4850ad5039a461f09ea970e9d0022c1af9d694e03d2dbd0045c761561f58866"
+    },
+    {
+      "file": "data/local_environments/AlO5_coordinates_and_correspondence.csv",
+      "bytes": 1655,
+      "sha256": "6cc39a58d1dadf8b760be307ce4eb54db2c8eeda5bd776eb796f6d9fe6cd1c02"
+    },
+    {
+      "file": "data/local_environments/AlO6_coordinates_and_correspondence.csv",
+      "bytes": 1980,
+      "sha256": "2c4cc5527863df9ba0fe9e28ec8b4cba9453c0357f123cdcb2ff59a6f5251a6b"
+    },
+    {
+      "file": "data/local_environments/PAIR_SELECTION_AND_GEOMETRY_QA.json",
+      "bytes": 8760,
+      "sha256": "a358cb86a5cb01f1cd389c2640c57900d634b269781d43dacff272ba0e6a2a85"
+    },
+    {
+      "file": "data/crossphase/STUDENT_PLOTTED_DATA.csv",
+      "bytes": 1358,
+      "sha256": "f2d6eaecf9f1de774ccbcd48eb7503bd810b11d21d8f9be58a54cf7a3db69d88"
+    },
+    {
+      "file": "data/crossphase/TEACHER_PLOTTED_DATA.csv",
+      "bytes": 143,
+      "sha256": "b97accfcfbe7d1e49a264b6fceeeff6170b4e0cf6748cf9ffabb1bb830de338a"
+    },
+    {
+      "file": "data/crossphase/TRAINING_ADDITION_AUDIT.csv",
+      "bytes": 458,
+      "sha256": "be6c88cf6c4113574b07597a386872839ef689b25c5e814acb38b44822715c99"
+    },
+    {
+      "file": "data/crossphase/TRAINING_ADDITION_AUDIT.json",
+      "bytes": 550,
+      "sha256": "58fb504c1f32a6e6aaafd468f1e9aae710614629d8f361d962d6f121ed7eaed6"
+    },
+    {
+      "file": "data/performance/OOM_DISPLAY_GUIDES.csv",
+      "bytes": 847,
+      "sha256": "54b1a0cc67ca5d935bf18bb1924aae41a8d71b9f6c6a55dee5c6a305787c8557"
+    },
+    {
+      "file": "data/performance/OOM_OBSERVATIONS.csv",
+      "bytes": 806,
+      "sha256": "ba4ae27db707075db6579d3defcbcf62ed04e259b28065a673ee55fa0af13e02"
+    },
+    {
+      "file": "data/performance/SIZE_LIMIT_SUMMARY.csv",
+      "bytes": 320,
+      "sha256": "e90c90c0a7e4b1aca7b12bef4f0da176e887b8c6958072f249cf34c1ea7753e7"
+    },
+    {
+      "file": "data/performance/THREE_SYSTEM_LATENCY.csv",
+      "bytes": 12719,
+      "sha256": "2ac59f99ceea2c199c3edcaacaa1a0bfef80b0bbf9e671c61cd18bfb0ea65ef5"
+    },
+    {
+      "file": "data/performance/THREE_SYSTEM_TIMING_BLOCKS.csv",
+      "bytes": 34829,
+      "sha256": "9819a6966ea892dd1e3f29073c80e2c3539d6c24efcc1ebfe565258278f511d9"
+    },
+    {
+      "file": "data/prediction_and_mil/MD_RUN_RECORDS.csv",
+      "bytes": 8279,
+      "sha256": "58f4fdbd58d0c83af705d9dd91141f2e8ff98685b9fb5eaae69dbab8e9f6fae2"
+    },
+    {
+      "file": "data/prediction_and_mil/all_EOS.csv",
+      "bytes": 24054,
+      "sha256": "4eb99b283031316b90c2774e93a1b5c35decbc33e963f4f45d8634b5f1bbbdb5"
+    },
+    {
+      "file": "data/prediction_and_mil/all_path_profiles.csv",
+      "bytes": 100264,
+      "sha256": "9adac71be71595080ff7a7b94e072b5357f0fea029fc526d292713a0f118627e"
+    },
+    {
+      "file": "data/prediction_and_mil/frames.csv",
+      "bytes": 928055,
+      "sha256": "d6ea94ba5fbf18bdff29852d22b25b45f1a10b5549f1068b402d463c8f2c31e3"
+    },
+    {
+      "file": "data/prediction_and_mil/path_motion_reference.csv",
+      "bytes": 578,
+      "sha256": "5c0e5e89ccd88611b6853d82baa9b8e6f2458e8c5e45e45dad1940eb57dbc94c"
+    },
+    {
+      "file": "data/prediction_and_mil/path_source_audit.csv",
+      "bytes": 17094,
+      "sha256": "f3d665b6751a934f1597b21a4bfbe95bd0122f1054eeda41064b52e8f1e47df5"
+    },
+    {
+      "file": "data/experimental_references/PROVENANCE.md",
+      "bytes": 1730,
+      "sha256": "20bc3a0391103b8c62caee16c4ae7448d9d5839c27a9beebb2874582fe37634f"
+    },
+    {
+      "file": "data/experimental_references/verified_experimental_coefficients.csv",
+      "bytes": 647,
+      "sha256": "357696df89df633c199b71eaf3e5f6ffa1c9086120a9bfa5eb7254b3950398d1"
+    },
+    {
+      "file": "data/provenance/Al500k_full_errors.csv",
+      "bytes": 1300,
+      "sha256": "3f215d20c7f5b8158f180b5d0261b245d6877658d82c13a81e3f68f4f40796f9"
+    },
+    {
+      "file": "data/provenance/Al500k_phonon_metrics.csv",
+      "bytes": 435,
+      "sha256": "aeb9e86990dd4f97bdea577a079413309c2feea9c317854009d3570430bd1ebe"
+    },
+    {
+      "file": "data/mil120/mil_phase_order.csv",
+      "bytes": 2376,
+      "sha256": "09350c87f29827fe4aeb74a4a9e523e0cf053d5c3949b260007002dd6eb82731"
+    },
+    {
+      "file": "data/mil120/path_metrics.csv",
+      "bytes": 21593,
+      "sha256": "be3730356ba7c956c34fc9c45d9d0b4985b08fa03e9f53f29fee1fa3919514c0"
+    },
+    {
+      "file": "data/accuracy/ERROR_SUMMARY.csv",
+      "bytes": 31691,
+      "sha256": "d873a2d27185004f657f1e9098f62447f21d6ae55af3623c4b8c74e19350b283"
+    },
+    {
+      "file": "data/accuracy/S_direct_MIL_parity_energy.csv",
+      "bytes": 50685,
+      "sha256": "5f5811391fe047a9eb3eea435e16198c2fac596880d0fbbf6955fa21863dea67"
+    },
+    {
+      "file": "data/accuracy/S_direct_MIL_parity_force.csv",
+      "bytes": 2112733,
+      "sha256": "a506305a56ab71fa216e54fa7b1783c783fbd8e8fde92815852057073214d199"
+    },
+    {
+      "file": "data/accuracy/S_direct_YSZ500_parity_energy.csv",
+      "bytes": 50954,
+      "sha256": "341c37e515da5b3b7cf15fb1d2e9630f697845432b65f7416b3a0f39327edb6d"
+    },
+    {
+      "file": "data/accuracy/S_direct_YSZ500_parity_force.csv",
+      "bytes": 4183040,
+      "sha256": "0da196bd2a5190912063ba87505d8a4549e8b45b052e3c69242d12f5ee323346"
+    },
+    {
+      "file": "data/physical_validation/Al_eleven_phase_comparison.csv",
+      "bytes": 1479,
+      "sha256": "31b01585228fea804d94b48fdb682cb75ef9d97e493df0274b035d2b8d5d452f"
+    },
+    {
+      "file": "data/physical_validation/Al_phase_DFT.csv",
+      "bytes": 2881,
+      "sha256": "5b4e6eb51d844b2ce4500341c2ff2cbf0dc2d1af1f9c86f17e21da120e134525"
+    },
+    {
+      "file": "data/physical_validation/Al_phase_relax.csv",
+      "bytes": 2462,
+      "sha256": "cac89ee4822b7f9c8a2db7f660f4edf7ca4c7a9aefc051a8708a800d10849682"
+    },
+    {
+      "file": "data/physical_validation/Al_phonon_band.csv",
+      "bytes": 6227070,
+      "sha256": "c00b030fde47effc329d84d980f078e0b3d0f379fbf4b02d6fae1ef4de95661a"
+    },
+    {
+      "file": "data/physical_validation/Al_phonon_path_metadata.json",
+      "bytes": 2082,
+      "sha256": "e2a523387f8f94986b16985a648a739df61e01316cbd71db893a1f853943a5a5"
+    },
+    {
+      "file": "data/physical_validation/Al_phonon_summary.csv",
+      "bytes": 627,
+      "sha256": "798357645d36c12637b12f3dcf0d57764529b726c9b2119d5e30b25cff5ecffa"
+    },
+    {
+      "file": "data/physical_validation/MIL_barriers.csv",
+      "bytes": 1980,
+      "sha256": "54a6bf7369e68946200cf1ad6d19a543cd92065589514aab638fd9f16fbd4cbb"
+    },
+    {
+      "file": "data/physical_validation/MIL_relaxed_NEB_profiles.csv",
+      "bytes": 13385,
+      "sha256": "600bc1c74dd5114ee973d7a5839420acaf9d3cb7152e92eb8756b3bae957769f"
+    },
+    {
+      "file": "data/physical_validation/YSZ_lattice_bins_common_window.csv",
+      "bytes": 42545,
+      "sha256": "b0e7c4b730fb600926fcf639eb2eca08ee0b94934be0177a5447cfe608f0fbb6"
+    },
+    {
+      "file": "data/physical_validation/YSZ_thermal_coefficients_per_preparation.csv",
+      "bytes": 615,
+      "sha256": "fe1d66447448279be4f25c54cfccf82b5c0768feb3c45c27322513870c524b78"
+    },
+    {
+      "file": "data/physical_validation/AL_COEXISTENCE.csv",
+      "bytes": 339,
+      "sha256": "1e7f8c5a1940e4503e48c7cbfa3bced9196ee8501cc7b49105409a11f292ba44"
+    },
+    {
+      "file": "data/physical_validation/AL_EOS_PLOT.csv",
+      "bytes": 32629,
+      "sha256": "b54903b3f18cf92e58584144050bc64bc256ef947cc14dcba342b04626069fc7"
+    },
+    {
+      "file": "data/physical_validation/AL_G_figure_source_data.csv",
+      "bytes": 171740,
+      "sha256": "1eed5a69b4629b5d270d9a9e0e93fe09137464fa7947669b95f85898b3cd2637"
+    },
+    {
+      "file": "data/physical_validation/AL_INTERFACE_2330_2340.csv",
+      "bytes": 354663,
+      "sha256": "df89b495801af5d7504ccd7c5e71cbb99de7d6679f68e19bede82d7ebb1b4305"
+    },
+    {
+      "file": "data/physical_validation/AL_INTERFACE_2350.csv",
+      "bytes": 177341,
+      "sha256": "7f4b7c37f28381a1eb1e798f039338bdcb115d1c83312a6748aacf23576e71dd"
+    },
+    {
+      "file": "data/physical_validation/CHEN_PARAMETERS.csv",
+      "bytes": 178,
+      "sha256": "4160fc179bab4ec1090b137324a45097eaef3aa43106845948d34c0ca09fe87a"
+    },
+    {
+      "file": "data/physical_validation/MIL_MEAN_SD.csv",
+      "bytes": 3012,
+      "sha256": "8abb0d94d0397c584c7ab8ed1f9fa23e640376541f4b1acb9448de0d0b1d0cde"
+    },
+    {
+      "file": "data/physical_validation/MIL_REPLICATES.csv",
+      "bytes": 5720,
+      "sha256": "2434adab38008a392d098eb1aa2f26b6d341eb1b316c03ec3c93dcb2a8b657c5"
+    },
+    {
+      "file": "data/physical_validation/MODEL_MANIFEST.csv",
+      "bytes": 386,
+      "sha256": "5014c7b7bfb39dc2ecf3e9e3a24a931b1ee90b68d4b25a429c9ddc96a8051bcb"
+    },
+    {
+      "file": "data/physical_validation/YSZ_CONDUCTIVITY.csv",
+      "bytes": 2274,
+      "sha256": "3fcdf24f528a70e13b04f86262f30c5c3663234590decda9db655846032442a6"
+    },
+    {
+      "file": "data/physical_validation/YSZ_NE_RECEIPT.json",
+      "bytes": 562,
+      "sha256": "b459fc326e1bf68d1657f901ff6fcf127351c342950e18a2d1cebbade8701d6d"
+    },
+    {
+      "file": "data/phonons/S26_phonon_dispersion.csv",
+      "bytes": 939229,
+      "sha256": "e08ad96a2dc635bfcdb100de401fbb546ba8ae114d8cc4fee17acfd1b099c3eb"
+    },
+    {
+      "file": "data/phonons/S26_q_path.json",
+      "bytes": 652,
+      "sha256": "a6b04e0deddf036b350ae614955769b87ad89c779ce75a7d72d343ce804c9748"
+    },
+    {
+      "file": "data/phonons/Table_S04.csv",
+      "bytes": 584,
+      "sha256": "f95db1b4a5f2226e704ac0656e5fffc290ff57755188f6b7468e41883e899fde"
+    },
+    {
+      "file": "data/phonons/Table_S05.csv",
+      "bytes": 218,
+      "sha256": "2a0ecbcf6d41a799a2120d990eecc4f5aba755d4f13effdba5f6f4677d3cdeef"
+    },
+    {
+      "file": "data/summary/MIL_nine_path_detrended_MAE.csv",
+      "bytes": 444,
+      "sha256": "21bc479328f7211fbb6f63de7ab5c67aea12ccf718aaebde84469ddef489b048"
+    },
+    {
+      "file": "data/summary/crossphase120_force_errors.csv",
+      "bytes": 358,
+      "sha256": "8640ab03a69d5e50d845d6e7b5f29f26f2bcc48471f2a39ddbee660bfce3f79d"
+    },
+    {
+      "file": "data/summary/production_force_RMSE.csv",
+      "bytes": 287,
+      "sha256": "896f7cfe296598dd1b630ef3666aa2cf3349a03e8bc4246ad72ab7eb9df628ae"
+    },
+    {
+      "file": "data/support/S6_ALL_20_METRIC_VALUES.csv",
+      "bytes": 1386,
+      "sha256": "0c8ed21381b02d9fc156b3d59fa7f9171089c7ab02d2abd02ec07804fe7fd0da"
+    },
+    {
+      "file": "data/support/td_teacher_partitions.csv",
+      "bytes": 4455,
+      "sha256": "f09e26cf44580819e6cadf6a7f182a0f6852ce0bfe11ef585815e2b4eef1e0d8"
+    },
+    {
+      "file": "data/sampling_costs/DEVELOPMENT_SAMPLING_COST.csv",
+      "bytes": 415,
+      "sha256": "eecb3e19d04ff5feb0c7a0553b41161f9dafe76814b1cc93758243eee5f0f211"
+    },
+    {
+      "file": "data/sampling_costs/FORMAL_26_SAMPLING_MODES.csv",
+      "bytes": 4517,
+      "sha256": "1b13556dd56943b9e791fb52101052a9facfb1b644e4f8d1df42a6aeb96249ad"
+    },
+    {
+      "file": "data/sampling_costs/FORMAL_ACCEPTED_BLOCKS_148.json",
+      "bytes": 66763,
+      "sha256": "7184f86f9b1dba2f1c022970f2982f789e4096399e723aab95d94efcc4e68a76"
+    },
+    {
+      "file": "data/sampling_costs/FORMAL_BLOCK_MODE_COSTS_219.csv",
+      "bytes": 27158,
+      "sha256": "a7d9582b91bf965162c4c70df8cea4dda4f3d64fc9882224dc51b77683a8485b"
+    },
+    {
+      "file": "data/sampling_costs/Table_S1a.csv",
+      "bytes": 797,
+      "sha256": "f787a20e27c0ab011535b23a44eb140ab7bf54d4135938410f7416ac04b41e5f"
+    },
+    {
+      "file": "data/sampling_costs/Table_S1b.csv",
+      "bytes": 490,
+      "sha256": "22e955f511e127ec7307c81b12a851e3b0dde8b155fde2b4d8f8a2a5d58bf7fb"
+    },
+    {
+      "file": "data/sampling_costs/Table_S1c.csv",
+      "bytes": 575,
+      "sha256": "146ba22ebb810d9a9c0f7201ee0779313437ff44d1dcb85d8f6825fcb444f1eb"
+    },
+    {
+      "file": "data/controlled/S2_supervision_allocation.csv",
+      "bytes": 580,
+      "sha256": "7e1c5e353e8e3bfb513eae12751785bd9ce5b073c029964000ee0e3bb67512fa"
+    },
+    {
+      "file": "data/controlled/S3_unqueried_teacher_pairs.csv",
+      "bytes": 2628,
+      "sha256": "b605183a5b3b5bc623fd000ce406845c146b91d02524d4b38d09d0f37f3c1cff"
+    },
+    {
+      "file": "data/controlled/S4_absolute_and_paired_tails.csv",
+      "bytes": 504340,
+      "sha256": "45ee641a9bc3f58b8fe9be0ffb9a35984a49ef9014d61e3133e7df201ccbf2fb"
+    },
+    {
+      "file": "data/provenance/COMPLETED_1NS_RECEIPT.json",
+      "bytes": 3632,
+      "sha256": "e86cf07e7ceafd2ae3f2d884864bdd0762e0e8c3bc426f85bc3e92e1447924de"
+    },
+    {
+      "file": "data/provenance/DYNAMICAL_SUMMARY.csv",
+      "bytes": 461,
+      "sha256": "174ddaa3b6a8f8f7ae8d01f26884995eea5b590d45f4a8f455e2d6509ccc909c"
+    },
+    {
+      "file": "data/provenance/RUN_PLAN.json",
+      "bytes": 5254,
+      "sha256": "bf44cd6ade34dff836ab1c161bfa575bbfd5ef18c945f4fae75b43f40cdcac06"
+    },
+    {
+      "file": "data/controlled/random.csv",
+      "bytes": 573,
+      "sha256": "18d867d25cf22b02e48f90636b390714afa4666f4f2b1e92f59fae34a1d18dad"
+    },
+    {
+      "file": "data/controlled/remaining40.csv",
+      "bytes": 213,
+      "sha256": "8f65a8db21d8c86f1af4d9fe24d5e80aab72d262f832f79ddd2787829f67894c"
+    },
+    {
+      "file": "data/ysz/MSD_representative_16_preparations.csv.gz",
+      "bytes": 939690,
+      "sha256": "2e5f1484b1d5ce7d7543b730e5cd1d82f4d64e244aaf838a139dee615e3213dc"
+    },
+    {
+      "file": "data/ysz/NE_summary.csv",
+      "bytes": 2436,
+      "sha256": "471a8c44b551190e296a5af3355c9faa701f2f9236b5566619c6dbf8d17c259c"
+    },
+    {
+      "file": "data/ysz/structural_cluster_bootstrap_weights.npz",
+      "bytes": 20234,
+      "sha256": "cba27ce514b83f2f1ec533795780626aa623fa3c6b264cd5be1d6e84dc93b407"
+    },
+    {
+      "file": "data/ysz/transport_fits_per_seed.csv",
+      "bytes": 559211,
+      "sha256": "71c3aba8b563554dfb269f900c213ef5735b5f8065e7306143ed1a8179532f0d"
+    },
+    {
+      "file": "data/ysz/transport_normalized_whole_preparation_bootstrap.csv",
+      "bytes": 5177,
+      "sha256": "2c886e3c66f7fbf7bdc1e495e09f2e4d22ef8e2161467149be0e0f6f58e2f5ff"
+    },
+    {
+      "file": "data/ysz/transport_whole_preparation_bootstrap.csv",
+      "bytes": 8711,
+      "sha256": "64990762de9140a32dab58ebaf149a0f57461713d21934aaf56b59618677c970"
+    },
+    {
+      "file": "data/ysz/validation_atoms.csv.gz",
+      "bytes": 593391,
+      "sha256": "820d37a0c251d507161af6617e19788fa461ed2f11945479277ae7ee5fc7ff59"
+    },
+    {
+      "file": "artwork/Fig1.svg",
+      "bytes": 48587,
+      "sha256": "b62290b7239097128c777547bc7c0b8d67082d20b269e431ea9429d50d9476e2"
+    },
+    {
+      "file": "artwork/Fig2.svg",
+      "bytes": 178327,
+      "sha256": "b70e861fd1482f29447438fe27da3e0e33c1b42d88bd3529d272f6e75f9c1678"
+    },
+    {
+      "file": "artwork/Fig3.svg",
+      "bytes": 3888989,
+      "sha256": "cb0550b160bde2fa63bc0ac691a4a5bc08dcf4b60bb187dd8b91a2761369275d"
+    },
+    {
+      "file": "artwork/Fig4.svg",
+      "bytes": 413080,
+      "sha256": "393674ef3a769eb9b5821589d900684b2a5e95fa08c3ce6b544050b74c72f9ee"
+    },
+    {
+      "file": "artwork/Fig5.svg",
+      "bytes": 204834,
+      "sha256": "1e4783c107dd7b2ed80338cdbf262dc10d54bfefbe9dc20f542f3d0e50d5dc00"
+    },
+    {
+      "file": "artwork/Fig6.svg",
+      "bytes": 99261,
+      "sha256": "6d0891b1ac7e7369caca99f8d236cd021d162d0894f829560d30405027eed87b"
+    },
+    {
+      "file": "artwork/SupplementaryFig1.svg",
+      "bytes": 18207,
+      "sha256": "f34a8d0ab399202a5001a4641f089fb1af5bc71c6747d07036b42d7ac6e03292"
+    },
+    {
+      "file": "artwork/SupplementaryFig10.svg",
+      "bytes": 99641,
+      "sha256": "8c02aa56d0a8dafb1ef94655764e6d43e3f6e13165438dcaf02bbe6f78418005"
+    },
+    {
+      "file": "artwork/SupplementaryFig11.svg",
+      "bytes": 79734,
+      "sha256": "342bbb7cebe36b48669d10b75c84dee507102fc229dc0ccb9d95d487e4893ffb"
+    },
+    {
+      "file": "artwork/SupplementaryFig12.svg",
+      "bytes": 37097,
+      "sha256": "d85be4abccbd9d7d2bf1827daed57775e97141181744e1933e89e6e4a8df607e"
+    },
+    {
+      "file": "artwork/SupplementaryFig13.svg",
+      "bytes": 1310336,
+      "sha256": "cb4378fb744c784d025a1c46121ccc1cea153ccbb64c3b1cfa9e5989a563702d"
+    },
+    {
+      "file": "artwork/SupplementaryFig14.svg",
+      "bytes": 208206,
+      "sha256": "ec938bc19a323c91bcc728c5bc14b61285807730ce1c41dd88099cd7efd550c6"
+    },
+    {
+      "file": "artwork/SupplementaryFig15.svg",
+      "bytes": 35828,
+      "sha256": "ddef98cb4094fd9f4c5f60503716cf23d3a72febacf00259f43388e9d5462e7a"
+    },
+    {
+      "file": "artwork/SupplementaryFig16.svg",
+      "bytes": 49652,
+      "sha256": "835aab10ecdb61f995705a2550ec392c859bbf6e63124a4f55074a904ea4af6e"
+    },
+    {
+      "file": "artwork/SupplementaryFig2.svg",
+      "bytes": 29155,
+      "sha256": "b52b1e32415a8c81e0117522cc44546f78645f81d1da12d29325dba636f1ea75"
+    },
+    {
+      "file": "artwork/SupplementaryFig3.svg",
+      "bytes": 350459,
+      "sha256": "79f328a66d75da774f6e1f2213f92738919f3ce5167b7c046693ed8d700e5386"
+    },
+    {
+      "file": "artwork/SupplementaryFig4.svg",
+      "bytes": 22960,
+      "sha256": "987f267dacc9ceac7f89d8bb915aeff8fe40e7454ad4bc7f8644fecd855653fa"
+    },
+    {
+      "file": "artwork/SupplementaryFig5.svg",
+      "bytes": 60820,
+      "sha256": "f9f406689f0469d63ab26ee5691e24abd59216a47761305753714fd50a017b23"
+    },
+    {
+      "file": "artwork/SupplementaryFig6.svg",
+      "bytes": 265280,
+      "sha256": "18ce1fb88b25d9d2aa45982d7db2997e1b4ede394f33702af6992a1cddfcceed"
+    },
+    {
+      "file": "artwork/SupplementaryFig7.svg",
+      "bytes": 330403,
+      "sha256": "e5f70830dd95a7ac355a56e2bf96a7076ee6a19baa837c436cc13398794c9f1e"
+    },
+    {
+      "file": "artwork/SupplementaryFig8.svg",
+      "bytes": 337999,
+      "sha256": "657657b482b8f3c2c65df6f161dbfac732a9b0e525be7cce208b43574dd17637"
+    },
+    {
+      "file": "artwork/SupplementaryFig9.svg",
+      "bytes": 62229,
+      "sha256": "40f4e2d7e4b0321610c88f22d7a99887b1769a6a83363e6d56e1a5c982678be4"
+    },
+    {
+      "file": "tables/SupplementaryTable1.csv",
+      "bytes": 1554,
+      "sha256": "2f2e4cbe390710ff0b2f9cb97fb69db3a509dc8c08218e4766a51de976318413"
+    },
+    {
+      "file": "tables/SupplementaryTable10.csv",
+      "bytes": 201,
+      "sha256": "59f71f9cf199a4b59974a32143244d2e2494446af917bb5022922cbe05c436eb"
+    },
+    {
+      "file": "tables/SupplementaryTable11.csv",
+      "bytes": 610,
+      "sha256": "096bd6c8397d30c8e4bcb35dbcefb0e7cc27b4179823bb56729a53a9f686ed4c"
+    },
+    {
+      "file": "tables/SupplementaryTable12.csv",
+      "bytes": 263,
+      "sha256": "6f2cf57aacaecfe8f5e00c3ffa37f71b208406714eebc85c768f8281e6016fc1"
+    },
+    {
+      "file": "tables/SupplementaryTable2.csv",
+      "bytes": 1489,
+      "sha256": "8daa62f4c2a49371875b439e26bdea96b9411a04fd664ee33f3e51e8dd7fdc95"
+    },
+    {
+      "file": "tables/SupplementaryTable3.csv",
+      "bytes": 1754,
+      "sha256": "2919d96a7b23fc1f2793a645f7868d29722f5a137a8f38fef3e2fd5e040f58c5"
+    },
+    {
+      "file": "tables/SupplementaryTable4.csv",
+      "bytes": 805,
+      "sha256": "59884112add55149e263a9d977a381d1a9ff490a4fb62b236c98331a17b93aa7"
+    },
+    {
+      "file": "tables/SupplementaryTable5.csv",
+      "bytes": 498,
+      "sha256": "32bdf5b0b30dcb313918f6b829e7a668975c2091b0775f8c1b5f8bf17fe64739"
+    },
+    {
+      "file": "tables/SupplementaryTable6.csv",
+      "bytes": 583,
+      "sha256": "981d10576b39fb3e216a29c70139c5b8236d3311077e21b707f42d4a2c1ff801"
+    },
+    {
+      "file": "tables/SupplementaryTable7.csv",
+      "bytes": 610,
+      "sha256": "88d6f79f5c00633db0f9aa7bc3dd306cff5074b8c5ff2110024c88c60009f04d"
+    },
+    {
+      "file": "tables/SupplementaryTable8.csv",
+      "bytes": 244,
+      "sha256": "6c16ceed7afc54361b87754cc45928de31303fff86f456d6bb75d6224e193fa2"
+    },
+    {
+      "file": "tables/SupplementaryTable9.csv",
+      "bytes": 235,
+      "sha256": "b1e27f5e54182b653eb4e4afd34d881a120fd56a5714b927374ec1f2664d812c"
+    },
+    {
+      "file": "data/sampling_costs/task_work_records.json.gz",
+      "bytes": 1603130,
+      "sha256": "089567d8b827765d68ca9a0ff034aac817323dec8de1ce99e11a980885d9ab61"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_npt_160.json",
+      "bytes": 1060,
+      "sha256": "213adc95c7a8d8b8e93b2effb75133766c1c0057c625e601aad413c778c5cac1"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_nvt_120.json",
+      "bytes": 741,
+      "sha256": "2283bf09c74bcdb0628845d4412f089b1018bac40f9d12e02c8f3e4feb1ffbc7"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_nvt_160_dense.json",
+      "bytes": 1074,
+      "sha256": "549e749e2366eba6db60cc2d7fe4d3055148edf41cfe85861b24add8353cb407"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_nvt_240.json",
+      "bytes": 739,
+      "sha256": "1729d43d697cad288477fcd8b5e1a7afb8b07caa74387c0352bbaa6debec5289"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_nvt_30_dense.json",
+      "bytes": 1716,
+      "sha256": "1d3bdac560a14c7777d8b0b89ba52587838a0503d3dc6ea9d7943ef61c6eaa6c"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_nvt_80.json",
+      "bytes": 1061,
+      "sha256": "35b33d9c0ad115931bb59f24c3212d9cf4e308d02a90044650cd20f973971d0d"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_nvt_80_dense.json",
+      "bytes": 1074,
+      "sha256": "eef773c5c69bc5a1c6df570392e57e7a382b9d85ff2ec6294c575933fad17474"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_nvt_cell_program_160.json",
+      "bytes": 1113,
+      "sha256": "467f858f9caa56e74494d1b8959bb48d5843ec263498cc94989b6ba1efc849bf"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_nvt_program_160.json",
+      "bytes": 1087,
+      "sha256": "4ca7c821569cc5eeae044842ce8ddda84dcb2c82daa489f97ab3eda10867435b"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_relax_120.json",
+      "bytes": 1316,
+      "sha256": "a92e49b0630809cce8601f1259825e3e88e713bdb2cbea91ec3bc4263e914beb"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_relax_240.json",
+      "bytes": 1308,
+      "sha256": "d873452c11f690ef2a8bbc94eff9bf5d5cae179b82dcf86d4c1ff1061140c766"
+    },
+    {
+      "file": "data/sampling_costs/performance/al_relax_360.json",
+      "bytes": 1310,
+      "sha256": "d79226aa4594642c3a297ffddd3623876f6fff7003b857e511fee228f46b9377"
+    },
+    {
+      "file": "data/sampling_costs/performance/mil_gcmc_160_variable.json",
+      "bytes": 12640,
+      "sha256": "814e8bcaa5f29216587d07eac8376688d304408a67695a98fb13b1aec5e4ec81"
+    },
+    {
+      "file": "data/sampling_costs/performance/mil_nvt_160_184.json",
+      "bytes": 1076,
+      "sha256": "23da9dfa3b4d217bf3c94e71e104045c745a808bc60c56d63eb01f3e86d16f02"
+    },
+    {
+      "file": "data/sampling_costs/performance/mil_nvt_40_46.json",
+      "bytes": 1713,
+      "sha256": "6835240b5c7e8876314920dab6688a9dbe44134e197cf53457beb96fbd4280fa"
+    },
+    {
+      "file": "data/sampling_costs/performance/mil_relax_40_46.json",
+      "bytes": 2270,
+      "sha256": "9d9e5836b9d7f143696d6858fdfa016c85b7f2e46e8519beda1ca51f6fe85a44"
+    },
+    {
+      "file": "data/sampling_costs/performance/mil_widom_160_184.json",
+      "bytes": 2295,
+      "sha256": "5c40e56475421f3750a3df3145ccf6b1ed065c82191c2e24b0c0a1b4b6492974"
+    },
+    {
+      "file": "data/sampling_costs/performance/mil_widom_40_46.json",
+      "bytes": 3586,
+      "sha256": "24e32d8b07d9c3947bb5dbef5a40ee8e4e45da059796e8b9ba92ca078f1ab65a"
+    },
+    {
+      "file": "data/sampling_costs/performance/ysz_npt_64.json",
+      "bytes": 1062,
+      "sha256": "151a9661f90b72fc3eccefb11c7dae4c7e8d0ee51da8e4265ab69589249a6cde"
+    },
+    {
+      "file": "data/sampling_costs/performance/ysz_npt_79_92.json",
+      "bytes": 1065,
+      "sha256": "bc46149e0bd371d8916391db43c59b40be0b9f031df8c94b593f5e3cd78a76a0"
+    },
+    {
+      "file": "data/sampling_costs/performance/ysz_npt_program_64.json",
+      "bytes": 1088,
+      "sha256": "6fdfa05f44603b5ab0f95211cc0d0cab52db5b390ac6e1607632dfae3e492cc8"
+    },
+    {
+      "file": "data/sampling_costs/performance/ysz_npt_program_79_92.json",
+      "bytes": 1092,
+      "sha256": "9e571b5f85c96696f3f1ceb2fd69d698a30660a9671e383b58422afcd586c2d7"
+    },
+    {
+      "file": "data/sampling_costs/performance/ysz_nvt_64.json",
+      "bytes": 1061,
+      "sha256": "6b73cd6b74344131b2e4aa2a471d9ccdf54574598d72baf6cd3578287d2f3307"
+    },
+    {
+      "file": "data/sampling_costs/performance/ysz_nvt_64_dense.json",
+      "bytes": 1074,
+      "sha256": "04bd277d2372f29c02fe837c0d4d7359c29d3bb9726b818b9bcf3c4e8aa552da"
+    },
+    {
+      "file": "data/sampling_costs/performance/ysz_nvt_79_92.json",
+      "bytes": 1069,
+      "sha256": "69beeca827ecc6ec8f342eafcf23795a27bbbb5eb569dddab15cc247d0df2a63"
+    },
+    {
+      "file": "data/sampling_costs/performance/ysz_nvt_79_92_dense.json",
+      "bytes": 1085,
+      "sha256": "9f34e6166c7a2a70138f2314e6f6e0febf9a1928fd84a08cfc0e45d769222679"
+    },
+    {
+      "file": "data/ysz/conductivity_evidence/preparation_inputs.csv",
+      "bytes": 14073,
+      "sha256": "5f3e0abd9ed547f05ba79e6dae47a21d6c2fffea86e62939d22b5db03f281423"
+    },
+    {
+      "file": "data/ysz/conductivity_evidence/calibration_and_anchors.json",
+      "bytes": 2636,
+      "sha256": "83ec210e77cdaceefb94b948b12287183a8bb42b0c0eb19229862549c5f9a1ba"
+    },
+    {
+      "file": "data/ysz/conductivity_evidence/manual_curve_anchors.csv",
+      "bytes": 5885,
+      "sha256": "338cc951ce9cc4e0d8cdcac57803c4c8eff679ea1701a53ed727abed174e40e2"
+    },
+    {
+      "file": "data/ysz/conductivity_evidence/experimental_conductivity_1200_1500K.csv",
+      "bytes": 4194,
+      "sha256": "17bed5ea79747dca34388b846c8104a59db7ef46d8887f9f88ffdb3580997ea8"
+    }
+  ],
+  "data_integrity": "Numerical input bytes unchanged; identical inputs deduplicated.",
+  "modes": {
+    "reexport": "approved SVG artwork; no scientific reanalysis",
+    "replot": "read archived numerical inputs and recalculate selected derived summaries",
+    "inference": "separate research-assets; requires external numerical backend"
+  },
+  "cost_evidence": {
+    "tasks": "data/sampling_costs/task_work_records.json.gz",
+    "native_timing_directory": "data/sampling_costs/performance",
+    "tasks_count": 75038,
+    "modes_count": 26
+  },
+  "conductivity_evidence": {
+    "directory": "data/ysz/conductivity_evidence",
+    "preparation_count": 100,
+    "experiment": "Weller et al., DOI 10.1016/j.ssi.2003.12.044, Fig. 2a"
+  }
+}

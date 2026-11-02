@@ -1,0 +1,79 @@
+{
+  "dataset": "source_data/independent_labels/al2o3_original.labelled.extxyz",
+  "dataset_sha256": "93884f9b688b37e9f87dc5bf54abdbde77fdb40a4cf4e5ef127546f6ebb62dbf",
+  "models": [
+    {
+      "model": {
+        "name": "expanded",
+        "checkpoint": "/home/drq/DICE-isolated/Al2O3/final/4/student/model.ckpt-500000.pt",
+        "checkpoint_sha256": "3fbd168843cd36a6afb9906e62b3cd0c943e98a4714d877e2801435178c7c7a9",
+        "input_sha256": "8cd2d74cafccca1bc46f901d6bcbeb307f56426e1fd98f652d58aa29c9b94405",
+        "compressed_model": "/home/drq/DICE-isolated/Al2O3/final/4/student/post_500k_20261023/compress/model_compressed.pt2"
+      },
+      "training_steps": 500000,
+      "prediction_file": "/home/drq/DICE-isolated/Al2O3/final/4/evaluation_20261023/expanded.npz",
+      "prediction_sha256": "6a801ad12eaa880dfda93788af62e660e559e1a354e1ce3a9742aeba0bf970cc"
+    },
+    {
+      "model": {
+        "name": "direct_DFT",
+        "checkpoint": "/home/drq/DICE-isolated/Al2O3/AB/final/4/model.ckpt-500000.pt",
+        "checkpoint_sha256": "15d33b73fde9bb3a8517a53aa9d0f843aa215b70fa9bec81e7e698169b1ec215",
+        "input_sha256": "1f636a140dfd8bc8570540b1843223bd3b46b359accc71dd7fc09c81a3d6345a",
+        "compressed_model": "/home/drq/DICE-isolated/Al2O3/AB/final/4/post_500k_20261023/compress/model_compressed.pt2"
+      },
+      "training_steps": 500000,
+      "prediction_file": "/home/drq/DICE-isolated/Al2O3/final/4/evaluation_20261023/direct_DFT.npz",
+      "prediction_sha256": "30c48a89d9e279e868245d1aa4be9571e10b2a15a14cae8588f4cae3fcacaa8b"
+    }
+  ],
+  "metrics": [
+    {
+      "model": "expanded",
+      "frames": 200,
+      "atoms": 24680,
+      "force_components": 74040,
+      "energy_RMSE_meV_atom": 6.3472819611602755,
+      "force_component_RMSE_eV_A": 0.12887985853356948
+    },
+    {
+      "model": "direct_DFT",
+      "frames": 200,
+      "atoms": 24680,
+      "force_components": 74040,
+      "energy_RMSE_meV_atom": 12.983329085375685,
+      "force_component_RMSE_eV_A": 0.24590310791256043
+    }
+  ],
+  "domains": [
+    {
+      "metric": "energy",
+      "limits": [
+        -582.3496040776154,
+        1458.0124357155264
+      ],
+      "observations": 200
+    },
+    {
+      "metric": "force",
+      "limits": [
+        -25.11195891850586,
+        24.157746881152345
+      ],
+      "observations": 74040
+    }
+  ],
+  "sample_exclusions": 0,
+  "all_frame_and_force_values_retained": true,
+  "energy_display_center_meV_atom": -7352.173569692502,
+  "energy_offset_fitted": false,
+  "new_inference": false,
+  "source_forces": "existing DFT labels",
+  "old_100k_parity_explicitly_rejected": true,
+  "size_mm": [
+    180,
+    150
+  ],
+  "font": "Arial",
+  "backend": "Python/matplotlib"
+}

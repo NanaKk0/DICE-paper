@@ -1,0 +1,23 @@
+teacher,replicate,evaluation_pool,frames,force_component_RMSE_eV_A,scope
+T0,0,gamma506,506,0.05951547135733171,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+T0,0,liquid423,423,0.09584658903736666,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_gamma,1,gamma506,506,0.05421893137882424,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_gamma,1,liquid423,423,0.09025284912261627,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_gamma,2,gamma506,506,0.05884544769185154,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_gamma,2,liquid423,423,0.10250490568010419,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_gamma,3,gamma506,506,0.05590300780234877,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_gamma,3,liquid423,423,0.10521985546229615,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_gamma,4,gamma506,506,0.05872114391439317,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_gamma,4,liquid423,423,0.08666571218643905,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_gamma,5,gamma506,506,0.055681442124220736,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_gamma,5,liquid423,423,0.09101142752450933,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_liquid,1,gamma506,506,0.06077188375493497,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_liquid,1,liquid423,423,0.04227688575484746,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_liquid,2,gamma506,506,0.06698193047762571,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_liquid,2,liquid423,423,0.04102187570825782,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_liquid,3,gamma506,506,0.06264719923165277,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_liquid,3,liquid423,423,0.0456034239366847,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_liquid,4,gamma506,506,0.06213153738856168,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_liquid,4,liquid423,423,0.046016039030045676,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_liquid,5,gamma506,506,0.062407139642977054,Source-pool audit; gamma excludes initial10; updated-teacher query points retained
+TR_liquid,5,liquid423,423,0.0457878389229998,Source-pool audit; gamma excludes initial10; updated-teacher query points retained

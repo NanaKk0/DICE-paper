@@ -1,0 +1,10 @@
+Path,Directly fine-tuned student,DICE-distilled student
+C→B,12.682,7.451
+F→E,10.877,6.411
+D→C,11.750,9.205
+B→A,10.786,9.054
+C→A,7.297,6.120
+E→B,15.357,6.812
+B→C (E-cell),11.443,7.115
+C→D (E-cell),11.988,10.262
+C→A (E-cell),7.215,4.913

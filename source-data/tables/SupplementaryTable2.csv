@@ -1,0 +1,15 @@
+Stage,Initial configurations,Sampling conditions,Sampling length,New teacher-labelled geometries,New DFT reference geometries
+Initial bulk references,YSZ bulk reference structures,DFT references,—,0,15
+Initial temperature exploration,"YSZ cells, 64/79/92 atoms","NPT; 300, 1200, 1800 K; 1 bar",20 ps,180,45
+Auxiliary dimer references,Six pair types; three separations each,DFT references,—,0,18
+Extended temperature exploration,"YSZ cells, 64/79/92 atoms","NPT; 300, 1200, 1800 K; 1 bar",50/75/100 ps,240,30
+Longer NPT trajectories,"YSZ cells, 64/79/92 atoms","NPT; 300, 1200, 1800 K; 1 bar",100/150/200 ps,480,0
+Intermediate-temperature expansion,"YSZ cells, 64/79/92 atoms","NPT; 600, 900, 1500 K; 1 bar",50/100/150/200 ps,360,0
+Fixed-volume expansion,YSZ cells; volumes 0.97/1.03 of prepared cells,"NVT; 600, 1200 K",50/100/150/200 ps,480,0
+Temperature-programmed exploration,"YSZ cells, 64/79/92 atoms",NPT; 1800 → 1200 → 300 K; 1 bar,500 ps,720,0
+Short-range dimer extension,Six pair types; two shorter separations each,DFT references,—,0,12
+High-temperature expansion,"YSZ cells, 64/79/92 atoms","NPT; 2100, 2400, 2700 K; 1 bar",25/50/75/100/150/200 ps,540,15
+Compressed-cell feedback,YSZ cells at 0.80 prepared volume,NVT; 2700 K,10/20/40 ps,447,45
+Longer compressed-cell dynamics,YSZ cells at 0.80 prepared volume,NVT; 2700 K,50/100/150 ps,270,15
+Final compressed-cell expansion,YSZ cells at 0.80 prepared volume,NVT; 2700 K,200 ps,360,0
+Total,,,,4077,195

@@ -1,0 +1,3 @@
+model,steps,path,sha256
+Al2O3 final/4,500000,/home/drq/DICE-isolated/Al2O3/final/4/student/post_500k_20261023/compress/model_compressed.pt2,1c6b6877178601dafa4075c18a09570ef82a926649b9b7f442740fcb216e0fb9
+MIL final/3,500000,/home/drq/DICE-isolated/MOF-MIL-120/final/3/post_student_v1/export/compress/compressed_model.pt2,9d8a82ec5d816d18ff3fafe2704657ef2709859e0f280026fb750b1baf217923

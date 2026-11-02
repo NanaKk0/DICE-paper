@@ -1,0 +1,14 @@
+Sampling mode,Atoms,Teacher throughput (step s⁻¹),Total steps (step),Student time (h),Teacher estimate (h)
+NVT (dense output),30,550.73,"182,400",0.0447,0.0920
+NVT,80,204.61,"8,190,000",0.1461,11.1188
+NVT (dense output),80,203.32,"6,144,000",1.5774,8.3941
+NVT,120,128.32,"1,900,000",0.2619,4.1131
+NVT (dense output),160,103.06,"6,704,000",1.7062,18.0701
+NVT,240,63.52,"2,150,000",0.0553,9.4025
+Temperature-programmed NVT,160,130.76,"35,200,000",1.1789,74.7750
+Temperature/cell-programmed NVT,160,109.49,"8,520,000",0.4356,21.6154
+NPT,160,99.37,"51,840,000",2.3564,144.9175
+Fixed-cell FIRE relaxation,120,132.61,"2,727",0.0178,0.0057
+Fixed-cell FIRE relaxation,240,62.83,314,0.0040,0.0014
+Fixed-cell FIRE relaxation,360,41.73,588,0.0076,0.0039
+System total,—,—,—,7.79,292.51

@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="510.23622047pt" height="405.83144929pt" viewBox="0 0 3030 2410"><title>From conventional distillation to DICE</title><desc>Conceptual method comparison: conventional teacher development and subsequent student distillation above, coupled DICE development below. The broad downward arrow denotes a change in method organisation, not a transfer of data between workflow nodes. Shared colours are qualitative cost classes.</desc><rect x="0" y="0" width="3030" height="2410" fill="white" /><g id="shared-top-legend" transform="translate(0 -990.35)"><g id="cost-class-key" transform="translate(-26.0108 0)"><rect x="936.6561197916666" y="1026.0095" width="35.35" height="35.35" rx="0" fill="#FFFFFF" stroke="#e53935" style="stroke: #e53935; stroke-width: 5.96811806; fill: #FFFFFF" /><text x="992.2061197916667" y="1055.35" font-weight="400" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 47.50740741px">Higher cost</text><rect x="1335.109765625" y="1026.0095" width="35.35" height="35.35" rx="0" fill="#FFFFFF" stroke="#1785d4" style="stroke: #1785d4; stroke-width: 5.96811806; fill: #FFFFFF" /><text x="1390.6597656249999" y="1055.35" font-weight="400" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 47.50740741px">Lower cost</text><rect x="1723.6766927083331" y="1026.0095" width="35.35" height="35.35" rx="0" fill="#FFFFFF" stroke="#9162d6" style="stroke: #9162d6; stroke-width: 5.96811806; fill: #FFFFFF" /><text x="1779.226692708333" y="1055.35" font-weight="400" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 47.50740741px">Other components</text></g></g><g id="conventional" transform="translate(0 110)"><g id="conventional__method-title"><text x="60" y="110" font-weight="700" font-style="normal" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 67.00000000px">Conventional distillation</text></g><g id="conventional__teacher" transform="translate(-585 0)"><g id="conventional__teacher__teacher">
+<rect x="645" y="490" width="310" height="330" rx="20" fill="#FFFFFF" stroke="#9162d6" style="stroke: #9162d6; stroke-width: 5.96811806; fill: #FFFFFF" />
+<polyline points="732.000,571.000 800.000,545.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="732.000,571.000 800.000,577.500" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="732.000,610.000 800.000,577.500" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="732.000,610.000 800.000,610.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="732.000,610.000 800.000,642.500" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="732.000,649.000 800.000,642.500" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="732.000,649.000 800.000,675.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="800.000,545.000 868.000,571.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="800.000,577.500 868.000,571.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="800.000,577.500 868.000,610.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="800.000,610.000 868.000,610.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="800.000,642.500 868.000,610.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="800.000,642.500 868.000,649.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="800.000,675.000 868.000,649.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<circle cx="732" cy="571.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="732" cy="610.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="732" cy="649.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="800" cy="545.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="800" cy="577.5" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="800" cy="610.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="800" cy="642.5" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="800" cy="675.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="868" cy="571.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="868" cy="610.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="868" cy="649.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+</g>
+</g><g id="conventional__teacher-label" transform="translate(-585 0)"><g id="conventional__teacher-label__teacher-label">
+<text x="800" y="780" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">Teacher</text>
+</g>
+</g><g id="conventional__development-sampling" transform="translate(500 0)"><g id="conventional__development-sampling__sampling">
+<rect x="60" y="490" width="350" height="330" rx="20" fill="#FFFFFF" stroke="#e53935" style="stroke: #e53935; stroke-width: 5.96811806; fill: #FFFFFF" />
+<polyline points="155.000,610.000 140.396,665.843" fill="none" stroke="#f3a6a4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #f3a6a4; stroke-width: 5.96811806; fill: none" />
+<polyline points="155.000,610.000 135.991,549.975" fill="none" stroke="#f3a6a4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #f3a6a4; stroke-width: 5.96811806; fill: none" />
+<polyline points="155.000,610.000 84.559,605.487" fill="none" stroke="#f3a6a4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #f3a6a4; stroke-width: 5.96811806; fill: none" />
+<polyline points="155.000,610.000 201.454,605.866" fill="none" stroke="#f3a6a4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #f3a6a4; stroke-width: 5.96811806; fill: none" />
+<polyline points="155.000,610.000 166.772,559.714" fill="none" stroke="#f3a6a4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #f3a6a4; stroke-width: 5.96811806; fill: none" />
+<polyline points="155.000,610.000 127.080,628.424" fill="none" stroke="#f3a6a4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #f3a6a4; stroke-width: 5.96811806; fill: none" />
+<circle cx="127.0795816830079" cy="628.4241256782905" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+<circle cx="135.9912256493049" cy="549.9753857196283" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+<circle cx="201.4542371461528" cy="605.8657710344152" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+<circle cx="155.0" cy="610.0" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+<circle cx="140.39643181819804" cy="665.8432400405353" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+<circle cx="84.55888522499089" cy="605.4870748875322" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+<circle cx="166.77209674952965" cy="559.7140538973658" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+<polyline points="310.000,610.000 296.120,662.063" fill="none" stroke="#f3a6a4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #f3a6a4; stroke-width: 5.96811806; fill: none" />
+<polyline points="310.000,610.000 268.302,585.039" fill="none" stroke="#f3a6a4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #f3a6a4; stroke-width: 5.96811806; fill: none" />
+<polyline points="310.000,610.000 338.344,652.350" fill="none" stroke="#f3a6a4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #f3a6a4; stroke-width: 5.96811806; fill: none" />
+<polyline points="310.000,610.000 330.182,557.181" fill="none" stroke="#f3a6a4" stroke-linecap="round" stroke-linejoin="round" style="stroke: #f3a6a4; stroke-width: 5.96811806; fill: none" />
+<circle cx="338.344344430721" cy="652.349826065224" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+<circle cx="268.30231432717846" cy="585.0393977568565" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+<circle cx="310.0" cy="610.0" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+<circle cx="330.18165370870076" cy="557.1811820013554" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+<circle cx="296.1203259114702" cy="662.063049752981" r="9" fill="#e53935" stroke="none" stroke-width="1" />
+</g>
+</g><g id="conventional__development-sampling-label" transform="translate(500 0)"><g id="conventional__development-sampling-label__sampling-label">
+<text x="235" y="755" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">Teacher-driven</text>
+<text x="235" y="799" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">sampling</text>
+</g>
+</g><g id="conventional__selective-dft" transform="translate(-530 0)"><g id="conventional__selective-dft__selective-dft">
+<rect x="715" y="205" width="580" height="160" rx="18" fill="#FFFFFF" stroke="#e53935" style="stroke: #e53935; stroke-width: 5.96811806; fill: #FFFFFF" />
+<text x="1005" y="257" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">Selective DFT</text>
+<rect x="935" y="282" width="60" height="52" rx="8" fill="#FFFFFF" stroke="#e53935" style="stroke: #e53935; stroke-width: 5.96811806; fill: #FFFFFF" />
+<text x="964.4823" y="324.1100" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">E</text>
+<rect x="1015" y="282" width="60" height="52" rx="8" fill="#FFFFFF" stroke="#e53935" style="stroke: #e53935; stroke-width: 5.96811806; fill: #FFFFFF" />
+<text x="1044.3839" y="324.1100" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">F</text>
+</g>
+</g><g id="conventional__validation" transform="translate(-840 80)"><rect x="1940" y="410" width="310" height="330" rx="20" fill="#FFFFFF" stroke="#9162d6" style="stroke: #9162d6; stroke-width: 5.96811806; fill: #FFFFFF" /><g id="conventional__validation-force-icon" transform="translate(2030 530) scale(0.67) translate(-155 -610)"><polyline points="155.000,610.000 140.396,665.843" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 8.90763889; fill: none" />
+<polyline points="155.000,610.000 135.991,549.975" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 8.90763889; fill: none" />
+<polyline points="155.000,610.000 84.559,605.487" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 8.90763889; fill: none" />
+<polyline points="155.000,610.000 201.454,605.866" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 8.90763889; fill: none" />
+<polyline points="155.000,610.000 166.772,559.714" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 8.90763889; fill: none" />
+<polyline points="155.000,610.000 127.080,628.424" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 8.90763889; fill: none" />
+<circle cx="127.0795816830079" cy="628.4241256782905" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="135.9912256493049" cy="549.9753857196283" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="201.4542371461528" cy="605.8657710344152" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="155.0" cy="610.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="140.39643181819804" cy="665.8432400405353" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="84.55888522499089" cy="605.4870748875322" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="166.77209674952965" cy="559.7140538973658" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+</g><g id="conventional__validation-force-arrow-1"><line x1="2023" y1="519" x2="2040" y2="490" stroke="#000000" stroke-linecap="round" style="stroke: #000000; stroke-width: 5.96811806" /><polygon points="2040.0,490.0 2037.887877383554,501.5125556699239 2030.9862936227728,497.4667996722245" fill="#000000" /></g><g id="conventional__validation-force-arrow-2"><line x1="1990" y1="535" x2="1964" y2="546" stroke="#000000" stroke-linecap="round" style="stroke: #000000; stroke-width: 5.96811806" /><polygon points="1964.0,546.0 1972.5720797984072,538.030091096522 1975.689199725101,545.3978291050705" fill="#000000" /></g><line x1="2130" y1="513" x2="2179" y2="513" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><line x1="2179" y1="513" x2="2179" y2="563" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><line x1="2179" y1="563" x2="2130" y2="563" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><line x1="2130" y1="563" x2="2130" y2="513" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><line x1="2153" y1="487" x2="2202" y2="487" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><line x1="2202" y1="487" x2="2202" y2="537" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><line x1="2202" y1="537" x2="2153" y2="537" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><line x1="2153" y1="537" x2="2153" y2="487" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><line x1="2130" y1="513" x2="2153" y2="487" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><line x1="2179" y1="513" x2="2202" y2="487" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><line x1="2179" y1="563" x2="2202" y2="537" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><line x1="2130" y1="563" x2="2153" y2="537" stroke="#e4d8f5" stroke-linecap="round" style="stroke: #e4d8f5; stroke-width: 5.96811806" /><circle cx="2130" cy="513" r="6.3" fill="#9162d6" /><circle cx="2179" cy="513" r="6.3" fill="#9162d6" /><circle cx="2179" cy="563" r="6.3" fill="#9162d6" /><circle cx="2130" cy="563" r="6.3" fill="#9162d6" /><circle cx="2153" cy="487" r="6.3" fill="#9162d6" /><circle cx="2202" cy="487" r="6.3" fill="#9162d6" /><circle cx="2202" cy="537" r="6.3" fill="#9162d6" /><circle cx="2153" cy="537" r="6.3" fill="#9162d6" /><text x="2095" y="700" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">Validation</text></g><g id="conventional__distillation-sampling" transform="translate(1540 0)"><g id="conventional__distillation-sampling__sampling">
+<rect x="60" y="490" width="350" height="330" rx="20" fill="#FFFFFF" stroke="#9162d6" style="stroke: #9162d6; stroke-width: 5.96811806; fill: #FFFFFF" />
+<polyline points="155.000,610.000 140.396,665.843" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="155.000,610.000 135.991,549.975" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="155.000,610.000 84.559,605.487" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="155.000,610.000 201.454,605.866" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="155.000,610.000 166.772,559.714" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="155.000,610.000 127.080,628.424" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<circle cx="127.0795816830079" cy="628.4241256782905" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="135.9912256493049" cy="549.9753857196283" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="201.4542371461528" cy="605.8657710344152" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="155.0" cy="610.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="140.39643181819804" cy="665.8432400405353" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="84.55888522499089" cy="605.4870748875322" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="166.77209674952965" cy="559.7140538973658" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<polyline points="310.000,610.000 296.120,662.063" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="310.000,610.000 268.302,585.039" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="310.000,610.000 338.344,652.350" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="310.000,610.000 330.182,557.181" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<circle cx="338.344344430721" cy="652.349826065224" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="268.30231432717846" cy="585.0393977568565" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="310.0" cy="610.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="330.18165370870076" cy="557.1811820013554" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="296.1203259114702" cy="662.063049752981" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+</g>
+</g><g id="conventional__distillation-sampling-label" transform="translate(1540 0)"><g id="conventional__distillation-sampling-label__sampling-label">
+<text x="235" y="755" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">Configuration</text>
+<text x="235" y="799" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">sampling</text>
+</g>
+</g><g id="conventional__teacher-labelled-data" transform="translate(675 0)"><g id="conventional__teacher-labelled-data__teacher-labelled-data">
+<rect x="1579" y="511" width="130" height="160" rx="6" fill="#FFFFFF" stroke="#1785d4" style="stroke: #1785d4; stroke-width: 5.96811806; fill: #FFFFFF" />
+<rect x="1567" y="523" width="130" height="160" rx="6" fill="#FFFFFF" stroke="#1785d4" style="stroke: #1785d4; stroke-width: 5.96811806; fill: #FFFFFF" />
+<rect x="1555" y="535" width="130" height="160" rx="6" fill="#FFFFFF" stroke="#1785d4" style="stroke: #1785d4; stroke-width: 5.96811806; fill: #FFFFFF" />
+<rect x="1590" y="548" width="60" height="52" rx="8" fill="#FFFFFF" stroke="#1785d4" style="stroke: #1785d4; stroke-width: 5.96811806; fill: #FFFFFF" /><text x="1619.4823" y="590.1100" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">E</text>
+<rect x="1590" y="616" width="60" height="52" rx="8" fill="#FFFFFF" stroke="#1785d4" style="stroke: #1785d4; stroke-width: 5.96811806; fill: #FFFFFF" /><text x="1619.3839" y="658.1100" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">F</text>
+</g>
+</g><g id="conventional__data-label" transform="translate(675 0)"><g id="conventional__data-label__data-label">
+<text x="1620" y="755" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">Teacher-labelled</text>
+<text x="1620" y="799" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">data</text>
+</g>
+</g><g id="conventional__student" transform="translate(710 0)"><g id="conventional__student__student">
+<rect x="1950" y="490" width="310" height="330" rx="20" fill="#FFFFFF" stroke="#9162d6" style="stroke: #9162d6; stroke-width: 5.96811806; fill: #FFFFFF" />
+<polyline points="2037.000,566.667 2105.000,545.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="2037.000,566.667 2105.000,610.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="2037.000,653.333 2105.000,610.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="2037.000,653.333 2105.000,675.000" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="2105.000,545.000 2173.000,566.667" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="2105.000,610.000 2173.000,566.667" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="2105.000,610.000 2173.000,653.333" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<polyline points="2105.000,675.000 2173.000,653.333" fill="none" stroke="#e4d8f5" stroke-linecap="round" stroke-linejoin="round" style="stroke: #e4d8f5; stroke-width: 5.96811806; fill: none" />
+<circle cx="2037" cy="566.6666666666666" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2037" cy="653.3333333333334" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2105" cy="545.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2105" cy="610.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2105" cy="675.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2173" cy="566.6666666666666" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2173" cy="653.3333333333334" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+</g>
+</g><g id="conventional__student-label" transform="translate(710 0)"><g id="conventional__student-label__student-label">
+<text x="2105" y="755" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">Compact</text>
+<text x="2105" y="799" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">student</text>
+</g>
+</g><g id="conventional__teacher-sampling"><polyline points="373.000,610.000 540.200,610.000" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" /><polygon points="557.000,610.000 537.000,618.000 537.000,602.000" fill="#000000" /></g><g id="conventional__validate-teacher"><polyline points="913.000,610.000 1080.200,610.000" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" /><polygon points="1097.000,610.000 1077.000,618.000 1077.000,602.000" fill="#000000" /></g><g id="conventional__freeze-teacher"><polyline points="1413.000,610.000 1580.200,610.000" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" /><polygon points="1597.000,610.000 1577.000,618.000 1577.000,602.000" fill="#000000" /></g><g id="conventional__freeze-teacher-label"><text x="1505" y="535" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">Freeze</text><text x="1505" y="581" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">teacher</text></g><g id="conventional__teacher-labels"><polyline points="1953.000,610.000 2210.200,610.000" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" /><polygon points="2227.000,610.000 2207.000,618.000 2207.000,602.000" fill="#000000" /></g><g id="conventional__train-student"><polyline points="2387.000,610.000 2640.200,610.000" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" /><polygon points="2657.000,610.000 2637.000,618.000 2637.000,602.000" fill="#000000" /></g><g id="conventional__train-student-label"><text x="2522" y="574" font-weight="400" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 47.50740741px"><tspan x="2522" y="521.74185185">Train </tspan><tspan x="2522" y="574.00000000">student</tspan></text></g><g id="conventional__teacher-update-label"><text x="180" y="419.3000" font-weight="400" font-style="normal" text-anchor="end" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 47.50740741px">Update</text><text x="180" y="465.3000" font-weight="400" font-style="normal" text-anchor="end" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 47.50740741px">teacher</text></g><g id="conventional__candidate-selection-label"><text x="770" y="415.3750" font-weight="400" font-style="normal" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 47.50740741px">Select</text><text x="770" y="461.3750" font-weight="400" font-style="normal" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 47.50740741px">configurations</text></g><g id="conventional__dft-teacher-update"><polyline points="215.000,368.000 215.000,470.200" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" /><polygon points="215.000,487.000 207.000,467.000 223.000,467.000" fill="#000000" /></g><g id="conventional__selected-to-dft"><polyline points="735.000,487.000 735.000,384.800" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" /><polygon points="735.000,368.000 743.000,388.000 727.000,388.000" fill="#000000" /></g><g id="costly-exploration-note"><text x="506.30977" y="880" font-weight="700" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px"><tspan x="506.30977" y="880" fill="#e53935" style="fill: #e53935; font-size: 47.50740741px; font-family: 'Arial'">High</tspan><tspan x="605.17383" y="880" fill="#000000" style="fill: #000000; font-size: 47.50740741px; font-family: 'Arial'">-cost exploration</tspan></text></g></g><g id="method-transition"><title>Conceptual transition from conventional distillation to DICE</title><polygon points="1487,1110 1543,1110 1543,1190 1600,1190 1515,1260 1430,1190 1487,1190" fill="black" /><g id="exploration-transfer-note"><text x="1660" y="1167" font-weight="700" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">Move exploration to</text><text x="1660" y="1220" font-weight="700" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 47.50740741px">the compact student</text></g></g><g id="dice" transform="translate(0 1085) scale(1.317391304348)"><g id="dice__method-name-background">
+<rect x="40" y="170" width="330" height="100" rx="14" fill="#FFFFFF" stroke="none" stroke-width="0" />
+</g>
+<g id="dice__method-name">
+<text x="80" y="240" font-weight="700" font-style="normal" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 65.00000000px">DICE</text>
+<text id="dice-full-name" x="80" y="305" font-weight="700" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">(Distillation-driven co-evolution)</text><text id="dice-this-work" x="280" y="240" font-weight="700" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">This work</text></g>
+<g id="dice__teacher-support-region">
+<rect x="620" y="465" width="760" height="370" rx="22" fill="#FFFFFF" stroke="none" stroke-width="0" />
+</g>
+<g id="dice__shared-update-top-boundary" /><g id="dice__sampling">
+<rect x="60" y="490" width="350" height="330" rx="20" fill="#FFFFFF" stroke="#1785d4" stroke-width="4.6" />
+<polyline points="155.000,610.000 140.396,665.843" fill="none" stroke="#97c8ec" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="155.000,610.000 135.991,549.975" fill="none" stroke="#97c8ec" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="155.000,610.000 84.559,605.487" fill="none" stroke="#97c8ec" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="155.000,610.000 201.454,605.866" fill="none" stroke="#97c8ec" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="155.000,610.000 166.772,559.714" fill="none" stroke="#97c8ec" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="155.000,610.000 127.080,628.424" fill="none" stroke="#97c8ec" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="127.0795816830079" cy="628.4241256782905" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+<circle cx="135.9912256493049" cy="549.9753857196283" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+<circle cx="201.4542371461528" cy="605.8657710344152" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+<circle cx="155.0" cy="610.0" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+<circle cx="140.39643181819804" cy="665.8432400405353" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+<circle cx="84.55888522499089" cy="605.4870748875322" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+<circle cx="166.77209674952965" cy="559.7140538973658" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+<polyline points="310.000,610.000 296.120,662.063" fill="none" stroke="#97c8ec" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="310.000,610.000 268.302,585.039" fill="none" stroke="#97c8ec" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="310.000,610.000 338.344,652.350" fill="none" stroke="#97c8ec" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="310.000,610.000 330.182,557.181" fill="none" stroke="#97c8ec" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="338.344344430721" cy="652.349826065224" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+<circle cx="268.30231432717846" cy="585.0393977568565" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+<circle cx="310.0" cy="610.0" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+<circle cx="330.18165370870076" cy="557.1811820013554" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+<circle cx="296.1203259114702" cy="662.063049752981" r="9" fill="#1785d4" stroke="none" stroke-width="1" />
+</g>
+<g id="dice__sampling-label">
+<text x="235" y="755" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">Student-driven</text>
+<text x="235" y="799" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">sampling</text>
+</g>
+<g id="dice__teacher">
+<rect x="645" y="490" width="310" height="330" rx="20" fill="#FFFFFF" stroke="#9162d6" stroke-width="4.6" />
+<polyline points="732.000,571.000 800.000,545.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="732.000,571.000 800.000,577.500" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="732.000,610.000 800.000,577.500" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="732.000,610.000 800.000,610.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="732.000,610.000 800.000,642.500" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="732.000,649.000 800.000,642.500" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="732.000,649.000 800.000,675.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="800.000,545.000 868.000,571.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="800.000,577.500 868.000,571.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="800.000,577.500 868.000,610.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="800.000,610.000 868.000,610.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="800.000,642.500 868.000,610.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="800.000,642.500 868.000,649.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="800.000,675.000 868.000,649.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="732" cy="571.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="732" cy="610.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="732" cy="649.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="800" cy="545.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="800" cy="577.5" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="800" cy="610.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="800" cy="642.5" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="800" cy="675.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="868" cy="571.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="868" cy="610.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="868" cy="649.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+</g>
+<g id="dice__teacher-label">
+<text x="800" y="780" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">Teacher</text>
+</g>
+<g id="dice__routing">
+<rect x="1110" y="525" width="200" height="150" rx="18" fill="#FFFFFF" stroke="#9162d6" stroke-width="4.6" />
+<text x="1210" y="625" font-weight="400" font-style="italic" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 64.00000000px">p</text>
+</g>
+<g id="dice__routing-label">
+<text x="1210" y="755" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">Support-guided</text>
+<text x="1210" y="799" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">routing</text>
+</g>
+<g id="dice__teacher-labelled-data">
+<rect x="1579" y="511" width="130" height="160" rx="6" fill="#FFFFFF" stroke="#1785d4" stroke-width="4.6" />
+<rect x="1567" y="523" width="130" height="160" rx="6" fill="#FFFFFF" stroke="#1785d4" stroke-width="4.6" />
+<rect x="1555" y="535" width="130" height="160" rx="6" fill="#FFFFFF" stroke="#1785d4" stroke-width="4.6" />
+<rect x="1590" y="548" width="60" height="52" rx="8" fill="#FFFFFF" stroke="#1785d4" stroke-width="4.6" /><text x="1619.5629" y="587.6050" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">E</text>
+<rect x="1590" y="616" width="60" height="52" rx="8" fill="#FFFFFF" stroke="#1785d4" stroke-width="4.6" /><text x="1619.4809" y="655.6050" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">F</text>
+</g>
+<g id="dice__data-label">
+<text x="1620" y="755" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">Teacher-labelled</text>
+<text x="1620" y="799" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">data</text>
+</g>
+<g id="dice__student">
+<rect x="1950" y="490" width="310" height="330" rx="20" fill="#FFFFFF" stroke="#9162d6" stroke-width="4.6" />
+<polyline points="2037.000,566.667 2105.000,545.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="2037.000,566.667 2105.000,610.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="2037.000,653.333 2105.000,610.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="2037.000,653.333 2105.000,675.000" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="2105.000,545.000 2173.000,566.667" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="2105.000,610.000 2173.000,566.667" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="2105.000,610.000 2173.000,653.333" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<polyline points="2105.000,675.000 2173.000,653.333" fill="none" stroke="#e4d8f5" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="2037" cy="566.6666666666666" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2037" cy="653.3333333333334" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2105" cy="545.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2105" cy="610.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2105" cy="675.0" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2173" cy="566.6666666666666" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+<circle cx="2173" cy="653.3333333333334" r="9" fill="#9162d6" stroke="none" stroke-width="1" />
+</g>
+<g id="dice__student-label">
+<text x="2105" y="755" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">Compact</text>
+<text x="2105" y="799" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">student</text>
+</g>
+<g id="dice__selective-dft">
+<rect x="770" y="205" width="470" height="160" rx="18" fill="#FFFFFF" stroke="#e53935" stroke-width="4.6" />
+<text x="1005" y="257" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">Selective DFT</text>
+<rect x="935" y="282" width="60" height="52" rx="8" fill="#FFFFFF" stroke="#e53935" stroke-width="4.6" />
+<text x="965" y="322" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">E</text>
+<rect x="1015" y="282" width="60" height="52" rx="8" fill="#FFFFFF" stroke="#e53935" stroke-width="4.6" />
+<text x="1045" y="322" font-weight="700" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px">F</text>
+</g>
+<g id="dice__sample-to-teacher">
+<polyline points="413.000,610.000 625.200,610.000" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="642.000,610.000 622.000,618.000 622.000,602.000" fill="#000000" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="dice__teacher-to-routing">
+<polyline points="958.000,610.000 1090.200,610.000" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="1107.000,610.000 1087.000,618.000 1087.000,602.000" fill="#000000" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="dice__high-support-to-data">
+<polyline points="1313.000,610.000 1535.200,610.000" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="1552.000,610.000 1532.000,618.000 1532.000,602.000" fill="#000000" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="dice__train-student">
+<polyline points="1712.000,610.000 1930.200,610.000" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="1947.000,610.000 1927.000,618.000 1927.000,602.000" fill="#000000" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="dice__high-support-label">
+<text x="1432.5" y="548" font-weight="400" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 36.06172840px">High</text>
+<text x="1432.5" y="592" font-weight="400" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 36.06172840px">support</text>
+</g>
+<g id="dice__train-student-label">
+<text x="1829.5" y="574" font-weight="400" font-style="normal" text-anchor="middle" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 36.06172840px">Train student</text>
+</g>
+<g id="dice__low-support-to-dft">
+<polyline points="1210.000,522.000 1210.000,384.800" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="1210.000,368.000 1218.000,388.000 1202.000,388.000" fill="#000000" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="dice__low-support-label">
+<text x="1250" y="432.0500" font-weight="400" font-style="normal" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 36.06172840px">Low</text>
+<text x="1250" y="476.0500" font-weight="400" font-style="normal" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 36.06172840px">support</text>
+</g>
+<g id="dice__update-teacher-and-support">
+<polyline points="800.000,368.000 800.000,470.200" fill="none" stroke="#000000" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="800.000,487.000 792.000,467.000 808.000,467.000" fill="#000000" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="dice__update-label">
+<text x="760" y="436.55" font-weight="400" font-style="normal" text-anchor="end" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 400; font-size: 36.06172840px">Update teacher</text>
+</g>
+<g id="dice__student-sampling-return">
+<polyline points="2105.000,823.000 2105.000,906.000 2104.884,908.430 2104.537,910.628 2103.959,912.595 2103.149,914.331 2102.107,915.835 2100.835,917.107 2099.331,918.149 2097.595,918.959 2095.628,919.537 2093.430,919.884 2091.000,920.000 249.000,920.000 246.570,919.884 244.372,919.537 242.405,918.959 240.669,918.149 239.165,917.107 237.893,915.835 236.851,914.331 236.041,912.595 235.463,910.628 235.116,908.430 235.000,906.000 235.000,839.800" fill="none" stroke="#000000" stroke-width="8.2" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="235.000,823.000 243.000,843.000 227.000,843.000" fill="#000000" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<g id="low-cost-exploration-note"><text x="64.04414" y="460" font-weight="700" text-anchor="start" fill="#000000" style="fill: #000000; font-family: 'Arial'; font-weight: 700; font-size: 36.06172840px"><tspan x="64.04414" y="460" fill="#1785d4" style="fill: #1785d4; font-size: 36.06172840px; font-family: 'Arial'">Low</tspan><tspan x="132.02773" y="460" fill="#000000" style="fill: #000000; font-size: 36.06172840px; font-family: 'Arial'">-cost exploration</tspan></text></g></g><g id="high-to-low-cost-comparison"><title>High to low exploration cost: conceptual comparison</title><polyline points="485,975 25,975 25,1675 65,1675" fill="none" stroke="#000000" stroke-dasharray="15 12" stroke-linejoin="round" stroke-linecap="butt" style="stroke: #000000; stroke-width: 5.96811806; fill: none" /><polygon points="65,1675 43,1666 43,1684" fill="#000000" /></g></svg>

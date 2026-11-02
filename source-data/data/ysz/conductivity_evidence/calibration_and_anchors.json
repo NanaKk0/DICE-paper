@@ -1,0 +1,28 @@
+{
+  "source": "Weller et al., Solid State Ionics 175 (2004) 409-413, Fig.2a, printed p411",
+  "doi": "10.1016/j.ssi.2003.12.044",
+  "image": "source/Fig2a_native.png",
+  "image_width_px": 389,
+  "image_height_px": 547,
+  "image_interpretation": "Native embedded raster. x increases right; image y increases downward. Axis lettering is separate PDF text and is verified on the full page.",
+  "x_quantity": "1000/T in K^-1",
+  "y_quantity": "ln(sigma*T/[K*S/cm])",
+  "x_axis_calibration": [[5.6, 0.5], [100.0, 1.0], [194.5, 1.5], [288.5, 2.0], [383.1, 2.5]],
+  "y_axis_calibration": [[48.5, 6], [92.5, 4], [137.5, 2], [181.5, 0], [226.0, -2], [270.5, -4], [315.5, -6], [359.5, -8], [404.0, -10], [448.5, -12], [493.0, -14]],
+  "method": "Manual tracing of curve/marker centers in the original raster, audited by overlay. Linear interpolation in the original 1000/T, ln(sigma*T) coordinates, no global Arrhenius fitting.",
+  "anchor_semantics": "Manually selected curve-center coordinates; not claimed to be author raw measurement coordinates. Extra anchors at overlapping high-T symbols follow the visible connecting line and carry conservative pixel-reading bounds.",
+  "digitization_bound": {"x_px": 1.0, "y_px": 2.0, "y_px_above_1450K": 2.5, "extra_y_calibration_px": 0.3},
+  "curves": [
+    {"mol_percent": 7.8, "marker": "filled square", "phase_sample": "polycrystal", "xy": [[34,35], [38,41.5], [45,47], [57,59.5], [69,73.5], [75,79], [83,87], [95,102], [107,117]]},
+    {"mol_percent": 10.3, "marker": "filled circle", "phase_sample": "single crystal", "xy": [[34,41.5], [38,46], [45,53], [53,65], [61,74], [69,82], [75,88], [81,94], [86,99], [91,105], [96,110]]},
+    {"mol_percent": 12.4, "marker": "filled upward triangle", "phase_sample": "single crystal", "xy": [[34,50], [41,56], [48,65], [57,78], [64,88], [71,94], [79,103], [90,120], [96,128], [103,138], [110,147]]},
+    {"mol_percent": 15.7, "marker": "filled downward triangle", "phase_sample": "single crystal", "xy": [[34,57], [43,65], [50,77], [58,90], [66,100], [73,111], [79,122], [85,132], [92,142], [99,153]]}
+  ],
+  "exclusion_record": [
+    {"sample_mol_percent": 2.9, "reason": "Outside requested 5.8-14.3mol% range; distinct low-doping polycrystal not used as a 5.8mol% substitute."},
+    {"sample_mol_percent": 17.8, "reason": "Outside requested range; farther than 15.7mol% from the highest requested composition."},
+    {"sample_mol_percent": 23.8, "reason": "Outside requested range."}
+  ],
+  "target_temperatures_K": [1200,1300,1400,1500],
+  "forbidden_extrapolation": "1600K not digitized as measured data; no composition interpolation is performed."
+}

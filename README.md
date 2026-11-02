@@ -1,0 +1,87 @@
+# DICE: paper figures, tables and source data
+
+This repository contains the numerical source data and CPU-only reproduction
+code for the DICE paper. The commands below run on CPU using the bundled data.
+
+[DICE software and user guide](https://github.com/NanaKk0/DICE) ·
+[Main and supplementary figures](source-data/artwork/) ·
+[Source tables](source-data/tables/)
+
+## Start
+
+Use Python 3.10 or newer. For `figures`, first install a licensed Arial font visible to Matplotlib and
+the system Cairo library. The Python rendering dependencies are included in
+`requirements.txt`.
+
+From this directory:
+
+```sh
+python -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements.txt
+python reproduce.py verify --output-dir /path/to/results/verify
+python reproduce.py figures --output-dir /path/to/results/paper-figures
+python reproduce.py replot --output-dir /path/to/results/replot
+python reproduce.py tables --output-dir /path/to/results/tables
+```
+
+Use a separate output directory outside source-data. requirements-tested.txt
+records the Python 3.10.20 environment used for local CPU checks.
+
+## Find a figure or table
+
+- [FIGURE_TABLE_MAP.csv](FIGURE_TABLE_MAP.csv): all six main figures, main
+  Table 1, sixteen supplementary figures and twelve supplementary tables.
+- [MAIN_PANEL_MAP.csv](MAIN_PANEL_MAP.csv): current main-panel letters and their
+  exact data files, including old filename aliases such as Fig2f → Fig. 2d.
+- source-data/data/: observations and repeat-level numerical evidence.
+- source-data/tables/: exact supplementary table CSVs.
+- source-data/artwork/: all 22 approved editable SVGs.
+- source-data/DATA_REGISTRY.json: precise object mappings and integrity checks.
+
+`figures` rebuilds the quantitative paper panels from their frozen data and
+exports the editable schematic. Select one object, for example:
+
+```sh
+python reproduce.py figures --figure main:3 --output-dir /path/to/new-fig3
+```
+
+It needs a licensed Arial font and CairoSVG/system Cairo for schematic export.
+The outputs are SVG/PDF/PNG and a data-use report in your selected directory.
+See [the figure guide](docs/PAPER_FIGURES.md) for
+panel coverage, statistical definitions and display selections.
+
+`replot` produces 21 source-backed numerical verification figures.
+To export the exact approved artwork:
+
+```sh
+python reproduce.py reexport --output-dir /path/to/results/artwork
+```
+
+The schematic and local-environment illustrations are available as editable SVGs.
+Scientific data, repeat identities and statistical masks follow the archived definitions; see
+[numerical definitions](docs/NUMERICAL_DEFINITIONS.md).
+
+Export the main-text dataset-count table from its existing numerical source:
+
+```sh
+python reproduce.py main_table --output-dir /path/to/results/main-table
+```
+
+## Optional: models, training data and original records
+
+Download these separately for the corresponding research tasks. See
+[ASSETS.md](docs/ASSETS.md) for exactly which packages each task requires.
+MODEL_USE.md describes explicit native inference; its default checks paths only.
+
+With all three retained asset archives extracted together, reconstruct duplicate paths and
+run the deeper CPU data checks:
+
+```sh
+python restore_assets.py /path/to/research-assets --restore --require-all --verify
+python reproduce.py verify --research-root /path/to/research-assets --output-dir /path/to/results/deep-check
+python /path/to/research-assets/original_records/verify_records.py
+```
+
+Research-asset downloads and the archive DOI will be linked here when the
+Zenodo record is published.

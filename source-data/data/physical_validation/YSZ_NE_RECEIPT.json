@@ -1,0 +1,12 @@
+{
+  "trajectories": 100,
+  "duration_ps_per_trajectory": 5000,
+  "production_cell_hash_checks": 100,
+  "conditions": 25,
+  "independent_preparations_per_condition": 4,
+  "source": "/home/drq/DICE-isolated/YSZ/ysz_jump_correlation/analysis/manuscript_5T5ns_20261018/two_barrier_fit_20261019/source_data/input_transport.csv",
+  "source_sha256": "4b9393bd7686e41e8d2c982081aef243fe3557ed09dc9167adf6b798485e675a",
+  "maximum_relative_recalculation_difference": 1.1102230246251565e-15,
+  "formula": "N_O/V * (2e)^2 * D_star/(kB*T) / 100 [S/cm]",
+  "new_MD": false
+}

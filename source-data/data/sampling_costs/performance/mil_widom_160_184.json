@@ -1,0 +1,119 @@
+{
+  "group": "mil_widom_160_184",
+  "kind": "widom",
+  "parallel": 6,
+  "percentage": 100,
+  "tag": "confirm",
+  "aggregate_rate": 974.4772687156149,
+  "rates": [
+    932.1301383779158,
+    974.4772687156149,
+    981.25357565557
+  ],
+  "client_timings": [
+    [
+      {
+        "seconds": 3.193560628918931,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 3.0391595780383795,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 2.972155197057873,
+        "work": 500,
+        "evaluations": 68
+      }
+    ],
+    [
+      {
+        "seconds": 3.2184347190195695,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 3.0785736069083214,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 3.051019501988776,
+        "work": 500,
+        "evaluations": 68
+      }
+    ],
+    [
+      {
+        "seconds": 3.2063430019188672,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 3.0618882259586826,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 3.034243051079102,
+        "work": 500,
+        "evaluations": 68
+      }
+    ],
+    [
+      {
+        "seconds": 3.210626652929932,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 3.075469176052138,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 3.057313699973747,
+        "work": 500,
+        "evaluations": 68
+      }
+    ],
+    [
+      {
+        "seconds": 3.2149641839787364,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 3.06967464403715,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 3.053048804984428,
+        "work": 500,
+        "evaluations": 68
+      }
+    ],
+    [
+      {
+        "seconds": 3.2086431839270517,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 3.070423247059807,
+        "work": 500,
+        "evaluations": 68
+      },
+      {
+        "seconds": 3.0473085939884186,
+        "work": 500,
+        "evaluations": 68
+      }
+    ]
+  ],
+  "units_per_repeat": 500,
+  "path": "/tmp/neo_sampling_speed_20261019/benchmarks/mil_widom_160_184/p6_cap100_confirm"
+}

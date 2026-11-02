@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="510.23622047pt" height="141.73228313pt" viewBox="0 0 510.23622000 141.73228300" version="1.1">
+ <rect id="layout_white_canvas" x="0" y="0" width="510.23622" height="141.732283" fill="#ffffff" /><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-10-29T00:02:12.954558</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="layout_original_artwork" transform="translate(0.000000 0.000000)"><g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 141.732283  L 510.23622 141.732283  L 510.23622 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 73.700787 54.556027  L 103.937008 54.556027  L 103.937008 41.996366  L 73.700787 41.996366  z " style="fill: #d9f0f3; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_3">
+    <path d="M 103.937008 54.556027  L 134.173228 54.556027  L 134.173228 41.996366  L 103.937008 41.996366  z " style="fill: #d9f0f3; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_4">
+    <path d="M 134.173228 54.556027  L 255.11811 54.556027  L 255.11811 41.996366  L 134.173228 41.996366  z " style="fill: #d9f0f3; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_5">
+    <path d="M 73.700787 69.784615  L 103.937008 69.784615  L 103.937008 57.224955  L 73.700787 57.224955  z " style="fill: #d9f0f3; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_6">
+    <path d="M 103.937008 69.784615  L 134.173228 69.784615  L 134.173228 57.224955  L 103.937008 57.224955  z " style="fill: #fad7d7; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_7">
+    <path d="M 134.173228 69.784615  L 255.11811 69.784615  L 255.11811 57.224955  L 134.173228 57.224955  z " style="fill: #d9f0f3; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_8">
+    <path d="M 73.700787 85.013204  L 103.937008 85.013204  L 103.937008 72.453543  L 73.700787 72.453543  z " style="fill: #d9f0f3; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_9">
+    <path d="M 103.937008 85.013204  L 134.173228 85.013204  L 134.173228 72.453543  L 103.937008 72.453543  z " style="fill: #d9f0f3; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_10">
+    <path d="M 134.173228 85.013204  L 255.11811 85.013204  L 255.11811 72.453543  L 134.173228 72.453543  z " style="fill: #d9f0f3; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_11">
+    <path d="M 73.700787 100.241793  L 103.937008 100.241793  L 103.937008 87.682132  L 73.700787 87.682132  z " style="fill: #fad7d7; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_12">
+    <path d="M 103.937008 100.241793  L 134.173228 100.241793  L 134.173228 87.682132  L 103.937008 87.682132  z " style="fill: #fad7d7; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_13">
+    <path d="M 134.173228 100.241793  L 255.11811 100.241793  L 255.11811 87.682132  L 134.173228 87.682132  z " style="fill: #ffffff; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_14">
+    <path d="M 73.700787 115.470382  L 103.937008 115.470382  L 103.937008 102.910721  L 73.700787 102.910721  z " style="fill: #fad7d7; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_15">
+    <path d="M 103.937008 115.470382  L 134.173228 115.470382  L 134.173228 102.910721  L 103.937008 102.910721  z " style="fill: #fad7d7; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_16">
+    <path d="M 134.173228 115.470382  L 255.11811 115.470382  L 255.11811 102.910721  L 134.173228 102.910721  z " style="fill: #fad7d7; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="text_1">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'" transform="translate(80.064991 28.86616)">Initial</text>
+    <text style="font-size: 7.99999999px; font-family: 'Arial'" transform="translate(84.648195 37.029001)">10</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'" transform="translate(104.881876 28.86616)">Random</text>
+    <text style="font-size: 7.99999999px; font-family: 'Arial'" transform="translate(114.884415 37.029001)">10</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'" transform="translate(176.720669 28.866086)">Remaining</text>
+    <text style="font-size: 7.99999999px; font-family: 'Arial'" transform="translate(190.474966 37.029075)">40</text>
+   </g>
+   <g id="text_4">
+    
+    <g transform="translate(60.533268 50.217114)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.625" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="4.581299" y="0.542187" style="font-size: 5.59999999px; font-family: 'Arial'">0</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_5">
+    
+    <g transform="translate(84.956398 50.217114)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.625" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="4.581299" y="0.542187" style="font-size: 5.59999999px; font-family: 'Arial'">0</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_6">
+    
+    <g transform="translate(115.192618 50.217114)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.625" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="4.581299" y="0.542187" style="font-size: 5.59999999px; font-family: 'Arial'">0</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_7">
+    
+    <g transform="translate(190.783169 50.217114)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.625" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="4.581299" y="0.542187" style="font-size: 5.59999999px; font-family: 'Arial'">0</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: end" x="68.258268" y="65.44563" transform="rotate(-0 68.258268 65.44563)">Hybrid</text>
+   </g>
+   <g id="text_9">
+    
+    <g transform="translate(84.956398 65.445703)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.625" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="4.581299" y="0.542187" style="font-size: 5.59999999px; font-family: 'Arial'">0</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: middle" x="119.055118" y="65.445703" transform="rotate(-0 119.055118 65.445703)">DFT</text>
+   </g>
+   <g id="text_11">
+    
+    <g transform="translate(190.783169 65.445703)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.625" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="4.581299" y="0.542187" style="font-size: 5.59999999px; font-family: 'Arial'">0</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_12">
+    
+    <g transform="translate(59.633268 80.674292)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.625" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="4.581299" y="0.542187" style="font-style: normal; font-size: 5.59999999px; font-family: 'Arial'">R</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_13">
+    
+    <g transform="translate(84.506398 80.674292)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.625" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="4.581299" y="0.542187" style="font-style: normal; font-size: 5.59999999px; font-family: 'Arial'">R</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_14">
+    
+    <g transform="translate(114.742618 80.674292)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.625" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="4.581299" y="0.542187" style="font-style: normal; font-size: 5.59999999px; font-family: 'Arial'">R</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_15">
+    
+    <g transform="translate(190.333169 80.674292)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.625" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="4.581299" y="0.542187" style="font-style: normal; font-size: 5.59999999px; font-family: 'Arial'">R</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: end" x="68.258268" y="95.90288" transform="rotate(-0 68.258268 95.90288)">DFT-20</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: middle" x="88.818898" y="95.90288" transform="rotate(-0 88.818898 95.90288)">DFT</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: middle" x="119.055118" y="95.90288" transform="rotate(-0 119.055118 95.90288)">DFT</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: middle" x="194.645669" y="95.90288" transform="rotate(-0 194.645669 95.90288)">—</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: end" x="68.258268" y="111.131469" transform="rotate(-0 68.258268 111.131469)">DFT-60</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: middle" x="88.818898" y="111.131469" transform="rotate(-0 88.818898 111.131469)">DFT</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: middle" x="119.055118" y="111.131469" transform="rotate(-0 119.055118 111.131469)">DFT</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: middle" x="194.645669" y="111.131469" transform="rotate(-0 194.645669 111.131469)">DFT</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_17">
+    <path d="M 317.480315 54.556027  L 377.952756 54.556027  L 377.952756 41.996366  L 317.480315 41.996366  z " style="fill: #fad7d7; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_18">
+    <path d="M 377.952756 54.556027  L 498.897638 54.556027  L 498.897638 41.996366  L 377.952756 41.996366  z " style="fill: #ffffff; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_19">
+    <path d="M 317.480315 69.784615  L 377.952756 69.784615  L 377.952756 57.224955  L 317.480315 57.224955  z " style="fill: #d9f0f3; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_20">
+    <path d="M 377.952756 69.784615  L 498.897638 69.784615  L 498.897638 57.224955  L 377.952756 57.224955  z " style="fill: #d9f0f3; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_21">
+    <path d="M 317.480315 85.013204  L 377.952756 85.013204  L 377.952756 72.453543  L 317.480315 72.453543  z " style="fill: #fad7d7; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_22">
+    <path d="M 377.952756 85.013204  L 498.897638 85.013204  L 498.897638 72.453543  L 377.952756 72.453543  z " style="fill: #fad7d7; stroke: #85898c; stroke-width: 1.00500000; stroke-linejoin: miter" />
+   </g>
+   <g id="text_24">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'" transform="translate(334.791926 28.86616)">Initial10</text>
+    <text style="font-size: 7.99999999px; font-family: 'Arial'" transform="translate(334.687043 37.029001)">+ low10</text>
+   </g>
+   <g id="text_25">
+    
+    <g transform="translate(412.250197 32.919163)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">H</tspan>
+      <tspan x="5.41626" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">i</tspan>
+      <tspan x="7.08252" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">g</tspan>
+      <tspan x="11.253662" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">h</tspan>
+      <tspan x="15.424805" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">4</tspan>
+      <tspan x="19.595947" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">0</tspan>
+      <tspan x="23.76709" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'"> </tspan>
+      <tspan x="25.85083" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">(</tspan>
+      <tspan x="33.769043" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">&gt;</tspan>
+      <tspan x="39.398438" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">0</tspan>
+      <tspan x="43.56958" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">.</tspan>
+      <tspan x="45.65332" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">1</tspan>
+      <tspan x="49.824463" y="-0.546875" style="font-size: 7.99999999px; font-family: 'Arial'">)</tspan>
+      <tspan x="28.348389" y="-0.546875" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">p</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: end" x="312.037795" y="50.217114" transform="rotate(-0 312.037795 50.217114)">DFT-20</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: middle" x="347.716535" y="50.217114" transform="rotate(-0 347.716535 50.217114)">DFT</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: middle" x="438.425197" y="50.217114" transform="rotate(-0 438.425197 50.217114)">—</text>
+   </g>
+   <g id="text_29">
+    
+    <g transform="translate(303.412795 65.445703)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.625" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="4.581299" y="0.542187" style="font-style: normal; font-size: 5.59999999px; font-family: 'Arial'">D</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_30">
+    
+    <g transform="translate(338.191535 65.445703)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.609375" style="font-size: 7.99999999px; font-family: 'Arial'">2</tspan>
+      <tspan x="4.171143" y="-0.609375" style="font-size: 7.99999999px; font-family: 'Arial'">0</tspan>
+      <tspan x="8.342285" y="-0.609375" style="font-size: 7.99999999px; font-family: 'Arial'"> </tspan>
+      <tspan x="10.426025" y="-0.609375" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="15.007324" y="0.557812" style="font-style: italic; font-size: 5.59999999px; font-family: 'Arial'">D</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_31">
+    
+    <g transform="translate(428.900197 65.445703)">
+     <text style="font-size: 7.99999999px; font-family: 'Arial'">
+      <tspan x="0" y="-0.609375" style="font-size: 7.99999999px; font-family: 'Arial'">4</tspan>
+      <tspan x="4.171143" y="-0.609375" style="font-size: 7.99999999px; font-family: 'Arial'">0</tspan>
+      <tspan x="8.342285" y="-0.609375" style="font-size: 7.99999999px; font-family: 'Arial'"> </tspan>
+      <tspan x="10.426025" y="-0.609375" style="font-style: italic; font-size: 7.99999999px; font-family: 'Arial'">T</tspan>
+      <tspan x="15.007324" y="0.557812" style="font-style: italic; font-size: 5.59999999px; font-family: 'Arial'">D</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: end" x="312.037795" y="80.674292" transform="rotate(-0 312.037795 80.674292)">DFT-60</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: middle" x="347.716535" y="80.674292" transform="rotate(-0 347.716535 80.674292)">DFT</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 7.99999999px; font-family: 'Arial'; text-anchor: middle" x="438.425197" y="80.674292" transform="rotate(-0 438.425197 80.674292)">DFT</text>
+   </g>
+  </g>
+  <g id="text_35">
+   </g>
+  <g id="text_36">
+   </g>
+ </g>
+</g><g id="layout_panel_letters"><text id="panel_a" x="43.500000" y="15.230709" style="font-family: 'Arial'; font-size: 9.99999999px; font-weight: 700; fill: #000000; text-anchor: start">a</text><text id="panel_b" x="287.500000" y="15.230709" style="font-family: 'Arial'; font-size: 9.99999999px; font-weight: 700; fill: #000000; text-anchor: start">b</text></g></svg>

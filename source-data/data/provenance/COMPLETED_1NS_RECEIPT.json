@@ -1,0 +1,87 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-30T15:30:59.930516+00:00",
+  "pid": 3730371,
+  "systems": {
+    "alumina": {
+      "r1": {
+        "status": "completed",
+        "steps": 1000000,
+        "time_ps": 1000.0,
+        "thermo_rows": 50002,
+        "temperature_min_K": 1157.516594983839,
+        "temperature_max_K": 2597.732274776872,
+        "max_stored_force_eV_A": 24.32077432397525,
+        "input_sha256": "e4655297ccdbd714ec99cb7beacf626d8ca38f009fca4ac14952391ef22be788",
+        "log_sha256": "2c04234bf8bd64f9d9706ffdca7554c81d10efeb022721d9477f291e803e94b2",
+        "endpoint_sha256": "db1f122af685afc65eb4e7a9f3fffc9899b08cf91e79aa7a1485beb39e8ea4e4"
+      },
+      "r2": {
+        "status": "completed",
+        "steps": 1000000,
+        "time_ps": 1000.0,
+        "thermo_rows": 50002,
+        "temperature_min_K": 1225.104798293084,
+        "temperature_max_K": 2588.4479844155,
+        "max_stored_force_eV_A": 25.31931831053401,
+        "input_sha256": "7079ef3038add6644682292153cece04a399f9751986b5a5da2cf6955c632ec0",
+        "log_sha256": "823b057a90c22511623d8134fc3699a84e6bd04100cc2b57c9edbfebe473a887",
+        "endpoint_sha256": "093e347a6500db385d6941fd24968556095d5ed1d2d3bf31f8251ebe8805df04"
+      },
+      "r3": {
+        "status": "completed",
+        "steps": 1000000,
+        "time_ps": 1000.0,
+        "thermo_rows": 50002,
+        "temperature_min_K": 1197.792530710806,
+        "temperature_max_K": 2581.668547979632,
+        "max_stored_force_eV_A": 24.95641331461297,
+        "input_sha256": "dbe6ce13763328be20a18b7392ce9a77d68e39aed2eb98da5e35b3657270ed0a",
+        "log_sha256": "e7a9a3a1f279aeb2ff6a55d325d299c954c448755ee02395a2cc5b67e30f32a2",
+        "endpoint_sha256": "1f4c6734fd3e7d5865eec298b7989ca81c239177bff55181ec60917e95f2f047"
+      }
+    },
+    "ysz": {
+      "r1": {
+        "status": "completed",
+        "steps": 1000000,
+        "time_ps": 1000.0,
+        "thermo_rows": 10002,
+        "temperature_min_K": 1504.6582,
+        "temperature_max_K": 2021.8906,
+        "max_stored_force_eV_A": 14.07497,
+        "input_sha256": "f3ee794c6634710c3579c20bdf28dcf870523a1a93cc31b2616267e44e3f9069",
+        "log_sha256": "e33a5e54e41dca02c60a0a098fd53336218256cabf423fccdac74d837b2792ad",
+        "endpoint_sha256": "5d1d1b5b60195f8e544c09c0f6c4f57bce8c74772599fa894646eccc944890eb"
+      },
+      "r2": {
+        "status": "completed",
+        "steps": 1000000,
+        "time_ps": 1000.0,
+        "thermo_rows": 10002,
+        "temperature_min_K": 1506.8676,
+        "temperature_max_K": 2011.7058,
+        "max_stored_force_eV_A": 14.940027,
+        "input_sha256": "0d247fdf0ca4fcbcf4434aa7d531fcf5fbccbee6e5e4a9ace65c88159ca1d1a6",
+        "log_sha256": "bf3e8ca83620e064acfbd91c93c1e0b25b19a7c01859a6f17c73d2b159e207e8",
+        "endpoint_sha256": "20eccabe723c7b1439e363f5c80f6d99fa0da775e7101ae04ce8071836b4fc81"
+      },
+      "r3": {
+        "status": "completed",
+        "steps": 1000000,
+        "time_ps": 1000.0,
+        "thermo_rows": 10002,
+        "temperature_min_K": 1571.182,
+        "temperature_max_K": 2008.4402,
+        "max_stored_force_eV_A": 13.563318,
+        "input_sha256": "78bd4534938b7280e79a363c23f9c12bf6a4730f2061e073342b32b27384ced0",
+        "log_sha256": "33f0480f25e8d53c5fac9994a7b090c4be924dd25e372fcd195524d915f6f902",
+        "endpoint_sha256": "de542ba1832963773b0e8be0cb3b53c056fd44adca0afd43252c7ef08dcfc17d"
+      }
+    }
+  },
+  "active_system": null,
+  "updated_at": "2026-10-30T16:02:12.908488+00:00",
+  "resumed_at": "2026-10-30T15:53:10.026783+00:00",
+  "completed_at": "2026-10-30T16:02:12.908785+00:00"
+}

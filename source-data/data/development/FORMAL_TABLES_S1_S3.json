@@ -1,0 +1,777 @@
+[
+  {
+    "stem": "development_stages_al",
+    "number": 1,
+    "section": 1,
+    "title_en": "Al₂O₃ development stages contributing to the final training set.",
+    "title_zh": "形成最终训练集的Al₂O₃开发阶段。",
+    "headers": [
+      "Stage",
+      "Initial configurations",
+      "Sampling conditions",
+      "Sampling length",
+      "New teacher-labelled geometries",
+      "New DFT reference geometries"
+    ],
+    "headers_zh": [
+      "开发阶段",
+      "起始结构",
+      "采样条件",
+      "采样长度",
+      "新增教师标注几何",
+      "新增DFT参考几何"
+    ],
+    "rows": [
+      [
+        "Initial crystal references",
+        "Crystal/strained reference structures",
+        "DFT references",
+        "—",
+        "0",
+        "20"
+      ],
+      [
+        "Low-temperature crystal exploration",
+        "Crystal and strained seeds, 80/160 atoms",
+        "NVT; 100, 300 K",
+        "0.1 ps",
+        "240",
+        "40"
+      ],
+      [
+        "Extended crystal exploration",
+        "Crystal/strained seeds; 30/80/160 atoms",
+        "NVT; 500, 1000, 1500, 2000 K",
+        "0.1 ps",
+        "560",
+        "80"
+      ],
+      [
+        "Melt-frontier exploration",
+        "Crystal seeds, 160 atoms",
+        "NVT ramps: 300 → 2600/3200/3800/4200 K; hold at target",
+        "50 ps",
+        "230",
+        "0"
+      ],
+      [
+        "Low-density melt/cool exploration",
+        "Low-density seeds, 160 atoms",
+        "300 → 3000 K; densification to 3.5 then 4.1 g cm−3; slow cooling or quench/anneal",
+        "350/360 ps",
+        "150",
+        "0"
+      ],
+      [
+        "Crystal temperature/pressure expansion",
+        "Crystal seeds, 160 atoms",
+        "NPT; 100–2000 K; 0, 5, 20 GPa",
+        "20/30/40 ps",
+        "240",
+        "0"
+      ],
+      [
+        "Thermoelastic crystal expansion",
+        "Strained α seeds, 80 atoms",
+        "NVT; 300, 600, 900, 1200, 1500, 1800, 2000 K",
+        "20/30/40 ps",
+        "240",
+        "0"
+      ],
+      [
+        "Long-wavelength displacement relaxation",
+        "Displaced α seeds, 120 atoms",
+        "Fixed-cell FIRE; force criterion 0.02 eV Å−1",
+        "≤400 optimizer steps",
+        "160",
+        "0"
+      ],
+      [
+        "Displaced-crystal dynamics",
+        "Unstrained/strained α seeds, 120 atoms",
+        "NVT; 300, 500, 700 K; also 1100 K for unstrained seeds",
+        "50 ps",
+        "320",
+        "0"
+      ],
+      [
+        "Longitudinal/transverse relaxation",
+        "Displaced α seeds, 240/360 atoms",
+        "Fixed-cell FIRE; force criterion 0.01 eV Å−1",
+        "≤400 optimizer steps",
+        "100",
+        "0"
+      ],
+      [
+        "Strain-coupled crystal dynamics",
+        "Pure/coupled-strain α seeds, 240 atoms",
+        "NVT; 100, 300, 500 K",
+        "50 ps",
+        "200",
+        "0"
+      ],
+      [
+        "Total",
+        "",
+        "",
+        "",
+        "2440",
+        "140"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "初始晶体参考",
+        "晶体／应变参考结构",
+        "DFT参考",
+        "—",
+        "0",
+        "20"
+      ],
+      [
+        "低温晶体探索",
+        "晶体及应变结构，80/160原子",
+        "NVT；100、300 K",
+        "0.1 ps",
+        "240",
+        "40"
+      ],
+      [
+        "扩展晶体探索",
+        "晶体及应变结构；30/80/160原子",
+        "NVT；500、1000、1500、2000 K",
+        "0.1 ps",
+        "560",
+        "80"
+      ],
+      [
+        "熔化前沿探索",
+        "晶体结构，160原子",
+        "NVT：300 K升至2600/3200/3800/4200 K后保温",
+        "50 ps",
+        "230",
+        "0"
+      ],
+      [
+        "低密度熔融／冷却探索",
+        "低密度结构，160原子",
+        "300→3000 K；依次增密至3.5、4.1 g cm−3；慢冷或淬火／退火",
+        "350/360 ps",
+        "150",
+        "0"
+      ],
+      [
+        "晶体温压扩展",
+        "晶体结构，160原子",
+        "NPT；100–2000 K；0、5、20 GPa",
+        "20/30/40 ps",
+        "240",
+        "0"
+      ],
+      [
+        "晶体热弹性扩展",
+        "应变α结构，80原子",
+        "NVT；300、600、900、1200、1500、1800、2000 K",
+        "20/30/40 ps",
+        "240",
+        "0"
+      ],
+      [
+        "长波位移弛豫",
+        "含位移α结构，120原子",
+        "固定晶胞FIRE；力阈值0.02 eV Å−1",
+        "≤400 步弛豫",
+        "160",
+        "0"
+      ],
+      [
+        "位移晶体动力学",
+        "无应变／应变α结构，120原子",
+        "NVT；300、500、700 K；无应变结构另含1100 K",
+        "50 ps",
+        "320",
+        "0"
+      ],
+      [
+        "纵向／横向位移弛豫",
+        "含位移α结构，240/360原子",
+        "固定晶胞FIRE；力阈值0.01 eV Å−1",
+        "≤400 步弛豫",
+        "100",
+        "0"
+      ],
+      [
+        "应变耦合晶体动力学",
+        "纯应变／耦合应变α结构，240原子",
+        "NVT；100、300、500 K",
+        "50 ps",
+        "200",
+        "0"
+      ],
+      [
+        "合计",
+        "",
+        "",
+        "",
+        "2440",
+        "140"
+      ]
+    ],
+    "widths": [
+      0.18,
+      0.21,
+      0.27,
+      0.16,
+      0.09,
+      0.09
+    ],
+    "note_en": "44 sampling blocks; 67,760 tasks; 2,580 final student training geometries.",
+    "note_zh": "对应44个采样块、67,760个任务；最终学生训练几何2,580个。",
+    "source_data": [
+      "source_data/development_lineage_20261031/THREE_TABLES_REVIEW.json",
+      "source_data/development_lineage_20261031/BLOCK_LINEAGE_148.csv",
+      "source_data/development_lineage_20261031/MATCHED_STRUCTURE_IDS.csv",
+      "source_data/development_lineage_20261031/TEACHER_REFERENCE_SNAPSHOTS.csv",
+      "source_data/development_lineage_20261031/SAMPLING_CONDITIONS.csv",
+      "source_data/development_lineage_20261031/REFERENCE_SOURCE_FILES.json"
+    ]
+  },
+  {
+    "stem": "development_stages_ysz",
+    "number": 2,
+    "section": 1,
+    "title_en": "YSZ development stages contributing to the final training set.",
+    "title_zh": "形成最终训练集的YSZ开发阶段。",
+    "headers": [
+      "Stage",
+      "Initial configurations",
+      "Sampling conditions",
+      "Sampling length",
+      "New teacher-labelled geometries",
+      "New DFT reference geometries"
+    ],
+    "headers_zh": [
+      "开发阶段",
+      "起始结构",
+      "采样条件",
+      "采样长度",
+      "新增教师标注几何",
+      "新增DFT参考几何"
+    ],
+    "rows": [
+      [
+        "Initial bulk references",
+        "YSZ bulk reference structures",
+        "DFT references",
+        "—",
+        "0",
+        "15"
+      ],
+      [
+        "Initial temperature exploration",
+        "YSZ cells, 64/79/92 atoms",
+        "NPT; 300, 1200, 1800 K; 1 bar",
+        "20 ps",
+        "180",
+        "45"
+      ],
+      [
+        "Auxiliary dimer references",
+        "Six pair types; three separations each",
+        "DFT references",
+        "—",
+        "0",
+        "18"
+      ],
+      [
+        "Extended temperature exploration",
+        "YSZ cells, 64/79/92 atoms",
+        "NPT; 300, 1200, 1800 K; 1 bar",
+        "50/75/100 ps",
+        "240",
+        "30"
+      ],
+      [
+        "Longer NPT trajectories",
+        "YSZ cells, 64/79/92 atoms",
+        "NPT; 300, 1200, 1800 K; 1 bar",
+        "100/150/200 ps",
+        "480",
+        "0"
+      ],
+      [
+        "Intermediate-temperature expansion",
+        "YSZ cells, 64/79/92 atoms",
+        "NPT; 600, 900, 1500 K; 1 bar",
+        "50/100/150/200 ps",
+        "360",
+        "0"
+      ],
+      [
+        "Fixed-volume expansion",
+        "YSZ cells; volumes 0.97/1.03 of prepared cells",
+        "NVT; 600, 1200 K",
+        "50/100/150/200 ps",
+        "480",
+        "0"
+      ],
+      [
+        "Temperature-programmed exploration",
+        "YSZ cells, 64/79/92 atoms",
+        "NPT; 1800 → 1200 → 300 K; 1 bar",
+        "500 ps",
+        "720",
+        "0"
+      ],
+      [
+        "Short-range dimer extension",
+        "Six pair types; two shorter separations each",
+        "DFT references",
+        "—",
+        "0",
+        "12"
+      ],
+      [
+        "High-temperature expansion",
+        "YSZ cells, 64/79/92 atoms",
+        "NPT; 2100, 2400, 2700 K; 1 bar",
+        "25/50/75/100/150/200 ps",
+        "540",
+        "15"
+      ],
+      [
+        "Compressed-cell feedback",
+        "YSZ cells at 0.80 prepared volume",
+        "NVT; 2700 K",
+        "10/20/40 ps",
+        "447",
+        "45"
+      ],
+      [
+        "Longer compressed-cell dynamics",
+        "YSZ cells at 0.80 prepared volume",
+        "NVT; 2700 K",
+        "50/100/150 ps",
+        "270",
+        "15"
+      ],
+      [
+        "Final compressed-cell expansion",
+        "YSZ cells at 0.80 prepared volume",
+        "NVT; 2700 K",
+        "200 ps",
+        "360",
+        "0"
+      ],
+      [
+        "Total",
+        "",
+        "",
+        "",
+        "4077",
+        "195"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "初始体相参考",
+        "YSZ体相参考结构",
+        "DFT参考",
+        "—",
+        "0",
+        "15"
+      ],
+      [
+        "初期温度探索",
+        "YSZ晶胞，64/79/92原子",
+        "NPT；300、1200、1800 K；1 bar",
+        "20 ps",
+        "180",
+        "45"
+      ],
+      [
+        "辅助二聚体参考",
+        "六种元素对，每种三个间距",
+        "DFT参考",
+        "—",
+        "0",
+        "18"
+      ],
+      [
+        "延长初期温度探索",
+        "YSZ晶胞，64/79/92原子",
+        "NPT；300、1200、1800 K；1 bar",
+        "50/75/100 ps",
+        "240",
+        "30"
+      ],
+      [
+        "延长NPT轨迹",
+        "YSZ晶胞，64/79/92原子",
+        "NPT；300、1200、1800 K；1 bar",
+        "100/150/200 ps",
+        "480",
+        "0"
+      ],
+      [
+        "中间温度扩展",
+        "YSZ晶胞，64/79/92原子",
+        "NPT；600、900、1500 K；1 bar",
+        "50/100/150/200 ps",
+        "360",
+        "0"
+      ],
+      [
+        "固定体积扩展",
+        "YSZ晶胞；制备晶胞体积的0.97/1.03倍",
+        "NVT；600、1200 K",
+        "50/100/150/200 ps",
+        "480",
+        "0"
+      ],
+      [
+        "变温探索",
+        "YSZ晶胞，64/79/92原子",
+        "NPT；1800→1200→300 K；1 bar",
+        "500 ps",
+        "720",
+        "0"
+      ],
+      [
+        "短程二聚体扩展",
+        "六种元素对，每种两个更短间距",
+        "DFT参考",
+        "—",
+        "0",
+        "12"
+      ],
+      [
+        "高温扩展",
+        "YSZ晶胞，64/79/92原子",
+        "NPT；2100、2400、2700 K；1 bar",
+        "25/50/75/100/150/200 ps",
+        "540",
+        "15"
+      ],
+      [
+        "压缩晶胞反馈",
+        "制备体积0.80倍的YSZ晶胞",
+        "NVT；2700 K",
+        "10/20/40 ps",
+        "447",
+        "45"
+      ],
+      [
+        "延长压缩晶胞动力学",
+        "制备体积0.80倍的YSZ晶胞",
+        "NVT；2700 K",
+        "50/100/150 ps",
+        "270",
+        "15"
+      ],
+      [
+        "最终压缩晶胞扩展",
+        "制备体积0.80倍的YSZ晶胞",
+        "NVT；2700 K",
+        "200 ps",
+        "360",
+        "0"
+      ],
+      [
+        "合计",
+        "",
+        "",
+        "",
+        "4077",
+        "195"
+      ]
+    ],
+    "widths": [
+      0.18,
+      0.21,
+      0.27,
+      0.16,
+      0.09,
+      0.09
+    ],
+    "note_en": "47 sampling blocks; 1,740 tasks; 4,272 final student training geometries.",
+    "note_zh": "对应47个采样块、1,740个任务；最终学生训练几何4,272个。",
+    "source_data": [
+      "source_data/development_lineage_20261031/THREE_TABLES_REVIEW.json",
+      "source_data/development_lineage_20261031/BLOCK_LINEAGE_148.csv",
+      "source_data/development_lineage_20261031/MATCHED_STRUCTURE_IDS.csv",
+      "source_data/development_lineage_20261031/TEACHER_REFERENCE_SNAPSHOTS.csv",
+      "source_data/development_lineage_20261031/SAMPLING_CONDITIONS.csv",
+      "source_data/development_lineage_20261031/REFERENCE_SOURCE_FILES.json"
+    ]
+  },
+  {
+    "stem": "development_stages_mil",
+    "number": 3,
+    "section": 1,
+    "title_en": "MIL-120–CO₂ development stages contributing to the final training set.",
+    "title_zh": "形成最终训练集的MIL-120–CO₂开发阶段。",
+    "headers": [
+      "Stage",
+      "Initial configurations",
+      "Sampling conditions",
+      "Sampling length",
+      "New teacher-labelled geometries",
+      "New DFT reference geometries"
+    ],
+    "headers_zh": [
+      "开发阶段",
+      "起始结构",
+      "采样条件",
+      "采样长度",
+      "新增教师标注几何",
+      "新增DFT参考几何"
+    ],
+    "rows": [
+      [
+        "Initial framework references",
+        "Framework/guest reference structures",
+        "DFT references",
+        "—",
+        "0",
+        "30"
+      ],
+      [
+        "Framework/guest temperature exploration",
+        "A–F frameworks; 40 atoms + 0/1/2 CO₂",
+        "NVT; 100, 300, 500, 800 K",
+        "10 → 200 ps",
+        "1016",
+        "280"
+      ],
+      [
+        "Empty-framework feedback",
+        "A–F empty frameworks, 40 atoms",
+        "NVT; 100, 300, 500, 800 K",
+        "200 ps",
+        "180",
+        "40"
+      ],
+      [
+        "Larger-cell dynamics",
+        "160-atom frameworks + 0/4/8 CO₂",
+        "NVT; 100, 300, 500, 800 K initially; 300, 500 K for longer runs",
+        "10/30/50/100/150/200 ps",
+        "540",
+        "0"
+      ],
+      [
+        "Strained-framework relaxation",
+        "A–F strained frameworks + 0/1/2 CO₂",
+        "Fixed-cell FIRE; force criterion 0.02 eV Å−1",
+        "≤2000 optimizer steps",
+        "346",
+        "0"
+      ],
+      [
+        "Relaxed-framework short dynamics",
+        "Relaxed framework/guest structures",
+        "NVT; 100, 300, 500 K",
+        "5 ps",
+        "540",
+        "0"
+      ],
+      [
+        "Hydroxyl-orientation expansion",
+        "Perturbed A–F empty frameworks",
+        "Fixed-cell FIRE; force criterion 0.02 eV Å−1",
+        "≤2000 optimizer steps",
+        "360",
+        "0"
+      ],
+      [
+        "Isolated-molecule references",
+        "20 isolated CO₂ geometries",
+        "DFT references",
+        "—",
+        "0",
+        "20"
+      ],
+      [
+        "Adsorption-contact relaxation",
+        "40-atom frameworks + 1/2 CO₂",
+        "Fixed-cell FIRE; force criterion 0.02 eV Å−1",
+        "≤2000 optimizer steps",
+        "360",
+        "0"
+      ],
+      [
+        "Variable-loading exploration",
+        "160-atom frameworks; variable CO₂ loading",
+        "GCMC–NVT; 300, 500 K; 0.01, 0.05, 0.1, 0.5, 1 bar",
+        "4/8 ps MD; 40,000/80,000 MC attempts",
+        "885",
+        "0"
+      ],
+      [
+        "Isolated-atom references",
+        "Al, C, H and O atoms",
+        "DFT references",
+        "—",
+        "0",
+        "4"
+      ],
+      [
+        "Larger-framework insertion exploration",
+        "A–F empty frameworks, 160 atoms",
+        "Widom CO₂ proposals",
+        "10,000 proposals per host",
+        "240",
+        "0"
+      ],
+      [
+        "Small-framework insertion feedback",
+        "A–F empty frameworks, 40 atoms",
+        "Widom CO₂ proposals",
+        "10,000 proposals per host",
+        "1080",
+        "120"
+      ],
+      [
+        "Total",
+        "",
+        "",
+        "",
+        "5547",
+        "494"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "初始框架参考",
+        "框架／客体参考结构",
+        "DFT参考",
+        "—",
+        "0",
+        "30"
+      ],
+      [
+        "框架／客体温度探索",
+        "A–F框架；40原子框架＋0/1/2个CO₂",
+        "NVT；100、300、500、800 K",
+        "10 → 200 ps",
+        "1016",
+        "280"
+      ],
+      [
+        "空框架反馈",
+        "A–F空框架，40原子",
+        "NVT；100、300、500、800 K",
+        "200 ps",
+        "180",
+        "40"
+      ],
+      [
+        "较大晶胞动力学",
+        "160原子框架＋0/4/8个CO₂",
+        "NVT；初期100、300、500、800 K；长轨迹300、500 K",
+        "10/30/50/100/150/200 ps",
+        "540",
+        "0"
+      ],
+      [
+        "应变框架弛豫",
+        "A–F应变框架＋0/1/2个CO₂",
+        "固定晶胞FIRE；力阈值0.02 eV Å−1",
+        "≤2000 步弛豫",
+        "346",
+        "0"
+      ],
+      [
+        "弛豫框架短时动力学",
+        "弛豫后的框架／客体结构",
+        "NVT；100、300、500 K",
+        "5 ps",
+        "540",
+        "0"
+      ],
+      [
+        "羟基取向扩展",
+        "扰动后的A–F空框架",
+        "固定晶胞FIRE；力阈值0.02 eV Å−1",
+        "≤2000 步弛豫",
+        "360",
+        "0"
+      ],
+      [
+        "孤立分子参考",
+        "20个孤立CO₂几何",
+        "DFT参考",
+        "—",
+        "0",
+        "20"
+      ],
+      [
+        "吸附接触弛豫",
+        "40原子框架＋1/2个CO₂",
+        "固定晶胞FIRE；力阈值0.02 eV Å−1",
+        "≤2000 步弛豫",
+        "360",
+        "0"
+      ],
+      [
+        "变载量探索",
+        "160原子框架；可变CO₂载量",
+        "GCMC–NVT；300、500 K；0.01、0.05、0.1、0.5、1 bar",
+        "4/8 ps MD；40,000/80,000 次MC尝试",
+        "885",
+        "0"
+      ],
+      [
+        "孤立原子参考",
+        "Al、C、H、O孤立原子",
+        "DFT参考",
+        "—",
+        "0",
+        "4"
+      ],
+      [
+        "较大框架插入探索",
+        "A–F空框架，160原子",
+        "Widom CO₂插入提议",
+        "10,000 次提议／框架",
+        "240",
+        "0"
+      ],
+      [
+        "小框架插入反馈",
+        "A–F空框架，40原子",
+        "Widom CO₂插入提议",
+        "10,000 次提议／框架",
+        "1080",
+        "120"
+      ],
+      [
+        "合计",
+        "",
+        "",
+        "",
+        "5547",
+        "494"
+      ]
+    ],
+    "widths": [
+      0.18,
+      0.21,
+      0.27,
+      0.16,
+      0.09,
+      0.09
+    ],
+    "note_en": "57 sampling blocks; 5,538 tasks; 6,041 final student training geometries. The 5,561 high-support selections correspond to 5,547 unique retained geometries. The final teacher subsequently labelled all 6,041 final geometries without further geometry acquisition.",
+    "note_zh": "对应57个采样块、5,538个任务；最终学生训练几何6,041个。 5,561次高支持选择对应5,547个去重后保留几何。最终教师随后对全部6,041个最终几何统一标注，未因此新增几何。",
+    "source_data": [
+      "source_data/development_lineage_20261031/THREE_TABLES_REVIEW.json",
+      "source_data/development_lineage_20261031/BLOCK_LINEAGE_148.csv",
+      "source_data/development_lineage_20261031/MATCHED_STRUCTURE_IDS.csv",
+      "source_data/development_lineage_20261031/TEACHER_REFERENCE_SNAPSHOTS.csv",
+      "source_data/development_lineage_20261031/SAMPLING_CONDITIONS.csv",
+      "source_data/development_lineage_20261031/REFERENCE_SOURCE_FILES.json"
+    ]
+  }
+]

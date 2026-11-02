@@ -1,0 +1,5 @@
+composition,method,T_low_C,T_high_C,T_low_K,T_high_K,linear_CTE_1e6_per_K,definition,primary_table,pdf_page,printed_page
+8YSZ,HT-XRD,30,800,303.15,1073.15,10.51,temperature-window lattice expansion coefficient,Gao 2016 dissertation Table 2.1,48,32
+10YSZ,HT-XRD,30,800,303.15,1073.15,10.56,temperature-window lattice expansion coefficient,Gao 2016 dissertation Table 2.1,48,32
+8YSZ,TMA,30,900,303.15,1173.15,10.31,mean linear expansion from straight-line thermal strain fit,Gao 2016 dissertation Table 2.1,48,32
+10YSZ,TMA,30,900,303.15,1173.15,10.38,mean linear expansion from straight-line thermal strain fit,Gao 2016 dissertation Table 2.1,48,32

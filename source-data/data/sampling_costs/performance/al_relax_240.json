@@ -1,0 +1,73 @@
+{
+  "group": "al_relax_240",
+  "kind": "relax",
+  "parallel": 4,
+  "percentage": 25,
+  "tag": "confirm",
+  "aggregate_rate": 62.828575148183056,
+  "rates": [
+    64.29830439538901,
+    62.828575148183056,
+    62.1339707719804
+  ],
+  "client_timings": [
+    [
+      {
+        "seconds": 4.662563847959973,
+        "work": 75
+      },
+      {
+        "seconds": 4.773950172006153,
+        "work": 75
+      },
+      {
+        "seconds": 4.828276645974256,
+        "work": 75
+      }
+    ],
+    [
+      {
+        "seconds": 4.662688573007472,
+        "work": 75
+      },
+      {
+        "seconds": 4.7737883479567245,
+        "work": 75
+      },
+      {
+        "seconds": 4.827889099018648,
+        "work": 75
+      }
+    ],
+    [
+      {
+        "seconds": 4.6657528969226405,
+        "work": 75
+      },
+      {
+        "seconds": 4.774897398077883,
+        "work": 75
+      },
+      {
+        "seconds": 4.827753255027346,
+        "work": 75
+      }
+    ],
+    [
+      {
+        "seconds": 4.662757641985081,
+        "work": 75
+      },
+      {
+        "seconds": 4.773611897951923,
+        "work": 75
+      },
+      {
+        "seconds": 4.827896143076941,
+        "work": 75
+      }
+    ]
+  ],
+  "units_per_repeat": 75,
+  "path": "/tmp/neo_sampling_speed_20261019/benchmarks/al_relax_240/p4_cap25_confirm"
+}

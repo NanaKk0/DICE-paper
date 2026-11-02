@@ -1,0 +1,3 @@
+model_state,phase,displacements,wall_seconds,frequency_MAE_THz,frequency_P95_THz,frequency_max_THz,mean_eigenvector_overlap,imaginary_classification_fraction,VDOS_W1_THz
+al_direct500k,alpha,7,12.591,0.2373848453730824,0.8141775281657502,1.3700446734081169,0.944749450068784,1.0,0.2323662144037973
+al_final4_expanded_500k,alpha,7,12.853,0.0490118193105671,0.1202472820250086,0.6770817522570489,0.9831956561876074,1.0,0.0309210853975541

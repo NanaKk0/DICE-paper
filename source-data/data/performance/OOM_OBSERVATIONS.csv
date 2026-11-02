@@ -1,0 +1,7 @@
+system,model,atoms,status,source
+al2o3,Neo,7680,GPU_OOM,original locked Al2O3 benchmark
+al2o3,Nano,15728640,GPU_OOM,original locked Al2O3 benchmark
+mil,Neo,10240,GPU_OOM,/home/drq/DICE/analysis/verify/benchmark/dpa4_neo_nano_nvt_scaling_20261027_v1/mil_ysz_extension_20261029/mil/jobs/Neo_000010240/screen.log
+mil,Nano,20971520,GPU_OOM,/home/drq/DICE/analysis/verify/benchmark/dpa4_neo_nano_nvt_scaling_20261027_v1/mil_ysz_extension_20261029/mil/jobs/Nano_020971520/screen.log
+ysz,Neo,10112,GPU_OOM,/home/drq/DICE/analysis/verify/benchmark/dpa4_neo_nano_nvt_scaling_20261027_v1/mil_ysz_extension_20261029/ysz/jobs/Neo_000010112/screen.log
+ysz,Nano,20709376,GPU_OOM,/home/drq/DICE/analysis/verify/benchmark/dpa4_neo_nano_nvt_scaling_20261027_v1/mil_ysz_extension_20261029/ysz/jobs/Nano_020709376/screen.log

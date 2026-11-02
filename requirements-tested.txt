@@ -1,0 +1,5 @@
+# Numerical checks and legacy diagnostic replot on Python 3.10.20.
+# Full paper-panel rendering environment: docs/FIGURE_ENVIRONMENT.md.
+numpy==1.26.4
+pandas==2.3.3
+matplotlib==3.10.9

@@ -1,0 +1,11 @@
+student_round,training_geometries,newly_added_liquid_amorphous,cumulative_liquid_amorphous,source_sampling_round,source_class
+2,940,0,0,,before expansion
+3,980,40,40,2,melt frontier
+4,1020,40,80,3,melt frontier
+5,1070,50,130,4,melt frontier
+6,1120,50,180,5,melt frontier
+7,1170,50,230,6,melt frontier
+8,1220,50,280,7,low-density melt/cool
+9,1270,50,330,8,low-density melt/cool
+10,1320,50,380,9,low-density melt/cool
+11,1400,0,380,,other additions

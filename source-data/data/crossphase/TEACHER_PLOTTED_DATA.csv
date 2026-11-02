@@ -1,0 +1,3 @@
+model,frames,atoms,force_component_RMSE_eV_A
+Pretrained teacher,120,14400,0.07402657040476815
+Adapted teacher,120,14400,0.05057913572319934
