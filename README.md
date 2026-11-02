@@ -87,7 +87,7 @@ python reproduce.py verify --output-dir /path/to/results/verify
 The figure/table reconstruction commands use the numerical source data bundled
 with this repository.
 
-The reserved research-archive identifier is
+The research-archive identifier is
 [10.5281/zenodo.23885754](https://doi.org/10.5281/zenodo.23885754).
 
 ## Licences

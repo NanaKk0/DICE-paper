@@ -7,7 +7,7 @@
 | Reconstruct paper figures, tables and numerical checks | DICE-paper.zip or the public DICE-paper repository |
 
 The Zenodo deposit contains four ZIPs: DICE-software.zip, DICE-paper.zip,
-DICE-models.zip and DICE-datasets.zip. The reserved archive identifier is
+DICE-models.zip and DICE-datasets.zip. The archive identifier is
 [10.5281/zenodo.23885754](https://doi.org/10.5281/zenodo.23885754).
 Extract the model and dataset archives into the same parent directory; they share
 research-assets/. DATASET_SUMMARY.csv lists labelled files and counts.
