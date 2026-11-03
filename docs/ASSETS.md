@@ -8,7 +8,7 @@
 
 The Zenodo deposit contains four ZIPs: DICE-software.zip, DICE-paper.zip,
 DICE-models.zip and DICE-datasets.zip. The archive identifier is
-[10.5281/zenodo.23885754](https://doi.org/10.5281/zenodo.23885754).
+[10.5281/zenodo.23885754](https://doi.org/10.5281/zenodo.23906093).
 Extract the model and dataset archives into the same parent directory; they share
 research-assets/. DATASET_SUMMARY.csv lists labelled files and counts.
 MODEL_IDENTITY.csv and MODEL_CARDS.json describe model roles, native type maps

@@ -88,10 +88,15 @@ The figure/table reconstruction commands use the numerical source data bundled
 with this repository.
 
 The research-archive identifier is
-[10.5281/zenodo.23885754](https://doi.org/10.5281/zenodo.23885754).
+[10.5281/zenodo.23885754](https://doi.org/10.5281/zenodo.23906093).
 
 ## Licences
 
 Source code is licensed under MIT. Author-owned data, figures and documentation
 are licensed under CC BY 4.0. Study model weights carry CC BY-NC 4.0.
 See [LICENSING.md](LICENSING.md) for scope and attribution.
+
+## Physical-validation inputs
+
+[Structure and endpoint index](docs/VALIDATION.md) links the paper figures
+to the native inputs and saved configurations in DICE-datasets.zip.
