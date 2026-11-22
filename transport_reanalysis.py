@@ -15,11 +15,7 @@ def verify_transport(a, output):
     p = p.assign(recomputed_sigma_NE_S_cm=sigma)
     means = p.groupby(['T','comp']).agg(mean=('recomputed_sigma_NE_S_cm','mean'),
                                       SD=('recomputed_sigma_NE_S_cm','std'))
-    # Locate the exact archived 25-condition summary through the curated registry.
-    candidates = [x['file'] for x in a.registry['files'] if x['file'] == 'data/ysz/NE_summary.csv']
-    if len(candidates) != 1:
-        raise ValueError('Expected one NE condition summary')
-    expected = a.csv(candidates[0]).set_index(['T','comp']).loc[means.index]
+    expected = a.csv('data/ysz/NE_summary.csv').set_index(['T','comp']).loc[means.index]
     assert_close(means['mean'], expected.sigma_NE_mean_S_cm, 'NE condition means')
     assert_close(means.SD, expected.sigma_NE_SD_S_cm, 'NE condition sample SD')
     p.to_csv(output/'NE_preparation_reanalysis.csv', index=False)

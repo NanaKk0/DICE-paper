@@ -1,8 +1,4 @@
-"""Data-derived verification figures, not facsimiles of approved paper artwork.
-
-All observations remain archived. Curves summarize all five selection repeats with
-sample SD (not five training seeds). No new bootstrap or scientific simulation.
-"""
+"""Plotting utilities for error distributions and material-property data."""
 from __future__ import annotations
 
 import json

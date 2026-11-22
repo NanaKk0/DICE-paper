@@ -21,5 +21,5 @@ Foundation sources:
 - DPA4C-Nano and model documentation:
   https://docs.deepmodeling.com/projects/deepmd/en/latest/model/dpa4c.html
 
-MODEL_CARDS.json records each study model's architecture, role, native
-species map and runtime requirements.
+The research archive's MODEL_IDENTITY.csv identifies the trained models;
+MODEL_USE.md in the paper package records the model-reading requirements.

@@ -1,69 +1,52 @@
-# DICE paper evidence and reproduction
+# DICE paper data and analysis
 
-Source data, approved figures and CPU reproduction code for the DICE study.
-This snapshot follows the manuscript and Supplementary Information of 22 November 2026.
+Numerical source data and analysis code accompanying the DICE study.
 
-[DICE software](https://github.com/NanaKk0/DICE) ·
-[Figure and table index](FIGURE_TABLE_MAP.csv) ·
-[Approved artwork](source-data/artwork/) ·
-[Labelled datasets and models](docs/ASSETS.md)
+## Figures and statistics
 
-## Reproduce
-
-Use Python 3.10 or newer, install `requirements.txt`, and provide a licensed
-Arial font visible to Matplotlib. CairoSVG also uses the system Cairo library.
+Use Python 3.10 or newer. Figure rendering uses Arial and the system Cairo
+library through CairoSVG.
 
 ```sh
 python -m pip install -r requirements.txt
-python reproduce.py verify --output-dir /path/to/results/verify
-python reproduce.py figures --output-dir /path/to/results/figures
-python reproduce.py tables --output-dir /path/to/results/tables
-python reproduce.py main_table --output-dir /path/to/results/main-table
+python reproduce.py figures --output-dir ../dice-results/figures
+python reproduce.py summary --output-dir ../dice-results/statistics
+python reproduce.py tables --output-dir ../dice-results/tables
+python reproduce.py main_table --output-dir ../dice-results/main-table
 ```
 
-The commands use the numerical inputs in `source-data/`. Choose an output
-directory outside the code and data directories. Select one figure with
-`--figure main:3` or `--figure supplement:2` on the `figures` command.
+Select one figure with `--figure main:3` or `--figure supplement:2` on the
+`figures` command. `reexport` exports the editable figure artwork.
 
-## Contents
+- [DATA_REGISTRY.json](source-data/DATA_REGISTRY.json) maps the seven main
+  figures, thirteen supplementary figures and five supplementary tables to inputs.
+- [Numerical definitions](NUMERICAL_DEFINITIONS.md) specifies comparisons,
+  statistical calculations, structural analyses and exploration-cost accounting.
+- `source-data/data/` contains the numerical observations and repeat-level results.
+- `source-data/artwork/` contains editable SVG figures.
 
-- Seven main figures and thirteen supplementary figures, including editable SVG artwork.
-- Main Table 1 and five supplementary tables.
-- Five-repeat 70-frame teacher-update comparisons and QBC/GMM student comparisons.
-- Structural, local-environment and learning-curve evidence for Al₂O₃.
-- Production-model accuracy and material-property observations for three systems.
-- Development-exploration work records and startup-inclusive teacher-time estimates.
+## Models and configurations
 
-`verify` recalculates quantitative summaries and checks the registered files.
-`figures` reconstructs numerical panels from their observations; `reexport`
-copies the exact approved artwork. See [the figure guide](docs/PAPER_FIGURES.md)
-and [numerical definitions](docs/NUMERICAL_DEFINITIONS.md).
+The [research archive](https://doi.org/10.5281/zenodo.24434917) contains:
 
-```sh
-python reproduce.py reexport --output-dir /path/to/results/approved-artwork
-python -m unittest discover -s tests
-```
+| Package | Contents |
+| --- | --- |
+| DICE-paper.zip | This repository |
+| DICE-models.zip | Eleven trained `.pt` checkpoints and their model index |
+| DICE-datasets.zip | Labelled reference/training/test configurations and physical-validation inputs |
+| DICE-software.zip | The DICE workflow software |
 
-## Research assets
+Extract the model and dataset packages into the same directory. Their contents
+use the shared `research-assets/` directory. `MODEL_IDENTITY.csv` identifies
+checkpoints and `DATASET_SUMMARY.csv` identifies datasets and frame ranges.
+[MODEL_USE.md](MODEL_USE.md) gives the model-reading and evaluation entry points.
 
-The archive comprises `DICE-software.zip`, `DICE-paper.zip`,
-`DICE-models.zip` and `DICE-datasets.zip`. The model and dataset packages
-share the extracted `research-assets/` directory. Extract the model package
-first and the dataset package second. They contain eleven
-trained `.pt` checkpoints, labelled reference/training/test configurations, and the
-structures and inputs indexed in [VALIDATION.md](docs/VALIDATION.md).
-
-```sh
-python restore_assets.py /path/to/research-assets --restore --require-all --verify
-```
-
-[MODEL_USE.md](MODEL_USE.md) describes checkpoint evaluation and local deployment
-export with DeePMD-kit 3.2.0+g3b2555c46.
-The restricted research archive is
-[10.5281/zenodo.24434161](https://doi.org/10.5281/zenodo.24434161).
+Physical-validation files are under `research-assets/validation/`;
+`validation/INDEX.csv` maps structures and calculation inputs to figures.
+Paths in this index are relative to `research-assets/`.
 
 ## Licences
 
 Code: MIT. Author-owned data, figures and documentation: CC BY 4.0.
-Model weights: the terms and attribution in [MODEL_LICENSE.md](MODEL_LICENSE.md).
+Model terms and attribution are in [MODEL_LICENSE.md](MODEL_LICENSE.md).
 See [LICENSING.md](LICENSING.md) for scope.

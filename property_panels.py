@@ -1,11 +1,4 @@
-"""Paper-panel reconstruction from frozen source data (Python/matplotlib).
-
-Adapted from the original paper's plotting loops. No model execution, new
-projection, alignment, fit, bootstrap or scientific sampling. Approved artwork
-is never overwritten. Fig1 is an explicitly labelled editable-source export.
-Primary evidence contract: T03 model comparisons; T09 spectra supply the
-distinct downstream validation role. Original panel identities are preserved.
-"""
+"""Reconstruct material-property and model-comparison panels from source data."""
 from __future__ import annotations
 
 import json

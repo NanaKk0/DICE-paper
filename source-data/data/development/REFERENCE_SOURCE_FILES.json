@@ -2,7 +2,6 @@
   {
     "system": "Al2O3/AL3",
     "kind": "teacher_train_bootstrap",
-    "path": "/home/drq/DICE-isolated/Al2O3/AL3/configs/assets/data/iter0_bootstrap_clean_v2_20.extxyz",
     "n": 20,
     "in_final": 20,
     "ids": [
@@ -31,7 +30,6 @@
   {
     "system": "Al2O3/AL3",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/Al2O3/AL3/iter0/fp/al2o3-fp-r2.xyz",
     "n": 20,
     "in_final": 20,
     "ids": [
@@ -60,7 +58,6 @@
   {
     "system": "Al2O3/AL3",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/Al2O3/AL3/iter1/fp/al2o3-fp-r1.xyz",
     "n": 20,
     "in_final": 20,
     "ids": [
@@ -89,7 +86,6 @@
   {
     "system": "Al2O3/AL3",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/Al2O3/AL3/iter2/fp/al2o3-fp-r1.xyz",
     "n": 20,
     "in_final": 20,
     "ids": [
@@ -118,7 +114,6 @@
   {
     "system": "Al2O3/AL3",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/Al2O3/AL3/iter3/fp/al2o3-fp-r1.xyz",
     "n": 20,
     "in_final": 20,
     "ids": [
@@ -147,7 +142,6 @@
   {
     "system": "Al2O3/AL3",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/Al2O3/AL3/iter4/fp/al2o3-fp-r1.xyz",
     "n": 20,
     "in_final": 20,
     "ids": [
@@ -176,7 +170,6 @@
   {
     "system": "Al2O3/AL3",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/Al2O3/AL3/iter5/fp/al2o3-fp-r1.xyz",
     "n": 20,
     "in_final": 20,
     "ids": [
@@ -205,7 +198,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "teacher_train_bootstrap",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/fp/bootstrap_ysz.extxyz",
     "n": 15,
     "in_final": 15,
     "ids": [
@@ -229,7 +221,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "teacher_train_bootstrap",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/dimers_vasp_pbesol/dimers_18_vasp.extxyz",
     "n": 18,
     "in_final": 18,
     "ids": [
@@ -256,7 +247,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "teacher_train_bootstrap",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/dimers_vasp_pbesol/extension_075_080/labels_vasp.extxyz",
     "n": 12,
     "in_final": 12,
     "ids": [
@@ -277,7 +267,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/fp/iter0_fp15_vasp.extxyz",
     "n": 15,
     "in_final": 15,
     "ids": [
@@ -301,7 +290,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/fp/iter1_fp15_vasp.extxyz",
     "n": 15,
     "in_final": 15,
     "ids": [
@@ -325,7 +313,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/fp/iter2_fp15_vasp.extxyz",
     "n": 15,
     "in_final": 15,
     "ids": [
@@ -349,7 +336,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/fp/iter3_fp15_vasp.extxyz",
     "n": 15,
     "in_final": 15,
     "ids": [
@@ -373,7 +359,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/fp/iter4_fp15_vasp.extxyz",
     "n": 15,
     "in_final": 15,
     "ids": [
@@ -397,7 +382,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/fp/iter6_fp15_vasp.extxyz",
     "n": 15,
     "in_final": 15,
     "ids": [
@@ -421,7 +405,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/fp/iter7_r3_nvt_v080_fp15_vasp.extxyz",
     "n": 15,
     "in_final": 15,
     "ids": [
@@ -445,7 +428,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/fp/iter8_r2_v080_fp15_vasp.extxyz",
     "n": 15,
     "in_final": 15,
     "ids": [
@@ -469,7 +451,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/fp/iter9_r1_v080_fp15_vasp.extxyz",
     "n": 15,
     "in_final": 15,
     "ids": [
@@ -493,7 +474,6 @@
   {
     "system": "YSZ/AL2",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/YSZ/AL2/fp/iter10_r2_v080_fp15_vasp.extxyz",
     "n": 15,
     "in_final": 15,
     "ids": [
@@ -517,7 +497,6 @@
   {
     "system": "MOF-MIL-120",
     "kind": "teacher_train_bootstrap",
-    "path": "/home/drq/DICE-isolated/MOF-MIL-120/iter13/relabel_p40_1000ev_teacher350_v1/teacher350.p40-v4-1000ev.fp.extxyz",
     "n": 350,
     "in_final": 350,
     "ids": [
@@ -876,7 +855,6 @@
   {
     "system": "MOF-MIL-120",
     "kind": "teacher_train_bootstrap",
-    "path": "/home/drq/DICE-isolated/MOF-MIL-120/plan/iter15_widom_v1/teacher_import/isolated_atoms_dft.extxyz",
     "n": 4,
     "in_final": 4,
     "ids": [
@@ -889,7 +867,6 @@
   {
     "system": "MOF-MIL-120",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/MOF-MIL-120/analysis/co2_gas_anchor20_strict1000_v1/co2_gas_anchor20.strict1000.labels.extxyz",
     "n": 20,
     "in_final": 20,
     "ids": [
@@ -918,7 +895,6 @@
   {
     "system": "MOF-MIL-120",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/MOF-MIL-120/iter15/fp/label/p40_r2_1000ev.labeled.extxyz",
     "n": 30,
     "in_final": 30,
     "ids": [
@@ -957,7 +933,6 @@
   {
     "system": "MOF-MIL-120",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/MOF-MIL-120/iter16/fp/label/p40_1000ev.labeled.extxyz",
     "n": 30,
     "in_final": 30,
     "ids": [
@@ -996,7 +971,6 @@
   {
     "system": "MOF-MIL-120",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/MOF-MIL-120/iter17/fp/label/p40_1000ev.labeled.extxyz",
     "n": 30,
     "in_final": 30,
     "ids": [
@@ -1035,7 +1009,6 @@
   {
     "system": "MOF-MIL-120",
     "kind": "fp_data",
-    "path": "/home/drq/DICE-isolated/MOF-MIL-120/iter18/fp/label/p40_1000ev.labeled.extxyz",
     "n": 30,
     "in_final": 30,
     "ids": [

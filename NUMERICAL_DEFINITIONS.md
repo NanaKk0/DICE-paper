@@ -46,7 +46,8 @@ seeds; the other routed comparisons vary configuration selection.
 
 The four structure groups contain 140 teacher references, 940 earlier student
 geometries, 380 additions and 120 independent tests. The additions are
-zero-based frames 940–1319 of the archived S1320 training file. In iteration 6,
+zero-based frames 940–1319 of `crossphase/S1320_training.extxyz`; its first
+940 frames form the earlier student training set. In iteration 6,
 the teacher is fixed while student cycles r0–r27 are evaluated; the additions
 enter during r3–r10. The saved t-SNE coordinates retain every Al and O point.
 Neighbourhood mixing is 4u(1−u), where u is the teacher fraction after

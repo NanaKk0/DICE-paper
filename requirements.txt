@@ -2,3 +2,4 @@ numpy>=1.24
 pandas>=2.0
 matplotlib>=3.5.3
 CairoSVG>=2.5
+Pillow>=9

@@ -2,12 +2,7 @@
   "reference_frames": 140,
   "test_frames": 120,
   "source_radius_A": 2.8,
-  "reference_source": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/teach/train/dataset/train.xyz",
-  "query_source": "/home/drq/DICE/analysis/al_cross_phase_local_support_20261024_v1/relabel_random120/relabelled.extxyz",
-  "reference_sha256": "afe470338db0e48a62191c7e012a7627a1732d4131c93c4e52a0d59df0992759",
-  "query_sha256": "d43da1b63f37736b5c0febbececf31abe6f89c64c0ed2bf610c9fb150bb0b1b1",
   "selection_rule": "Within each coordination class, minimize O-position RMSD across the teacher training and test environments; centre Al atoms coincide, all O permutations and proper rotations allowed.",
-  "candidate_pruning": "Rotation/permutation invariant radial and O-O-distance lower bounds; all candidates capable of improving the incumbent are exactly checked.",
   "pairs": [
     {
       "coordination": 4,

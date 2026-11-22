@@ -9,7 +9,6 @@
     "logged_elapsed_seconds": "266",
     "start_line": "59",
     "success_line": "4656",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter0/status.log",
     "summary": "backend=LAMMPS shape=single tasks=8 systems=996 temperatures=2 steps=1600 elapsed=00:04:26"
   },
   {
@@ -22,7 +21,6 @@
     "logged_elapsed_seconds": "260",
     "start_line": "4849",
     "success_line": "9433",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter0/status.log",
     "summary": "backend=LAMMPS shape=single tasks=8 systems=996 temperatures=2 steps=1600 elapsed=00:04:20"
   },
   {
@@ -35,7 +33,6 @@
     "logged_elapsed_seconds": "1242",
     "start_line": "51",
     "success_line": "5032",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter1/status.log",
     "summary": "backend=LAMMPS shape=single tasks=8 systems=996 temperatures=2 steps=1600 elapsed=00:20:42"
   },
   {
@@ -48,7 +45,6 @@
     "logged_elapsed_seconds": "1256",
     "start_line": "5072",
     "success_line": "10006",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter1/status.log",
     "summary": "backend=LAMMPS shape=single tasks=8 systems=996 temperatures=2 steps=1600 elapsed=00:20:56"
   },
   {
@@ -61,7 +57,6 @@
     "logged_elapsed_seconds": "268",
     "start_line": "57",
     "success_line": "4660",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter2/status.log",
     "summary": "backend=LAMMPS shape=single tasks=8 systems=996 temperatures=6 steps=1600 elapsed=00:04:28"
   },
   {
@@ -74,7 +69,6 @@
     "logged_elapsed_seconds": "268",
     "start_line": "4700",
     "success_line": "9269",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter2/status.log",
     "summary": "backend=LAMMPS shape=single tasks=8 systems=996 temperatures=6 steps=1600 elapsed=00:04:28"
   },
   {
@@ -87,7 +81,6 @@
     "logged_elapsed_seconds": "528",
     "start_line": "9309",
     "success_line": "18492",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter2/status.log",
     "summary": "backend=LAMMPS shape=single tasks=8 systems=996 temperatures=6 steps=3200 elapsed=00:08:48"
   },
   {
@@ -100,7 +93,6 @@
     "logged_elapsed_seconds": "552",
     "start_line": "18532",
     "success_line": "27779",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter2/status.log",
     "summary": "backend=LAMMPS shape=single tasks=8 systems=996 temperatures=6 steps=3200 elapsed=00:09:12"
   },
   {
@@ -113,7 +105,6 @@
     "logged_elapsed_seconds": "574",
     "start_line": "57",
     "success_line": "10247",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter3/status.log",
     "summary": "backend=LAMMPS shape=single tasks=20 systems=1108 temperatures=4 steps=4000 elapsed=00:09:34"
   },
   {
@@ -126,7 +117,6 @@
     "logged_elapsed_seconds": "592",
     "start_line": "10287",
     "success_line": "20420",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter3/status.log",
     "summary": "backend=LAMMPS shape=single tasks=20 systems=1108 temperatures=4 steps=4000 elapsed=00:09:52"
   },
   {
@@ -139,7 +129,6 @@
     "logged_elapsed_seconds": "643",
     "start_line": "20460",
     "success_line": "30405",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter3/status.log",
     "summary": "backend=LAMMPS shape=single tasks=20 systems=1108 temperatures=4 steps=4000 elapsed=00:10:43"
   },
   {
@@ -152,7 +141,6 @@
     "logged_elapsed_seconds": "548",
     "start_line": "58",
     "success_line": "10267",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter4/status.log",
     "summary": "backend=LAMMPS shape=single tasks=20 systems=1108 temperatures=4 steps=4000 elapsed=00:09:08"
   },
   {
@@ -165,7 +153,6 @@
     "logged_elapsed_seconds": "553",
     "start_line": "10307",
     "success_line": "20371",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter4/status.log",
     "summary": "backend=LAMMPS shape=single tasks=20 systems=1108 temperatures=4 steps=4000 elapsed=00:09:13"
   },
   {
@@ -178,7 +165,6 @@
     "logged_elapsed_seconds": "540",
     "start_line": "20411",
     "success_line": "30647",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter4/status.log",
     "summary": "backend=LAMMPS shape=single tasks=20 systems=1108 temperatures=4 steps=4000 elapsed=00:09:00"
   },
   {
@@ -191,7 +177,6 @@
     "logged_elapsed_seconds": "829",
     "start_line": "57",
     "success_line": "10652",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=1165 temperatures=4 steps=4800 elapsed=00:13:49"
   },
   {
@@ -204,7 +189,6 @@
     "logged_elapsed_seconds": "604",
     "start_line": "10692",
     "success_line": "21302",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=1165 temperatures=4 steps=4800 elapsed=00:10:04"
   },
   {
@@ -217,7 +201,6 @@
     "logged_elapsed_seconds": "588",
     "start_line": "58",
     "success_line": "10557",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=1165 temperatures=4 steps=4800 elapsed=00:09:48"
   },
   {
@@ -230,7 +213,6 @@
     "logged_elapsed_seconds": "582",
     "start_line": "10597",
     "success_line": "21069",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=1165 temperatures=4 steps=4800 elapsed=00:09:42"
   },
   {
@@ -243,7 +225,6 @@
     "logged_elapsed_seconds": "370",
     "start_line": "21130",
     "success_line": "21225",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=32 temperatures=5 steps=100000 elapsed=00:06:10"
   },
   {
@@ -256,7 +237,6 @@
     "logged_elapsed_seconds": "370",
     "start_line": "21265",
     "success_line": "21361",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=32 temperatures=5 steps=100000 elapsed=00:06:10"
   },
   {
@@ -269,7 +249,6 @@
     "logged_elapsed_seconds": "1100",
     "start_line": "21412",
     "success_line": "21700",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=32 temperatures=8 steps=300000 elapsed=00:18:20"
   },
   {
@@ -282,7 +261,6 @@
     "logged_elapsed_seconds": "1102",
     "start_line": "21740",
     "success_line": "22027",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=32 temperatures=8 steps=300000 elapsed=00:18:22"
   },
   {
@@ -295,7 +273,6 @@
     "logged_elapsed_seconds": "1100",
     "start_line": "22067",
     "success_line": "22357",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=32 temperatures=8 steps=300000 elapsed=00:18:20"
   },
   {
@@ -308,7 +285,6 @@
     "logged_elapsed_seconds": "433",
     "start_line": "22408",
     "success_line": "22432",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=4 temperatures=10 steps=710000 elapsed=00:07:13"
   },
   {
@@ -321,7 +297,6 @@
     "logged_elapsed_seconds": "433",
     "start_line": "22472",
     "success_line": "22496",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=4 temperatures=10 steps=710000 elapsed=00:07:13"
   },
   {
@@ -334,7 +309,6 @@
     "logged_elapsed_seconds": "591",
     "start_line": "22536",
     "success_line": "22562",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=4 temperatures=10 steps=710000 elapsed=00:09:51"
   },
   {
@@ -347,7 +321,6 @@
     "logged_elapsed_seconds": "1949",
     "start_line": "22613",
     "success_line": "24185",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=18 systems=32 temperatures=28 steps=360000 elapsed=00:32:29"
   },
   {
@@ -360,7 +333,6 @@
     "logged_elapsed_seconds": "2783",
     "start_line": "24225",
     "success_line": "25739",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=18 systems=32 temperatures=28 steps=540000 elapsed=00:46:23"
   },
   {
@@ -373,7 +345,6 @@
     "logged_elapsed_seconds": "3594",
     "start_line": "25779",
     "success_line": "27326",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=18 systems=32 temperatures=28 steps=720000 elapsed=00:59:54"
   },
   {
@@ -386,7 +357,6 @@
     "logged_elapsed_seconds": "122",
     "start_line": "28775",
     "success_line": "29013",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=7 systems=13 temperatures=61 steps=140000 elapsed=00:02:02"
   },
   {
@@ -399,7 +369,6 @@
     "logged_elapsed_seconds": "174",
     "start_line": "29053",
     "success_line": "29287",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=7 systems=13 temperatures=61 steps=210000 elapsed=00:02:54"
   },
   {
@@ -412,7 +381,6 @@
     "logged_elapsed_seconds": "223",
     "start_line": "29327",
     "success_line": "29560",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=7 systems=13 temperatures=61 steps=280000 elapsed=00:03:43"
   },
   {
@@ -425,7 +393,6 @@
     "logged_elapsed_seconds": "31",
     "start_line": "29611",
     "success_line": "29617",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=ASE shape=single tasks=1 systems=39 temperatures=0 steps=400 kinds=relax:1 elapsed=00:00:31"
   },
   {
@@ -438,7 +405,6 @@
     "logged_elapsed_seconds": "30",
     "start_line": "29657",
     "success_line": "29663",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=ASE shape=single tasks=1 systems=39 temperatures=0 steps=400 kinds=relax:1 elapsed=00:00:30"
   },
   {
@@ -451,7 +417,6 @@
     "logged_elapsed_seconds": "108",
     "start_line": "29703",
     "success_line": "29721",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=4 systems=1 temperatures=4 steps=200000 kinds=nvt:4 elapsed=00:01:48"
   },
   {
@@ -464,7 +429,6 @@
     "logged_elapsed_seconds": "108",
     "start_line": "29761",
     "success_line": "29779",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=4 systems=1 temperatures=4 steps=200000 kinds=nvt:4 elapsed=00:01:48"
   },
   {
@@ -477,7 +441,6 @@
     "logged_elapsed_seconds": "361",
     "start_line": "29819",
     "success_line": "29870",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=3 systems=5 temperatures=3 steps=150000 kinds=nvt:3 elapsed=00:06:01"
   },
   {
@@ -490,7 +453,6 @@
     "logged_elapsed_seconds": "364",
     "start_line": "29910",
     "success_line": "29961",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=3 systems=5 temperatures=3 steps=150000 kinds=nvt:3 elapsed=00:06:04"
   },
   {
@@ -503,7 +465,6 @@
     "logged_elapsed_seconds": "18",
     "start_line": "30012",
     "success_line": "30018",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=ASE shape=single tasks=2 systems=24 temperatures=0 steps=800 kinds=relax:2 elapsed=00:00:18"
   },
   {
@@ -516,7 +477,6 @@
     "logged_elapsed_seconds": "21",
     "start_line": "30058",
     "success_line": "30064",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=ASE shape=single tasks=2 systems=48 temperatures=0 steps=800 kinds=relax:2 elapsed=00:00:21"
   },
   {
@@ -529,7 +489,6 @@
     "logged_elapsed_seconds": "44",
     "start_line": "30104",
     "success_line": "30129",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=1 systems=9 temperatures=1 steps=50000 kinds=nvt:1 elapsed=00:00:44"
   },
   {
@@ -542,7 +501,6 @@
     "logged_elapsed_seconds": "43",
     "start_line": "30169",
     "success_line": "30194",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=1 systems=9 temperatures=1 steps=50000 kinds=nvt:1 elapsed=00:00:43"
   },
   {
@@ -555,7 +513,6 @@
     "logged_elapsed_seconds": "42",
     "start_line": "30234",
     "success_line": "30257",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=1 systems=8 temperatures=1 steps=50000 kinds=nvt:1 elapsed=00:00:42"
   },
   {
@@ -568,7 +525,6 @@
     "logged_elapsed_seconds": "63",
     "start_line": "30297",
     "success_line": "30338",
-    "log": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=2 systems=17 temperatures=1 steps=100000 kinds=nvt:2 elapsed=00:01:03"
   },
   {
@@ -581,7 +537,6 @@
     "logged_elapsed_seconds": "121",
     "start_line": "56",
     "success_line": "272",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter0/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=4 steps=720000 elapsed=00:02:01"
   },
   {
@@ -594,7 +549,6 @@
     "logged_elapsed_seconds": "121",
     "start_line": "56",
     "success_line": "273",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter1/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=4 steps=720000 elapsed=00:02:01"
   },
   {
@@ -607,7 +561,6 @@
     "logged_elapsed_seconds": "121",
     "start_line": "57",
     "success_line": "272",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter2/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=4 steps=720000 elapsed=00:02:01"
   },
   {
@@ -620,7 +573,6 @@
     "logged_elapsed_seconds": "195",
     "start_line": "323",
     "success_line": "530",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter2/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=8 steps=1440000 elapsed=00:03:15"
   },
   {
@@ -633,7 +585,6 @@
     "logged_elapsed_seconds": "269",
     "start_line": "57",
     "success_line": "274",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter3/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=8 steps=2160000 elapsed=00:04:29"
   },
   {
@@ -646,7 +597,6 @@
     "logged_elapsed_seconds": "345",
     "start_line": "314",
     "success_line": "532",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter3/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=8 steps=2880000 elapsed=00:05:45"
   },
   {
@@ -659,7 +609,6 @@
     "logged_elapsed_seconds": "493",
     "start_line": "57",
     "success_line": "269",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter4/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=8 steps=4320000 elapsed=00:08:13"
   },
   {
@@ -672,7 +621,6 @@
     "logged_elapsed_seconds": "644",
     "start_line": "309",
     "success_line": "527",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter4/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=8 steps=5760000 elapsed=00:10:44"
   },
   {
@@ -685,7 +633,6 @@
     "logged_elapsed_seconds": "793",
     "start_line": "57",
     "success_line": "276",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=8 steps=7200000 elapsed=00:13:13"
   },
   {
@@ -698,7 +645,6 @@
     "logged_elapsed_seconds": "945",
     "start_line": "316",
     "success_line": "533",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=8 steps=8640000 elapsed=00:15:45"
   },
   {
@@ -711,7 +657,6 @@
     "logged_elapsed_seconds": "1096",
     "start_line": "57",
     "success_line": "276",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=8 steps=10080000 elapsed=00:18:16"
   },
   {
@@ -724,7 +669,6 @@
     "logged_elapsed_seconds": "1262",
     "start_line": "316",
     "success_line": "535",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=8 steps=11520000 elapsed=00:21:02"
   },
   {
@@ -737,7 +681,6 @@
     "logged_elapsed_seconds": "1400",
     "start_line": "57",
     "success_line": "275",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter7/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=8 steps=12960000 elapsed=00:23:20"
   },
   {
@@ -750,7 +693,6 @@
     "logged_elapsed_seconds": "1548",
     "start_line": "315",
     "success_line": "534",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter7/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=8 steps=14400000 elapsed=00:25:48"
   },
   {
@@ -763,7 +705,6 @@
     "logged_elapsed_seconds": "1672",
     "start_line": "57",
     "success_line": "275",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter8/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=4 steps=14400000 elapsed=00:27:52"
   },
   {
@@ -776,7 +717,6 @@
     "logged_elapsed_seconds": "1509",
     "start_line": "315",
     "success_line": "530",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter8/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=4 steps=14400000 elapsed=00:25:09"
   },
   {
@@ -789,7 +729,6 @@
     "logged_elapsed_seconds": "1555",
     "start_line": "58",
     "success_line": "276",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter9/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=4 steps=14400000 elapsed=00:25:55"
   },
   {
@@ -802,7 +741,6 @@
     "logged_elapsed_seconds": "1558",
     "start_line": "316",
     "success_line": "534",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter9/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=4 steps=14400000 elapsed=00:25:58"
   },
   {
@@ -815,7 +753,6 @@
     "logged_elapsed_seconds": "521",
     "start_line": "69",
     "success_line": "144",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter10/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=6 temperatures=4 steps=4800000 elapsed=00:08:41"
   },
   {
@@ -828,7 +765,6 @@
     "logged_elapsed_seconds": "444",
     "start_line": "184",
     "success_line": "256",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter10/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=6 temperatures=4 steps=4800000 elapsed=00:07:24"
   },
   {
@@ -841,7 +777,6 @@
     "logged_elapsed_seconds": "468",
     "start_line": "57",
     "success_line": "125",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter11/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=6 temperatures=4 steps=4800000 elapsed=00:07:48"
   },
   {
@@ -854,7 +789,6 @@
     "logged_elapsed_seconds": "535",
     "start_line": "165",
     "success_line": "239",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter11/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=6 temperatures=4 steps=4800000 elapsed=00:08:55"
   },
   {
@@ -867,7 +801,6 @@
     "logged_elapsed_seconds": "524",
     "start_line": "65",
     "success_line": "137",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter12/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=6 temperatures=4 steps=4800000 elapsed=00:08:44"
   },
   {
@@ -880,7 +813,6 @@
     "logged_elapsed_seconds": "521",
     "start_line": "177",
     "success_line": "249",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter12/status.log",
     "summary": "backend=LAMMPS shape=single tasks=24 systems=6 temperatures=4 steps=4800000 elapsed=00:08:41"
   },
   {
@@ -893,7 +825,6 @@
     "logged_elapsed_seconds": "124",
     "start_line": "300",
     "success_line": "503",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter12/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=16 steps=720000 elapsed=00:02:04"
   },
   {
@@ -906,7 +837,6 @@
     "logged_elapsed_seconds": "273",
     "start_line": "543",
     "success_line": "744",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter12/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=16 steps=2160000 elapsed=00:04:33"
   },
   {
@@ -919,7 +849,6 @@
     "logged_elapsed_seconds": "557",
     "start_line": "784",
     "success_line": "983",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter12/status.log",
     "summary": "backend=LAMMPS shape=single tasks=72 systems=18 temperatures=16 steps=3600000 elapsed=00:09:17"
   },
   {
@@ -932,7 +861,6 @@
     "logged_elapsed_seconds": "415",
     "start_line": "1034",
     "success_line": "1144",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter12/status.log",
     "summary": "backend=LAMMPS shape=single tasks=36 systems=18 temperatures=22 steps=3600000 elapsed=00:06:55"
   },
   {
@@ -945,7 +873,6 @@
     "logged_elapsed_seconds": "608",
     "start_line": "1184",
     "success_line": "1293",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter12/status.log",
     "summary": "backend=LAMMPS shape=single tasks=36 systems=18 temperatures=22 steps=5400000 elapsed=00:10:08"
   },
   {
@@ -958,7 +885,6 @@
     "logged_elapsed_seconds": "803",
     "start_line": "1333",
     "success_line": "1444",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter12/status.log",
     "summary": "backend=LAMMPS shape=single tasks=36 systems=18 temperatures=22 steps=7200000 elapsed=00:13:23"
   },
   {
@@ -971,7 +897,6 @@
     "logged_elapsed_seconds": "254",
     "start_line": "466",
     "success_line": "472",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter13/status.log",
     "summary": "backend=ASE shape=single tasks=18 systems=144 temperatures=0 steps=36000 kinds=relax:18 elapsed=00:04:14"
   },
   {
@@ -984,7 +909,6 @@
     "logged_elapsed_seconds": "255",
     "start_line": "512",
     "success_line": "518",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter13/status.log",
     "summary": "backend=ASE shape=single tasks=18 systems=144 temperatures=0 steps=36000 kinds=relax:18 elapsed=00:04:15"
   },
   {
@@ -997,7 +921,6 @@
     "logged_elapsed_seconds": "470",
     "start_line": "575",
     "success_line": "1830",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter13/status.log",
     "summary": "backend=LAMMPS shape=single tasks=54 systems=144 temperatures=3 steps=270000 kinds=nvt:54 elapsed=00:07:50"
   },
   {
@@ -1010,7 +933,6 @@
     "logged_elapsed_seconds": "442",
     "start_line": "1870",
     "success_line": "3101",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter13/status.log",
     "summary": "backend=LAMMPS shape=single tasks=54 systems=144 temperatures=3 steps=270000 kinds=nvt:54 elapsed=00:07:22"
   },
   {
@@ -1023,7 +945,6 @@
     "logged_elapsed_seconds": "441",
     "start_line": "3141",
     "success_line": "4380",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter13/status.log",
     "summary": "backend=LAMMPS shape=single tasks=54 systems=144 temperatures=3 steps=270000 kinds=nvt:54 elapsed=00:07:21"
   },
   {
@@ -1036,7 +957,6 @@
     "logged_elapsed_seconds": "20",
     "start_line": "4436",
     "success_line": "4442",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter13/status.log",
     "summary": "backend=ASE shape=single tasks=6 systems=18 temperatures=0 steps=12000 kinds=relax:6 elapsed=00:00:20"
   },
   {
@@ -1049,7 +969,6 @@
     "logged_elapsed_seconds": "20",
     "start_line": "4482",
     "success_line": "4488",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter13/status.log",
     "summary": "backend=ASE shape=single tasks=6 systems=18 temperatures=0 steps=12000 kinds=relax:6 elapsed=00:00:20"
   },
   {
@@ -1062,7 +981,6 @@
     "logged_elapsed_seconds": "20",
     "start_line": "4528",
     "success_line": "4534",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter13/status.log",
     "summary": "backend=ASE shape=single tasks=6 systems=18 temperatures=0 steps=12000 kinds=relax:6 elapsed=00:00:20"
   },
   {
@@ -1075,7 +993,6 @@
     "logged_elapsed_seconds": "226",
     "start_line": "209",
     "success_line": "215",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter14/status.log",
     "summary": "backend=ASE shape=single tasks=12 systems=72 temperatures=0 steps=24000 kinds=relax:12 elapsed=00:03:46"
   },
   {
@@ -1088,7 +1005,6 @@
     "logged_elapsed_seconds": "249",
     "start_line": "255",
     "success_line": "261",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter14/status.log",
     "summary": "backend=ASE shape=single tasks=12 systems=72 temperatures=0 steps=24000 kinds=relax:12 elapsed=00:04:09"
   },
   {
@@ -1101,7 +1017,6 @@
     "logged_elapsed_seconds": "227",
     "start_line": "301",
     "success_line": "307",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter14/status.log",
     "summary": "backend=ASE shape=single tasks=12 systems=72 temperatures=0 steps=24000 kinds=relax:12 elapsed=00:03:47"
   },
   {
@@ -1114,7 +1029,6 @@
     "logged_elapsed_seconds": "2088",
     "start_line": "367",
     "success_line": "371",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter14/status.log",
     "summary": "backend=LAMMPS shape=single tasks=120 systems=12 temperatures=2 steps=960000 mc_attempts=4800000 kinds=gcmc_md:120 elapsed=00:34:48"
   },
   {
@@ -1127,7 +1041,6 @@
     "logged_elapsed_seconds": "4052",
     "start_line": "411",
     "success_line": "415",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter14/status.log",
     "summary": "backend=LAMMPS shape=single tasks=120 systems=12 temperatures=2 steps=1920000 mc_attempts=9600000 kinds=gcmc_md:120 elapsed=01:07:32"
   },
   {
@@ -1140,7 +1053,6 @@
     "logged_elapsed_seconds": "4056",
     "start_line": "454",
     "success_line": "458",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter14/status.log",
     "summary": "backend=LAMMPS shape=single tasks=120 systems=12 temperatures=2 steps=1920000 mc_attempts=9600000 kinds=gcmc_md:120 elapsed=01:07:36"
   },
   {
@@ -1153,7 +1065,6 @@
     "logged_elapsed_seconds": "2191",
     "start_line": "506",
     "success_line": "510",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter14/status.log",
     "summary": "backend=LAMMPS shape=single tasks=120 systems=12 temperatures=2 steps=1920000 mc_attempts=9600000 kinds=gcmc_md:120 elapsed=00:36:31"
   },
   {
@@ -1166,7 +1077,6 @@
     "logged_elapsed_seconds": "1513",
     "start_line": "550",
     "success_line": "554",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter14/status.log",
     "summary": "backend=LAMMPS shape=single tasks=120 systems=12 temperatures=2 planned_steps=1920000 planned_mc_attempts=9600000 failed_tasks=44 kinds=gcmc_md:120 elapsed=00:25:13"
   },
   {
@@ -1179,7 +1089,6 @@
     "logged_elapsed_seconds": "216",
     "start_line": "47",
     "success_line": "51",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter15/status.log",
     "summary": "backend=LAMMPS shape=single tasks=6 systems=120 temperatures=0 steps=0 kinds=widom:6 elapsed=00:03:36"
   },
   {
@@ -1192,7 +1101,6 @@
     "logged_elapsed_seconds": "219",
     "start_line": "91",
     "success_line": "95",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter15/status.log",
     "summary": "backend=LAMMPS shape=single tasks=6 systems=120 temperatures=0 steps=0 kinds=widom:6 elapsed=00:03:39"
   },
   {
@@ -1205,7 +1113,6 @@
     "logged_elapsed_seconds": "197",
     "start_line": "146",
     "success_line": "150",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter15/status.log",
     "summary": "backend=LAMMPS shape=single tasks=6 systems=120 temperatures=0 steps=0 kinds=widom:6 elapsed=00:03:17"
   },
   {
@@ -1218,7 +1125,6 @@
     "logged_elapsed_seconds": "197",
     "start_line": "78",
     "success_line": "82",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter16/status.log",
     "summary": "backend=LAMMPS shape=single tasks=6 systems=120 temperatures=0 steps=0 kinds=widom:6 elapsed=00:03:17"
   },
   {
@@ -1231,7 +1137,6 @@
     "logged_elapsed_seconds": "200",
     "start_line": "122",
     "success_line": "126",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter16/status.log",
     "summary": "backend=LAMMPS shape=single tasks=6 systems=120 temperatures=0 steps=0 kinds=widom:6 elapsed=00:03:20"
   },
   {
@@ -1244,7 +1149,6 @@
     "logged_elapsed_seconds": "199",
     "start_line": "58",
     "success_line": "62",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter17/status.log",
     "summary": "backend=LAMMPS shape=single tasks=6 systems=120 temperatures=0 steps=0 kinds=widom:6 elapsed=00:03:19"
   },
   {
@@ -1257,7 +1161,6 @@
     "logged_elapsed_seconds": "199",
     "start_line": "100",
     "success_line": "104",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter17/status.log",
     "summary": "backend=LAMMPS shape=single tasks=6 systems=120 temperatures=0 steps=0 kinds=widom:6 elapsed=00:03:19"
   },
   {
@@ -1270,7 +1173,6 @@
     "logged_elapsed_seconds": "198",
     "start_line": "58",
     "success_line": "62",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter18/status.log",
     "summary": "backend=LAMMPS shape=single tasks=6 systems=120 temperatures=0 steps=0 kinds=widom:6 elapsed=00:03:18"
   },
   {
@@ -1283,7 +1185,6 @@
     "logged_elapsed_seconds": "199",
     "start_line": "100",
     "success_line": "104",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter18/status.log",
     "summary": "backend=LAMMPS shape=single tasks=6 systems=120 temperatures=0 steps=0 kinds=widom:6 elapsed=00:03:19"
   },
   {
@@ -1296,7 +1197,6 @@
     "logged_elapsed_seconds": "199",
     "start_line": "58",
     "success_line": "62",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter19/status.log",
     "summary": "backend=LAMMPS shape=single tasks=6 systems=120 temperatures=0 steps=0 kinds=widom:6 elapsed=00:03:19"
   },
   {
@@ -1309,7 +1209,6 @@
     "logged_elapsed_seconds": "200",
     "start_line": "100",
     "success_line": "104",
-    "log": "/home/drq/DICE-isolated/MOF-MIL-120/iter19/status.log",
     "summary": "backend=LAMMPS shape=single tasks=6 systems=120 temperatures=0 steps=0 kinds=widom:6 elapsed=00:03:20"
   },
   {
@@ -1322,7 +1221,6 @@
     "logged_elapsed_seconds": "134",
     "start_line": "52",
     "success_line": "173",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter0/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=900000 kinds=npt:45 elapsed=00:02:14"
   },
   {
@@ -1335,7 +1233,6 @@
     "logged_elapsed_seconds": "133",
     "start_line": "52",
     "success_line": "169",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter1/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=900000 kinds=npt:45 elapsed=00:02:13"
   },
   {
@@ -1348,7 +1245,6 @@
     "logged_elapsed_seconds": "135",
     "start_line": "52",
     "success_line": "166",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter2/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=900000 kinds=npt:45 elapsed=00:02:15"
   },
   {
@@ -1361,7 +1257,6 @@
     "logged_elapsed_seconds": "134",
     "start_line": "204",
     "success_line": "323",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter2/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=900000 kinds=npt:45 elapsed=00:02:14"
   },
   {
@@ -1374,7 +1269,6 @@
     "logged_elapsed_seconds": "291",
     "start_line": "381",
     "success_line": "491",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter3/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=2250000 kinds=npt:45 elapsed=00:04:51"
   },
   {
@@ -1387,7 +1281,6 @@
     "logged_elapsed_seconds": "288",
     "start_line": "529",
     "success_line": "648",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter3/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=2250000 kinds=npt:45 elapsed=00:04:48"
   },
   {
@@ -1400,7 +1293,6 @@
     "logged_elapsed_seconds": "409",
     "start_line": "52",
     "success_line": "181",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter4/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=3375000 kinds=npt:45 elapsed=00:06:49"
   },
   {
@@ -1413,7 +1305,6 @@
     "logged_elapsed_seconds": "456",
     "start_line": "219",
     "success_line": "338",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter4/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=4500000 kinds=npt:45 elapsed=00:07:36"
   },
   {
@@ -1426,7 +1317,6 @@
     "logged_elapsed_seconds": "541",
     "start_line": "57",
     "success_line": "182",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=4500000 kinds=npt:45 elapsed=00:09:01"
   },
   {
@@ -1439,7 +1329,6 @@
     "logged_elapsed_seconds": "541",
     "start_line": "226",
     "success_line": "355",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=4500000 kinds=npt:45 elapsed=00:09:01"
   },
   {
@@ -1452,7 +1341,6 @@
     "logged_elapsed_seconds": "804",
     "start_line": "404",
     "success_line": "535",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=6750000 kinds=npt:45 elapsed=00:13:24"
   },
   {
@@ -1465,7 +1353,6 @@
     "logged_elapsed_seconds": "1058",
     "start_line": "573",
     "success_line": "706",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=9000000 kinds=npt:45 elapsed=00:17:38"
   },
   {
@@ -1478,7 +1365,6 @@
     "logged_elapsed_seconds": "287",
     "start_line": "755",
     "success_line": "883",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=2250000 kinds=npt:45 elapsed=00:04:47"
   },
   {
@@ -1491,7 +1377,6 @@
     "logged_elapsed_seconds": "544",
     "start_line": "921",
     "success_line": "1047",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=4500000 kinds=npt:45 elapsed=00:09:04"
   },
   {
@@ -1504,7 +1389,6 @@
     "logged_elapsed_seconds": "802",
     "start_line": "1085",
     "success_line": "1213",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=6750000 kinds=npt:45 elapsed=00:13:22"
   },
   {
@@ -1517,7 +1401,6 @@
     "logged_elapsed_seconds": "1059",
     "start_line": "1251",
     "success_line": "1382",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=9000000 kinds=npt:45 elapsed=00:17:39"
   },
   {
@@ -1530,7 +1413,6 @@
     "logged_elapsed_seconds": "302",
     "start_line": "1431",
     "success_line": "1593",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=60 systems=60 temperatures=2 steps=3000000 kinds=nvt:60 elapsed=00:05:02"
   },
   {
@@ -1543,7 +1425,6 @@
     "logged_elapsed_seconds": "567",
     "start_line": "1631",
     "success_line": "1802",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=60 systems=60 temperatures=2 steps=6000000 kinds=nvt:60 elapsed=00:09:27"
   },
   {
@@ -1556,7 +1437,6 @@
     "logged_elapsed_seconds": "828",
     "start_line": "1840",
     "success_line": "2011",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=60 systems=60 temperatures=2 steps=9000000 kinds=nvt:60 elapsed=00:13:48"
   },
   {
@@ -1569,7 +1449,6 @@
     "logged_elapsed_seconds": "1090",
     "start_line": "2049",
     "success_line": "2223",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=60 systems=60 temperatures=2 steps=12000000 kinds=nvt:60 elapsed=00:18:10"
   },
   {
@@ -1582,7 +1461,6 @@
     "logged_elapsed_seconds": "877",
     "start_line": "2261",
     "success_line": "2303",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=15 systems=15 temperatures=0 steps=7500000 kinds=npt_program:15 elapsed=00:14:37"
   },
   {
@@ -1595,7 +1473,6 @@
     "logged_elapsed_seconds": "875",
     "start_line": "2341",
     "success_line": "2384",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=15 systems=15 temperatures=0 steps=7500000 kinds=npt_program:15 elapsed=00:14:35"
   },
   {
@@ -1608,7 +1485,6 @@
     "logged_elapsed_seconds": "877",
     "start_line": "2422",
     "success_line": "2465",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=15 systems=15 temperatures=0 steps=7500000 kinds=npt_program:15 elapsed=00:14:37"
   },
   {
@@ -1621,7 +1497,6 @@
     "logged_elapsed_seconds": "701",
     "start_line": "2503",
     "success_line": "2539",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=15 systems=15 temperatures=0 steps=7500000 kinds=npt_program:15 elapsed=00:11:41"
   },
   {
@@ -1634,7 +1509,6 @@
     "logged_elapsed_seconds": "877",
     "start_line": "2577",
     "success_line": "2621",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=15 systems=15 temperatures=0 steps=7500000 kinds=npt_program:15 elapsed=00:14:37"
   },
   {
@@ -1647,7 +1521,6 @@
     "logged_elapsed_seconds": "877",
     "start_line": "2659",
     "success_line": "2703",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=15 systems=15 temperatures=0 steps=7500000 kinds=npt_program:15 elapsed=00:14:37"
   },
   {
@@ -1660,7 +1533,6 @@
     "logged_elapsed_seconds": "878",
     "start_line": "2741",
     "success_line": "2784",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=15 systems=15 temperatures=0 steps=7500000 kinds=npt_program:15 elapsed=00:14:38"
   },
   {
@@ -1673,7 +1545,6 @@
     "logged_elapsed_seconds": "628",
     "start_line": "2822",
     "success_line": "2859",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter5/status.log",
     "summary": "backend=LAMMPS shape=single tasks=15 systems=15 temperatures=0 steps=7500000 kinds=npt_program:15 elapsed=00:10:28"
   },
   {
@@ -1686,7 +1557,6 @@
     "logged_elapsed_seconds": "161",
     "start_line": "57",
     "success_line": "172",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=1125000 kinds=npt:45 elapsed=00:02:41"
   },
   {
@@ -1699,7 +1569,6 @@
     "logged_elapsed_seconds": "291",
     "start_line": "210",
     "success_line": "323",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=2250000 kinds=npt:45 elapsed=00:04:51"
   },
   {
@@ -1712,7 +1581,6 @@
     "logged_elapsed_seconds": "430",
     "start_line": "361",
     "success_line": "486",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter6/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=3375000 kinds=npt:45 elapsed=00:07:10"
   },
   {
@@ -1725,7 +1593,6 @@
     "logged_elapsed_seconds": "547",
     "start_line": "82",
     "success_line": "198",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter7/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=4500000 kinds=npt:45 elapsed=00:09:07"
   },
   {
@@ -1738,7 +1605,6 @@
     "logged_elapsed_seconds": "804",
     "start_line": "236",
     "success_line": "360",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter7/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=6750000 kinds=npt:45 elapsed=00:13:24"
   },
   {
@@ -1751,7 +1617,6 @@
     "logged_elapsed_seconds": "1061",
     "start_line": "398",
     "success_line": "525",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter7/status.log",
     "summary": "backend=LAMMPS shape=single tasks=45 systems=15 temperatures=3 steps=9000000 kinds=npt:45 elapsed=00:17:41"
   },
   {
@@ -1764,7 +1629,6 @@
     "logged_elapsed_seconds": "173",
     "start_line": "721",
     "success_line": "802",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter7/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=600000 kinds=nvt:30 elapsed=00:02:53"
   },
   {
@@ -1777,7 +1641,6 @@
     "logged_elapsed_seconds": "104",
     "start_line": "96",
     "success_line": "178",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter8/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=300000 kinds=nvt:30 elapsed=00:01:44"
   },
   {
@@ -1790,7 +1653,6 @@
     "logged_elapsed_seconds": "139",
     "start_line": "227",
     "success_line": "299",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter8/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=1200000 kinds=nvt:30 elapsed=00:02:19"
   },
   {
@@ -1803,7 +1665,6 @@
     "logged_elapsed_seconds": "104",
     "start_line": "348",
     "success_line": "432",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter8/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=300000 kinds=nvt:30 elapsed=00:01:44"
   },
   {
@@ -1816,7 +1677,6 @@
     "logged_elapsed_seconds": "56",
     "start_line": "57",
     "success_line": "129",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter9/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=300000 kinds=nvt:30 elapsed=00:00:56"
   },
   {
@@ -1829,7 +1689,6 @@
     "logged_elapsed_seconds": "140",
     "start_line": "324",
     "success_line": "396",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter9/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=1200000 kinds=nvt:30 elapsed=00:02:20"
   },
   {
@@ -1842,7 +1701,6 @@
     "logged_elapsed_seconds": "163",
     "start_line": "57",
     "success_line": "136",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter10/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=1500000 kinds=nvt:30 elapsed=00:02:43"
   },
   {
@@ -1855,7 +1713,6 @@
     "logged_elapsed_seconds": "302",
     "start_line": "176",
     "success_line": "251",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter10/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=3000000 kinds=nvt:30 elapsed=00:05:02"
   },
   {
@@ -1868,7 +1725,6 @@
     "logged_elapsed_seconds": "437",
     "start_line": "291",
     "success_line": "372",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter10/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=4500000 kinds=nvt:30 elapsed=00:07:17"
   },
   {
@@ -1881,7 +1737,6 @@
     "logged_elapsed_seconds": "575",
     "start_line": "58",
     "success_line": "145",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter11/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=6000000 kinds=nvt:30 elapsed=00:09:35"
   },
   {
@@ -1894,7 +1749,6 @@
     "logged_elapsed_seconds": "577",
     "start_line": "185",
     "success_line": "268",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter11/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=6000000 kinds=nvt:30 elapsed=00:09:37"
   },
   {
@@ -1907,7 +1761,6 @@
     "logged_elapsed_seconds": "577",
     "start_line": "308",
     "success_line": "391",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter11/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=6000000 kinds=nvt:30 elapsed=00:09:37"
   },
   {
@@ -1920,7 +1773,6 @@
     "logged_elapsed_seconds": "576",
     "start_line": "431",
     "success_line": "515",
-    "log": "/home/drq/DICE-isolated/YSZ/AL2/iter11/status.log",
     "summary": "backend=LAMMPS shape=single tasks=30 systems=30 temperatures=1 steps=6000000 kinds=nvt:30 elapsed=00:09:36"
   }
 ]

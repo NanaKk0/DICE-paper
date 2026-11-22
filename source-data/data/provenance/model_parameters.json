@@ -1,0 +1,620 @@
+[
+  {
+    "id": "al_direct50",
+    "system": "al2o3",
+    "role": "foundation_direct_DFT",
+    "steps": 50000,
+    "train_frames": 140,
+    "schedule": "independent50k_cosine",
+    "training_seed": 2399124483,
+    "batch": "auto:32",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "type": "cosine",
+      "start_lr": 0.0005,
+      "stop_lr": 1e-08,
+      "warmup_ratio": 0.003,
+      "warmup_start_factor": 0.2
+    },
+    "force_loss": {
+      "type": "ener",
+      "loss_func": "mae",
+      "f_use_norm": true,
+      "start_pref_e": 20,
+      "limit_pref_e": 5,
+      "start_pref_f": 20,
+      "limit_pref_f": 5,
+      "start_pref_v": 20,
+      "limit_pref_v": 1
+    },
+    "config_total_steps": 50000,
+    "architecture": {
+      "type": "dpa4c",
+      "rcut": 6,
+      "channels": 8,
+      "lmax": 2,
+      "radial_modes": 0,
+      "use_amp": false,
+      "precision": "float32",
+      "seed": 2399124483,
+      "basis_type": "bessel",
+      "n_radial": 16,
+      "exclude_types": [],
+      "trainable": true
+    },
+    "DFT_reference_count": 140
+  },
+  {
+    "id": "al_direct100",
+    "system": "al2o3",
+    "role": "foundation_direct_DFT",
+    "steps": 100000,
+    "train_frames": 140,
+    "schedule": "independent100k_cosine",
+    "training_seed": 2399124483,
+    "batch": "auto:32",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "type": "cosine",
+      "start_lr": 0.0005,
+      "stop_lr": 1e-08,
+      "warmup_ratio": 0.003,
+      "warmup_start_factor": 0.2
+    },
+    "force_loss": {
+      "type": "ener",
+      "loss_func": "mae",
+      "f_use_norm": true,
+      "start_pref_e": 20,
+      "limit_pref_e": 5,
+      "start_pref_f": 20,
+      "limit_pref_f": 5,
+      "start_pref_v": 20,
+      "limit_pref_v": 1
+    },
+    "config_total_steps": 100000,
+    "architecture": {
+      "type": "dpa4c",
+      "rcut": 6,
+      "channels": 8,
+      "lmax": 2,
+      "radial_modes": 0,
+      "use_amp": false,
+      "precision": "float32",
+      "seed": 2399124483,
+      "basis_type": "bessel",
+      "n_radial": 16,
+      "exclude_types": [],
+      "trainable": true
+    },
+    "DFT_reference_count": 140
+  },
+  {
+    "id": "al_DICE",
+    "system": "al2o3",
+    "role": "production_student",
+    "steps": 100000,
+    "train_frames": 2530,
+    "schedule": "final_round100k_cosine",
+    "training_seed": 2399124483,
+    "batch": "auto:32",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "type": "cosine",
+      "start_lr": 0.0005,
+      "stop_lr": 1e-08,
+      "warmup_ratio": 0.003,
+      "warmup_start_factor": 0.2
+    },
+    "force_loss": {
+      "type": "ener",
+      "loss_func": "mae",
+      "f_use_norm": true,
+      "start_pref_e": 20,
+      "limit_pref_e": 5,
+      "start_pref_f": 20,
+      "limit_pref_f": 5,
+      "start_pref_v": 20,
+      "limit_pref_v": 1
+    },
+    "config_total_steps": 100000,
+    "architecture": {
+      "type": "dpa4c",
+      "rcut": 6,
+      "channels": 8,
+      "lmax": 2,
+      "radial_modes": 0,
+      "use_amp": false,
+      "precision": "float32",
+      "seed": 2399124483,
+      "basis_type": "bessel",
+      "n_radial": 16,
+      "exclude_types": [],
+      "trainable": true
+    },
+    "DFT_reference_count": 140
+  },
+  {
+    "id": "nano_foundation",
+    "system": "al2o3",
+    "role": "unadapted_foundation",
+    "steps": 0,
+    "train_frames": 0,
+    "schedule": "zero_target_adaptation",
+    "training_seed": "",
+    "batch": "",
+    "config_total_steps": 0,
+    "DFT_reference_count": 140
+  },
+  {
+    "id": "al_Neo_foundation",
+    "system": "al2o3",
+    "role": "unadapted_teacher_foundation",
+    "steps": 0,
+    "train_frames": 0,
+    "schedule": "zero_target_adaptation",
+    "training_seed": "",
+    "batch": "",
+    "config_total_steps": 0,
+    "DFT_reference_count": 140
+  },
+  {
+    "id": "al_teacher140",
+    "system": "al2o3",
+    "role": "adapted_teacher",
+    "steps": 25000,
+    "train_frames": 140,
+    "schedule": "teacher25k",
+    "training_seed": 3885569319,
+    "batch": "auto:480",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "decay_phase_ratio": 0.85,
+      "decay_type": "cosine",
+      "start_lr": 5e-05,
+      "stop_lr": 1e-08,
+      "type": "wsd",
+      "warmup_start_factor": 0.2,
+      "warmup_steps": 500
+    },
+    "force_loss": {
+      "f_use_norm": true,
+      "limit_pref_e": 1,
+      "limit_pref_f": 5,
+      "limit_pref_v": 0.5,
+      "loss_func": "mae",
+      "start_pref_e": 10,
+      "start_pref_f": 100,
+      "start_pref_v": 5,
+      "type": "ener"
+    },
+    "config_total_steps": 25000,
+    "architecture": {
+      "channels": 32,
+      "ffn_blocks": 1,
+      "ffn_neurons": 0,
+      "ffn_so3_grid": true,
+      "focus_dim": 0,
+      "grid_branch": [
+        0,
+        0,
+        1
+      ],
+      "grid_mlp": false,
+      "lmax": 3,
+      "message_node_so3": true,
+      "mmax": 1,
+      "n_atten_head": 1,
+      "n_blocks": 2,
+      "n_focus": 2,
+      "n_radial": 16,
+      "precision": "float32",
+      "radial_so2_mode": "degree_channel",
+      "radial_so2_rank": 1,
+      "rcut": 6.0,
+      "seed": 3885569319,
+      "sel": 416,
+      "so2_layers": 3,
+      "so3_readout": "mlp",
+      "use_amp": true,
+      "use_env_seed": true
+    },
+    "DFT_reference_count": 140
+  },
+  {
+    "id": "mil_direct100",
+    "system": "mil120",
+    "role": "foundation_direct_DFT",
+    "steps": 100000,
+    "train_frames": 494,
+    "schedule": "independent100k_cosine",
+    "training_seed": 35165273,
+    "batch": "auto:4096",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "type": "cosine",
+      "start_lr": 0.0005,
+      "stop_lr": 1e-08,
+      "warmup_ratio": 0.003,
+      "warmup_start_factor": 0.2
+    },
+    "force_loss": {
+      "type": "ener",
+      "loss_func": "mae",
+      "f_use_norm": true,
+      "start_pref_e": 500,
+      "limit_pref_e": 150,
+      "start_pref_f": 20,
+      "limit_pref_f": 5,
+      "start_pref_v": 20,
+      "limit_pref_v": 1
+    },
+    "config_total_steps": 100000,
+    "architecture": {
+      "type": "dpa4c",
+      "rcut": 6,
+      "channels": 8,
+      "lmax": 2,
+      "radial_modes": 0,
+      "use_amp": false,
+      "precision": "float32",
+      "seed": 35165273,
+      "basis_type": "bessel",
+      "n_radial": 16,
+      "exclude_types": [],
+      "trainable": true
+    },
+    "DFT_reference_count": 494
+  },
+  {
+    "id": "mil_direct500",
+    "system": "mil120",
+    "role": "foundation_direct_DFT",
+    "steps": 500000,
+    "train_frames": 494,
+    "schedule": "independent500k_cosine",
+    "training_seed": 35165273,
+    "batch": "auto:4096",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "type": "cosine",
+      "start_lr": 0.0005,
+      "stop_lr": 1e-08,
+      "warmup_ratio": 0.003,
+      "warmup_start_factor": 0.2
+    },
+    "force_loss": {
+      "type": "ener",
+      "loss_func": "mae",
+      "f_use_norm": true,
+      "start_pref_e": 500,
+      "limit_pref_e": 150,
+      "start_pref_f": 20,
+      "limit_pref_f": 5,
+      "start_pref_v": 20,
+      "limit_pref_v": 1
+    },
+    "config_total_steps": 500000,
+    "architecture": {
+      "type": "dpa4c",
+      "rcut": 6,
+      "channels": 8,
+      "lmax": 2,
+      "radial_modes": 0,
+      "use_amp": false,
+      "precision": "float32",
+      "seed": 35165273,
+      "basis_type": "bessel",
+      "n_radial": 16,
+      "exclude_types": [],
+      "trainable": true
+    },
+    "DFT_reference_count": 494
+  },
+  {
+    "id": "mil_DICE",
+    "system": "mil120",
+    "role": "production_student",
+    "steps": 500000,
+    "train_frames": 6041,
+    "schedule": "final500k_cosine",
+    "training_seed": 35165273,
+    "batch": "auto:4096",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "type": "cosine",
+      "start_lr": 0.0005,
+      "stop_lr": 1e-08,
+      "warmup_ratio": 0.003,
+      "warmup_start_factor": 0.2
+    },
+    "force_loss": {
+      "type": "ener",
+      "loss_func": "mae",
+      "f_use_norm": true,
+      "start_pref_e": 500,
+      "limit_pref_e": 150,
+      "start_pref_f": 20,
+      "limit_pref_f": 5,
+      "start_pref_v": 20,
+      "limit_pref_v": 1
+    },
+    "config_total_steps": 500000,
+    "architecture": {
+      "type": "dpa4c",
+      "rcut": 6,
+      "channels": 8,
+      "lmax": 2,
+      "radial_modes": 0,
+      "use_amp": false,
+      "precision": "float32",
+      "seed": 35165273,
+      "basis_type": "bessel",
+      "n_radial": 16,
+      "exclude_types": [],
+      "trainable": true
+    },
+    "DFT_reference_count": 494
+  },
+  {
+    "id": "ysz_C100",
+    "system": "ysz",
+    "role": "foundation_direct_DFT",
+    "steps": 100000,
+    "train_frames": 195,
+    "schedule": "independent100k_cosine",
+    "training_seed": 295343485,
+    "batch": "filter:1000",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "type": "cosine",
+      "start_lr": 0.0005,
+      "stop_lr": 1e-06,
+      "warmup_ratio": 0.003,
+      "warmup_start_factor": 0.2
+    },
+    "force_loss": {
+      "type": "ener",
+      "loss_func": "mae",
+      "f_use_norm": true,
+      "start_pref_e": 20,
+      "limit_pref_e": 5,
+      "start_pref_f": 20,
+      "limit_pref_f": 5,
+      "start_pref_v": 20,
+      "limit_pref_v": 1
+    },
+    "config_total_steps": 100000,
+    "architecture": {
+      "type": "dpa4c",
+      "rcut": 6.0,
+      "channels": 8,
+      "lmax": 2,
+      "radial_modes": 0,
+      "use_amp": false,
+      "precision": "float32",
+      "seed": 295343485,
+      "basis_type": "bessel",
+      "n_radial": 16,
+      "exclude_types": [],
+      "trainable": true
+    },
+    "DFT_reference_count": 195
+  },
+  {
+    "id": "ysz_C200",
+    "system": "ysz",
+    "role": "foundation_direct_DFT",
+    "steps": 200000,
+    "train_frames": 195,
+    "schedule": "independent200k_cosine",
+    "training_seed": 295343485,
+    "batch": "filter:1000",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "type": "cosine",
+      "start_lr": 0.0005,
+      "stop_lr": 1e-06,
+      "warmup_ratio": 0.003,
+      "warmup_start_factor": 0.2
+    },
+    "force_loss": {
+      "type": "ener",
+      "loss_func": "mae",
+      "f_use_norm": true,
+      "start_pref_e": 20,
+      "limit_pref_e": 5,
+      "start_pref_f": 20,
+      "limit_pref_f": 5,
+      "start_pref_v": 20,
+      "limit_pref_v": 1
+    },
+    "config_total_steps": 200000,
+    "architecture": {
+      "type": "dpa4c",
+      "rcut": 6.0,
+      "channels": 8,
+      "lmax": 2,
+      "radial_modes": 0,
+      "use_amp": false,
+      "precision": "float32",
+      "seed": 295343485,
+      "basis_type": "bessel",
+      "n_radial": 16,
+      "exclude_types": [],
+      "trainable": true
+    },
+    "DFT_reference_count": 195
+  },
+  {
+    "id": "ysz_C300",
+    "system": "ysz",
+    "role": "foundation_direct_DFT",
+    "steps": 300000,
+    "train_frames": 195,
+    "schedule": "checkpoint_in500k_cosine",
+    "training_seed": 295343485,
+    "batch": "filter:1000",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "type": "cosine",
+      "start_lr": 0.0005,
+      "stop_lr": 1e-06,
+      "warmup_ratio": 0.003,
+      "warmup_start_factor": 0.2
+    },
+    "force_loss": {
+      "type": "ener",
+      "loss_func": "mae",
+      "f_use_norm": true,
+      "start_pref_e": 20,
+      "limit_pref_e": 5,
+      "start_pref_f": 20,
+      "limit_pref_f": 5,
+      "start_pref_v": 20,
+      "limit_pref_v": 1
+    },
+    "config_total_steps": 500000,
+    "architecture": {
+      "type": "dpa4c",
+      "rcut": 6.0,
+      "channels": 8,
+      "lmax": 2,
+      "radial_modes": 0,
+      "use_amp": false,
+      "precision": "float32",
+      "seed": 295343485,
+      "basis_type": "bessel",
+      "n_radial": 16,
+      "exclude_types": [],
+      "trainable": true
+    },
+    "DFT_reference_count": 195
+  },
+  {
+    "id": "ysz_C500",
+    "system": "ysz",
+    "role": "foundation_direct_DFT",
+    "steps": 500000,
+    "train_frames": 195,
+    "schedule": "independent500k_cosine",
+    "training_seed": 295343485,
+    "batch": "filter:1000",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "type": "cosine",
+      "start_lr": 0.0005,
+      "stop_lr": 1e-06,
+      "warmup_ratio": 0.003,
+      "warmup_start_factor": 0.2
+    },
+    "force_loss": {
+      "type": "ener",
+      "loss_func": "mae",
+      "f_use_norm": true,
+      "start_pref_e": 20,
+      "limit_pref_e": 5,
+      "start_pref_f": 20,
+      "limit_pref_f": 5,
+      "start_pref_v": 20,
+      "limit_pref_v": 1
+    },
+    "config_total_steps": 500000,
+    "architecture": {
+      "type": "dpa4c",
+      "rcut": 6.0,
+      "channels": 8,
+      "lmax": 2,
+      "radial_modes": 0,
+      "use_amp": false,
+      "precision": "float32",
+      "seed": 295343485,
+      "basis_type": "bessel",
+      "n_radial": 16,
+      "exclude_types": [],
+      "trainable": true
+    },
+    "DFT_reference_count": 195
+  },
+  {
+    "id": "ysz_M",
+    "system": "ysz",
+    "role": "production_student",
+    "steps": 500000,
+    "train_frames": 4272,
+    "schedule": "final500k_cosine",
+    "training_seed": 295343485,
+    "batch": "filter:1000",
+    "optimizer": {
+      "type": "HybridMuon",
+      "weight_decay": 0.001
+    },
+    "LR": {
+      "type": "cosine",
+      "start_lr": 0.0005,
+      "stop_lr": 1e-06,
+      "warmup_ratio": 0.003,
+      "warmup_start_factor": 0.2
+    },
+    "force_loss": {
+      "type": "ener",
+      "loss_func": "mae",
+      "f_use_norm": true,
+      "start_pref_e": 20,
+      "limit_pref_e": 5,
+      "start_pref_f": 20,
+      "limit_pref_f": 5,
+      "start_pref_v": 20,
+      "limit_pref_v": 1
+    },
+    "config_total_steps": 500000,
+    "architecture": {
+      "type": "dpa4c",
+      "rcut": 6.0,
+      "channels": 8,
+      "lmax": 2,
+      "radial_modes": 0,
+      "use_amp": false,
+      "precision": "float32",
+      "seed": 295343485,
+      "basis_type": "bessel",
+      "n_radial": 16,
+      "exclude_types": [],
+      "trainable": true
+    },
+    "DFT_reference_count": 195
+  }
+]
