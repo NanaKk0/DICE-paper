@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only optional native inference; not called by cheap reproduce.py checks."""
+"""Read-only checkpoint evaluation in the recorded native DeePMD environment."""
 import argparse
 import csv
 import hashlib
@@ -34,7 +34,7 @@ def main():
     p.add_argument('--system', choices=['al2o3','ysz','mil120'], required=True)
     p.add_argument('--role', choices=['dice_student_500k','direct_dft_student_500k'], required=True)
     p.add_argument('--limit', type=int, default=1, help='Frames per ordered test union; 0 means all')
-    p.add_argument('--device', default='cuda', help='Supplied compiled exports require compatible CUDA hardware')
+    p.add_argument('--device', default='cuda', help='GPU device for native checkpoint evaluation')
     p.add_argument('--evaluate', action='store_true', help='Explicitly execute native inference; otherwise validate paths only')
     p.add_argument('--output', type=Path, help='New JSON output path outside inputs; mandatory with --evaluate')
     args = p.parse_args()
@@ -44,7 +44,7 @@ def main():
     if len(rows)!=1: raise ValueError('Expected one exact model')
     row = rows[0]; model = contained(root,row['file'])
     if hashlib.sha256(model.read_bytes()).hexdigest()!=row['sha256']:
-        raise ValueError('Frozen model hash mismatch')
+        raise ValueError('Checkpoint identity mismatch')
     datasets = list(csv.DictReader((root/'DATASET_SUMMARY.csv').open()))
     paths = [contained(root,r['file']) for r in datasets if r['system']==args.system and r['role']=='independent_test']
     if args.limit < 0 or not paths: raise ValueError('Invalid limit or missing test union')

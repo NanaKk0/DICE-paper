@@ -50,16 +50,17 @@ The archive comprises `DICE-software.zip`, `DICE-paper.zip`,
 `DICE-models.zip` and `DICE-datasets.zip`. The model and dataset packages
 share the extracted `research-assets/` directory. Extract the model package
 first and the dataset package second. They contain eleven
-trained models, labelled reference/training/test configurations, and the
+trained `.pt` checkpoints, labelled reference/training/test configurations, and the
 structures and inputs indexed in [VALIDATION.md](docs/VALIDATION.md).
 
 ```sh
 python restore_assets.py /path/to/research-assets --restore --require-all --verify
 ```
 
-[MODEL_USE.md](MODEL_USE.md) describes frozen-model evaluation.
+[MODEL_USE.md](MODEL_USE.md) describes checkpoint evaluation and local deployment
+export with DeePMD-kit 3.2.0+g3b2555c46.
 The restricted research archive is
-[10.5281/zenodo.24433482](https://doi.org/10.5281/zenodo.24433482).
+[10.5281/zenodo.24434161](https://doi.org/10.5281/zenodo.24434161).
 
 ## Licences
 

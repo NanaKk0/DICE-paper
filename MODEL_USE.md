@@ -1,62 +1,83 @@
-# Optional frozen-potential evaluation
+# Trained model checkpoints
 
-`reproduce.py` uses the archived numerical data. To evaluate the two final
-production students for each system, unpack DICE-models.zip and
-DICE-datasets.zip into one directory and use `evaluate_models.py` with a
-compatible native DeePMD environment. The software repository's
-`docs/native-models.md` provides model sources, recorded native versions and
-CLI compatibility information.
+`DICE-models.zip` provides eleven trained PyTorch checkpoints (`.pt`): three
+adapted DPA4 teachers, six final DPA4C students, and the S940/S1320 Al₂O₃
+students. Teachers retain the EMA weights used for the paper exports. Every
+checkpoint preserves the full native 118-element map and trained parameters.
 
-The supplied `.pt2` exports target Linux x86_64, CUDA compute capability 8.9,
-and AVX512 (some also AVX512_VNNI). Use the build and hardware requirements in
-MODEL_CARDS.json. For another architecture, use the backend's supported
-import/export procedure and compare numerical predictions before production.
+## Tested environment
 
-First inspect the selected model and ordered test paths:
+DeePMD-kit **3.2.0+g3b2555c46**, source revision
+`3b2555c46ecdbd2fcc8ddc029d09195a4e3c0f3a`, Python 3.11,
+PyTorch 2.11.0+cu130, CUDA 13.0 and GCC 12.4. The tested LAMMPS build is
+22 Jul 2025 Update 4 with Kokkos 4.6.2 CUDA/Serial. The complete version record
+is [NATIVE_ENVIRONMENT.json](NATIVE_ENVIRONMENT.json).
 
-```bash
+Use the `pt` backend for DPA4 and `pt-expt` for DPA4C. Checkpoint architecture,
+species indices and file identities are in `MODEL_CARDS.json` and
+`MODEL_IDENTITY.csv`.
+
+## Evaluate a student checkpoint
+
+Extract `DICE-models.zip` and `DICE-datasets.zip` into the same parent directory,
+then activate the tested native environment. Inspect the model and test paths:
+
+```sh
 python evaluate_models.py --research-root ../research-assets \
   --system al2o3 --role dice_student_500k
 ```
 
-Once the compatible native environment is qualified, explicitly evaluate the
-first labelled test frame:
+Evaluate the first independent test frame on the selected GPU:
 
-```bash
+```sh
+CUDA_VISIBLE_DEVICES=0 DP_INTERFACE_PREC=high \
 python evaluate_models.py --research-root ../research-assets \
-  --system al2o3 --role dice_student_500k --evaluate --output ../al-first.json
+  --system al2o3 --role dice_student_500k --evaluate \
+  --output ../al-first.json
 ```
 
-Use `--limit 0` for the full locked test set, change `--system` to `ysz` or
-`mil120`, and change `--role` to `direct_dft_student_500k` for the paired control.
-YSZ's three source files are concatenated in DATASET_SUMMARY order (240+60+30).
-All six full-test force-component RMSE values can then be compared with
-`source-data/data/summary/production_force_RMSE.csv`. Use the first-frame check
-to inspect predictions and the full test for aggregate RMSE. The saved DFT
-frame supplies reference energy and Cartesian forces. Energies retain their
-original zero, and species indices follow each model's native element map.
+Use `--limit 0` for the full test set, `--system ysz` or `mil120` for the other
+systems, and `--role direct_dft_student_500k` for the paired control. YSZ's
+ordered test union contains 240+60+30 frames. Outputs contain total energy,
+Cartesian forces, virial, reference energy and force-component RMSE, using
+Å, eV and eV Å⁻¹. Preserve the native species mapping and atom order.
 
-Outputs contain total energy, Cartesian forces, virial, the DFT reference
-energy, native species mapping and pooled force-component RMSE. Coordinates
-are Å, energies eV, forces eV Å⁻¹, and virials eV. This optional command performs
-frozen-model inference and writes results to the selected output file.
-Type-mapping and shape handling have CPU fixture tests; the archive checks
-validate real-model paths and checksums.
+`FIRST_FRAME_REFERENCES.json` contains predictions from the supplied student
+checkpoints in the tested environment, with exact ordered geometries and model
+identities. It provides an installation check for energy, forces and virial.
 
-## Existing reference predictions and deployment metadata
+## Export for LAMMPS on your machine
 
-MODEL_CARDS.json gives the native type map (including the full foundation map),
-active species indices, cutoff, architecture, compiled format and hardware
-requirements for each exported model. Adapted-teacher pt2 files are standalone
-inference exports with the adaptation already incorporated. Preserve the
-model's native 118-element map and use the recorded target-species indices.
+Freeze and compress on the GPU and toolchain used for deployment. Set the
+inference policy before export:
 
-FIRST_FRAME_REFERENCES.json contains the six final students' **already archived
-model predictions** for the first frame used by the commands above: unshifted
-total energy, every Cartesian force, exact ordered input geometry, test checksum,
-model checksum and source-parity file identities. These predictions were
-extracted from the stored parity records. Compare your single-frame
-energy/forces with the corresponding system/role entry, preserving atom order.
+```sh
+export CUDA_VISIBLE_DEVICES=0
+export DP_INTERFACE_PREC=high
+export DP_CUDA_INFER=0 DP_TRITON_INFER=0 DP_AMP_INFER=0 DP_TF32_INFER=0
+```
 
-Use these reference predictions to check energy and force agreement on your
-installation, with numerical tolerances appropriate to its precision and backend.
+For a DPA4 teacher:
+
+```sh
+dp --pt freeze -c ../research-assets/models/al2o3/adapted_teacher.pt \
+  -o teacher.pt2
+```
+
+For a DPA4C student:
+
+```sh
+dp --pt-expt freeze -c ../research-assets/models/al2o3/dice_student_500k.pt \
+  -o student-frozen.pt2 --lower-kind graph
+dp --pt-expt compress -i student-frozen.pt2 -o student.pt2 -s 0.01
+```
+
+The resulting local `.pt2` serves `pair_style deepmd` or `pair_style deepmd/kk`.
+For Kokkos, use `atom_modify map yes` and a CUDA-enabled Kokkos LAMMPS build.
+Map each LAMMPS atom type explicitly with `pair_coeff * *`, for example `Al O`
+when the data file uses Al as type 1 and O as type 2. DPA4 teachers use freezing;
+DPA4C students support both freezing and compression.
+
+The published model payload consists of checkpoints. Compiled deployment files
+are generated locally for the user's hardware. Native export and twenty-step
+ordinary/Kokkos LAMMPS checks passed for all eight students in the tested build.

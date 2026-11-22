@@ -3,8 +3,8 @@
     {
       "system": "al2o3",
       "scientific_role": "dice_student_500k",
-      "file": "models/al2o3/dice_student_500k.pt2",
-      "sha256": "1c6b6877178601dafa4075c18a09570ef82a926649b9b7f442740fcb216e0fb9",
+      "file": "models/al2o3/dice_student_500k.pt",
+      "sha256": "3fbd168843cd36a6afb9906e62b3cd0c943e98a4714d877e2801435178c7c7a9",
       "steps": 500000,
       "architecture": "dpa4c",
       "native_type_map": [
@@ -132,18 +132,19 @@
         "Al": 12,
         "O": 7
       },
-      "format": "DeePMD PyTorch AOT compiled pt2",
-      "portable_weights": false,
-      "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
+      "format": "PyTorch trained checkpoint (.pt)",
+      "portable_weights": true,
+      "inference_requires": "DeePMD-kit 3.2.0+g3b2555c46; PyTorch 2.11.0+cu130",
       "teacher_adapter_state": "not applicable",
       "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
-      "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
+      "metadata_source": "Native checkpoint and tested export; original 118-element map retained",
+      "backend_selector": "pt-expt"
     },
     {
       "system": "al2o3",
       "scientific_role": "direct_dft_student_500k",
-      "file": "models/al2o3/direct_dft_student_500k.pt2",
-      "sha256": "b9bf5a5292f04d1d9712381a5f4eaa43c1d67165d987b10428de9152b2f389ea",
+      "file": "models/al2o3/direct_dft_student_500k.pt",
+      "sha256": "15d33b73fde9bb3a8517a53aa9d0f843aa215b70fa9bec81e7e698169b1ec215",
       "steps": 500000,
       "architecture": "dpa4c",
       "native_type_map": [
@@ -271,18 +272,19 @@
         "Al": 12,
         "O": 7
       },
-      "format": "DeePMD PyTorch AOT compiled pt2",
-      "portable_weights": false,
-      "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
+      "format": "PyTorch trained checkpoint (.pt)",
+      "portable_weights": true,
+      "inference_requires": "DeePMD-kit 3.2.0+g3b2555c46; PyTorch 2.11.0+cu130",
       "teacher_adapter_state": "not applicable",
       "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
-      "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
+      "metadata_source": "Native checkpoint and tested export; original 118-element map retained",
+      "backend_selector": "pt-expt"
     },
     {
       "system": "ysz",
       "scientific_role": "dice_student_500k",
-      "file": "models/ysz/dice_student_500k.pt2",
-      "sha256": "6f138606ef0fcdcd5508fb0fb42e3cdeb1cb19309e4d357fc9f8d7a57faccbf6",
+      "file": "models/ysz/dice_student_500k.pt",
+      "sha256": "653a49d9587e9a8a4141696d1070cb6a2ab76761053c3c0527296c3e56723b6a",
       "steps": 500000,
       "architecture": "dpa4c",
       "native_type_map": [
@@ -411,18 +413,19 @@
         "Y": 38,
         "Zr": 39
       },
-      "format": "DeePMD PyTorch AOT compiled pt2",
-      "portable_weights": false,
-      "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
+      "format": "PyTorch trained checkpoint (.pt)",
+      "portable_weights": true,
+      "inference_requires": "DeePMD-kit 3.2.0+g3b2555c46; PyTorch 2.11.0+cu130",
       "teacher_adapter_state": "not applicable",
       "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
-      "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
+      "metadata_source": "Native checkpoint and tested export; original 118-element map retained",
+      "backend_selector": "pt-expt"
     },
     {
       "system": "ysz",
       "scientific_role": "direct_dft_student_500k",
-      "file": "models/ysz/direct_dft_student_500k.pt2",
-      "sha256": "d2bdbb0566c06699f8cef7dda6086ceb83c3132422672def7d18d7dbe17dad6b",
+      "file": "models/ysz/direct_dft_student_500k.pt",
+      "sha256": "86b8e516910870c40ac233af61978038f510f64ead538776387fe211022f4e9e",
       "steps": 500000,
       "architecture": "dpa4c",
       "native_type_map": [
@@ -551,18 +554,19 @@
         "Y": 38,
         "Zr": 39
       },
-      "format": "DeePMD PyTorch AOT compiled pt2",
-      "portable_weights": false,
-      "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
+      "format": "PyTorch trained checkpoint (.pt)",
+      "portable_weights": true,
+      "inference_requires": "DeePMD-kit 3.2.0+g3b2555c46; PyTorch 2.11.0+cu130",
       "teacher_adapter_state": "not applicable",
       "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
-      "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
+      "metadata_source": "Native checkpoint and tested export; original 118-element map retained",
+      "backend_selector": "pt-expt"
     },
     {
       "system": "mil120",
       "scientific_role": "dice_student_500k",
-      "file": "models/mil120/dice_student_500k.pt2",
-      "sha256": "9d8a82ec5d816d18ff3fafe2704657ef2709859e0f280026fb750b1baf217923",
+      "file": "models/mil120/dice_student_500k.pt",
+      "sha256": "e77a7ea7c17353a11bcc65b26687a021aea21933e1244b33cd0aee188ae8cf06",
       "steps": 500000,
       "architecture": "dpa4c",
       "native_type_map": [
@@ -692,18 +696,19 @@
         "H": 0,
         "O": 7
       },
-      "format": "DeePMD PyTorch AOT compiled pt2",
-      "portable_weights": false,
-      "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
+      "format": "PyTorch trained checkpoint (.pt)",
+      "portable_weights": true,
+      "inference_requires": "DeePMD-kit 3.2.0+g3b2555c46; PyTorch 2.11.0+cu130",
       "teacher_adapter_state": "not applicable",
       "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
-      "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
+      "metadata_source": "Native checkpoint and tested export; original 118-element map retained",
+      "backend_selector": "pt-expt"
     },
     {
       "system": "mil120",
       "scientific_role": "direct_dft_student_500k",
-      "file": "models/mil120/direct_dft_student_500k.pt2",
-      "sha256": "e51f998792bc4de51bf228ec9f72a39104df38828c0bc534c60b30b767a9e8e0",
+      "file": "models/mil120/direct_dft_student_500k.pt",
+      "sha256": "880c2b84a3a3bb306877927b27511447dad0e62cc8d10fcb879c8e8314313e13",
       "steps": 500000,
       "architecture": "dpa4c",
       "native_type_map": [
@@ -833,18 +838,19 @@
         "H": 0,
         "O": 7
       },
-      "format": "DeePMD PyTorch AOT compiled pt2",
-      "portable_weights": false,
-      "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
+      "format": "PyTorch trained checkpoint (.pt)",
+      "portable_weights": true,
+      "inference_requires": "DeePMD-kit 3.2.0+g3b2555c46; PyTorch 2.11.0+cu130",
       "teacher_adapter_state": "not applicable",
       "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
-      "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
+      "metadata_source": "Native checkpoint and tested export; original 118-element map retained",
+      "backend_selector": "pt-expt"
     },
     {
       "system": "al2o3",
       "scientific_role": "adapted_teacher",
-      "file": "models/al2o3/adapted_teacher.pt2",
-      "sha256": "40a2a2804e920605c69af464e67e74190c1bdf924401cfed836e81708b914227",
+      "file": "models/al2o3/adapted_teacher.pt",
+      "sha256": "1237acaf100f2a90719c73b52687483c1e333171d4f103710feaef16fe3bf04c",
       "steps": 25000,
       "architecture": "dpa4",
       "native_type_map": [
@@ -972,18 +978,19 @@
         "Al": 12,
         "O": 7
       },
-      "format": "DeePMD PyTorch AOT compiled pt2",
-      "portable_weights": false,
-      "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
-      "teacher_adapter_state": "Exported standalone inference model, no separate LoRA merge at load time",
+      "format": "PyTorch trained checkpoint (.pt)",
+      "portable_weights": true,
+      "inference_requires": "DeePMD-kit 3.2.0+g3b2555c46; PyTorch 2.11.0+cu130",
+      "teacher_adapter_state": "complete base and trained LoRA checkpoint; adapters folded during native freeze",
       "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
-      "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
+      "metadata_source": "Native checkpoint and tested export; original 118-element map retained",
+      "backend_selector": "pt"
     },
     {
       "system": "ysz",
       "scientific_role": "adapted_teacher",
-      "file": "models/ysz/adapted_teacher.pt2",
-      "sha256": "7a52818573bce125cec2776d77f622f3a77d3f849f33c62fb4804bb347eec5b4",
+      "file": "models/ysz/adapted_teacher.pt",
+      "sha256": "016cc53529fe8c4b3002efcad993b39d793fb5d31cd5562927c36d959e6c53d9",
       "steps": 40000,
       "architecture": "dpa4",
       "native_type_map": [
@@ -1112,18 +1119,19 @@
         "Y": 38,
         "Zr": 39
       },
-      "format": "DeePMD PyTorch AOT compiled pt2",
-      "portable_weights": false,
-      "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
-      "teacher_adapter_state": "Exported standalone inference model, no separate LoRA merge at load time",
+      "format": "PyTorch trained checkpoint (.pt)",
+      "portable_weights": true,
+      "inference_requires": "DeePMD-kit 3.2.0+g3b2555c46; PyTorch 2.11.0+cu130",
+      "teacher_adapter_state": "complete base and trained LoRA checkpoint; adapters folded during native freeze",
       "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
-      "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
+      "metadata_source": "Native checkpoint and tested export; original 118-element map retained",
+      "backend_selector": "pt"
     },
     {
       "system": "mil120",
       "scientific_role": "adapted_teacher",
-      "file": "models/mil120/adapted_teacher.pt2",
-      "sha256": "65641f84321d43b8511965511fa895d7e5e47781faae32a45cf57f13b724c111",
+      "file": "models/mil120/adapted_teacher.pt",
+      "sha256": "7a7fe15577c382c49667bec9f4d2a0a7019612b31443e3b0c89148c637f9d288",
       "steps": 40000,
       "architecture": "dpa4",
       "native_type_map": [
@@ -1253,18 +1261,19 @@
         "H": 0,
         "O": 7
       },
-      "format": "DeePMD PyTorch AOT compiled pt2",
-      "portable_weights": false,
-      "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
-      "teacher_adapter_state": "Exported standalone inference model, no separate LoRA merge at load time",
+      "format": "PyTorch trained checkpoint (.pt)",
+      "portable_weights": true,
+      "inference_requires": "DeePMD-kit 3.2.0+g3b2555c46; PyTorch 2.11.0+cu130",
+      "teacher_adapter_state": "complete base and trained LoRA checkpoint; adapters folded during native freeze",
       "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
-      "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
+      "metadata_source": "Native checkpoint and tested export; original 118-element map retained",
+      "backend_selector": "pt"
     },
     {
       "system": "al2o3",
       "scientific_role": "crossphase_S940_100k",
-      "file": "models/al2o3/crossphase_S940_100k.pt2",
-      "sha256": "10593ad66c151ec7816e478971abddde5c3cf635a91d3efe150c0cdd59d985de",
+      "file": "models/al2o3/crossphase_S940_100k.pt",
+      "sha256": "744555bf2348b039e08a2d364c8038a638c15d8a8caba83d206eec8ecddcdafe",
       "steps": 100000,
       "architecture": "dpa4c",
       "native_type_map": [
@@ -1392,18 +1401,19 @@
         "Al": 12,
         "O": 7
       },
-      "format": "DeePMD PyTorch AOT compiled pt2",
-      "portable_weights": false,
-      "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
+      "format": "PyTorch trained checkpoint (.pt)",
+      "portable_weights": true,
+      "inference_requires": "DeePMD-kit 3.2.0+g3b2555c46; PyTorch 2.11.0+cu130",
       "teacher_adapter_state": "not applicable",
       "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
-      "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
+      "metadata_source": "Native checkpoint and tested export; original 118-element map retained",
+      "backend_selector": "pt-expt"
     },
     {
       "system": "al2o3",
       "scientific_role": "crossphase_S1320_100k",
-      "file": "models/al2o3/crossphase_S1320_100k.pt2",
-      "sha256": "b0f3f155e9e69c400c9f9897f77e053ccafb74c7b085068dfee9bc3963888191",
+      "file": "models/al2o3/crossphase_S1320_100k.pt",
+      "sha256": "0fb0c2dd3492c8d0c698a9676ca5c28b3f89daaadce2eafab365996cd075a812",
       "steps": 100000,
       "architecture": "dpa4c",
       "native_type_map": [
@@ -1531,13 +1541,28 @@
         "Al": 12,
         "O": 7
       },
-      "format": "DeePMD PyTorch AOT compiled pt2",
-      "portable_weights": false,
-      "inference_requires": "Qualified specialized DPA4/DPA4C backend; Linux x86_64 / CUDA sm89 / AVX512 paper exports",
+      "format": "PyTorch trained checkpoint (.pt)",
+      "portable_weights": true,
+      "inference_requires": "DeePMD-kit 3.2.0+g3b2555c46; PyTorch 2.11.0+cu130",
       "teacher_adapter_state": "not applicable",
       "licence": "CC-BY-NC-4.0; see MODEL_LICENSE.md",
-      "metadata_source": "Read JSON members from existing pt2 ZIP; no model loaded or executed"
+      "metadata_source": "Native checkpoint and tested export; original 118-element map retained",
+      "backend_selector": "pt-expt"
     }
   ],
-  "warning": "A 118-element foundation type map does not imply target validation for all elements."
+  "warning": "A 118-element foundation type map does not imply target validation for all elements.",
+  "runtime": {
+    "deepmd_version": "3.2.0+g3b2555c46",
+    "deepmd_revision": "3b2555c46ecdbd2fcc8ddc029d09195a4e3c0f3a",
+    "python": "3.11",
+    "pytorch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gcc": "12.4",
+    "lammps": "22 Jul 2025 Update 4",
+    "kokkos": "4.6.2 CUDA/Serial",
+    "backend_selectors": {
+      "dpa4": "pt",
+      "dpa4c": "pt-expt"
+    }
+  }
 }

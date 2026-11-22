@@ -1,6 +1,6 @@
 # Physical-validation structures and inputs
 
-Download DICE-datasets.zip from the [research archive](https://doi.org/10.5281/zenodo.24433482) and
+Download DICE-datasets.zip from the [research archive](https://doi.org/10.5281/zenodo.24434161) and
 extract it alongside DICE-models.zip. Structures and native inputs are under
 research-assets/validation/. [INDEX.csv](../source-data/validation/INDEX.csv)
 links each file to the relevant figure or stability table and records its role,

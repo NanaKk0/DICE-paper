@@ -8,4 +8,5 @@ explain the supplied trained models, labelled datasets and external dependencies
 
 [Paper figure reconstruction](docs/PAPER_FIGURES.md) describes the `figures`
 entry point for data-driven panel reconstruction. Use `reexport` for the
-approved SVGs and [MODEL_USE.md](MODEL_USE.md) for native model evaluation.
+approved SVGs and [MODEL_USE.md](MODEL_USE.md) for native checkpoint evaluation
+and local LAMMPS export.
