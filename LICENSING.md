@@ -12,5 +12,5 @@ source-data provenance and model cards identify the relevant sources.
 
 Obtain native simulation engines and foundation models from their official
 projects under their respective licences. The research assets retain Zhang
-alumina, NIMS phonon and Fan MIL-120 framework/path provenance. Use VASP,
+alumina, NIMS phonon and Fan MIL-120(Al) framework/path provenance. Use VASP,
 POTCAR and fonts through appropriately licensed installations.

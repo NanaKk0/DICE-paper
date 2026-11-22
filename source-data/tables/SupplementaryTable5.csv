@@ -1,4 +1,4 @@
 System,Simulation conditions,Directly fine-tuned student,DICE-distilled student
 Al₂O₃,"Liquid; 1,920 atoms; 2400 K; NPT",Dynamical instability at 0.22 ps,Stable through 1 ns
 10YSZ,640 atoms; 1800 K; NPT,Dynamical instability at 0.3 ps,Stable through 1 ns
-MIL-120,Empty framework; 160 atoms; 500 K; NVT,Dynamical instability at 593 ps,Stable through 1 ns
+MIL-120(Al),Empty framework; 160 atoms; 500 K; NVT,Dynamical instability at 593 ps,Stable through 1 ns

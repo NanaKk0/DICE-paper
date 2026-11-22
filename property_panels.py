@@ -151,7 +151,7 @@ class PaperPlotter(Plotter):
 
     def main4(self):
         fig=self.start(170);frames=self.csv("data/prediction_and_mil/frames.csv")
-        for j,(system,title) in enumerate([("Al2O3",r"Al$_2$O$_3$ (200)"),("MIL-120",r"MIL-120–CO$_2$ (300)"),("YSZ","YSZ (330)")]):
+        for j,(system,title) in enumerate([("Al2O3",r"Al$_2$O$_3$ (200)"),("MIL-120",r"MIL-120(Al) (300)"),("YSZ","YSZ (330)")]):
             ax=self.axis(fig,18+58*j,15,43,31)
             series=[frames[(frames.system==system)&(frames.route==r)].frame_RMSE.to_numpy() for r in ["Direct","DICE"]]
             if any(len(v)==0 for v in series):raise ValueError("Missing production frame errors: "+system)
@@ -233,7 +233,7 @@ class PaperPlotter(Plotter):
     def main6(self):
         fig=self.start(78);a=self.axis(fig,19,15,79,50);b=self.axis(fig,120,15,56,50)
         data=self.csv("data/performance/THREE_SYSTEM_LATENCY.csv");guides=self.csv("data/performance/OOM_DISPLAY_GUIDES.csv")
-        system_names={"al2o3":r"Al$_2$O$_3$","mil":"MIL-120", "ysz":"YSZ"}
+        system_names={"al2o3":r"Al$_2$O$_3$","mil":"MIL-120(Al)", "ysz":"YSZ"}
         for i,system in enumerate(["al2o3","mil","ysz"]):
             for model,style in [("Neo","--"),("Nano","-")]:
                 g=data[(data.system==system)&(data.model==model)].sort_values("atoms")
@@ -250,7 +250,7 @@ class PaperPlotter(Plotter):
         for i,row in cost.iterrows():
             b.bar(i-.16,row.student_recorded_h,.32,color=COLORS[0]);b.bar(i+.16,row.teacher_estimated_h,.32,color=COLORS[1])
             b.text(i,row.teacher_estimated_h+12,f"{row.teacher_student_ratio:.1f}×",ha="center",size=7)
-        b.set(xticks=range(3),xticklabels=[r"Al$_2$O$_3$","YSZ","MIL-120"],ylabel="Sampling time (h)",ylim=(0,350))
+        b.set(xticks=range(3),xticklabels=[r"Al$_2$O$_3$","YSZ","MIL-120(Al)"],ylabel="Sampling time (h)",ylim=(0,350))
         b.legend(handles=[Patch(color=COLORS[0],label="Student (recorded)"),Patch(color=COLORS[1],label="Teacher (estimated)")],loc="upper right",fontsize=6)
         self.label(fig,"a",2,3);self.label(fig,"b",104,3)
         self.save(fig,"Fig7",["a","b"],dict(oom="observed atom count; saved display-only dashed extension, not measured latency",costs="startup-inclusive native-rate estimates"))

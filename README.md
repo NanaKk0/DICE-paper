@@ -27,7 +27,7 @@ Select one figure with `--figure main:3` or `--figure supplement:2` on the
 
 ## Models and configurations
 
-The [research archive](https://doi.org/10.5281/zenodo.24434917) contains:
+The [research archive](https://doi.org/10.5281/zenodo.24437952) contains:
 
 | Package | Contents |
 | --- | --- |
@@ -44,6 +44,9 @@ checkpoints and `DATASET_SUMMARY.csv` identifies datasets and frame ranges.
 Physical-validation files are under `research-assets/validation/`;
 `validation/INDEX.csv` maps structures and calculation inputs to figures.
 Paths in this index are relative to `research-assets/`.
+
+The material name is MIL-120(Al); `mil120`, `MIL120`, `MIL` and
+`MOF-MIL-120` remain stable data and model identifiers.
 
 ## Licences
 

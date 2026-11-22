@@ -509,8 +509,8 @@
     "stem": "development_stages_mil",
     "number": 3,
     "section": 1,
-    "title_en": "MIL-120–CO₂ development stages contributing to the final training set.",
-    "title_zh": "形成最终训练集的MIL-120–CO₂开发阶段。",
+    "title_en": "MIL-120(Al) development stages contributing to the final training set.",
+    "title_zh": "形成最终训练集的MIL-120(Al)开发阶段。",
     "headers": [
       "Stage",
       "Initial configurations",

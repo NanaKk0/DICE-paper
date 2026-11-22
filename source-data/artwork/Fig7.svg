@@ -1380,19 +1380,7 @@
      <g id="text_19" transform="translate(0.000000000 0.000000000) translate(429.725073000000 230.580708661000) scale(0.875000000284) translate(-429.725073000000 -230.580708661000) ">
       
       <g transform="translate(406.811516 233.634055)">
-       <text style="font-size: 7.99999999px; font-family: Arial">
-        <tspan x="0" y="-0.53125" style="font-size: 7.99999999px; font-family: Arial">M</tspan>
-        <tspan x="6.247559" y="-0.53125" style="font-size: 7.99999999px; font-family: Arial">I</tspan>
-        <tspan x="8.331299" y="-0.53125" style="font-size: 7.99999999px; font-family: Arial">L</tspan>
-        <tspan x="12.502441" y="-0.53125" style="font-size: 7.99999999px; font-family: Arial">-</tspan>
-        <tspan x="15" y="-0.53125" style="font-size: 7.99999999px; font-family: Arial">1</tspan>
-        <tspan x="19.171143" y="-0.53125" style="font-size: 7.99999999px; font-family: Arial">2</tspan>
-        <tspan x="23.342285" y="-0.53125" style="font-size: 7.99999999px; font-family: Arial">0</tspan>
-        <tspan x="27.513428" y="-0.53125" style="font-size: 7.99999999px; font-family: Arial">–</tspan>
-        <tspan x="31.68457" y="-0.53125" style="font-size: 7.99999999px; font-family: Arial">C</tspan>
-        <tspan x="37.10083" y="-0.53125" style="font-size: 7.99999999px; font-family: Arial">O</tspan>
-        <tspan x="43.002656" y="0.635937" style="font-size: 5.59999999px; font-family: Arial">2</tspan>
-       </text>
+       <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle" x="22.826282543088556" y="-0.53125">MIL-120(Al)</text>
       </g>
      </g>
     </g>
@@ -1554,7 +1542,7 @@
       </text>
      </g>
     </g>
-    <g id="line2d_121" transform="translate(-33.600000000 0.000000000) ">
+    <g id="line2d_121" transform="translate(-6.5 0) translate(-33.600000000 0.000000000) ">
      <path d="M 179.233621 33.191466  L 184.858621 33.191466  L 190.483621 33.191466  " style="fill: none; stroke-dasharray: 6.4,1.6,1,1.6; stroke-dashoffset: 0; stroke: #333333; stroke-width: 1.00500000"/>
      <defs>
       <path id="md470d7ee19" d="M 0 -1.6  L -1.6 1.6  L 1.6 1.6  z " style="stroke-linejoin: miter"/>
@@ -1563,10 +1551,10 @@
       <use xlink:href="#md470d7ee19" x="184.858621" y="33.191466" style="fill: #333333; stroke: #333333; stroke-linejoin: miter; stroke-width: 1.00500000"/>
      </g>
     </g>
-    <g id="text_16" transform="translate(-33.600000000 0.000000000) ">
+    <g id="text_16" transform="translate(-6.5 0) translate(-33.600000000 0.000000000) ">
      <text style="font-size: 7.99999999px; font-family: Arial; text-anchor: start" x="193.108621" y="35.816466" transform="rotate(-0 193.108621 35.816466)">YSZ</text>
     </g>
-    <g id="line2d_120" transform="translate(51.900000000 0.000000000) ">
+    <g id="line2d_120" transform="translate(-6.5 0) translate(51.900000000 0.000000000) ">
      <path d="M 132.597684 33.191466  L 138.222684 33.191466  L 143.847684 33.191466  " style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #333333; stroke-width: 1.00500000"/>
      <defs>
       <path id="m796475e1d1" d="M -1.6 1.6  L 1.6 1.6  L 1.6 -1.6  L -1.6 -1.6  z " style="stroke-linejoin: miter"/>
@@ -1575,10 +1563,10 @@
       <use xlink:href="#m796475e1d1" x="138.222684" y="33.191466" style="fill: #333333; stroke: #333333; stroke-linejoin: miter; stroke-width: 1.00500000"/>
      </g>
     </g>
-    <g id="text_15" transform="translate(51.900000000 0.000000000) ">
-     <text style="font-size: 7.99999999px; font-family: Arial; text-anchor: start" x="146.472684" y="35.816466" transform="rotate(-0 146.472684 35.816466)">MIL-120</text>
+    <g id="text_15" transform="translate(-6.5 0) translate(51.900000000 0.000000000) ">
+     <text style="font-size: 7.99999999px; font-family: Arial; text-anchor: start" x="146.472684" y="35.816466" transform="rotate(-0 146.472684 35.816466)">MIL-120(Al)</text>
     </g>
-    <g id="line2d_122" transform="translate(20.400000000 0.000000000) ">
+    <g id="line2d_122" transform="translate(6.5 0) translate(20.400000000 0.000000000) ">
      <defs>
       <path id="me83ca0a5d2" d="M -2 2  L 2 -2  M -2 -2  L 2 2  " style=""/>
      </defs>
@@ -1586,7 +1574,7 @@
       <use xlink:href="#me83ca0a5d2" x="218.56995" y="33.191466" style="fill: #222222; stroke: #222222; stroke-width: 1.00500000"/>
      </g>
     </g>
-    <g id="text_17" transform="translate(20.400000000 0.000000000) ">
+    <g id="text_17" transform="translate(6.5 0) translate(20.400000000 0.000000000) ">
      <text style="font-size: 7.99999999px; font-family: Arial; text-anchor: start" x="226.81995" y="35.816466" transform="rotate(-0 226.81995 35.816466)">OOM</text>
     </g>
    </g>
