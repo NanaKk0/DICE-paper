@@ -322,7 +322,11 @@ class PaperPlotter(Plotter):
         ax.set(xlabel="Time (ps)",ylabel="Solid-fraction proxy")
 
     def velocities(self,ax):
-        super().velocities(ax)
+        d=self.csv('data/physical_validation/AL_COEXISTENCE.csv')
+        ax.errorbar(d.temperature_K,d.velocity_m_s,
+                    yerr=[d.velocity_m_s-d.ci95_low,d.ci95_high-d.velocity_m_s],fmt='o',ms=3)
+        ax.axhline(0,color='black',lw=.6)
+        ax.set(xlabel='Temperature (K)',ylabel='Interface velocity (m s$^{-1}$), 95% interval')
         ax.set_xticks([2330,2340,2350],["2330","2340","2350"])
 
     def normalized(self,ax):

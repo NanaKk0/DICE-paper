@@ -77,6 +77,15 @@ class CurrentReleaseTests(unittest.TestCase):
             assert_close(heights[1::2],[304.1386991056702,202.12822089742917,229.82436676493182],'Labelled teacher bars')
             plt.close(fig)
 
+    def test_coexistence_dependency_survives_portable_extraction(self):
+        with tempfile.TemporaryDirectory() as d:
+            p=PaperPlotter(self.a,Path(d));saved=[]
+            p.save=lambda fig,*args,**kw:saved.append(fig)
+            p.supplement(10)
+            self.assertEqual(len(saved[0].axes),2)
+            self.assertEqual(len(saved[0].axes[1].lines),9)
+            plt.close(saved[0])
+
     def test_summary_reconstructs_cost_and_key_claims(self):
         with tempfile.TemporaryDirectory() as d:
             result=summary(self.a,Path(d))
