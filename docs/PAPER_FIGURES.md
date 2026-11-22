@@ -1,74 +1,34 @@
-# Rebuild the paper figures
+# Figure reconstruction
 
-Install `requirements.txt` and a licensed Arial font visible to Matplotlib.
-CairoSVG is used only to export the editable Fig. 1 schematic; it also needs
-the system Cairo library. The commands use the bundled numerical source data.
-The locally tested rendering versions are listed in [FIGURE_ENVIRONMENT.md](FIGURE_ENVIRONMENT.md).
+`source-data/artwork/` contains the twenty approved editable SVG files.
+`reproduce.py reexport` copies those files exactly. `reproduce.py figures`
+reconstructs the numerical panels in Python using the bundled observations.
+Outputs are SVG, PDF and PNG, with a data-use report.
 
 ```sh
 python reproduce.py figures --figure main:3 --output-dir /path/to/new-fig3
-python reproduce.py figures --figure supplement:6 --output-dir /path/to/new-parity
-python reproduce.py figures --output-dir /path/to/new-paper-figures
+python reproduce.py figures --figure supplement:4 --output-dir /path/to/new-parity
 ```
 
-Use an empty output directory outside the source-data tree. Repeat `--figure`
-to select several figures. IDs are `main:1` through `main:6` and `supplement:1`
-through `supplement:16`. Outputs are editable SVG/PDF and 300 dpi PNG proofs;
-`paper-figures.json` records the data used and explicit display selections.
-
-## What is reconstructed
-
-`paper_figures.py` adapts the original paper plotting loops to the bundled
-portable data paths, preserving the data, panel content and statistics.
-Use `figures` for data-driven reconstruction and `reexport` for the exact
-approved artwork.
-
-| Figures | Data and representation |
+| Object | Evidence |
 | --- | --- |
-| Main 1 | Approved editable workflow SVG export |
-| Main 2 | Cross-pool teacher errors; the two Random10 tails under one b label; representative repeat-1 support/error scatter; separate High40 paired tails |
-| Main 3 | Teacher error; all 28 student rounds with the 3–10 addition interval; both element projections; both support distributions; stored AlO4/5/6 rigid overlays |
-| Main 4 | All 1,660 configuration/model error observations; saved YSZ transition intervals at 0.30 eV/Å; matched main-path phonons; C→B profile; six fitted minima |
-| Main 5 | Five-phase EOS; separate unshifted X-ray and neutron correlations; three-temperature adsorption; 8/10YSZ tracer-NE estimates and experimental DC curves |
-| Main 6 | Three-system MD-step latency, saved technical spreads and observed OOM positions; formal development-sampling cost totals |
-| Supplement 1–5 | Two allocation matrices, both unqueried-teacher metrics, absolute/paired Random10 tails, both TD partition metrics and High40 absolute tails |
-| Supplement 6–8 | Production-student energy and force-component parity; separate models, shared DFT centering, all observations |
-| Supplement 9–11 | Six MIL single-point EOS series on common DFT geometries, nine common-DFT-geometry profiles and nine independently optimized DICE CI-NEB profiles, kept distinct |
-| Supplement 12–13 | Eleven-phase energy/volume comparison and full α/κ/θ dispersions including low and negative frequencies |
-| Supplement 14–16 | Interface velocities plus complete repeat traces; normalized composition-dependent diffusion; measured lattice response and stored expansion coefficients |
+| Main 1 | Conventional distillation and the DICE workflow; approved schematic |
+| Main 2 | Matched 70-frame teacher-update comparisons; paired DFT-70 tails and teacher errors |
+| Main 3 | QBC/GMM scores and errors in both pools; paired relative student P99 differences |
+| Main 4 | Four structural groups, teacher/student accuracy, neighbourhood mixing and aligned AlO₄/₅/₆ examples |
+| Main 5 | Production-error distributions, element-resolved high-error fractions, phonons, paths and relative energies |
+| Main 6 | Al₂O₃ EOS and liquid correlations, YSZ conductivity and MIL-120 CO₂ adsorption |
+| Main 7 | Model execution timings and startup-inclusive exploration-cost estimates |
+| Supplement 1–2 | 70-frame teacher/student errors; routing decisions and paired RMSE differences |
+| Supplement 3–5 | Al₂O₃, YSZ and MIL-120 energy/force parity |
+| Supplement 6–9 | MIL-120 EOS and paths; Al₂O₃ phase comparisons and full phonons |
+| Supplement 10–13 | Coexistence, diffusion, thermal response and optimised MIL-120 paths |
 
-## Frozen definitions and display selections
+Current figure IDs are `main:1`–`main:7` and `supplement:1`–`supplement:13`.
+[FIGURE_TABLE_MAP.csv](../FIGURE_TABLE_MAP.csv) resolves each figure to its
+inputs and command. [MAIN_PANEL_MAP.csv](../MAIN_PANEL_MAP.csv) records current
+main-panel letters. Plot labels use $T_0$, $T_R$ and $T_1$.
 
-- Tails use the saved top 0.01–1% grid. Means are over the same five
-  configuration-selection repeats; supplementary tail panels show every repeat.
-- Random10 and Low10/High40 are separate arrays. High40 uses the saved
-  geometry-clean evaluation membership.
-- Main Fig. 2 support scatter uses all 413 rows of repeat 1 for both teacher
-  snapshots. Teacher source-pool evaluation is a different population.
-- Main Fig. 3 uses saved projections and histogram bins. Its overlay uses the
-  saved aligned coordinates, correspondence and camera.
-- Main matched phonons use Γ–M–K–Γ–A–L–H–A; supplementary multi-phase spectra
-  retain the full archived paths. Disconnected segments remain separate, and
-  the dispersions include all frequency modes.
-- Main Fig. 4 error points are the archived per-frame metric. The white point
-  marks the median; the violin shows the distribution of configuration errors.
-- OOM crosses use observed atom counts and the saved display-only extensions.
-  Their y positions are display-only guides; measured timings end at the
-  last successful point.
-- EOS energies and path zeros use the existing source-data columns.
-- Statistical bands and error bars retain their archived definitions; see
-  [NUMERICAL_DEFINITIONS.md](NUMERICAL_DEFINITIONS.md) and the paper captions.
-
-## The three different actions
-
-| Action | Result |
-| --- | --- |
-| `verify` / `replot` | Numerical checks / diagnostic verification figures, unchanged from the previous release |
-| `figures` | Reconstructed paper panels from frozen source data, plus explicit schematic export |
-| `reexport` | Exact copies of the approved SVG artwork |
-
-Use `reexport` when the exact approved composition is needed, and `figures`
-when changing a plotting parameter or inspecting the data-to-panel path.
-`FIGURE_TABLE_MAP.csv` and `MAIN_PANEL_MAP.csv` give per-object commands and
-source locations. Native inference remains a separate optional task described
-in `MODEL_USE.md`.
+The numerical reconstructions preserve observations, repeat identities and
+metric definitions. Exact composition and the approved illustrations are
+available through `reexport`.

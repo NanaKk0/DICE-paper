@@ -1,46 +1,29 @@
-# Trained models and labelled datasets
+# Research assets
 
-| Task | Download |
+| Use | Package |
 | --- | --- |
-| Read/use the trained study models | DICE-models.zip |
-| Read labelled configurations and locked tests | DICE-datasets.zip |
-| Reconstruct paper figures, tables and numerical checks | DICE-paper.zip or the public DICE-paper repository |
+| DICE software | DICE-software.zip |
+| Figures, numerical observations and CPU reproduction | DICE-paper.zip |
+| Eleven trained study models | DICE-models.zip |
+| Labelled configurations and physical-validation inputs | DICE-datasets.zip |
 
-The Zenodo deposit contains four ZIPs: DICE-software.zip, DICE-paper.zip,
-DICE-models.zip and DICE-datasets.zip. The archive identifier is
-[10.5281/zenodo.23885754](https://doi.org/10.5281/zenodo.23906093).
-Extract the model and dataset archives into the same parent directory; they share
-research-assets/. DATASET_SUMMARY.csv lists labelled files and counts.
-MODEL_IDENTITY.csv and MODEL_CARDS.json describe model roles, native type maps
-and runtime requirements. FILE_INDEX.csv covers the supplied model/dataset files.
+The model and dataset packages share `research-assets/`. Extract the model
+package first and the dataset package second into the same parent directory.
+`DATASET_SUMMARY.csv` lists labelled datasets and
+counts; `MODEL_IDENTITY.csv` and `MODEL_CARDS.json` identify the models;
+`FILE_INDEX.csv` resolves the supplied payloads and exact duplicate aliases.
 
 ```sh
 python restore_assets.py /path/to/research-assets --restore --require-all --verify
 ```
 
-## Dataset contents
+The dataset package contains target DFT references, final student training
+sets, independent tests, the historical S940/S1320 student sets, and the
+120-frame liquid–amorphous test. The 380 analysed additions correspond to
+zero-based S1320 frames 940–1319. Structures, key inputs and saved trajectory
+endpoints are linked to current figures in `validation/INDEX.csv`.
 
-The datasets contain all three systems' target DFT references, final teacher-labelled
-student geometries and fixed tests, plus the S940/S1320 historical student data and
-the independent 120-frame liquid–amorphous test. Labels and frame order are unchanged.
-
-For new training, prepare native training inputs and recipes for your chosen model
-and runtime. Obtain pretrained DPA4/DPA4C weights from their official projects.
-The software's [own-system guide](https://github.com/NanaKk0/DICE/blob/main/docs/own-system.md)
-describes input preparation and its [native-model guide](https://github.com/NanaKk0/DICE/blob/main/docs/native-models.md)
-describes model/runtime compatibility.
-
-## Numerical verification
-
-The paper repository bundles figure/table source data, repeat-level statistics,
-sampling-work and timing records, and the inputs for its documented CPU numerical
-checks. Run reproduce.py verify, figures or tables as described in README.md.
-The source tables provide the controlled-experiment metrics and tail curves
-for each configuration-selection repeat.
-
-## Model evaluation
-
-MODEL_USE.md describes evaluation of the six production students on the supplied
-ordered tests. MODEL_CARDS.json records hardware/build requirements and native
-species maps. FIRST_FRAME_REFERENCES.json supplies existing reference predictions
-for checking a compatible installation.
+For figure reconstruction, use the source data bundled with this repository.
+For frozen-model evaluation, use [MODEL_USE.md](../MODEL_USE.md).
+The restricted archive is
+[10.5281/zenodo.24433482](https://doi.org/10.5281/zenodo.24433482).

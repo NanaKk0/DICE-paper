@@ -1,5 +1,0 @@
-Pool,Teacher,Force-component RMSE,Force-vector error P99
-gamma,T0,0.06096 ± 0.00778,0.3818 ± 0.0596
-gamma,TR,0.05765 ± 0.00665,0.3635 ± 0.0542
-liquid,T0,0.09909 ± 0.00806,0.6825 ± 0.0840
-liquid,TR,0.04628 ± 0.00415,0.2735 ± 0.0309

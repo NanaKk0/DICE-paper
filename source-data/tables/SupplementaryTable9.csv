@@ -1,5 +1,0 @@
-Model,All configurations (120),High support (112),Low support (8)
-Pretrained teacher,0.07403,0.06914,0.12361
-Adapted teacher,0.05058,0.04674,0.08824
-Student before expansion,0.20851,—,—
-Student after expansion,0.17561,—,—

@@ -1,0 +1,13 @@
+{
+  "teacher_seconds": "work / full_native_body_rate + startup + exit + hybrid transport + preparation and validation",
+  "teacher_result_column": "teacher_protocol_recheck_seconds",
+  "student_seconds": "recorded RUNNING-to-SUCCESS task-block durations",
+  "work_inventory": {
+    "blocks": 148,
+    "task_records": 75038,
+    "mode_allocations": 219,
+    "modes": 26
+  },
+  "calibration": "median of three fresh-process timing measurements for each existing mode",
+  "aggregation": "concurrent startup waves; persistent FIRE pools start once per block/mode"
+}

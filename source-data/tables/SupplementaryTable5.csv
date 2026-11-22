@@ -1,12 +1,4 @@
-Sampling mode,Atoms,"Teacher throughput
-(step s⁻¹)","Total steps
-(step)","Student time
-(h)","Teacher estimate
-(h)"
-NVT,40/43/46,531.82,"174,922,000",5.6181,91.3646
-NVT,160/172/184,121.98,"21,981,300",0.7928,50.0564
-Fixed-cell FIRE relaxation,40/43/46,539.25,"339,377",0.3817,0.1748
-Widom insertion,43,"4,449.15","10,800,000",0.6600,0.6743
-Widom insertion,163,974.48,"2,400,000",0.1861,0.6841
-GCMC–MD,160 + CO₂,325.29,"80,447,400",4.1897,68.6971
-System total,—,—,—,11.83,211.65
+System,Simulation conditions,Directly fine-tuned student,DICE-distilled student
+Al₂O₃,"Liquid; 1,920 atoms; 2400 K; NPT",Dynamical instability at 0.22 ps,Stable through 1 ns
+10YSZ,640 atoms; 1800 K; NPT,Dynamical instability at 0.3 ps,Stable through 1 ns
+MIL-120,Empty framework; 160 atoms; 500 K; NVT,Dynamical instability at 593 ps,Stable through 1 ns

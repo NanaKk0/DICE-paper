@@ -1,18 +1,16 @@
-Sampling mode,Atoms,"Teacher throughput
-(step s⁻¹)","Total steps
-(step)","Student time
-(h)","Teacher estimate
-(h)"
-NVT (dense output),30,550.73,"182,400",0.0447,0.0920
-NVT,80,204.61,"8,190,000",0.1461,11.1188
-NVT (dense output),80,203.32,"6,144,000",1.5774,8.3941
-NVT,120,128.32,"1,900,000",0.2619,4.1131
-NVT (dense output),160,103.06,"6,704,000",1.7062,18.0701
-NVT,240,63.52,"2,150,000",0.0553,9.4025
-Temperature-programmed NVT,160,130.76,"35,200,000",1.1789,74.7750
-Temperature/cell-programmed NVT,160,109.49,"8,520,000",0.4356,21.6154
-NPT,160,99.37,"51,840,000",2.3564,144.9175
-Fixed-cell FIRE relaxation,120,132.61,"2,727",0.0178,0.0057
-Fixed-cell FIRE relaxation,240,62.83,314,0.0040,0.0014
-Fixed-cell FIRE relaxation,360,41.73,588,0.0076,0.0039
-System total,—,—,—,7.79,292.51
+System,Sampling method,Recorded student time (h),Estimated teacher time (h)
+Al₂O₃,NVT,3.79,63.67
+Al₂O₃,Temperature-programmed NVT,1.18,75.37
+Al₂O₃,Temperature/cell-programmed NVT,0.44,22.04
+Al₂O₃,NPT,2.36,143.04
+Al₂O₃,Fixed-cell FIRE relaxation,0.03,0.02
+Al₂O₃,System total,7.79,304.14
+YSZ,NVT,1.89,64.53
+YSZ,NPT,3.06,84.82
+YSZ,Temperature-programmed NPT,1.84,52.77
+YSZ,System total,6.79,202.13
+MIL-120–CO₂,NVT,6.41,141.96
+MIL-120–CO₂,Fixed-cell FIRE relaxation,0.38,0.22
+MIL-120–CO₂,Widom insertion,0.85,1.56
+MIL-120–CO₂,GCMC–MD,4.19,86.09
+MIL-120–CO₂,System total,11.83,229.82

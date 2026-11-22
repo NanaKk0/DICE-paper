@@ -3,258 +3,76 @@
   "test_frames": 120,
   "source_radius_A": 2.8,
   "reference_source": "/home/drq/DICE-isolated/Al2O3/AL3/iter6/teach/train/dataset/train.xyz",
-  "reference_sha256": "afe470338db0e48a62191c7e012a7627a1732d4131c93c4e52a0d59df0992759",
   "query_source": "/home/drq/DICE/analysis/al_cross_phase_local_support_20261024_v1/relabel_random120/relabelled.extxyz",
+  "reference_sha256": "afe470338db0e48a62191c7e012a7627a1732d4131c93c4e52a0d59df0992759",
   "query_sha256": "d43da1b63f37736b5c0febbececf31abe6f89c64c0ed2bf610c9fb150bb0b1b1",
+  "selection_rule": "Within each coordination class, minimize O-position RMSD across the teacher training and test environments; centre Al atoms coincide, all O permutations and proper rotations allowed.",
+  "candidate_pruning": "Rotation/permutation invariant radial and O-O-distance lower bounds; all candidates capable of improving the incumbent are exactly checked.",
   "pairs": [
     {
       "coordination": 4,
-      "query_stratum_atoms": 573,
-      "query_total_Al_atoms": 5760,
-      "query_source_frame_zero_based": 287,
-      "query_test_frame_zero_based": 79,
-      "query_center_atom_zero_based": 40,
-      "query_structure_id": null,
-      "query_config_type": null,
-      "reference_frame_zero_based": 38,
-      "reference_center_atom_zero_based": 12,
-      "reference_structure_id": "sha256:cf803d3fa005e376b89b1e007114d69486d98d461d031002b8e542aeee02f012",
-      "reference_origin": "low_temperature_crystal_nvt",
-      "reference_source_group": "low_temperature_crystal_nvt:stage1_natoms160",
-      "class_median_SOAP_distance": 0.0633317902684211,
-      "selected_SOAP_distance": 0.0633317902684211,
-      "nearest_SOAP_cache_row": 4492,
-      "query_permutation": [
-        0,
-        3,
-        1,
-        2
-      ],
+      "reference_frame_zero_based": 76,
+      "reference_center_atom_zero_based": 10,
+      "reference_structure_id": "sha256:98d134e4aa7eabe08436b9f2f55bf1287b65897ca9ae01dc71a83df4bbcfd827",
+      "query_test_frame_zero_based": 0,
+      "query_source_frame_zero_based": 6,
+      "query_center_atom_zero_based": 19,
+      "O_site_rigid_RMSD_A": 0.03544370461189285,
       "rotation_query_to_reference": [
         [
-          -0.36438466703620803,
-          -0.8753309921798902,
-          0.31783559989132987
+          0.8824680378567207,
+          0.4683068446142785,
+          -0.04403250445668282
         ],
         [
-          0.1035032158605365,
-          0.30111834010503097,
-          0.9479529680099744
+          0.16687993318376199,
+          -0.3992319215308304,
+          -0.9015347806554025
         ],
         [
-          -0.9254787402936057,
-          0.37831653331801474,
-          -0.01912333346465402
+          -0.4397740898028128,
+          0.7882274875429175,
+          -0.4304604253818097
         ]
       ],
       "rotation_determinant": 1.000000000000001,
-      "O_site_rigid_RMSD_A": 0.2557101954488645,
-      "reference_AlO_distances_A": [
-        1.67587196238297,
-        1.8145553731316397,
-        1.8516674376613556,
-        1.9584973054974402
-      ],
-      "test_AlO_distances_A": [
-        1.6937989212874436,
-        2.0044218215984384,
-        1.8003459536711277,
-        1.8422539960540383
-      ],
-      "radius_A": 2.8,
-      "camera": {
-        "azimuth_degrees": 135,
-        "elevation_degrees": 55,
-        "projection_matrix": [
-          [
-            -0.7071067811865476,
-            0.5792279653395691,
-            -0.40557978767263886
-          ],
-          [
-            -0.7071067811865475,
-            -0.5792279653395692,
-            0.4055797876726389
-          ],
-          [
-            0.0,
-            0.5735764363510462,
-            0.8191520442889917
-          ]
-        ],
-        "reference_min_projected_spacing_A": 1.5034556055189041
-      },
-      "selection": "Retrospective coordination-class example; query closest to class median stored SOAP distance, then nearest same-element reference; no force-error/support/rigid-fit selection.",
-      "site_displacements_A": [
-        0.22205122460039448,
-        0.2665690185677096,
-        0.05970246395596094,
-        0.37097256504610465
-      ]
-    },
-    {
-      "coordination": 5,
-      "query_stratum_atoms": 1827,
-      "query_total_Al_atoms": 5760,
-      "query_source_frame_zero_based": 12,
-      "query_test_frame_zero_based": 4,
-      "query_center_atom_zero_based": 43,
-      "query_structure_id": null,
-      "query_config_type": null,
-      "reference_frame_zero_based": 87,
-      "reference_center_atom_zero_based": 28,
-      "reference_structure_id": "sha256:298e7c70e14f61f983b831ffd1925ccf4adac9209bb6adb87b4c217fd6faa513",
-      "reference_origin": "high_temperature_crystal_nvt",
-      "reference_source_group": "high_temperature_crystal_nvt:stage1_natoms80",
-      "class_median_SOAP_distance": 0.0757638812065124,
-      "selected_SOAP_distance": 0.0757638812065124,
-      "nearest_SOAP_cache_row": 10188,
       "query_permutation": [
-        0,
         1,
         2,
-        3,
-        4
-      ],
-      "rotation_query_to_reference": [
-        [
-          0.781446636293878,
-          0.5063418306223655,
-          -0.364635578608251
-        ],
-        [
-          -0.5671772199460225,
-          0.3328162633062844,
-          -0.7533547212655816
-        ],
-        [
-          -0.26009835793269354,
-          0.795519506637538,
-          0.547263701299367
-        ]
-      ],
-      "rotation_determinant": 0.999999999999998,
-      "O_site_rigid_RMSD_A": 0.383064919832949,
-      "reference_AlO_distances_A": [
-        1.7735015248690342,
-        1.7927686961976443,
-        1.8455564109476272,
-        2.1427130471763998,
-        2.1937604953545007
-      ],
-      "test_AlO_distances_A": [
-        1.745041568272801,
-        1.8075886260429936,
-        1.9971453452615795,
-        2.0075528937988145,
-        2.1435162295863304
-      ],
-      "radius_A": 2.8,
-      "camera": {
-        "azimuth_degrees": 285,
-        "elevation_degrees": 25,
-        "projection_matrix": [
-          [
-            0.9659258262890684,
-            -0.10938165494661481,
-            0.23456971600980406
-          ],
-          [
-            0.2588190451025203,
-            0.4082178936767349,
-            -0.8754260980655931
-          ],
-          [
-            0.0,
-            0.9063077870366499,
-            0.42261826174069944
-          ]
-        ],
-        "reference_min_projected_spacing_A": 1.472273547588111
-      },
-      "selection": "Retrospective coordination-class example; query closest to class median stored SOAP distance, then nearest same-element reference; no force-error/support/rigid-fit selection.",
-      "site_displacements_A": [
-        0.16214159350144483,
-        0.37547417993815907,
-        0.41208649834022665,
-        0.46955844296963867,
-        0.41966950617279347
-      ]
-    },
-    {
-      "coordination": 6,
-      "query_stratum_atoms": 2359,
-      "query_total_Al_atoms": 5760,
-      "query_source_frame_zero_based": 376,
-      "query_test_frame_zero_based": 104,
-      "query_center_atom_zero_based": 8,
-      "query_structure_id": null,
-      "query_config_type": null,
-      "reference_frame_zero_based": 128,
-      "reference_center_atom_zero_based": 29,
-      "reference_structure_id": "sha256:6d1f0b98226817837f8a283c703fb8aa0714e71b662a3ad7769c812e792aea50",
-      "reference_origin": "high_temperature_crystal_nvt",
-      "reference_source_group": "high_temperature_crystal_nvt:stage1_natoms80",
-      "class_median_SOAP_distance": 0.0707654133439064,
-      "selected_SOAP_distance": 0.0707654133439064,
-      "nearest_SOAP_cache_row": 15069,
-      "query_permutation": [
         0,
-        3,
-        1,
-        2,
-        4,
-        5
+        3
       ],
-      "rotation_query_to_reference": [
-        [
-          0.5587927745726501,
-          -0.2928938032990334,
-          -0.7758632966408613
-        ],
-        [
-          0.7670623705073626,
-          0.5381503115647099,
-          0.3492986715039596
-        ],
-        [
-          0.3152236584348082,
-          -0.7903211133152347,
-          0.5253823208018547
-        ]
-      ],
-      "rotation_determinant": 0.999999999999999,
-      "O_site_rigid_RMSD_A": 0.7882221236175718,
       "reference_AlO_distances_A": [
-        1.6503160548808289,
-        1.8125928447570114,
-        1.8434981979923915,
-        1.870549738181858,
-        2.0544538493487843,
-        2.724368129176177
+        1.806451147400228,
+        1.8195022605878615,
+        1.8310872007514878,
+        1.8336225006074258
       ],
       "test_AlO_distances_A": [
-        1.6464412155312442,
-        1.9346149180134002,
-        1.7660892433566302,
-        1.820819916136683,
-        2.074673732855363,
-        2.621782690708747
+        1.826043057871309,
+        1.8609564584374347,
+        1.8102544836845451,
+        1.8695246944878794
       ],
-      "radius_A": 2.8,
+      "site_displacements_A": [
+        0.02487017378251736,
+        0.04637914277899986,
+        0.02640063337286576,
+        0.039477600168760445
+      ],
       "camera": {
-        "azimuth_degrees": 75,
+        "azimuth_degrees": 330,
         "elevation_degrees": 45,
         "projection_matrix": [
           [
-            -0.9659258262890683,
-            -0.1830127018922193,
-            0.18301270189221933
+            0.5000000000000004,
+            -0.6123724356957942,
+            0.6123724356957944
           ],
           [
-            0.25881904510252074,
-            -0.6830127018922193,
-            0.6830127018922194
+            0.8660254037844384,
+            0.35355339059327406,
+            -0.3535533905932741
           ],
           [
             0.0,
@@ -262,23 +80,280 @@
             0.7071067811865475
           ]
         ],
-        "reference_min_projected_spacing_A": 1.250931356899759
+        "minimum_projected_atom_spacing_A": 1.4153822768788098
       },
-      "selection": "Retrospective coordination-class example; query closest to class median stored SOAP distance, then nearest same-element reference; no force-error/support/rigid-fit selection.",
+      "search": {
+        "reference_environments": 1869,
+        "test_environments": 448,
+        "all_cross_pairs": 837312,
+        "exact_pairs": 1046,
+        "global_minimum_certified_by_invariant_lower_bounds": true,
+        "initial_upper_bound_A": 0.0453143221054847
+      }
+    },
+    {
+      "coordination": 5,
+      "reference_frame_zero_based": 86,
+      "reference_center_atom_zero_based": 17,
+      "reference_structure_id": "sha256:8631842b0ea8a0940e53d8c5b9001c3b2344523dae2322dce55d9c69fca66d01",
+      "query_test_frame_zero_based": 79,
+      "query_source_frame_zero_based": 287,
+      "query_center_atom_zero_based": 13,
+      "O_site_rigid_RMSD_A": 0.11746256971546139,
+      "rotation_query_to_reference": [
+        [
+          0.19937536695775376,
+          0.29593714194545545,
+          -0.9341684382741782
+        ],
+        [
+          0.6340453341065757,
+          0.6878998120881503,
+          0.35324264015937806
+        ],
+        [
+          0.7471519104895211,
+          -0.6627330205642713,
+          -0.05048728657410639
+        ]
+      ],
+      "rotation_determinant": 1.0000000000000002,
+      "query_permutation": [
+        0,
+        3,
+        1,
+        2,
+        4
+      ],
+      "reference_AlO_distances_A": [
+        1.7256166442386824,
+        1.7578711370722027,
+        1.7971943005127977,
+        1.8776468501558734,
+        2.007116594342547
+      ],
+      "test_AlO_distances_A": [
+        1.7648585831731671,
+        1.8849160958780111,
+        1.778139493318789,
+        1.8621588525687043,
+        2.004987765601604
+      ],
       "site_displacements_A": [
-        0.42109615397661443,
-        0.8995115933050928,
-        0.6510407056267842,
-        0.43367696366293657,
-        0.8180096379047403,
-        1.2084089302372092
-      ]
+        0.1582168407703768,
+        0.13242183759034967,
+        0.07275174629085401,
+        0.12523434818711485,
+        0.07377469818585584
+      ],
+      "camera": {
+        "azimuth_degrees": 90,
+        "elevation_degrees": 55,
+        "projection_matrix": [
+          [
+            -1.0,
+            -5.015859645267624e-17,
+            3.512142734218271e-17
+          ],
+          [
+            6.123233995736766e-17,
+            -0.8191520442889918,
+            0.5735764363510462
+          ],
+          [
+            0.0,
+            0.5735764363510462,
+            0.8191520442889918
+          ]
+        ],
+        "minimum_projected_atom_spacing_A": 1.1723828522188802
+      },
+      "search": {
+        "reference_environments": 620,
+        "test_environments": 1385,
+        "all_cross_pairs": 858700,
+        "exact_pairs": 63261,
+        "global_minimum_certified_by_invariant_lower_bounds": true,
+        "initial_upper_bound_A": 0.11746256971546139
+      }
+    },
+    {
+      "coordination": 6,
+      "reference_frame_zero_based": 45,
+      "reference_center_atom_zero_based": 22,
+      "reference_structure_id": "sha256:6dc425fc431b5fcb8229a47ce84111f52445cfffaf88b334292ce5acdb5b96da",
+      "query_test_frame_zero_based": 118,
+      "query_source_frame_zero_based": 415,
+      "query_center_atom_zero_based": 41,
+      "O_site_rigid_RMSD_A": 0.13398473895335125,
+      "rotation_query_to_reference": [
+        [
+          -0.9651280080181661,
+          0.26102148360466665,
+          -0.019892542213209668
+        ],
+        [
+          -0.21524072092028756,
+          -0.8345084866658242,
+          -0.5072149620628612
+        ],
+        [
+          -0.14899449720241456,
+          -0.48524568084583114,
+          0.8615899657167931
+        ]
+      ],
+      "rotation_determinant": 0.9999999999999986,
+      "query_permutation": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5
+      ],
+      "reference_AlO_distances_A": [
+        1.7883719046251894,
+        1.8074824272821992,
+        1.8299625327567368,
+        1.8950129710544248,
+        2.0280344324189934,
+        2.207414859046799
+      ],
+      "test_AlO_distances_A": [
+        1.731151183143748,
+        1.7583731929826507,
+        1.8584006825246375,
+        1.8102250070640387,
+        2.0269748945657917,
+        2.239541196048869
+      ],
+      "site_displacements_A": [
+        0.07286255126923803,
+        0.2083521633819068,
+        0.11535588939462672,
+        0.1709931267046577,
+        0.12089921048906528,
+        0.042774251318558124
+      ],
+      "camera": {
+        "azimuth_degrees": 45,
+        "elevation_degrees": 35,
+        "projection_matrix": [
+          [
+            -0.7071067811865475,
+            -0.40557978767263886,
+            0.5792279653395692
+          ],
+          [
+            0.7071067811865476,
+            -0.4055797876726388,
+            0.5792279653395691
+          ],
+          [
+            0.0,
+            0.8191520442889918,
+            0.573576436351046
+          ]
+        ],
+        "minimum_projected_atom_spacing_A": 1.3681191730166036
+      },
+      "search": {
+        "reference_environments": 3869,
+        "test_environments": 1361,
+        "all_cross_pairs": 5265709,
+        "exact_pairs": 346540,
+        "global_minimum_certified_by_invariant_lower_bounds": true,
+        "initial_upper_bound_A": 0.17805169695472603
+      }
     }
   ],
-  "no_training": true,
-  "no_new_inference": true,
-  "no_new_DFT": true,
-  "no_new_MD": true,
-  "selection_does_not_use_model_error_or_support": true,
-  "declaration": "Coordination-specific illustrative pairs, not a complete-coverage or accuracy claim; cases selected retrospectively."
+  "test_frame_eligibility": {
+    "rule": "Test frames lie below the entire teacher-frame range in both existing oxygen-network order metrics; geometric RMSD selects pairs within this admissible set.",
+    "test_frame_indices_zero_based": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      29,
+      32,
+      33,
+      36,
+      37,
+      39,
+      41,
+      42,
+      44,
+      45,
+      46,
+      47,
+      49,
+      52,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      63,
+      64,
+      66,
+      67,
+      69,
+      70,
+      71,
+      75,
+      77,
+      79,
+      80,
+      82,
+      83,
+      85,
+      86,
+      88,
+      89,
+      91,
+      92,
+      93,
+      94,
+      96,
+      97,
+      100,
+      101,
+      102,
+      105,
+      106,
+      107,
+      109,
+      110,
+      113,
+      115,
+      116,
+      118,
+      119
+    ],
+    "test_frame_count": 80,
+    "O_qbar6_mean_upper_bound": 0.1671033364487826,
+    "O_reciprocal_max_coherence_upper_bound": 0.3182498476673149
+  }
 }

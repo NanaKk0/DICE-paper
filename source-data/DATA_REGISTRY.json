@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "snapshot": "2026-11-01",
+  "snapshot": "2026-11-22",
   "figures": [
     {
       "id": "main:1",
@@ -15,11 +15,12 @@
       "stem": "Fig2",
       "artwork": "artwork/Fig2.svg",
       "sources": [
-        "data/controlled/Fig2b_random_paired_tail_differences.csv",
-        "data/controlled/Fig2c_teacher_pool_metrics.csv",
-        "data/controlled/support_transitions_common413.csv",
-        "data/controlled/Fig2f_supported_paired_tail_differences.csv",
-        "data/controlled/Fig2f_evaluation_membership.csv"
+        "data/controlled/Fig2a_paired_tails.csv",
+        "data/controlled/Fig2b_teacher_pool_metrics.csv",
+        "data/controlled/metrics_per_repeat.csv",
+        "data/controlled/summary_metrics.csv",
+        "data/controlled/teacher_metrics_per_repeat.csv",
+        "data/controlled/teacher_summary.csv"
       ]
     },
     {
@@ -28,17 +29,19 @@
       "stem": "Fig3",
       "artwork": "artwork/Fig3.svg",
       "sources": [
-        "data/crossphase/TEACHER_PLOTTED_DATA.csv",
-        "data/crossphase/STUDENT_PLOTTED_DATA.csv",
-        "data/crossphase/TRAINING_ADDITION_AUDIT.csv",
-        "data/crossphase/TRAINING_ADDITION_AUDIT.json",
-        "data/crossphase/TSNE_Al.csv",
-        "data/crossphase/TSNE_O.csv",
-        "data/crossphase/SUPPORT_HISTOGRAM.csv",
-        "data/local_environments/PAIR_SELECTION_AND_GEOMETRY_QA.json",
-        "data/local_environments/AlO4_coordinates_and_correspondence.csv",
-        "data/local_environments/AlO5_coordinates_and_correspondence.csv",
-        "data/local_environments/AlO6_coordinates_and_correspondence.csv"
+        "data/routing/Fig3_scatter_source.csv",
+        "data/routing/Fig3g_relative_P99_paired_source.csv",
+        "data/routing/Fig3g_relative_P99_summary.csv",
+        "data/routing/gamma_updated_routing_per_frame.csv",
+        "data/routing/student_metrics_per_repeat.csv",
+        "data/routing/summary_metrics.csv",
+        "data/si_comparisons/random70_student_per_repeat.csv",
+        "data/si_comparisons/random70_summary.csv",
+        "data/si_comparisons/random70_teacher_per_repeat.csv",
+        "data/si_comparisons/routing_RMSE_paired_per_repeat.csv",
+        "data/si_comparisons/routing_RMSE_paired_summary.csv",
+        "data/si_comparisons/routing_acceptance_per_repeat.csv",
+        "data/si_comparisons/routing_acceptance_summary.csv"
       ]
     },
     {
@@ -46,6 +49,34 @@
       "object": "Fig. 4",
       "stem": "Fig4",
       "artwork": "artwork/Fig4.svg",
+      "sources": [
+        "data/crossphase/PARTITION_ERRORS.csv",
+        "data/crossphase/STUDENT_PLOTTED_DATA.csv",
+        "data/crossphase/TEACHER_PLOTTED_DATA.csv",
+        "data/crossphase/TRAINING_ADDITION_AUDIT.csv",
+        "data/crossphase/TRAINING_ADDITION_AUDIT.json",
+        "data/crossphase/TSNE_Al.csv",
+        "data/crossphase/TSNE_O.csv",
+        "data/structural_analysis/FRAME_ERRORS.csv",
+        "data/structural_analysis/MEAN_STRUCTURE_FACTORS.csv",
+        "data/structural_analysis/MEMBERSHIP_QA.json",
+        "data/structural_analysis/ORDER_METRICS.csv",
+        "data/structural_analysis/PARTITION_ERRORS.csv",
+        "data/structural_analysis/ROUTING_COUNTS.csv",
+        "data/local_environments/AlO4_coordinates_and_correspondence.csv",
+        "data/local_environments/AlO4_polyhedra.png",
+        "data/local_environments/AlO5_coordinates_and_correspondence.csv",
+        "data/local_environments/AlO5_polyhedra.png",
+        "data/local_environments/AlO6_coordinates_and_correspondence.csv",
+        "data/local_environments/AlO6_polyhedra.png",
+        "data/local_environments/PAIR_SELECTION_AND_GEOMETRY_QA.json"
+      ]
+    },
+    {
+      "id": "main:5",
+      "object": "Fig. 5",
+      "stem": "Fig5",
+      "artwork": "artwork/Fig5.svg",
       "sources": [
         "data/prediction_and_mil/frames.csv",
         "data/provenance/YSZ500k_error_transitions.csv",
@@ -59,10 +90,10 @@
       ]
     },
     {
-      "id": "main:5",
-      "object": "Fig. 5",
-      "stem": "Fig5",
-      "artwork": "artwork/Fig5.svg",
+      "id": "main:6",
+      "object": "Fig. 6",
+      "stem": "Fig6",
+      "artwork": "artwork/Fig6.svg",
       "sources": [
         "data/physical_validation/AL_EOS_PLOT.csv",
         "data/physical_validation/AL_G_figure_source_data.csv",
@@ -75,17 +106,25 @@
       ]
     },
     {
-      "id": "main:6",
-      "object": "Fig. 6",
-      "stem": "Fig6",
-      "artwork": "artwork/Fig6.svg",
+      "id": "main:7",
+      "object": "Fig. 7",
+      "stem": "Fig7",
+      "artwork": "artwork/Fig7.svg",
       "sources": [
+        "data/performance/OOM_DISPLAY_GUIDES.csv",
+        "data/performance/OOM_OBSERVATIONS.csv",
+        "data/performance/SIZE_LIMIT_SUMMARY.csv",
         "data/performance/THREE_SYSTEM_LATENCY.csv",
         "data/performance/THREE_SYSTEM_TIMING_BLOCKS.csv",
-        "data/performance/OOM_OBSERVATIONS.csv",
-        "data/performance/OOM_DISPLAY_GUIDES.csv",
-        "data/performance/SIZE_LIMIT_SUMMARY.csv",
-        "data/sampling_costs/DEVELOPMENT_SAMPLING_COST.csv"
+        "data/sampling_costs/BLOCK_MODE_FULL_ESTIMATES_219.csv",
+        "data/sampling_costs/DEVELOPMENT_SAMPLING_COST.csv",
+        "data/sampling_costs/ESTIMATION_CONVENTIONS.json",
+        "data/sampling_costs/FORMAL_ACCEPTED_BLOCKS_148.json",
+        "data/sampling_costs/MODE_FULL_ESTIMATES_26.csv",
+        "data/sampling_costs/RECOMMENDED_METHOD_ESTIMATES.csv",
+        "data/sampling_costs/RECOMMENDED_SYSTEM_ESTIMATES.csv",
+        "data/sampling_costs/STARTUP_CALIBRATION_26.csv",
+        "data/sampling_costs/task_work_records.json.gz"
       ]
     },
     {
@@ -94,7 +133,9 @@
       "stem": "SupplementaryFig1",
       "artwork": "artwork/SupplementaryFig1.svg",
       "sources": [
-        "data/controlled/S2_supervision_allocation.csv"
+        "data/si_comparisons/random70_student_per_repeat.csv",
+        "data/si_comparisons/random70_summary.csv",
+        "data/si_comparisons/random70_teacher_per_repeat.csv"
       ]
     },
     {
@@ -103,7 +144,10 @@
       "stem": "SupplementaryFig2",
       "artwork": "artwork/SupplementaryFig2.svg",
       "sources": [
-        "data/controlled/S3_unqueried_teacher_pairs.csv"
+        "data/si_comparisons/routing_RMSE_paired_per_repeat.csv",
+        "data/si_comparisons/routing_RMSE_paired_summary.csv",
+        "data/si_comparisons/routing_acceptance_per_repeat.csv",
+        "data/si_comparisons/routing_acceptance_summary.csv"
       ]
     },
     {
@@ -112,7 +156,9 @@
       "stem": "SupplementaryFig3",
       "artwork": "artwork/SupplementaryFig3.svg",
       "sources": [
-        "data/controlled/S4_absolute_and_paired_tails.csv"
+        "data/accuracy/ENERGY_PARITY_200.csv",
+        "data/accuracy/FORCE_COMPONENT_PARITY_74040.csv",
+        "data/accuracy/MODEL_DATA_MANIFEST.json"
       ]
     },
     {
@@ -121,8 +167,9 @@
       "stem": "SupplementaryFig4",
       "artwork": "artwork/SupplementaryFig4.svg",
       "sources": [
-        "data/support/td_teacher_partitions.csv",
-        "data/support/S6_ALL_20_METRIC_VALUES.csv"
+        "data/accuracy/S_direct_YSZ500_parity_energy.csv",
+        "data/provenance/PLAN.json",
+        "data/accuracy/S_direct_YSZ500_parity_force.csv"
       ]
     },
     {
@@ -131,8 +178,9 @@
       "stem": "SupplementaryFig5",
       "artwork": "artwork/SupplementaryFig5.svg",
       "sources": [
-        "data/controlled/Fig2f_supported_paired_tail_differences.csv",
-        "data/controlled/Fig2f_evaluation_membership.csv"
+        "data/accuracy/S_direct_MIL_parity_energy.csv",
+        "data/provenance/PLAN.json",
+        "data/accuracy/S_direct_MIL_parity_force.csv"
       ]
     },
     {
@@ -141,9 +189,7 @@
       "stem": "SupplementaryFig6",
       "artwork": "artwork/SupplementaryFig6.svg",
       "sources": [
-        "data/accuracy/ENERGY_PARITY_200.csv",
-        "data/accuracy/FORCE_COMPONENT_PARITY_74040.csv",
-        "data/accuracy/MODEL_DATA_MANIFEST.json"
+        "data/prediction_and_mil/all_EOS.csv"
       ]
     },
     {
@@ -152,9 +198,9 @@
       "stem": "SupplementaryFig7",
       "artwork": "artwork/SupplementaryFig7.svg",
       "sources": [
-        "data/accuracy/S_direct_MIL_parity_energy.csv",
-        "data/provenance/PLAN.json",
-        "data/accuracy/S_direct_MIL_parity_force.csv"
+        "data/prediction_and_mil/all_path_profiles.csv",
+        "data/prediction_and_mil/path_motion_reference.csv",
+        "data/prediction_and_mil/path_source_audit.csv"
       ]
     },
     {
@@ -163,9 +209,9 @@
       "stem": "SupplementaryFig8",
       "artwork": "artwork/SupplementaryFig8.svg",
       "sources": [
-        "data/accuracy/S_direct_YSZ500_parity_energy.csv",
-        "data/provenance/PLAN.json",
-        "data/accuracy/S_direct_YSZ500_parity_force.csv"
+        "data/physical_validation/Al_eleven_phase_comparison.csv",
+        "data/physical_validation/Al_phase_relax.csv",
+        "data/physical_validation/Al_phase_DFT.csv"
       ]
     },
     {
@@ -174,7 +220,9 @@
       "stem": "SupplementaryFig9",
       "artwork": "artwork/SupplementaryFig9.svg",
       "sources": [
-        "data/prediction_and_mil/all_EOS.csv"
+        "data/physical_validation/Al_phonon_band.csv",
+        "data/physical_validation/Al_phonon_path_metadata.json",
+        "data/physical_validation/Al_phonon_summary.csv"
       ]
     },
     {
@@ -183,9 +231,9 @@
       "stem": "SupplementaryFig10",
       "artwork": "artwork/SupplementaryFig10.svg",
       "sources": [
-        "data/prediction_and_mil/all_path_profiles.csv",
-        "data/prediction_and_mil/path_motion_reference.csv",
-        "data/prediction_and_mil/path_source_audit.csv"
+        "data/physical_validation/AL_COEXISTENCE.csv",
+        "data/physical_validation/AL_INTERFACE_2330_2340.csv",
+        "data/physical_validation/AL_INTERFACE_2350.csv"
       ]
     },
     {
@@ -194,8 +242,9 @@
       "stem": "SupplementaryFig11",
       "artwork": "artwork/SupplementaryFig11.svg",
       "sources": [
-        "data/physical_validation/MIL_relaxed_NEB_profiles.csv",
-        "data/physical_validation/MIL_barriers.csv"
+        "data/ysz/transport_normalized_whole_preparation_bootstrap.csv",
+        "data/ysz/transport_whole_preparation_bootstrap.csv",
+        "data/provenance/YSZ_NORMALIZED_DIFFUSION.csv"
       ]
     },
     {
@@ -204,9 +253,10 @@
       "stem": "SupplementaryFig12",
       "artwork": "artwork/SupplementaryFig12.svg",
       "sources": [
-        "data/physical_validation/Al_eleven_phase_comparison.csv",
-        "data/physical_validation/Al_phase_relax.csv",
-        "data/physical_validation/Al_phase_DFT.csv"
+        "data/physical_validation/YSZ_lattice_bins_common_window.csv",
+        "data/physical_validation/YSZ_thermal_coefficients_per_preparation.csv",
+        "data/experimental_references/verified_experimental_coefficients.csv",
+        "data/experimental_references/PROVENANCE.md"
       ]
     },
     {
@@ -215,189 +265,36 @@
       "stem": "SupplementaryFig13",
       "artwork": "artwork/SupplementaryFig13.svg",
       "sources": [
-        "data/physical_validation/Al_phonon_band.csv",
-        "data/physical_validation/Al_phonon_path_metadata.json",
-        "data/physical_validation/Al_phonon_summary.csv"
-      ]
-    },
-    {
-      "id": "supplement:14",
-      "object": "Supplementary Fig. 14",
-      "stem": "SupplementaryFig14",
-      "artwork": "artwork/SupplementaryFig14.svg",
-      "sources": [
-        "data/physical_validation/AL_COEXISTENCE.csv",
-        "data/physical_validation/AL_INTERFACE_2330_2340.csv",
-        "data/physical_validation/AL_INTERFACE_2350.csv"
-      ]
-    },
-    {
-      "id": "supplement:15",
-      "object": "Supplementary Fig. 15",
-      "stem": "SupplementaryFig15",
-      "artwork": "artwork/SupplementaryFig15.svg",
-      "sources": [
-        "data/ysz/transport_normalized_whole_preparation_bootstrap.csv",
-        "data/ysz/transport_whole_preparation_bootstrap.csv",
-        "data/provenance/YSZ_NORMALIZED_DIFFUSION.csv"
-      ]
-    },
-    {
-      "id": "supplement:16",
-      "object": "Supplementary Fig. 16",
-      "stem": "SupplementaryFig16",
-      "artwork": "artwork/SupplementaryFig16.svg",
-      "sources": [
-        "data/physical_validation/YSZ_lattice_bins_common_window.csv",
-        "data/physical_validation/YSZ_thermal_coefficients_per_preparation.csv",
-        "data/experimental_references/verified_experimental_coefficients.csv",
-        "data/experimental_references/PROVENANCE.md"
+        "data/physical_validation/MIL_relaxed_NEB_profiles.csv",
+        "data/physical_validation/MIL_barriers.csv"
       ]
     }
   ],
   "tables": [
     {
-      "number": 1,
-      "title": "Al₂O₃ development stages contributing to the final training set.",
+      "object": "Supplementary Table 1",
       "file": "tables/SupplementaryTable1.csv",
-      "note": "44 sampling blocks; 67,760 tasks; 2,580 final student training geometries.",
-      "sources": [
-        "data/development/FORMAL_TABLES_S1_S3.json",
-        "data/development/BLOCK_LINEAGE_148.csv",
-        "data/development/MATCHED_STRUCTURE_IDS.csv",
-        "data/development/TEACHER_REFERENCE_SNAPSHOTS.csv",
-        "data/development/SAMPLING_CONDITIONS.csv",
-        "data/development/REFERENCE_SOURCE_FILES.json"
-      ]
+      "title": "Al₂O₃ development stages contributing to the final training set."
     },
     {
-      "number": 2,
-      "title": "YSZ development stages contributing to the final training set.",
+      "object": "Supplementary Table 2",
       "file": "tables/SupplementaryTable2.csv",
-      "note": "47 sampling blocks; 1,740 tasks; 4,272 final student training geometries.",
-      "sources": [
-        "data/development/FORMAL_TABLES_S1_S3.json",
-        "data/development/BLOCK_LINEAGE_148.csv",
-        "data/development/MATCHED_STRUCTURE_IDS.csv",
-        "data/development/TEACHER_REFERENCE_SNAPSHOTS.csv",
-        "data/development/SAMPLING_CONDITIONS.csv",
-        "data/development/REFERENCE_SOURCE_FILES.json"
-      ]
+      "title": "YSZ development stages contributing to the final training set."
     },
     {
-      "number": 3,
-      "title": "MIL-120–CO₂ development stages contributing to the final training set.",
+      "object": "Supplementary Table 3",
       "file": "tables/SupplementaryTable3.csv",
-      "note": "57 sampling blocks; 5,538 tasks; 6,041 final student training geometries. The 5,561 high-support selections correspond to 5,547 unique retained geometries. The final teacher subsequently labelled all 6,041 final geometries without further geometry acquisition.",
-      "sources": [
-        "data/development/FORMAL_TABLES_S1_S3.json",
-        "data/development/BLOCK_LINEAGE_148.csv",
-        "data/development/MATCHED_STRUCTURE_IDS.csv",
-        "data/development/TEACHER_REFERENCE_SNAPSHOTS.csv",
-        "data/development/SAMPLING_CONDITIONS.csv",
-        "data/development/REFERENCE_SOURCE_FILES.json"
-      ]
+      "title": "MIL-120–CO₂ development stages contributing to the final training set."
     },
     {
-      "number": 4,
-      "title": "Al₂O₃ mode-resolved development-sampling costs.",
+      "object": "Supplementary Table 4",
       "file": "tables/SupplementaryTable4.csv",
-      "note": "",
-      "sources": [
-        "data/sampling_costs/FORMAL_26_SAMPLING_MODES.csv",
-        "data/sampling_costs/FORMAL_BLOCK_MODE_COSTS_219.csv",
-        "data/sampling_costs/Table_S1a.csv"
-      ]
+      "title": "Development-sampling costs by system and sampling method."
     },
     {
-      "number": 5,
-      "title": "MIL-120–CO₂ mode-resolved development-sampling costs.",
+      "object": "Supplementary Table 5",
       "file": "tables/SupplementaryTable5.csv",
-      "note": "",
-      "sources": [
-        "data/sampling_costs/FORMAL_26_SAMPLING_MODES.csv",
-        "data/sampling_costs/FORMAL_BLOCK_MODE_COSTS_219.csv",
-        "data/sampling_costs/Table_S1b.csv"
-      ]
-    },
-    {
-      "number": 6,
-      "title": "YSZ mode-resolved development-sampling costs.",
-      "file": "tables/SupplementaryTable6.csv",
-      "note": "",
-      "sources": [
-        "data/sampling_costs/FORMAL_26_SAMPLING_MODES.csv",
-        "data/sampling_costs/FORMAL_BLOCK_MODE_COSTS_219.csv",
-        "data/sampling_costs/Table_S1c.csv"
-      ]
-    },
-    {
-      "number": 7,
-      "title": "Random-route accuracy on unselected configurations",
-      "file": "tables/SupplementaryTable7.csv",
-      "note": "Mean ± sample SD over five configuration-selection repeats; force units eV Å⁻¹. Each repeat excludes its full R50. Route codes identify students trained under each supervision scheme: A-T0, A-hybrid, A-TR, A-DFT20 and A-DFTref denote $T_0$, Hybrid, T_R, DFT-20 and DFT-60, respectively.",
-      "sources": [
-        "data/controlled/random_unselected_metric_summary.csv",
-        "data/controlled/random.csv",
-        "data/phonons/Table_S04.csv",
-        "data/phonons/Table_S04.csv"
-      ]
-    },
-    {
-      "number": 8,
-      "title": "Teacher errors beyond queried geometries",
-      "file": "tables/SupplementaryTable8.csv",
-      "note": "Mean ± sample SD over five matched configuration-selection repeats; force units eV Å⁻¹. Each teacher is evaluated on the same forty geometries per repeat, included in expanded student supervision but excluded from teacher adaptation.",
-      "sources": [
-        "data/controlled/remaining40_teacher_metric_summary.csv",
-        "data/controlled/remaining40.csv",
-        "data/phonons/Table_S05.csv",
-        "data/phonons/Table_S05.csv"
-      ]
-    },
-    {
-      "number": 9,
-      "title": "Force errors on the 120-configuration liquid–amorphous test set.",
-      "file": "tables/SupplementaryTable9.csv",
-      "note": "Values are pooled force-component RMSEs in eV Å⁻¹ on the same 120 test geometries and DFT labels. The fixed adapted-teacher router assigns high support at $p$ > 0.1 and low support at $p$ ≤ 0.1; partition errors are shown for the two teachers. The historical expansion students use 940 and 1320 training geometries, respectively, and 100k training steps; they are distinct from the final production students. The adapted teacher remains unchanged during expansion, with no additional target DFT references acquired; teacher adaptation uses 140 target DFT references.",
-      "sources": [
-        "data/summary/crossphase120_force_errors.csv",
-        "data/crossphase/PARTITION_ERRORS.csv"
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Independent-test force errors of the final production students.",
-      "file": "tables/SupplementaryTable10.csv",
-      "note": "Force-component RMSEs are in eV Å⁻¹ and pool all Cartesian residuals on the common test set of each system. Both routes use the final 500k-step students. Reduction = 100 × (RMSE_direct − RMSE_DICE)/RMSE_direct, calculated before rounding.",
-      "sources": [
-        "data/summary/production_force_RMSE.csv",
-        "data/accuracy/ERROR_SUMMARY.csv",
-        "data/provenance/Al500k_full_errors.csv"
-      ]
-    },
-    {
-      "number": 11,
-      "title": "Dynamical stability of the final production students.",
-      "file": "tables/SupplementaryTable11.csv",
-      "note": "The table reports the earliest recorded instability time for each directly fine-tuned student, determined from the last stored frame. Timesteps are 1 fs for Al₂O₃ and YSZ and 0.5 fs for MIL-120.",
-      "sources": [
-        "data/provenance/DYNAMICAL_SUMMARY.csv",
-        "data/provenance/COMPLETED_1NS_RECEIPT.json",
-        "data/provenance/RUN_PLAN.json",
-        "data/prediction_and_mil/MD_RUN_RECORDS.csv"
-      ]
-    },
-    {
-      "number": 12,
-      "title": "Endpoint-detrended interior energy-profile errors on nine common DFT paths.",
-      "file": "tables/SupplementaryTable12.csv",
-      "note": "MAEs are in meV per P40 framework cell and average the nine interior images of each eleven-image DFT path. Both models are evaluated on the same DFT geometries; $t$ is the normalised cumulative minimum-image Cartesian displacement along that DFT path. The endpoint-linear residual is removed before absolute averaging, as defined above. E-cell denotes the alternate fixed cell.",
-      "sources": [
-        "data/summary/MIL_nine_path_detrended_MAE.csv",
-        "data/mil120/path_metrics.csv",
-        "data/prediction_and_mil/all_path_profiles.csv"
-      ]
+      "title": "Dynamical stability of the final production students."
     }
   ],
   "source_aliases": {
@@ -405,13 +302,9 @@
     "review-expanded-benefits/YSZ500k_error_transitions.csv": "data/provenance/YSZ500k_error_transitions.csv",
     "review-physical-validation/source_data/YSZ_NORMALIZED_DIFFUSION.csv": "data/provenance/YSZ_NORMALIZED_DIFFUSION.csv",
     "source_data/Main_Table1.csv": "data/provenance/Main_Table1.csv",
-    "source_data/ablation_gmm/random_metrics_per_repeat.csv": "data/controlled/random_metrics_per_repeat.csv",
-    "source_data/ablation_gmm/random_unselected_metric_summary.csv": "data/controlled/random_unselected_metric_summary.csv",
-    "source_data/ablation_gmm/remaining40_teacher_metric_summary.csv": "data/controlled/remaining40_teacher_metric_summary.csv",
     "source_data/al500k_parity_20261030/ENERGY_PARITY_200.csv": "data/accuracy/ENERGY_PARITY_200.csv",
     "source_data/al500k_parity_20261030/FORCE_COMPONENT_PARITY_74040.csv": "data/accuracy/FORCE_COMPONENT_PARITY_74040.csv",
     "source_data/al500k_parity_20261030/MODEL_DATA_MANIFEST.json": "data/accuracy/MODEL_DATA_MANIFEST.json",
-    "source_data/atomic_support/source_data/SUPPORT_HISTOGRAM.csv": "data/crossphase/SUPPORT_HISTOGRAM.csv",
     "source_data/atomic_support/source_data/TSNE_Al.csv": "data/crossphase/TSNE_Al.csv",
     "source_data/atomic_support/source_data/TSNE_O.csv": "data/crossphase/TSNE_O.csv",
     "source_data/crossphase120/PARTITION_ERRORS.csv": "data/crossphase/PARTITION_ERRORS.csv",
@@ -421,13 +314,6 @@
     "source_data/development_lineage_20261031/REFERENCE_SOURCE_FILES.json": "data/development/REFERENCE_SOURCE_FILES.json",
     "source_data/development_lineage_20261031/SAMPLING_CONDITIONS.csv": "data/development/SAMPLING_CONDITIONS.csv",
     "source_data/development_lineage_20261031/TEACHER_REFERENCE_SNAPSHOTS.csv": "data/development/TEACHER_REFERENCE_SNAPSHOTS.csv",
-    "source_data/fig2_revision/Fig2b_random_paired_tail_differences.csv": "data/controlled/Fig2b_random_paired_tail_differences.csv",
-    "source_data/fig2_revision/Fig2c_teacher_pool_metrics.csv": "data/controlled/Fig2c_teacher_pool_metrics.csv",
-    "source_data/fig2_revision/Fig2d_common413_partition_metrics.csv": "data/controlled/Fig2d_common413_partition_metrics.csv",
-    "source_data/fig2_revision/Fig2f_evaluation_membership.csv": "data/controlled/Fig2f_evaluation_membership.csv",
-    "source_data/fig2_revision/Fig2f_supported_paired_tail_differences.csv": "data/controlled/Fig2f_supported_paired_tail_differences.csv",
-    "source_data/fig2_revision/support_transitions_common413.csv": "data/controlled/support_transitions_common413.csv",
-    "source_data/fig2_revision/teacher_cross_pool_per_frame.csv": "data/controlled/teacher_cross_pool_per_frame.csv",
     "source_data/fig3_e456_20261029/AlO4_coordinates_and_correspondence.csv": "data/local_environments/AlO4_coordinates_and_correspondence.csv",
     "source_data/fig3_e456_20261029/AlO5_coordinates_and_correspondence.csv": "data/local_environments/AlO5_coordinates_and_correspondence.csv",
     "source_data/fig3_e456_20261029/AlO6_coordinates_and_correspondence.csv": "data/local_environments/AlO6_coordinates_and_correspondence.csv",
@@ -452,7 +338,6 @@
     "source_data/matched500k/Al500k_full_errors.csv": "data/provenance/Al500k_full_errors.csv",
     "source_data/matched500k/Al500k_phonon_metrics.csv": "data/provenance/Al500k_phonon_metrics.csv",
     "source_data/mil120/mil_phase_order.csv": "data/mil120/mil_phase_order.csv",
-    "source_data/mil120/path_metrics.csv": "data/mil120/path_metrics.csv",
     "source_data/necessity/ERROR_SUMMARY.csv": "data/accuracy/ERROR_SUMMARY.csv",
     "source_data/necessity/S_direct_MIL_parity_energy.csv": "data/accuracy/S_direct_MIL_parity_energy.csv",
     "source_data/necessity/S_direct_MIL_parity_force.csv": "data/accuracy/S_direct_MIL_parity_force.csv",
@@ -483,30 +368,15 @@
     "source_data/r01-r12/S26_q_path.json": "data/phonons/S26_q_path.json",
     "source_data/r01-r12/Table_S04.csv": "data/phonons/Table_S04.csv",
     "source_data/r01-r12/Table_S05.csv": "data/phonons/Table_S05.csv",
-    "source_data/selected_si_evidence_20261030/MIL_nine_path_detrended_MAE.csv": "data/summary/MIL_nine_path_detrended_MAE.csv",
     "source_data/selected_si_evidence_20261030/crossphase120_force_errors.csv": "data/summary/crossphase120_force_errors.csv",
     "source_data/selected_si_evidence_20261030/production_force_RMSE.csv": "data/summary/production_force_RMSE.csv",
-    "source_data/si_S6_split_metrics_20261030/S6_ALL_20_METRIC_VALUES.csv": "data/support/S6_ALL_20_METRIC_VALUES.csv",
-    "source_data/si_S6_split_metrics_20261030/td_teacher_partitions.csv": "data/support/td_teacher_partitions.csv",
     "source_data/si_final_tables/Table_S4.csv": "data/phonons/Table_S04.csv",
     "source_data/si_final_tables/Table_S5.csv": "data/phonons/Table_S05.csv",
     "source_data/si_note2_formal_sampling_20261030/DEVELOPMENT_SAMPLING_COST.csv": "data/sampling_costs/DEVELOPMENT_SAMPLING_COST.csv",
-    "source_data/si_note2_formal_sampling_20261030/FORMAL_26_SAMPLING_MODES.csv": "data/sampling_costs/FORMAL_26_SAMPLING_MODES.csv",
     "source_data/si_note2_formal_sampling_20261030/FORMAL_ACCEPTED_BLOCKS_148.json": "data/sampling_costs/FORMAL_ACCEPTED_BLOCKS_148.json",
-    "source_data/si_note2_formal_sampling_20261030/FORMAL_BLOCK_MODE_COSTS_219.csv": "data/sampling_costs/FORMAL_BLOCK_MODE_COSTS_219.csv",
-    "source_data/si_note2_formal_sampling_20261030/Table_S1a.csv": "data/sampling_costs/Table_S1a.csv",
-    "source_data/si_note2_formal_sampling_20261030/Table_S1b.csv": "data/sampling_costs/Table_S1b.csv",
-    "source_data/si_note2_formal_sampling_20261030/Table_S1c.csv": "data/sampling_costs/Table_S1c.csv",
-    "source_data/si_note3_20261028/S2_supervision_allocation.csv": "data/controlled/S2_supervision_allocation.csv",
-    "source_data/si_note3_20261028/S3_unqueried_teacher_pairs.csv": "data/controlled/S3_unqueried_teacher_pairs.csv",
-    "source_data/si_note3_20261028/S4_absolute_and_paired_tails.csv": "data/controlled/S4_absolute_and_paired_tails.csv",
-    "source_data/si_note4_20261029/Fig2f_evaluation_membership.csv": "data/controlled/Fig2f_evaluation_membership.csv",
-    "source_data/si_note4_20261029/Fig2f_supported_paired_tail_differences.csv": "data/controlled/Fig2f_supported_paired_tail_differences.csv",
     "source_data/table8_earliest_1ns_20261030/COMPLETED_1NS_RECEIPT.json": "data/provenance/COMPLETED_1NS_RECEIPT.json",
     "source_data/table8_earliest_1ns_20261030/DYNAMICAL_SUMMARY.csv": "data/provenance/DYNAMICAL_SUMMARY.csv",
     "source_data/table8_earliest_1ns_20261030/RUN_PLAN.json": "data/provenance/RUN_PLAN.json",
-    "source_data/tables/random.csv": "data/controlled/random.csv",
-    "source_data/tables/remaining40.csv": "data/controlled/remaining40.csv",
     "source_data/ysz/MSD_representative_16_preparations.csv.gz": "data/ysz/MSD_representative_16_preparations.csv.gz",
     "source_data/ysz/NE_experiment_comparison.csv": "data/physical_validation/YSZ_CONDUCTIVITY.csv",
     "source_data/ysz/NE_summary.csv": "data/ysz/NE_summary.csv",
@@ -518,44 +388,119 @@
   },
   "files": [
     {
-      "file": "data/provenance/PLAN.json",
-      "bytes": 25158,
-      "sha256": "c784f991cfdeeb8df3e6b9a449809ec0daa25d0fe82907ffadbe59f541d95c1b"
+      "file": "README.md",
+      "bytes": 3228,
+      "sha256": "38e043247ba91638642eea5da9ef0173c755032beea6afe68b49adbd6f630830"
     },
     {
-      "file": "data/provenance/YSZ500k_error_transitions.csv",
-      "bytes": 1185,
-      "sha256": "f6099ef1fd5a831214c93e3588adbaee40f4a7c93c14949237fe063e8b9c3335"
+      "file": "artwork/Fig1.svg",
+      "bytes": 10576,
+      "sha256": "9a4a6c87ea9fe92607641a2d512b8a705c9b75980ec190426e3d35d4b796ecc0"
     },
     {
-      "file": "data/provenance/YSZ_NORMALIZED_DIFFUSION.csv",
-      "bytes": 2183,
-      "sha256": "5d49db148efee319b791c7b367909342216f5a12d3860a0c87a43fccf848cb9c"
+      "file": "artwork/Fig2.svg",
+      "bytes": 57756,
+      "sha256": "7fb5601e8209343d7d63da37a532a5508059d7e5f3e032a227209e2be6db82aa"
     },
     {
-      "file": "data/provenance/Main_Table1.csv",
-      "bytes": 196,
-      "sha256": "3d586e1a8cd30dfd2eb0888b7d85729aba337da3255a1acf07f7d9c38732dd60"
+      "file": "artwork/Fig3.svg",
+      "bytes": 530976,
+      "sha256": "044704843d091bbba1c63085ecd39a338a65acc8b49b7560018512e2c11942cb"
     },
     {
-      "file": "data/controlled/random_metrics_per_repeat.csv",
-      "bytes": 22417,
-      "sha256": "847cf8a0e45b36408d609903873744b910b0e48617a8392ce6eb683bd3e78f31"
+      "file": "artwork/Fig4.svg",
+      "bytes": 3434934,
+      "sha256": "1f3a8160289c1274da534f17d2d0927b22cc36b2d47188c6f0f9ffc1f1b7dc99"
     },
     {
-      "file": "data/controlled/random_unselected_metric_summary.csv",
-      "bytes": 1148,
-      "sha256": "7471b52e00842a2ee16bbb25d5df48e4d8f256c95641a585b19b571e823236ab"
+      "file": "artwork/Fig5.svg",
+      "bytes": 372187,
+      "sha256": "4645b314de39e61c0edb8f7ba938c13ecfa5d4356509d33e631df961d589f1c9"
     },
     {
-      "file": "data/controlled/remaining40_teacher_metric_summary.csv",
-      "bytes": 467,
-      "sha256": "c1d4680a4a6517a10284dc3a4c0cdca55656056c1b04ba14f68519b5e352f6fb"
+      "file": "artwork/Fig6.svg",
+      "bytes": 219499,
+      "sha256": "922056352c02766ccbfed34e6b5ce4be72c717b365e9f1dfedfd3174fa0e676d"
+    },
+    {
+      "file": "artwork/Fig7.svg",
+      "bytes": 105286,
+      "sha256": "7de116947441d6fa59c39e1c53c4c6140a59139dc16e72cc675fba7ec4a94043"
+    },
+    {
+      "file": "artwork/SupplementaryFig1.svg",
+      "bytes": 46521,
+      "sha256": "5cd2c8f2a54b0c93dc7ed2c0987a0627a25a35b04b3f3f6a65db0e446d85e50b"
+    },
+    {
+      "file": "artwork/SupplementaryFig10.svg",
+      "bytes": 212280,
+      "sha256": "f180ab50ebf71892c162339f1f11fcf51a9819052625653aef48fd5514c12f51"
+    },
+    {
+      "file": "artwork/SupplementaryFig11.svg",
+      "bytes": 35936,
+      "sha256": "b6b7b54509f1a5694dda42068c65aafebc53be7cf8cb51d383d1f051500dec65"
+    },
+    {
+      "file": "artwork/SupplementaryFig12.svg",
+      "bytes": 51523,
+      "sha256": "3d14bcb84b793db444e6fdaa336103dd4e0e13a64baf7cb1db1c88c8a3f8eac8"
+    },
+    {
+      "file": "artwork/SupplementaryFig13.svg",
+      "bytes": 98076,
+      "sha256": "1fc0b7091bd91e635850b2b8c8163539a6b48f2a338cdcc5573ea224b4507dc2"
+    },
+    {
+      "file": "artwork/SupplementaryFig2.svg",
+      "bytes": 41786,
+      "sha256": "ca0305941d954d4bdd9da615010500af8b2c10dce60184299a4e0d446f8a33c1"
+    },
+    {
+      "file": "artwork/SupplementaryFig3.svg",
+      "bytes": 284477,
+      "sha256": "1afd7aa9c230e9e432623953d3ba9d6456a61ba18ea2801ffd46056b8d261c04"
+    },
+    {
+      "file": "artwork/SupplementaryFig4.svg",
+      "bytes": 357192,
+      "sha256": "f63b4d122758e073ee87e96ca1d04cadba6684ed5c58cdd1cd90c8aa37d7e440"
+    },
+    {
+      "file": "artwork/SupplementaryFig5.svg",
+      "bytes": 348638,
+      "sha256": "1e646de7bb8e9ddb99cb188df36bcae5ed1a9680050a9ba09727e1cbb223e87c"
+    },
+    {
+      "file": "artwork/SupplementaryFig6.svg",
+      "bytes": 81759,
+      "sha256": "2ec5a9327444772ef7fad072c9c86379250d7e673a6ed5de0084b4a164c1dea7"
+    },
+    {
+      "file": "artwork/SupplementaryFig7.svg",
+      "bytes": 152569,
+      "sha256": "e9049f11757e829be4f109c0a0fc607129f46821ea2388a5b0de0a1d197e9488"
+    },
+    {
+      "file": "artwork/SupplementaryFig8.svg",
+      "bytes": 42220,
+      "sha256": "65c35fb410f89ff3e333d5d9907c56f65c42484b88f90b1ae0dfb6674fa3254d"
+    },
+    {
+      "file": "artwork/SupplementaryFig9.svg",
+      "bytes": 1321143,
+      "sha256": "46dceb55a682690517f5c31689e18e9d902b0c07ceae97182862763784503bc1"
     },
     {
       "file": "data/accuracy/ENERGY_PARITY_200.csv",
       "bytes": 27941,
       "sha256": "a49040986885a0451311dfba9653c967671d877c0eb0d9156138172d0951c2f2"
+    },
+    {
+      "file": "data/accuracy/ERROR_SUMMARY.csv",
+      "bytes": 31691,
+      "sha256": "d873a2d27185004f657f1e9098f62447f21d6ae55af3623c4b8c74e19350b283"
     },
     {
       "file": "data/accuracy/FORCE_COMPONENT_PARITY_74040.csv",
@@ -568,24 +513,89 @@
       "sha256": "6f47767b867d1df784d5d4c20e911f305569e983f7b46d87f003ae4f3a7ad759"
     },
     {
-      "file": "data/crossphase/SUPPORT_HISTOGRAM.csv",
-      "bytes": 43548,
-      "sha256": "8fbdec22b96f2415820ade769c6aefc9221109cc9ceb51aad0a99e148d3e63e2"
+      "file": "data/accuracy/S_direct_MIL_parity_energy.csv",
+      "bytes": 50685,
+      "sha256": "5f5811391fe047a9eb3eea435e16198c2fac596880d0fbbf6955fa21863dea67"
     },
     {
-      "file": "data/crossphase/TSNE_Al.csv",
-      "bytes": 1938317,
-      "sha256": "64d946264491326d5db64bfa81f99436404db6c80e92e6ec7ceb85d2bbf55a24"
+      "file": "data/accuracy/S_direct_MIL_parity_force.csv",
+      "bytes": 2112733,
+      "sha256": "a506305a56ab71fa216e54fa7b1783c783fbd8e8fde92815852057073214d199"
     },
     {
-      "file": "data/crossphase/TSNE_O.csv",
-      "bytes": 2898636,
-      "sha256": "1c3ad9ebf244f68382a21581030114df6e225fbe2ff41a7b7c4c727923a8edb1"
+      "file": "data/accuracy/S_direct_YSZ500_parity_energy.csv",
+      "bytes": 50954,
+      "sha256": "341c37e515da5b3b7cf15fb1d2e9630f697845432b65f7416b3a0f39327edb6d"
+    },
+    {
+      "file": "data/accuracy/S_direct_YSZ500_parity_force.csv",
+      "bytes": 4183040,
+      "sha256": "0da196bd2a5190912063ba87505d8a4549e8b45b052e3c69242d12f5ee323346"
+    },
+    {
+      "file": "data/controlled/Fig2a_paired_tails.csv",
+      "bytes": 549386,
+      "sha256": "43d2bbfd3646abab97e5a1ad6d474e9a442dd5adf163f408d1700a5c2d5c41a3"
+    },
+    {
+      "file": "data/controlled/Fig2b_teacher_pool_metrics.csv",
+      "bytes": 5287,
+      "sha256": "2ce2f9809e77560f203ac343e4f4cce8e18f1459772e8118bc2bad6e9c5ed3b0"
+    },
+    {
+      "file": "data/controlled/metrics_per_repeat.csv",
+      "bytes": 36232,
+      "sha256": "00e5ab048f15442b438a00650a69c361f8a7f41d71d555b0969d4dd68926f4cd"
+    },
+    {
+      "file": "data/controlled/summary_metrics.csv",
+      "bytes": 14386,
+      "sha256": "3b6d879691a98375eebbf9414d3d43afac18ec98891adc113b1a5237f4eab19b"
+    },
+    {
+      "file": "data/controlled/teacher_metrics_per_repeat.csv",
+      "bytes": 13976,
+      "sha256": "d6a0ede4c0966a931ae003f3d4bc4811a86e0bf0a424b08390d5bc859f83b17f"
+    },
+    {
+      "file": "data/controlled/teacher_summary.csv",
+      "bytes": 6005,
+      "sha256": "0b848985abae6a111598d0e23f898f33e6dda5a94a7daeba04f0a83aa3bc274e"
     },
     {
       "file": "data/crossphase/PARTITION_ERRORS.csv",
       "bytes": 584,
       "sha256": "f07318552a266466c271cf7f646acbc37c6ab4f21a7ce924cba082eb12e35dbc"
+    },
+    {
+      "file": "data/crossphase/STUDENT_PLOTTED_DATA.csv",
+      "bytes": 1358,
+      "sha256": "f2d6eaecf9f1de774ccbcd48eb7503bd810b11d21d8f9be58a54cf7a3db69d88"
+    },
+    {
+      "file": "data/crossphase/TEACHER_PLOTTED_DATA.csv",
+      "bytes": 143,
+      "sha256": "b97accfcfbe7d1e49a264b6fceeeff6170b4e0cf6748cf9ffabb1bb830de338a"
+    },
+    {
+      "file": "data/crossphase/TRAINING_ADDITION_AUDIT.csv",
+      "bytes": 458,
+      "sha256": "be6c88cf6c4113574b07597a386872839ef689b25c5e814acb38b44822715c99"
+    },
+    {
+      "file": "data/crossphase/TRAINING_ADDITION_AUDIT.json",
+      "bytes": 550,
+      "sha256": "58fb504c1f32a6e6aaafd468f1e9aae710614629d8f361d962d6f121ed7eaed6"
+    },
+    {
+      "file": "data/crossphase/TSNE_Al.csv",
+      "bytes": 2853108,
+      "sha256": "e01150c0c2b410d01ca6917b81e335893baae1808bc31e55acca260b33bf0d7b"
+    },
+    {
+      "file": "data/crossphase/TSNE_O.csv",
+      "bytes": 4281151,
+      "sha256": "bbd9954da3b1d502b62e33858266db6e99030269ff27b3da72a3e7271b768ddf"
     },
     {
       "file": "data/development/BLOCK_LINEAGE_148.csv",
@@ -613,84 +623,64 @@
       "sha256": "0122e6843ff7f0763025e80b04c68096567afe218fcb262f03085f11682a6d43"
     },
     {
+      "file": "data/development/SEED_VARIANTS.json",
+      "bytes": 1530,
+      "sha256": "45bbe74142144c2989a91df2537415d38b2834fbeacb0e0245be21583116fea6"
+    },
+    {
       "file": "data/development/TEACHER_REFERENCE_SNAPSHOTS.csv",
       "bytes": 3876,
       "sha256": "ea4692bdc3286e2672d02c3cf115534a65aed2cffb04e025713e11cc97c53de9"
     },
     {
-      "file": "data/controlled/Fig2b_random_paired_tail_differences.csv",
-      "bytes": 508917,
-      "sha256": "daa6976624b43d0c557831003e4f78f6cf1c163120c8a0f70ba8fc3866a7ce18"
+      "file": "data/experimental_references/PROVENANCE.md",
+      "bytes": 1730,
+      "sha256": "20bc3a0391103b8c62caee16c4ae7448d9d5839c27a9beebb2874582fe37634f"
     },
     {
-      "file": "data/controlled/Fig2c_teacher_pool_metrics.csv",
-      "bytes": 2877,
-      "sha256": "d9f14006c966218774ca1c361f113d8f6a6e1e7918ca8f655b5ca9225db6736a"
-    },
-    {
-      "file": "data/controlled/Fig2d_common413_partition_metrics.csv",
-      "bytes": 1224,
-      "sha256": "a51235de3b59cbb65ce834dac84ee6206ea1a5f035ebe518cb9fbc9980c9d0e4"
-    },
-    {
-      "file": "data/controlled/Fig2f_evaluation_membership.csv",
-      "bytes": 348821,
-      "sha256": "2446192d882eb2afe2789b286f09ba3d474308ff1b9f39823dc9a08cf944e0a2"
-    },
-    {
-      "file": "data/controlled/Fig2f_supported_paired_tail_differences.csv",
-      "bytes": 152303,
-      "sha256": "26f1ebe46964fc764489b101f48dd8c37e6be38212e52a9de1d0605a61c03d06"
-    },
-    {
-      "file": "data/controlled/support_transitions_common413.csv",
-      "bytes": 520360,
-      "sha256": "533f2b7ae99c60c468c3e164317071b21c59957cb9ae9f8e19334e114487d937"
-    },
-    {
-      "file": "data/controlled/teacher_cross_pool_per_frame.csv",
-      "bytes": 1199090,
-      "sha256": "e8071bf9ba882e5565b76956069451b85809f0f1c007af899184df6cc996886d"
+      "file": "data/experimental_references/verified_experimental_coefficients.csv",
+      "bytes": 647,
+      "sha256": "357696df89df633c199b71eaf3e5f6ffa1c9086120a9bfa5eb7254b3950398d1"
     },
     {
       "file": "data/local_environments/AlO4_coordinates_and_correspondence.csv",
-      "bytes": 1410,
-      "sha256": "e4850ad5039a461f09ea970e9d0022c1af9d694e03d2dbd0045c761561f58866"
+      "bytes": 1354,
+      "sha256": "cb3dd346f5338b49f851b8aa03d05cac1265be1e59394122c8aa39cbc114bd0b"
+    },
+    {
+      "file": "data/local_environments/AlO4_polyhedra.png",
+      "bytes": 162657,
+      "sha256": "35e97f18b5b156cd8dccaefc5ebf1c398f5200d296a740fdcd7d7ae6a4bb75a4"
     },
     {
       "file": "data/local_environments/AlO5_coordinates_and_correspondence.csv",
-      "bytes": 1655,
-      "sha256": "6cc39a58d1dadf8b760be307ce4eb54db2c8eeda5bd776eb796f6d9fe6cd1c02"
+      "bytes": 1708,
+      "sha256": "27c40664536a2e72f6355cbc45cd63917d3203c0dcc3f37f8988b1f3d684aa1c"
+    },
+    {
+      "file": "data/local_environments/AlO5_polyhedra.png",
+      "bytes": 233983,
+      "sha256": "ea30d4b92dbe8440c38416e5be5cdf706d7b669d41a69c96b574857d0815fb91"
     },
     {
       "file": "data/local_environments/AlO6_coordinates_and_correspondence.csv",
-      "bytes": 1980,
-      "sha256": "2c4cc5527863df9ba0fe9e28ec8b4cba9453c0357f123cdcb2ff59a6f5251a6b"
+      "bytes": 2092,
+      "sha256": "be312a4fba1b47ff42ea3a7305f42110e07edfdf0f00062a6c66022cdf5bb997"
+    },
+    {
+      "file": "data/local_environments/AlO6_polyhedra.png",
+      "bytes": 271932,
+      "sha256": "bba551cc730fac6af95fa126193719df95a8f9dcf5118625b4755ea92e0cc2b7"
     },
     {
       "file": "data/local_environments/PAIR_SELECTION_AND_GEOMETRY_QA.json",
-      "bytes": 8760,
-      "sha256": "a358cb86a5cb01f1cd389c2640c57900d634b269781d43dacff272ba0e6a2a85"
+      "bytes": 8990,
+      "sha256": "e338687fd44a2a95f2d2c8cc2bc387af3fe86a4d52481ef4817d66b2f97f70b6"
     },
     {
-      "file": "data/crossphase/STUDENT_PLOTTED_DATA.csv",
-      "bytes": 1358,
-      "sha256": "f2d6eaecf9f1de774ccbcd48eb7503bd810b11d21d8f9be58a54cf7a3db69d88"
-    },
-    {
-      "file": "data/crossphase/TEACHER_PLOTTED_DATA.csv",
-      "bytes": 143,
-      "sha256": "b97accfcfbe7d1e49a264b6fceeeff6170b4e0cf6748cf9ffabb1bb830de338a"
-    },
-    {
-      "file": "data/crossphase/TRAINING_ADDITION_AUDIT.csv",
-      "bytes": 458,
-      "sha256": "be6c88cf6c4113574b07597a386872839ef689b25c5e814acb38b44822715c99"
-    },
-    {
-      "file": "data/crossphase/TRAINING_ADDITION_AUDIT.json",
-      "bytes": 550,
-      "sha256": "58fb504c1f32a6e6aaafd468f1e9aae710614629d8f361d962d6f121ed7eaed6"
+      "file": "data/mil120/mil_phase_order.csv",
+      "bytes": 2376,
+      "sha256": "09350c87f29827fe4aeb74a4a9e523e0cf053d5c3949b260007002dd6eb82731"
     },
     {
       "file": "data/performance/OOM_DISPLAY_GUIDES.csv",
@@ -718,89 +708,49 @@
       "sha256": "9819a6966ea892dd1e3f29073c80e2c3539d6c24efcc1ebfe565258278f511d9"
     },
     {
-      "file": "data/prediction_and_mil/MD_RUN_RECORDS.csv",
-      "bytes": 8279,
-      "sha256": "58f4fdbd58d0c83af705d9dd91141f2e8ff98685b9fb5eaae69dbab8e9f6fae2"
+      "file": "data/phonons/S26_phonon_dispersion.csv",
+      "bytes": 939229,
+      "sha256": "e08ad96a2dc635bfcdb100de401fbb546ba8ae114d8cc4fee17acfd1b099c3eb"
     },
     {
-      "file": "data/prediction_and_mil/all_EOS.csv",
-      "bytes": 27882,
-      "sha256": "8ad9a4de2fcfcf3169a79fd72980c8af6ef903e61af4bccfabdbe283240af883"
+      "file": "data/phonons/S26_q_path.json",
+      "bytes": 652,
+      "sha256": "a6b04e0deddf036b350ae614955769b87ad89c779ce75a7d72d343ce804c9748"
     },
     {
-      "file": "data/prediction_and_mil/all_path_profiles.csv",
-      "bytes": 76702,
-      "sha256": "699da42e2e122ec07c82a37710c7353a140080d87c915fa7edc9a962fcaabda0"
+      "file": "data/phonons/Table_S04.csv",
+      "bytes": 584,
+      "sha256": "f95db1b4a5f2226e704ac0656e5fffc290ff57755188f6b7468e41883e899fde"
     },
     {
-      "file": "data/prediction_and_mil/frames.csv",
-      "bytes": 928055,
-      "sha256": "d6ea94ba5fbf18bdff29852d22b25b45f1a10b5549f1068b402d463c8f2c31e3"
+      "file": "data/phonons/Table_S05.csv",
+      "bytes": 218,
+      "sha256": "2a0ecbcf6d41a799a2120d990eecc4f5aba755d4f13effdba5f6f4677d3cdeef"
     },
     {
-      "file": "data/prediction_and_mil/path_motion_reference.csv",
-      "bytes": 578,
-      "sha256": "5c0e5e89ccd88611b6853d82baa9b8e6f2458e8c5e45e45dad1940eb57dbc94c"
+      "file": "data/physical_validation/AL_COEXISTENCE.csv",
+      "bytes": 339,
+      "sha256": "1e7f8c5a1940e4503e48c7cbfa3bced9196ee8501cc7b49105409a11f292ba44"
     },
     {
-      "file": "data/prediction_and_mil/path_source_audit.csv",
-      "bytes": 17094,
-      "sha256": "f3d665b6751a934f1597b21a4bfbe95bd0122f1054eeda41064b52e8f1e47df5"
+      "file": "data/physical_validation/AL_EOS_PLOT.csv",
+      "bytes": 24574,
+      "sha256": "def4b5accbc9df7d47ffb245ab89c88992d52a7eca817726f8aac40400ca8f29"
     },
     {
-      "file": "data/experimental_references/PROVENANCE.md",
-      "bytes": 1730,
-      "sha256": "20bc3a0391103b8c62caee16c4ae7448d9d5839c27a9beebb2874582fe37634f"
+      "file": "data/physical_validation/AL_G_figure_source_data.csv",
+      "bytes": 171740,
+      "sha256": "1eed5a69b4629b5d270d9a9e0e93fe09137464fa7947669b95f85898b3cd2637"
     },
     {
-      "file": "data/experimental_references/verified_experimental_coefficients.csv",
-      "bytes": 647,
-      "sha256": "357696df89df633c199b71eaf3e5f6ffa1c9086120a9bfa5eb7254b3950398d1"
+      "file": "data/physical_validation/AL_INTERFACE_2330_2340.csv",
+      "bytes": 354663,
+      "sha256": "df89b495801af5d7504ccd7c5e71cbb99de7d6679f68e19bede82d7ebb1b4305"
     },
     {
-      "file": "data/provenance/Al500k_full_errors.csv",
-      "bytes": 1300,
-      "sha256": "3f215d20c7f5b8158f180b5d0261b245d6877658d82c13a81e3f68f4f40796f9"
-    },
-    {
-      "file": "data/provenance/Al500k_phonon_metrics.csv",
-      "bytes": 435,
-      "sha256": "aeb9e86990dd4f97bdea577a079413309c2feea9c317854009d3570430bd1ebe"
-    },
-    {
-      "file": "data/mil120/mil_phase_order.csv",
-      "bytes": 2376,
-      "sha256": "09350c87f29827fe4aeb74a4a9e523e0cf053d5c3949b260007002dd6eb82731"
-    },
-    {
-      "file": "data/mil120/path_metrics.csv",
-      "bytes": 21593,
-      "sha256": "be3730356ba7c956c34fc9c45d9d0b4985b08fa03e9f53f29fee1fa3919514c0"
-    },
-    {
-      "file": "data/accuracy/ERROR_SUMMARY.csv",
-      "bytes": 31691,
-      "sha256": "d873a2d27185004f657f1e9098f62447f21d6ae55af3623c4b8c74e19350b283"
-    },
-    {
-      "file": "data/accuracy/S_direct_MIL_parity_energy.csv",
-      "bytes": 50685,
-      "sha256": "5f5811391fe047a9eb3eea435e16198c2fac596880d0fbbf6955fa21863dea67"
-    },
-    {
-      "file": "data/accuracy/S_direct_MIL_parity_force.csv",
-      "bytes": 2112733,
-      "sha256": "a506305a56ab71fa216e54fa7b1783c783fbd8e8fde92815852057073214d199"
-    },
-    {
-      "file": "data/accuracy/S_direct_YSZ500_parity_energy.csv",
-      "bytes": 50954,
-      "sha256": "341c37e515da5b3b7cf15fb1d2e9630f697845432b65f7416b3a0f39327edb6d"
-    },
-    {
-      "file": "data/accuracy/S_direct_YSZ500_parity_force.csv",
-      "bytes": 4183040,
-      "sha256": "0da196bd2a5190912063ba87505d8a4549e8b45b052e3c69242d12f5ee323346"
+      "file": "data/physical_validation/AL_INTERFACE_2350.csv",
+      "bytes": 177341,
+      "sha256": "7f4b7c37f28381a1eb1e798f039338bdcb115d1c83312a6748aacf23576e71dd"
     },
     {
       "file": "data/physical_validation/Al_eleven_phase_comparison.csv",
@@ -833,51 +783,6 @@
       "sha256": "798357645d36c12637b12f3dcf0d57764529b726c9b2119d5e30b25cff5ecffa"
     },
     {
-      "file": "data/physical_validation/MIL_barriers.csv",
-      "bytes": 1980,
-      "sha256": "54a6bf7369e68946200cf1ad6d19a543cd92065589514aab638fd9f16fbd4cbb"
-    },
-    {
-      "file": "data/physical_validation/MIL_relaxed_NEB_profiles.csv",
-      "bytes": 13385,
-      "sha256": "600bc1c74dd5114ee973d7a5839420acaf9d3cb7152e92eb8756b3bae957769f"
-    },
-    {
-      "file": "data/physical_validation/YSZ_lattice_bins_common_window.csv",
-      "bytes": 42545,
-      "sha256": "b0e7c4b730fb600926fcf639eb2eca08ee0b94934be0177a5447cfe608f0fbb6"
-    },
-    {
-      "file": "data/physical_validation/YSZ_thermal_coefficients_per_preparation.csv",
-      "bytes": 615,
-      "sha256": "fe1d66447448279be4f25c54cfccf82b5c0768feb3c45c27322513870c524b78"
-    },
-    {
-      "file": "data/physical_validation/AL_COEXISTENCE.csv",
-      "bytes": 339,
-      "sha256": "1e7f8c5a1940e4503e48c7cbfa3bced9196ee8501cc7b49105409a11f292ba44"
-    },
-    {
-      "file": "data/physical_validation/AL_EOS_PLOT.csv",
-      "bytes": 24574,
-      "sha256": "def4b5accbc9df7d47ffb245ab89c88992d52a7eca817726f8aac40400ca8f29"
-    },
-    {
-      "file": "data/physical_validation/AL_G_figure_source_data.csv",
-      "bytes": 171740,
-      "sha256": "1eed5a69b4629b5d270d9a9e0e93fe09137464fa7947669b95f85898b3cd2637"
-    },
-    {
-      "file": "data/physical_validation/AL_INTERFACE_2330_2340.csv",
-      "bytes": 354663,
-      "sha256": "df89b495801af5d7504ccd7c5e71cbb99de7d6679f68e19bede82d7ebb1b4305"
-    },
-    {
-      "file": "data/physical_validation/AL_INTERFACE_2350.csv",
-      "bytes": 177341,
-      "sha256": "7f4b7c37f28381a1eb1e798f039338bdcb115d1c83312a6748aacf23576e71dd"
-    },
-    {
       "file": "data/physical_validation/CHEN_PARAMETERS.csv",
       "bytes": 178,
       "sha256": "4160fc179bab4ec1090b137324a45097eaef3aa43106845948d34c0ca09fe87a"
@@ -891,6 +796,16 @@
       "file": "data/physical_validation/MIL_REPLICATES.csv",
       "bytes": 5720,
       "sha256": "2434adab38008a392d098eb1aa2f26b6d341eb1b316c03ec3c93dcb2a8b657c5"
+    },
+    {
+      "file": "data/physical_validation/MIL_barriers.csv",
+      "bytes": 1980,
+      "sha256": "54a6bf7369e68946200cf1ad6d19a543cd92065589514aab638fd9f16fbd4cbb"
+    },
+    {
+      "file": "data/physical_validation/MIL_relaxed_NEB_profiles.csv",
+      "bytes": 13385,
+      "sha256": "600bc1c74dd5114ee973d7a5839420acaf9d3cb7152e92eb8756b3bae957769f"
     },
     {
       "file": "data/physical_validation/MODEL_MANIFEST.csv",
@@ -908,99 +823,54 @@
       "sha256": "b459fc326e1bf68d1657f901ff6fcf127351c342950e18a2d1cebbade8701d6d"
     },
     {
-      "file": "data/phonons/S26_phonon_dispersion.csv",
-      "bytes": 939229,
-      "sha256": "e08ad96a2dc635bfcdb100de401fbb546ba8ae114d8cc4fee17acfd1b099c3eb"
+      "file": "data/physical_validation/YSZ_lattice_bins_common_window.csv",
+      "bytes": 42545,
+      "sha256": "b0e7c4b730fb600926fcf639eb2eca08ee0b94934be0177a5447cfe608f0fbb6"
     },
     {
-      "file": "data/phonons/S26_q_path.json",
-      "bytes": 652,
-      "sha256": "a6b04e0deddf036b350ae614955769b87ad89c779ce75a7d72d343ce804c9748"
+      "file": "data/physical_validation/YSZ_thermal_coefficients_per_preparation.csv",
+      "bytes": 615,
+      "sha256": "fe1d66447448279be4f25c54cfccf82b5c0768feb3c45c27322513870c524b78"
     },
     {
-      "file": "data/phonons/Table_S04.csv",
-      "bytes": 584,
-      "sha256": "f95db1b4a5f2226e704ac0656e5fffc290ff57755188f6b7468e41883e899fde"
+      "file": "data/prediction_and_mil/MD_RUN_RECORDS.csv",
+      "bytes": 8279,
+      "sha256": "58f4fdbd58d0c83af705d9dd91141f2e8ff98685b9fb5eaae69dbab8e9f6fae2"
     },
     {
-      "file": "data/phonons/Table_S05.csv",
-      "bytes": 218,
-      "sha256": "2a0ecbcf6d41a799a2120d990eecc4f5aba755d4f13effdba5f6f4677d3cdeef"
+      "file": "data/prediction_and_mil/all_EOS.csv",
+      "bytes": 27882,
+      "sha256": "8ad9a4de2fcfcf3169a79fd72980c8af6ef903e61af4bccfabdbe283240af883"
     },
     {
-      "file": "data/summary/MIL_nine_path_detrended_MAE.csv",
-      "bytes": 444,
-      "sha256": "21bc479328f7211fbb6f63de7ab5c67aea12ccf718aaebde84469ddef489b048"
+      "file": "data/prediction_and_mil/all_path_profiles.csv",
+      "bytes": 76702,
+      "sha256": "699da42e2e122ec07c82a37710c7353a140080d87c915fa7edc9a962fcaabda0"
     },
     {
-      "file": "data/summary/crossphase120_force_errors.csv",
-      "bytes": 358,
-      "sha256": "8640ab03a69d5e50d845d6e7b5f29f26f2bcc48471f2a39ddbee660bfce3f79d"
+      "file": "data/prediction_and_mil/frames.csv",
+      "bytes": 928055,
+      "sha256": "d6ea94ba5fbf18bdff29852d22b25b45f1a10b5549f1068b402d463c8f2c31e3"
     },
     {
-      "file": "data/summary/production_force_RMSE.csv",
-      "bytes": 287,
-      "sha256": "896f7cfe296598dd1b630ef3666aa2cf3349a03e8bc4246ad72ab7eb9df628ae"
+      "file": "data/prediction_and_mil/path_motion_reference.csv",
+      "bytes": 578,
+      "sha256": "5c0e5e89ccd88611b6853d82baa9b8e6f2458e8c5e45e45dad1940eb57dbc94c"
     },
     {
-      "file": "data/support/S6_ALL_20_METRIC_VALUES.csv",
-      "bytes": 1386,
-      "sha256": "0c8ed21381b02d9fc156b3d59fa7f9171089c7ab02d2abd02ec07804fe7fd0da"
+      "file": "data/prediction_and_mil/path_source_audit.csv",
+      "bytes": 17094,
+      "sha256": "f3d665b6751a934f1597b21a4bfbe95bd0122f1054eeda41064b52e8f1e47df5"
     },
     {
-      "file": "data/support/td_teacher_partitions.csv",
-      "bytes": 4455,
-      "sha256": "f09e26cf44580819e6cadf6a7f182a0f6852ce0bfe11ef585815e2b4eef1e0d8"
+      "file": "data/provenance/Al500k_full_errors.csv",
+      "bytes": 1300,
+      "sha256": "3f215d20c7f5b8158f180b5d0261b245d6877658d82c13a81e3f68f4f40796f9"
     },
     {
-      "file": "data/sampling_costs/DEVELOPMENT_SAMPLING_COST.csv",
-      "bytes": 415,
-      "sha256": "eecb3e19d04ff5feb0c7a0553b41161f9dafe76814b1cc93758243eee5f0f211"
-    },
-    {
-      "file": "data/sampling_costs/FORMAL_26_SAMPLING_MODES.csv",
-      "bytes": 4517,
-      "sha256": "1b13556dd56943b9e791fb52101052a9facfb1b644e4f8d1df42a6aeb96249ad"
-    },
-    {
-      "file": "data/sampling_costs/FORMAL_ACCEPTED_BLOCKS_148.json",
-      "bytes": 66763,
-      "sha256": "7184f86f9b1dba2f1c022970f2982f789e4096399e723aab95d94efcc4e68a76"
-    },
-    {
-      "file": "data/sampling_costs/FORMAL_BLOCK_MODE_COSTS_219.csv",
-      "bytes": 27158,
-      "sha256": "a7d9582b91bf965162c4c70df8cea4dda4f3d64fc9882224dc51b77683a8485b"
-    },
-    {
-      "file": "data/sampling_costs/Table_S1a.csv",
-      "bytes": 797,
-      "sha256": "f787a20e27c0ab011535b23a44eb140ab7bf54d4135938410f7416ac04b41e5f"
-    },
-    {
-      "file": "data/sampling_costs/Table_S1b.csv",
-      "bytes": 490,
-      "sha256": "22e955f511e127ec7307c81b12a851e3b0dde8b155fde2b4d8f8a2a5d58bf7fb"
-    },
-    {
-      "file": "data/sampling_costs/Table_S1c.csv",
-      "bytes": 575,
-      "sha256": "146ba22ebb810d9a9c0f7201ee0779313437ff44d1dcb85d8f6825fcb444f1eb"
-    },
-    {
-      "file": "data/controlled/S2_supervision_allocation.csv",
-      "bytes": 580,
-      "sha256": "7e1c5e353e8e3bfb513eae12751785bd9ce5b073c029964000ee0e3bb67512fa"
-    },
-    {
-      "file": "data/controlled/S3_unqueried_teacher_pairs.csv",
-      "bytes": 2628,
-      "sha256": "b605183a5b3b5bc623fd000ce406845c146b91d02524d4b38d09d0f37f3c1cff"
-    },
-    {
-      "file": "data/controlled/S4_absolute_and_paired_tails.csv",
-      "bytes": 504340,
-      "sha256": "45ee641a9bc3f58b8fe9be0ffb9a35984a49ef9014d61e3133e7df201ccbf2fb"
+      "file": "data/provenance/Al500k_phonon_metrics.csv",
+      "bytes": 435,
+      "sha256": "aeb9e86990dd4f97bdea577a079413309c2feea9c317854009d3570430bd1ebe"
     },
     {
       "file": "data/provenance/COMPLETED_1NS_RECEIPT.json",
@@ -1013,19 +883,179 @@
       "sha256": "174ddaa3b6a8f8f7ae8d01f26884995eea5b590d45f4a8f455e2d6509ccc909c"
     },
     {
+      "file": "data/provenance/Main_Table1.csv",
+      "bytes": 196,
+      "sha256": "3d586e1a8cd30dfd2eb0888b7d85729aba337da3255a1acf07f7d9c38732dd60"
+    },
+    {
+      "file": "data/provenance/PLAN.json",
+      "bytes": 25158,
+      "sha256": "c784f991cfdeeb8df3e6b9a449809ec0daa25d0fe82907ffadbe59f541d95c1b"
+    },
+    {
       "file": "data/provenance/RUN_PLAN.json",
       "bytes": 5254,
       "sha256": "bf44cd6ade34dff836ab1c161bfa575bbfd5ef18c945f4fae75b43f40cdcac06"
     },
     {
-      "file": "data/controlled/random.csv",
-      "bytes": 573,
-      "sha256": "18d867d25cf22b02e48f90636b390714afa4666f4f2b1e92f59fae34a1d18dad"
+      "file": "data/provenance/YSZ500k_error_transitions.csv",
+      "bytes": 1185,
+      "sha256": "f6099ef1fd5a831214c93e3588adbaee40f4a7c93c14949237fe063e8b9c3335"
     },
     {
-      "file": "data/controlled/remaining40.csv",
-      "bytes": 213,
-      "sha256": "8f65a8db21d8c86f1af4d9fe24d5e80aab72d262f832f79ddd2787829f67894c"
+      "file": "data/provenance/YSZ_NORMALIZED_DIFFUSION.csv",
+      "bytes": 2183,
+      "sha256": "5d49db148efee319b791c7b367909342216f5a12d3860a0c87a43fccf848cb9c"
+    },
+    {
+      "file": "data/routing/Fig3_scatter_source.csv",
+      "bytes": 151714,
+      "sha256": "f8d92707657233210f99b4ec18aff5f269d9e4dda8747371d21b82f3ec2f56da"
+    },
+    {
+      "file": "data/routing/Fig3g_relative_P99_paired_source.csv",
+      "bytes": 9408,
+      "sha256": "38f45cb49ba8130cda2998d72d0411d36232093871f13783d5333373af312f96"
+    },
+    {
+      "file": "data/routing/Fig3g_relative_P99_summary.csv",
+      "bytes": 2044,
+      "sha256": "98e500390002b0d467d85610381f561f1059a917e2caabebfc65ecb5087d29f0"
+    },
+    {
+      "file": "data/routing/gamma_updated_routing_per_frame.csv",
+      "bytes": 374006,
+      "sha256": "2fedd875b6438217844ea27d8bf7e6a285bfbf86a73442378315f23b42d17c34"
+    },
+    {
+      "file": "data/routing/student_metrics_per_repeat.csv",
+      "bytes": 67213,
+      "sha256": "002591693be6a69673370d8bc247fc8b06fdbf257d4919824c2d6de2dbd6b3ca"
+    },
+    {
+      "file": "data/routing/summary_metrics.csv",
+      "bytes": 25420,
+      "sha256": "8d8fa4808f6f494b73d362d5987bca106688cbb58e6cca6eb0c1eaba8fdd8da9"
+    },
+    {
+      "file": "data/sampling_costs/BLOCK_MODE_FULL_ESTIMATES_219.csv",
+      "bytes": 64930,
+      "sha256": "d7e4c602d6f2872184567978e3c9f0747b5eb1ab564dd7112f1dc94cd55f6b68"
+    },
+    {
+      "file": "data/sampling_costs/DEVELOPMENT_SAMPLING_COST.csv",
+      "bytes": 508,
+      "sha256": "83a683049f53d2cbd8eb9002ea05230799dca7c14eb632e4279cfaa7806ee256"
+    },
+    {
+      "file": "data/sampling_costs/ESTIMATION_CONVENTIONS.json",
+      "bytes": 562,
+      "sha256": "02523ba487a7742ddd5649df7d0e2949425f85fd5b485fd9cb3be65ecb925c1f"
+    },
+    {
+      "file": "data/sampling_costs/FORMAL_ACCEPTED_BLOCKS_148.json",
+      "bytes": 66763,
+      "sha256": "7184f86f9b1dba2f1c022970f2982f789e4096399e723aab95d94efcc4e68a76"
+    },
+    {
+      "file": "data/sampling_costs/MODE_FULL_ESTIMATES_26.csv",
+      "bytes": 8357,
+      "sha256": "bc41fb83981a94b1d161dbc44636928cd7bf4f929686f4966e18f95098fbcd66"
+    },
+    {
+      "file": "data/sampling_costs/RECOMMENDED_METHOD_ESTIMATES.csv",
+      "bytes": 2836,
+      "sha256": "1a77d0888c5a884751bfb647c6c537769531b9d4b4b86340cbf171c8ecfb869e"
+    },
+    {
+      "file": "data/sampling_costs/RECOMMENDED_SYSTEM_ESTIMATES.csv",
+      "bytes": 934,
+      "sha256": "e6776fa3565d4d3dc79048c562dfdd1a74acbb870da0839469da19bd92d9cbe1"
+    },
+    {
+      "file": "data/sampling_costs/STARTUP_CALIBRATION_26.csv",
+      "bytes": 4692,
+      "sha256": "b456248c0f3302add7051b2989434a0c011823c23a4441a6e3bf75a74de2e037"
+    },
+    {
+      "file": "data/sampling_costs/task_work_records.json.gz",
+      "bytes": 1603130,
+      "sha256": "089567d8b827765d68ca9a0ff034aac817323dec8de1ce99e11a980885d9ab61"
+    },
+    {
+      "file": "data/si_comparisons/random70_student_per_repeat.csv",
+      "bytes": 12428,
+      "sha256": "baefc7210ad97a0dab4c9f10809074788f80ee58d0a929fec010842954d50630"
+    },
+    {
+      "file": "data/si_comparisons/random70_summary.csv",
+      "bytes": 1862,
+      "sha256": "0be1c162095b37644d5cfd66f8ffdeb4d6cac3d718791294f40600725ea13212"
+    },
+    {
+      "file": "data/si_comparisons/random70_teacher_per_repeat.csv",
+      "bytes": 13549,
+      "sha256": "8bc8056c018470e060bdb16a96d88c2106c88adb6c21e1fd868ff5c7b87480b6"
+    },
+    {
+      "file": "data/si_comparisons/routing_RMSE_paired_per_repeat.csv",
+      "bytes": 5784,
+      "sha256": "9e0bfe339fc91a0ae6359b406cb7e36348cb6f9e8bfc0fd01119364ad2a5beae"
+    },
+    {
+      "file": "data/si_comparisons/routing_RMSE_paired_summary.csv",
+      "bytes": 665,
+      "sha256": "895584ef6fa6a948ccbb187fe9fdcc9d143dbb943f84e4878f38e3d447e97b1f"
+    },
+    {
+      "file": "data/si_comparisons/routing_acceptance_per_repeat.csv",
+      "bytes": 1752,
+      "sha256": "7605d3945dc058bde33678c253785ae4d2b3e3b036813376ad2e45be4291f2a3"
+    },
+    {
+      "file": "data/si_comparisons/routing_acceptance_summary.csv",
+      "bytes": 451,
+      "sha256": "80ac3f60d06aa2b872d9f228355ea89a7a7cd7622cff7c0c2b46484cc7cef16c"
+    },
+    {
+      "file": "data/structural_analysis/FRAME_ERRORS.csv",
+      "bytes": 17850,
+      "sha256": "703970d943a0ad33a3feaf2a33825f026ecd150e898cb47cabcbd361d9c1432f"
+    },
+    {
+      "file": "data/structural_analysis/MEAN_STRUCTURE_FACTORS.csv",
+      "bytes": 383882,
+      "sha256": "5a26f10a372507ed7d17c116ab60c2c963a39298cde93ae58d4eeee7f1fa92a0"
+    },
+    {
+      "file": "data/structural_analysis/MEMBERSHIP_QA.json",
+      "bytes": 4951,
+      "sha256": "1cf2813b17e4ebb2f0f155f926fb7a47e47174ebefc323f6c8be35b05335c7d2"
+    },
+    {
+      "file": "data/structural_analysis/ORDER_METRICS.csv",
+      "bytes": 192660,
+      "sha256": "f81cb9739ffe44c68ab28132c224cccfa02e06cc1027b1ef8f1b7b6335019d69"
+    },
+    {
+      "file": "data/structural_analysis/PARTITION_ERRORS.csv",
+      "bytes": 584,
+      "sha256": "f07318552a266466c271cf7f646acbc37c6ab4f21a7ce924cba082eb12e35dbc"
+    },
+    {
+      "file": "data/structural_analysis/ROUTING_COUNTS.csv",
+      "bytes": 711,
+      "sha256": "81f263bbe5eaa3d60f823d5c5723acca2f8d4d2368d30ab2883fde567e837aad"
+    },
+    {
+      "file": "data/summary/crossphase120_force_errors.csv",
+      "bytes": 358,
+      "sha256": "8640ab03a69d5e50d845d6e7b5f29f26f2bcc48471f2a39ddbee660bfce3f79d"
+    },
+    {
+      "file": "data/summary/production_force_RMSE.csv",
+      "bytes": 287,
+      "sha256": "896f7cfe296598dd1b630ef3666aa2cf3349a03e8bc4246ad72ab7eb9df628ae"
     },
     {
       "file": "data/ysz/MSD_representative_16_preparations.csv.gz",
@@ -1036,6 +1066,31 @@
       "file": "data/ysz/NE_summary.csv",
       "bytes": 2436,
       "sha256": "471a8c44b551190e296a5af3355c9faa701f2f9236b5566619c6dbf8d17c259c"
+    },
+    {
+      "file": "data/ysz/conductivity_evidence/README.md",
+      "bytes": 1301,
+      "sha256": "c9dc2362d2f00f47b65505638ebc5e2262a036ccdf6af463956684cab89bcaa1"
+    },
+    {
+      "file": "data/ysz/conductivity_evidence/calibration_and_anchors.json",
+      "bytes": 2636,
+      "sha256": "83ec210e77cdaceefb94b948b12287183a8bb42b0c0eb19229862549c5f9a1ba"
+    },
+    {
+      "file": "data/ysz/conductivity_evidence/experimental_conductivity_1200_1500K.csv",
+      "bytes": 4194,
+      "sha256": "17bed5ea79747dca34388b846c8104a59db7ef46d8887f9f88ffdb3580997ea8"
+    },
+    {
+      "file": "data/ysz/conductivity_evidence/manual_curve_anchors.csv",
+      "bytes": 5885,
+      "sha256": "338cc951ce9cc4e0d8cdcac57803c4c8eff679ea1701a53ed727abed174e40e2"
+    },
+    {
+      "file": "data/ysz/conductivity_evidence/preparation_inputs.csv",
+      "bytes": 14073,
+      "sha256": "5f3e0abd9ed547f05ba79e6dae47a21d6c2fffea86e62939d22b5db03f281423"
     },
     {
       "file": "data/ysz/structural_cluster_bootstrap_weights.npz",
@@ -1063,342 +1118,57 @@
       "sha256": "820d37a0c251d507161af6617e19788fa461ed2f11945479277ae7ee5fc7ff59"
     },
     {
-      "file": "artwork/Fig1.svg",
-      "bytes": 48587,
-      "sha256": "b62290b7239097128c777547bc7c0b8d67082d20b269e431ea9429d50d9476e2"
+      "file": "references/main.bib",
+      "bytes": 28582,
+      "sha256": "323bccf2e9d6e0ac7653dc8d3a46313dfb2301581b0b5c6f524b9b40464abbd7"
     },
     {
-      "file": "artwork/Fig2.svg",
-      "bytes": 178327,
-      "sha256": "b70e861fd1482f29447438fe27da3e0e33c1b42d88bd3529d272f6e75f9c1678"
-    },
-    {
-      "file": "artwork/Fig3.svg",
-      "bytes": 3888989,
-      "sha256": "cb0550b160bde2fa63bc0ac691a4a5bc08dcf4b60bb187dd8b91a2761369275d"
-    },
-    {
-      "file": "artwork/Fig4.svg",
-      "bytes": 413080,
-      "sha256": "393674ef3a769eb9b5821589d900684b2a5e95fa08c3ce6b544050b74c72f9ee"
-    },
-    {
-      "file": "artwork/Fig5.svg",
-      "bytes": 204834,
-      "sha256": "1e4783c107dd7b2ed80338cdbf262dc10d54bfefbe9dc20f542f3d0e50d5dc00"
-    },
-    {
-      "file": "artwork/Fig6.svg",
-      "bytes": 99261,
-      "sha256": "6d0891b1ac7e7369caca99f8d236cd021d162d0894f829560d30405027eed87b"
-    },
-    {
-      "file": "artwork/SupplementaryFig1.svg",
-      "bytes": 18207,
-      "sha256": "f34a8d0ab399202a5001a4641f089fb1af5bc71c6747d07036b42d7ac6e03292"
-    },
-    {
-      "file": "artwork/SupplementaryFig10.svg",
-      "bytes": 99641,
-      "sha256": "8c02aa56d0a8dafb1ef94655764e6d43e3f6e13165438dcaf02bbe6f78418005"
-    },
-    {
-      "file": "artwork/SupplementaryFig11.svg",
-      "bytes": 79734,
-      "sha256": "342bbb7cebe36b48669d10b75c84dee507102fc229dc0ccb9d95d487e4893ffb"
-    },
-    {
-      "file": "artwork/SupplementaryFig12.svg",
-      "bytes": 37097,
-      "sha256": "d85be4abccbd9d7d2bf1827daed57775e97141181744e1933e89e6e4a8df607e"
-    },
-    {
-      "file": "artwork/SupplementaryFig13.svg",
-      "bytes": 1310336,
-      "sha256": "cb4378fb744c784d025a1c46121ccc1cea153ccbb64c3b1cfa9e5989a563702d"
-    },
-    {
-      "file": "artwork/SupplementaryFig14.svg",
-      "bytes": 208206,
-      "sha256": "ec938bc19a323c91bcc728c5bc14b61285807730ce1c41dd88099cd7efd550c6"
-    },
-    {
-      "file": "artwork/SupplementaryFig15.svg",
-      "bytes": 35828,
-      "sha256": "ddef98cb4094fd9f4c5f60503716cf23d3a72febacf00259f43388e9d5462e7a"
-    },
-    {
-      "file": "artwork/SupplementaryFig16.svg",
-      "bytes": 49652,
-      "sha256": "835aab10ecdb61f995705a2550ec392c859bbf6e63124a4f55074a904ea4af6e"
-    },
-    {
-      "file": "artwork/SupplementaryFig2.svg",
-      "bytes": 29155,
-      "sha256": "b52b1e32415a8c81e0117522cc44546f78645f81d1da12d29325dba636f1ea75"
-    },
-    {
-      "file": "artwork/SupplementaryFig3.svg",
-      "bytes": 350459,
-      "sha256": "79f328a66d75da774f6e1f2213f92738919f3ce5167b7c046693ed8d700e5386"
-    },
-    {
-      "file": "artwork/SupplementaryFig4.svg",
-      "bytes": 22960,
-      "sha256": "987f267dacc9ceac7f89d8bb915aeff8fe40e7454ad4bc7f8644fecd855653fa"
-    },
-    {
-      "file": "artwork/SupplementaryFig5.svg",
-      "bytes": 60820,
-      "sha256": "f9f406689f0469d63ab26ee5691e24abd59216a47761305753714fd50a017b23"
-    },
-    {
-      "file": "artwork/SupplementaryFig6.svg",
-      "bytes": 265280,
-      "sha256": "18ce1fb88b25d9d2aa45982d7db2997e1b4ede394f33702af6992a1cddfcceed"
-    },
-    {
-      "file": "artwork/SupplementaryFig7.svg",
-      "bytes": 330403,
-      "sha256": "e5f70830dd95a7ac355a56e2bf96a7076ee6a19baa837c436cc13398794c9f1e"
-    },
-    {
-      "file": "artwork/SupplementaryFig8.svg",
-      "bytes": 337999,
-      "sha256": "657657b482b8f3c2c65df6f161dbfac732a9b0e525be7cce208b43574dd17637"
-    },
-    {
-      "file": "artwork/SupplementaryFig9.svg",
-      "bytes": 62229,
-      "sha256": "40f4e2d7e4b0321610c88f22d7a99887b1769a6a83363e6d56e1a5c982678be4"
+      "file": "references/supplement.bib",
+      "bytes": 5180,
+      "sha256": "5ed432616427c65b5a87764e3efd6a673cb34109e6eb09809ab52ad7fd8b56cc"
     },
     {
       "file": "tables/SupplementaryTable1.csv",
-      "bytes": 1554,
-      "sha256": "2f2e4cbe390710ff0b2f9cb97fb69db3a509dc8c08218e4766a51de976318413"
-    },
-    {
-      "file": "tables/SupplementaryTable10.csv",
-      "bytes": 201,
-      "sha256": "59f71f9cf199a4b59974a32143244d2e2494446af917bb5022922cbe05c436eb"
-    },
-    {
-      "file": "tables/SupplementaryTable11.csv",
-      "bytes": 610,
-      "sha256": "096bd6c8397d30c8e4bcb35dbcefb0e7cc27b4179823bb56729a53a9f686ed4c"
-    },
-    {
-      "file": "tables/SupplementaryTable12.csv",
-      "bytes": 263,
-      "sha256": "6f2cf57aacaecfe8f5e00c3ffa37f71b208406714eebc85c768f8281e6016fc1"
+      "bytes": 1918,
+      "sha256": "c02459738c129b1941eca01a88382645396812db9068e67ee6275752ea018ad2"
     },
     {
       "file": "tables/SupplementaryTable2.csv",
-      "bytes": 1489,
-      "sha256": "8daa62f4c2a49371875b439e26bdea96b9411a04fd664ee33f3e51e8dd7fdc95"
+      "bytes": 1775,
+      "sha256": "1665852307ea8ab5dcebb12a5f19a8a97806b0abf8dba425a66c4ce6a176a740"
     },
     {
       "file": "tables/SupplementaryTable3.csv",
-      "bytes": 1754,
-      "sha256": "2919d96a7b23fc1f2793a645f7868d29722f5a137a8f38fef3e2fd5e040f58c5"
+      "bytes": 2070,
+      "sha256": "768f6448200ac8003878a5b7d56f5f623c4aad710a7e84c0c52d9742cb8c7674"
     },
     {
       "file": "tables/SupplementaryTable4.csv",
-      "bytes": 805,
-      "sha256": "59884112add55149e263a9d977a381d1a9ff490a4fb62b236c98331a17b93aa7"
+      "bytes": 625,
+      "sha256": "254ea6c23626fa2cb49f126bbe614e86d8a78ad83bc9901c399157389278ed17"
     },
     {
       "file": "tables/SupplementaryTable5.csv",
-      "bytes": 498,
-      "sha256": "32bdf5b0b30dcb313918f6b829e7a668975c2091b0775f8c1b5f8bf17fe64739"
+      "bytes": 358,
+      "sha256": "51e0f6dd171fcb23170f23a74c0f2bb283d8f97ac545878a8d4442844a2cdb53"
     },
     {
-      "file": "tables/SupplementaryTable6.csv",
-      "bytes": 583,
-      "sha256": "981d10576b39fb3e216a29c70139c5b8236d3311077e21b707f42d4a2c1ff801"
-    },
-    {
-      "file": "tables/SupplementaryTable7.csv",
-      "bytes": 610,
-      "sha256": "88d6f79f5c00633db0f9aa7bc3dd306cff5074b8c5ff2110024c88c60009f04d"
-    },
-    {
-      "file": "tables/SupplementaryTable8.csv",
-      "bytes": 244,
-      "sha256": "6c16ceed7afc54361b87754cc45928de31303fff86f456d6bb75d6224e193fa2"
-    },
-    {
-      "file": "tables/SupplementaryTable9.csv",
-      "bytes": 235,
-      "sha256": "b1e27f5e54182b653eb4e4afd34d881a120fd56a5714b927374ec1f2664d812c"
-    },
-    {
-      "file": "data/sampling_costs/task_work_records.json.gz",
-      "bytes": 1603130,
-      "sha256": "089567d8b827765d68ca9a0ff034aac817323dec8de1ce99e11a980885d9ab61"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_npt_160.json",
-      "bytes": 1060,
-      "sha256": "213adc95c7a8d8b8e93b2effb75133766c1c0057c625e601aad413c778c5cac1"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_nvt_120.json",
-      "bytes": 741,
-      "sha256": "2283bf09c74bcdb0628845d4412f089b1018bac40f9d12e02c8f3e4feb1ffbc7"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_nvt_160_dense.json",
-      "bytes": 1074,
-      "sha256": "549e749e2366eba6db60cc2d7fe4d3055148edf41cfe85861b24add8353cb407"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_nvt_240.json",
-      "bytes": 739,
-      "sha256": "1729d43d697cad288477fcd8b5e1a7afb8b07caa74387c0352bbaa6debec5289"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_nvt_30_dense.json",
-      "bytes": 1716,
-      "sha256": "1d3bdac560a14c7777d8b0b89ba52587838a0503d3dc6ea9d7943ef61c6eaa6c"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_nvt_80.json",
-      "bytes": 1061,
-      "sha256": "35b33d9c0ad115931bb59f24c3212d9cf4e308d02a90044650cd20f973971d0d"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_nvt_80_dense.json",
-      "bytes": 1074,
-      "sha256": "eef773c5c69bc5a1c6df570392e57e7a382b9d85ff2ec6294c575933fad17474"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_nvt_cell_program_160.json",
-      "bytes": 1113,
-      "sha256": "467f858f9caa56e74494d1b8959bb48d5843ec263498cc94989b6ba1efc849bf"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_nvt_program_160.json",
-      "bytes": 1087,
-      "sha256": "4ca7c821569cc5eeae044842ce8ddda84dcb2c82daa489f97ab3eda10867435b"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_relax_120.json",
-      "bytes": 1316,
-      "sha256": "a92e49b0630809cce8601f1259825e3e88e713bdb2cbea91ec3bc4263e914beb"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_relax_240.json",
-      "bytes": 1308,
-      "sha256": "d873452c11f690ef2a8bbc94eff9bf5d5cae179b82dcf86d4c1ff1061140c766"
-    },
-    {
-      "file": "data/sampling_costs/performance/al_relax_360.json",
-      "bytes": 1310,
-      "sha256": "d79226aa4594642c3a297ffddd3623876f6fff7003b857e511fee228f46b9377"
-    },
-    {
-      "file": "data/sampling_costs/performance/mil_gcmc_160_variable.json",
-      "bytes": 12640,
-      "sha256": "814e8bcaa5f29216587d07eac8376688d304408a67695a98fb13b1aec5e4ec81"
-    },
-    {
-      "file": "data/sampling_costs/performance/mil_nvt_160_184.json",
-      "bytes": 1076,
-      "sha256": "23da9dfa3b4d217bf3c94e71e104045c745a808bc60c56d63eb01f3e86d16f02"
-    },
-    {
-      "file": "data/sampling_costs/performance/mil_nvt_40_46.json",
-      "bytes": 1713,
-      "sha256": "6835240b5c7e8876314920dab6688a9dbe44134e197cf53457beb96fbd4280fa"
-    },
-    {
-      "file": "data/sampling_costs/performance/mil_relax_40_46.json",
-      "bytes": 2270,
-      "sha256": "9d9e5836b9d7f143696d6858fdfa016c85b7f2e46e8519beda1ca51f6fe85a44"
-    },
-    {
-      "file": "data/sampling_costs/performance/mil_widom_160_184.json",
-      "bytes": 2295,
-      "sha256": "5c40e56475421f3750a3df3145ccf6b1ed065c82191c2e24b0c0a1b4b6492974"
-    },
-    {
-      "file": "data/sampling_costs/performance/mil_widom_40_46.json",
-      "bytes": 3586,
-      "sha256": "24e32d8b07d9c3947bb5dbef5a40ee8e4e45da059796e8b9ba92ca078f1ab65a"
-    },
-    {
-      "file": "data/sampling_costs/performance/ysz_npt_64.json",
-      "bytes": 1062,
-      "sha256": "151a9661f90b72fc3eccefb11c7dae4c7e8d0ee51da8e4265ab69589249a6cde"
-    },
-    {
-      "file": "data/sampling_costs/performance/ysz_npt_79_92.json",
-      "bytes": 1065,
-      "sha256": "bc46149e0bd371d8916391db43c59b40be0b9f031df8c94b593f5e3cd78a76a0"
-    },
-    {
-      "file": "data/sampling_costs/performance/ysz_npt_program_64.json",
-      "bytes": 1088,
-      "sha256": "6fdfa05f44603b5ab0f95211cc0d0cab52db5b390ac6e1607632dfae3e492cc8"
-    },
-    {
-      "file": "data/sampling_costs/performance/ysz_npt_program_79_92.json",
-      "bytes": 1092,
-      "sha256": "9e571b5f85c96696f3f1ceb2fd69d698a30660a9671e383b58422afcd586c2d7"
-    },
-    {
-      "file": "data/sampling_costs/performance/ysz_nvt_64.json",
-      "bytes": 1061,
-      "sha256": "6b73cd6b74344131b2e4aa2a471d9ccdf54574598d72baf6cd3578287d2f3307"
-    },
-    {
-      "file": "data/sampling_costs/performance/ysz_nvt_64_dense.json",
-      "bytes": 1074,
-      "sha256": "04bd277d2372f29c02fe837c0d4d7359c29d3bb9726b818b9bcf3c4e8aa552da"
-    },
-    {
-      "file": "data/sampling_costs/performance/ysz_nvt_79_92.json",
-      "bytes": 1069,
-      "sha256": "69beeca827ecc6ec8f342eafcf23795a27bbbb5eb569dddab15cc247d0df2a63"
-    },
-    {
-      "file": "data/sampling_costs/performance/ysz_nvt_79_92_dense.json",
-      "bytes": 1085,
-      "sha256": "9f34e6166c7a2a70138f2314e6f6e0febf9a1928fd84a08cfc0e45d769222679"
-    },
-    {
-      "file": "data/ysz/conductivity_evidence/preparation_inputs.csv",
-      "bytes": 14073,
-      "sha256": "5f3e0abd9ed547f05ba79e6dae47a21d6c2fffea86e62939d22b5db03f281423"
-    },
-    {
-      "file": "data/ysz/conductivity_evidence/calibration_and_anchors.json",
-      "bytes": 2636,
-      "sha256": "83ec210e77cdaceefb94b948b12287183a8bb42b0c0eb19229862549c5f9a1ba"
-    },
-    {
-      "file": "data/ysz/conductivity_evidence/manual_curve_anchors.csv",
-      "bytes": 5885,
-      "sha256": "338cc951ce9cc4e0d8cdcac57803c4c8eff679ea1701a53ed727abed174e40e2"
-    },
-    {
-      "file": "data/ysz/conductivity_evidence/experimental_conductivity_1200_1500K.csv",
-      "bytes": 4194,
-      "sha256": "17bed5ea79747dca34388b846c8104a59db7ef46d8887f9f88ffdb3580997ea8"
+      "file": "validation/INDEX.csv",
+      "bytes": 233418,
+      "sha256": "79c9a5c48cd2095502746e8edc04878714a9313aad9f05865ebd9fffbe8919b5"
     }
   ],
-  "data_integrity": "Numerical input bytes unchanged; identical inputs deduplicated.",
+  "data_integrity": "Current 70-frame and routing results; unchanged production models and physical-validation observations.",
   "modes": {
-    "reexport": "approved SVG artwork; no scientific reanalysis",
-    "replot": "read archived numerical inputs and recalculate selected derived summaries",
-    "inference": "separate research-assets; requires external numerical backend"
+    "reexport": "exact approved editable SVG artwork",
+    "figures": "Python reconstruction from the current numerical source data",
+    "verify": "integrity checks and recalculated quantitative summaries",
+    "inference": "optional frozen-model evaluation using the model and dataset archives"
   },
   "cost_evidence": {
     "tasks": "data/sampling_costs/task_work_records.json.gz",
-    "native_timing_directory": "data/sampling_costs/performance",
-    "tasks_count": 75038,
-    "modes_count": 26
+    "rates": "data/sampling_costs/STARTUP_CALIBRATION_26.csv",
+    "allocations": "data/sampling_costs/BLOCK_MODE_FULL_ESTIMATES_219.csv"
   },
   "conductivity_evidence": {
     "directory": "data/ysz/conductivity_evidence",

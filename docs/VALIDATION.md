@@ -1,10 +1,11 @@
 # Physical-validation structures and inputs
 
-Download DICE-datasets.zip from the [research archive](https://doi.org/10.5281/zenodo.23906093) and
+Download DICE-datasets.zip from the [research archive](https://doi.org/10.5281/zenodo.24433482) and
 extract it alongside DICE-models.zip. Structures and native inputs are under
 research-assets/validation/. [INDEX.csv](../source-data/validation/INDEX.csv)
 links each file to the relevant figure or stability table and records its role,
-conditions and stored-frame timestep. Paths beginning validation/ are relative
+conditions and stored-frame timestep. Figure and table numbers follow the
+22 November 2026 manuscript. Paths beginning validation/ are relative
 to research-assets/ in the extracted dataset archive.
 
 The collection includes Al2O3 EOS and phase structures, phonon references and

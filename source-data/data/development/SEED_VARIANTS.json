@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "source": "/home/drq/DICE-isolated/Al2O3/AL3/seeds/clean_v2/iter0_pool_80_320.extxyz",
+      "sha256": "1a193ff014b89790801867322ca20ba44d662c48d1a7ddb3ea1544415ae8440d",
+      "frames": 320,
+      "construction_counts": {
+        "identity": 8,
+        "isotropic_volume": 32,
+        "voigt_strain": 192,
+        "rattle": 88
+      },
+      "random_displacement_standard_deviation_A": [
+        0.02,
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "source": "/home/drq/DICE-isolated/Al2O3/AL3/seeds/clean_v2/iter0_pool_160_196.extxyz",
+      "sha256": "115ae83b6d82bb95bd5d9fa241f50fcc83360d2f42db2e4d0d3b198b84731efb",
+      "frames": 196,
+      "construction_counts": {
+        "identity": 4,
+        "isotropic_volume": 16,
+        "voigt_strain": 96,
+        "rattle": 48,
+        "unspecified": 32
+      },
+      "random_displacement_standard_deviation_A": [
+        0.02,
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "source": "/home/drq/DICE-isolated/Al2O3/AL3/iter0/r0/sample/seeds.xyz",
+      "sha256": "d39788858bef256beb28e1f5131752f9356169363a5d51d8e2ff076e67c0b976",
+      "frames": 996,
+      "construction_counts": {
+        "identity": 12,
+        "isotropic_volume": 48,
+        "voigt_strain": 768,
+        "rattle": 136,
+        "unspecified": 32
+      },
+      "random_displacement_standard_deviation_A": [
+        0.02,
+        0.05,
+        0.1
+      ]
+    }
+  ],
+  "description": "Observed metadata in the original exploration seed files."
+}

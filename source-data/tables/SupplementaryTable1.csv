@@ -1,13 +1,13 @@
-Stage,Initial configurations,Sampling conditions,Sampling length,New teacher-labelled geometries,New DFT reference geometries
-Initial crystal references,Crystal/strained reference structures,DFT references,—,0,20
-Low-temperature crystal exploration,"Crystal and strained seeds, 80/160 atoms","NVT; 100, 300 K",0.1 ps,240,40
-Extended crystal exploration,Crystal/strained seeds; 30/80/160 atoms,"NVT; 500, 1000, 1500, 2000 K",0.1 ps,560,80
-Melt-frontier exploration,"Crystal seeds, 160 atoms",NVT ramps: 300 → 2600/3200/3800/4200 K; hold at target,50 ps,230,0
-Low-density melt/cool exploration,"Low-density seeds, 160 atoms",300 → 3000 K; densification to 3.5 then 4.1 g cm−3; slow cooling or quench/anneal,350/360 ps,150,0
-Crystal temperature/pressure expansion,"Crystal seeds, 160 atoms","NPT; 100–2000 K; 0, 5, 20 GPa",20/30/40 ps,240,0
-Thermoelastic crystal expansion,"Strained α seeds, 80 atoms","NVT; 300, 600, 900, 1200, 1500, 1800, 2000 K",20/30/40 ps,240,0
-Long-wavelength displacement relaxation,"Displaced α seeds, 120 atoms",Fixed-cell FIRE [1]; force criterion 0.02 eV Å−1,≤400 optimizer steps,160,0
-Displaced-crystal dynamics,"Unstrained/strained α seeds, 120 atoms","NVT; 300, 500, 700 K; also 1100 K for unstrained seeds",50 ps,320,0
-Longitudinal/transverse relaxation,"Displaced α seeds, 240/360 atoms",Fixed-cell FIRE; force criterion 0.01 eV Å−1,≤400 optimizer steps,100,0
-Strain-coupled crystal dynamics,"Pure/coupled-strain α seeds, 240 atoms","NVT; 100, 300, 500 K",50 ps,200,0
-Total,,,,2440,140
+Stage,Initial configurations,Sampling conditions,Sampling length,New teacher-labelled configurations,New DFT reference configurations
+Initial crystal references<br>(iteration 0),Crystal structures and strain/displacement variants,DFT references,—,0,20
+Low-temperature crystal exploration<br>(iteration 0–2),"Crystal seeds and strain/displacement variants, 80/160 atoms","NVT; 100, 300 K",0.1 ps,240,40
+Extended crystal exploration<br>(iteration 2–6),Crystal seeds and strain/displacement variants; 30/80/160 atoms,"NVT; 500, 1000, 1500, 2000 K",0.1 ps,560,80
+Crystal-heating exploration<br>(iteration 6 r2–r6),"Crystal seeds, 160 atoms",NVT ramps: 300 → 2600/3200/3800/4200 K; hold at target,50 ps,230,0
+Low-density melt–cool exploration<br>(iteration 6 r7–r9),"Low-density seeds, 160 atoms",300 → 3000 K; densification to 3.5 then 4.1 g cm⁻³; slow cooling or quench/anneal,350/360 ps,150,0
+Crystal temperature/pressure expansion<br>(iteration 6 r10–r12),"Crystal seeds, 160 atoms","NPT; 100–2000 K; 0, 5, 20 GPa",20/30/40 ps,240,0
+Thermoelastic crystal expansion<br>(iteration 6 r13–r15),"Strained $\alpha$ seeds, 80 atoms","NVT; 300, 600, 900, 1200, 1500, 1800, 2000 K",20/30/40 ps,240,0
+Long-wavelength displacement relaxation<br>(iteration 6 r16–r17),"Displaced $\alpha$ seeds, 120 atoms",Fixed-cell FIRE [1]; force criterion 0.02 eV Å⁻¹,≤400 optimiser steps,160,0
+Displaced-crystal dynamics<br>(iteration 6 r18–r21),"Unstrained/strained $\alpha$ seeds, 120 atoms","NVT; 300, 500, 700 K; also 1100 K for unstrained seeds",50 ps,320,0
+Longitudinal/transverse relaxation<br>(iteration 6 r22–r23),"Displaced $\alpha$ seeds, 240/360 atoms",Fixed-cell FIRE; force criterion 0.01 eV Å⁻¹,≤400 optimiser steps,100,0
+Strain-coupled crystal dynamics<br>(iteration 6 r24–r27),"Pure/coupled-strain $\alpha$ seeds, 240 atoms","NVT; 100, 300, 500 K",50 ps,200,0
+Total,,,,"2,440",140
