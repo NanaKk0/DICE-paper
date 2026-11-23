@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CPU reproduction of the 2026-11-22 DICE paper evidence."""
+"""CPU reproduction of the current DICE paper evidence."""
 from __future__ import annotations
 import argparse
 import json
@@ -122,7 +122,7 @@ def summary(a, output):
 
 def verify(a,output):
     ids={f['id'] for f in a.registry['figures']}
-    if ids!={*[f'main:{i}' for i in range(1,8)],*[f'supplement:{i}' for i in range(1,14)]}:raise ValueError('Current figure inventory')
+    if ids!={*[f'main:{i}' for i in range(1,7)],*[f'supplement:{i}' for i in range(1,14)]}:raise ValueError('Current figure inventory')
     if len(a.registry['tables'])!=5:raise ValueError('Current table inventory')
     for f in a.registry['figures']:
         for name in [f['artwork'],*f['sources']]:
@@ -138,9 +138,9 @@ def tables(a,output):
     return dict(tables=len(a.registry['tables']))
 
 
-def main_table(a,output):
+def training_sets(a,output):
     d=a.csv('data/provenance/Main_Table1.csv')
-    d[['system','target_DFT_records','student_geometries','independent_test']].to_csv(output/'MainTable1.csv',index=False)
+    d[['system','target_DFT_records','student_geometries','independent_test']].to_csv(output/'training_set_sizes.csv',index=False)
     return dict(rows=len(d))
 
 
@@ -151,7 +151,7 @@ def reexport(a,output):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('action',choices=['verify','summary','figures','replot','reexport','tables','main_table'])
+    p.add_argument('action',choices=['verify','summary','figures','replot','reexport','tables','training_sets'])
     p.add_argument('--data-root',type=Path,default=Path(__file__).resolve().parent/'source-data')
     p.add_argument('--output-dir',type=Path,required=True)
     p.add_argument('--figure',action='append')

@@ -12,13 +12,14 @@ python -m pip install -r requirements.txt
 python reproduce.py figures --output-dir ../dice-results/figures
 python reproduce.py summary --output-dir ../dice-results/statistics
 python reproduce.py tables --output-dir ../dice-results/tables
-python reproduce.py main_table --output-dir ../dice-results/main-table
+python reproduce.py training_sets --output-dir ../dice-results/training-sets
 ```
 
 Select one figure with `--figure main:3` or `--figure supplement:2` on the
-`figures` command. `reexport` exports the editable figure artwork.
+`figures` command. Numerical reconstruction preserves the data and panel assignments;
+`reexport` copies the exact approved editable SVG artwork.
 
-- [DATA_REGISTRY.json](source-data/DATA_REGISTRY.json) maps the seven main
+- [DATA_REGISTRY.json](source-data/DATA_REGISTRY.json) maps the six main
   figures, thirteen supplementary figures and five supplementary tables to inputs.
 - [Numerical definitions](NUMERICAL_DEFINITIONS.md) specifies comparisons,
   statistical calculations, structural analyses and exploration-cost accounting.
@@ -27,7 +28,7 @@ Select one figure with `--figure main:3` or `--figure supplement:2` on the
 
 ## Models and configurations
 
-The [research archive](https://doi.org/10.5281/zenodo.24437952) contains:
+The [research archive](https://doi.org/10.5281/zenodo.24456706) contains:
 
 | Package | Contents |
 | --- | --- |

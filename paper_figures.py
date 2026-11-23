@@ -98,9 +98,8 @@ class PaperPlotter(PhysicalPlotter):
             ax.text(-.39,block*7+1,'QBC\nσ (eV Å$^{-1}$)',transform=ax.get_yaxis_transform(),ha='center',va='center',rotation=90)
             ax.text(-.39,block*7+3.5,'GMM\n$p>0.1$',transform=ax.get_yaxis_transform(),ha='center',va='center',rotation=90)
         ax.axvline(0,color='.4',ls='--',lw=.7)
-        ax.set(ylim=(11.8,-2),xlim=(-10,20),xlabel='Relative force-vector\nerror P99 difference (%)')
+        ax.set(ylim=(11.8,-2),xlim=(-10,20),xlabel='Relative force-error\nP99 difference (%)')
         ax.set_yticks([0,1,2,3,4,7,8,9,10,11],['0.03','0.05','0.08',r'$T_0$',r'$T_1$']*2)
-        ax.set_title('Student accuracy',pad=7)
         self.label(fig,'c',130,16)
         self.save(fig,'Fig3',list('abcde'),dict(error_threshold_eV_A=.05,QBC_thresholds=[.03,.05,.08],support_threshold=.1,relative_P99='mean of per-repeat percentage differences'))
 
@@ -175,25 +174,13 @@ class PaperPlotter(PhysicalPlotter):
         finally:self.save=old
 
     def main6(self):
-        old=self.save
-        def capture(fig,stem,panels,selections=None):
-            adsorption,conductivity=fig.axes[3],fig.axes[4]
-            left,right=adsorption.get_position().frozen(),conductivity.get_position().frozen()
-            adsorption.set_position(right);conductivity.set_position(left)
-            # The two scattering axes share b; transport is c and adsorption d.
-            for t in list(fig.texts):
-                if t.get_text() in list('abcde'):t.remove()
-            for label,x,y in [('a',2,5),('b',94,5),('c',2,78),('d',94,78)]:self.label(fig,label,x,y)
-            old(fig,'Fig6',list('abcd'),selections)
-        self.save=capture
-        try:super().main5()
-        finally:self.save=old
-
-    def main7(self):
-        super().main6()
+        from merged_properties import draw
+        draw(self)
 
     def supplement(self,n):
         stem='SupplementaryFig'+str(n)
+        # Public numbering follows the current manuscript; numerical families retain their identities.
+        n={6:7,7:6,12:13,13:12}.get(n,n)
         if n in [1,2]:
             fig=self.start(115)
             for j,pool in enumerate(POOLS):
@@ -251,6 +238,8 @@ def rebuild(archive,output,selected=None):
         if unknown:raise ValueError('Unknown figure IDs: '+str(unknown))
         figures=[f for f in figures if f['id'] in selected]
     for f in figures:
+        # Keep the merged figure's local font settings out of later SI figures.
+        configure()
         kind,number=f['id'].split(':');n=int(number)
         if f['id']=='main:1':
             import cairosvg

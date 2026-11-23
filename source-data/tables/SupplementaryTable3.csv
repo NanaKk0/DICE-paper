@@ -1,4 +1,4 @@
-Stage,Initial configurations,Sampling conditions,Sampling length,New teacher-labelled configurations,New DFT reference configurations
+Stage,Initial configurations,Exploration conditions,Run length,New teacher-labelled configurations,New DFT reference configurations
 Initial framework references<br>(iteration 0),Framework/guest reference structures,DFT references,—,0,30
 Framework/guest temperature exploration<br>(iteration 0–9),A–F frameworks; 40 atoms + 0/1/2 CO₂,"NVT; 100, 300, 500, 800 K",10 → 200 ps,"1,016",280
 Empty-framework feedback<br>(iteration 10–12),"A–F empty frameworks, 40 atoms","NVT; 100, 300, 500, 800 K",200 ps,180,40
@@ -8,7 +8,7 @@ Relaxed-framework short dynamics<br>(iteration 13 r2–r4),Relaxed framework/gue
 Hydroxyl-orientation expansion<br>(iteration 13 r5–r7),Perturbed A–F empty frameworks,Fixed-cell FIRE; force criterion 0.02 eV Å⁻¹,"≤2,000 optimiser steps",360,0
 Isolated-molecule references<br>(iteration 14),20 isolated CO₂ geometries,DFT references,—,0,20
 Adsorption-contact relaxation<br>(iteration 14 r0–r2),40-atom frameworks + 1/2 CO₂,Fixed-cell FIRE; force criterion 0.02 eV Å⁻¹,"≤2,000 optimiser steps",360,0
-Variable-loading exploration<br>(iteration 14 r3–r7),160-atom frameworks; variable CO₂ loading,"GCMC–NVT; 300, 500 K; 0.01, 0.05, 0.1, 0.5, 1 bar","4/8 ps MD; 40,000/80,000 MC attempts",885,0
+Variable-loading exploration<br>(iteration 14 r3–r7),160-atom frameworks; variable CO₂ loading,"GCMC–MD (NVT MD segments); 300, 500 K; 0.01, 0.05, 0.1, 0.5, 1 bar","4/8 ps MD; 40,000/80,000 MC attempts",885,0
 Isolated-atom references<br>(iteration 15),"Al, C, H and O atoms",DFT references,—,0,4
 Larger-framework insertion exploration<br>(iteration 15 r0–r1),"A–F empty frameworks, 160 atoms",Widom [2] CO₂ proposals,"10,000 proposals per host",240,0
 Small-framework insertion feedback<br>(iteration 15–19),"A–F empty frameworks, 40 atoms",Widom CO₂ proposals,"10,000 proposals per host","1,080",120

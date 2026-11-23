@@ -17,7 +17,7 @@ or 363 liquid–amorphous configurations, shared by all compared routes.
 
 Teacher errors are supplied for all seventy geometries, the fifty unqueried
 additions, and the held-out pool. Fig. 2 teacher bars separately evaluate the
-remaining 506-frame and 423-frame source pools. Atomic force-vector tails use
+remaining 506-frame and 423-frame source pools. Upper-tail per-atom force errors use
 the highest-error fraction of atom–frame observations, with ceiling selection
 counts. Differences are calculated against DFT-70 within each repeat, then averaged.
 
@@ -48,8 +48,11 @@ The four structure groups contain 140 teacher references, 940 earlier student
 geometries, 380 additions and 120 independent tests. The additions are
 zero-based frames 940–1319 of `crossphase/S1320_training.extxyz`; its first
 940 frames form the earlier student training set. In iteration 6,
-the teacher is fixed while student cycles r0–r27 are evaluated; the additions
-enter during r3–r10. The saved t-SNE coordinates retain every Al and O point.
+the teacher is fixed while student cycles r0–r27 are evaluated. Of 8,000
+prescreened candidates generated in r2–r9, 7,949 pass the support threshold;
+DIRECT retains 380 diverse configurations under the per-cycle quotas.
+Configurations selected in rN first enter training in rN+1, so the
+380 additions enter during r3–r10. The saved t-SNE coordinates retain every Al and O point.
 Neighbourhood mixing is 4u(1−u), where u is the teacher fraction after
 source-count normalisation within radius eight in projection units; each
 query point is excluded from its own neighbourhood. AlO₄/₅/₆ examples use the
@@ -58,7 +61,7 @@ saved atom correspondence and aligned coordinates.
 ## Production and physical validation
 
 Pooled force-component RMSE is the square root of summed Cartesian residual
-squares divided by the number of force components. Force-vector P99 uses
+squares divided by the number of force components. Per-atom force-error P99 uses
 linear quantile interpolation over atomic vector-error norms. YSZ final-model
 errors are reconstructed from the ordered final Cartesian parity file; the
 element and cluster metadata supply atom identities. Saved cluster weights

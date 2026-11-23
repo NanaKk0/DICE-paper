@@ -1,4 +1,4 @@
-Stage,Initial configurations,Sampling conditions,Sampling length,New teacher-labelled configurations,New DFT reference configurations
+Stage,Initial configurations,Exploration conditions,Run length,New teacher-labelled configurations,New DFT reference configurations
 Initial bulk references<br>(iteration 0),YSZ bulk reference structures,DFT references,—,0,15
 Initial temperature exploration<br>(iteration 0–2),"YSZ cells, 64/79/92 atoms","NPT; 300, 1200, 1800 K; 1 bar",20 ps,180,45
 Auxiliary dimer references<br>(iteration 3),Six pair types; three separations each,DFT references,—,0,18

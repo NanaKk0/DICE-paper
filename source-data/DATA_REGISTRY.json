@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "snapshot": "2026-11-22",
+  "snapshot": "2026-11-23",
   "figures": [
     {
       "id": "main:1",
@@ -89,15 +89,7 @@
         "data/physical_validation/MIL_MEAN_SD.csv",
         "data/physical_validation/MIL_REPLICATES.csv",
         "data/physical_validation/CHEN_PARAMETERS.csv",
-        "data/physical_validation/YSZ_CONDUCTIVITY.csv"
-      ]
-    },
-    {
-      "id": "main:7",
-      "object": "Fig. 7",
-      "stem": "Fig7",
-      "artwork": "artwork/Fig7.svg",
-      "sources": [
+        "data/physical_validation/YSZ_CONDUCTIVITY.csv",
         "data/performance/OOM_DISPLAY_GUIDES.csv",
         "data/performance/OOM_OBSERVATIONS.csv",
         "data/performance/SIZE_LIMIT_SUMMARY.csv",
@@ -119,7 +111,11 @@
       "object": "Supplementary Fig. 1",
       "stem": "SupplementaryFig1",
       "artwork": "artwork/SupplementaryFig1.svg",
-      "sources": []
+      "sources": [
+        "data/controlled/metrics_per_repeat.csv",
+        "data/controlled/teacher_metrics_per_repeat.csv"
+      ],
+      "title": "Teacher and student force errors in the controlled experiments."
     },
     {
       "id": "supplement:2",
@@ -129,7 +125,8 @@
       "sources": [
         "data/si_comparisons/routing_RMSE_paired_per_repeat.csv",
         "data/si_comparisons/routing_acceptance_per_repeat.csv"
-      ]
+      ],
+      "title": "Configuration selection for teacher labelling and student accuracy."
     },
     {
       "id": "supplement:3",
@@ -139,7 +136,8 @@
       "sources": [
         "data/accuracy/ENERGY_PARITY_200.csv",
         "data/accuracy/FORCE_COMPONENT_PARITY_74040.csv"
-      ]
+      ],
+      "title": "Al₂O₃ energy and force parity."
     },
     {
       "id": "supplement:4",
@@ -149,7 +147,8 @@
       "sources": [
         "data/accuracy/S_direct_YSZ500_parity_energy.csv",
         "data/accuracy/S_direct_YSZ500_parity_force.csv"
-      ]
+      ],
+      "title": "YSZ energy and force parity."
     },
     {
       "id": "supplement:5",
@@ -159,7 +158,8 @@
       "sources": [
         "data/accuracy/S_direct_MIL_parity_energy.csv",
         "data/accuracy/S_direct_MIL_parity_force.csv"
-      ]
+      ],
+      "title": "MIL-120(Al) energy and force parity."
     },
     {
       "id": "supplement:6",
@@ -167,8 +167,10 @@
       "stem": "SupplementaryFig6",
       "artwork": "artwork/SupplementaryFig6.svg",
       "sources": [
-        "data/prediction_and_mil/all_EOS.csv"
-      ]
+        "data/prediction_and_mil/all_path_profiles.csv",
+        "data/prediction_and_mil/path_motion_reference.csv"
+      ],
+      "title": "MIL-120(Al) hydroxyl-rearrangement paths on common DFT geometries."
     },
     {
       "id": "supplement:7",
@@ -176,9 +178,9 @@
       "stem": "SupplementaryFig7",
       "artwork": "artwork/SupplementaryFig7.svg",
       "sources": [
-        "data/prediction_and_mil/all_path_profiles.csv",
-        "data/prediction_and_mil/path_motion_reference.csv"
-      ]
+        "data/prediction_and_mil/all_EOS.csv"
+      ],
+      "title": "Equations of state for six MIL-120(Al) framework configurations."
     },
     {
       "id": "supplement:8",
@@ -189,7 +191,8 @@
         "data/physical_validation/Al_eleven_phase_comparison.csv",
         "data/physical_validation/Al_phase_relax.csv",
         "data/physical_validation/Al_phase_DFT.csv"
-      ]
+      ],
+      "title": "Relaxed energies and volumes of eleven Al₂O₃ prototypes."
     },
     {
       "id": "supplement:9",
@@ -200,7 +203,8 @@
         "data/physical_validation/Al_phonon_band.csv",
         "data/physical_validation/Al_phonon_path_metadata.json",
         "data/physical_validation/Al_phonon_summary.csv"
-      ]
+      ],
+      "title": "Phonon dispersions of $\\alpha$-, $\\kappa$- and $\\theta$-Al₂O₃."
     },
     {
       "id": "supplement:10",
@@ -211,7 +215,8 @@
         "data/physical_validation/AL_COEXISTENCE.csv",
         "data/physical_validation/AL_INTERFACE_2330_2340.csv",
         "data/physical_validation/AL_INTERFACE_2350.csv"
-      ]
+      ],
+      "title": "Interface velocities and finite-time coexistence histories."
     },
     {
       "id": "supplement:11",
@@ -222,7 +227,8 @@
         "data/ysz/transport_normalized_whole_preparation_bootstrap.csv",
         "data/ysz/transport_whole_preparation_bootstrap.csv",
         "data/provenance/YSZ_NORMALIZED_DIFFUSION.csv"
-      ]
+      ],
+      "title": "Composition dependence of normalised oxygen tracer diffusivity."
     },
     {
       "id": "supplement:12",
@@ -230,11 +236,10 @@
       "stem": "SupplementaryFig12",
       "artwork": "artwork/SupplementaryFig12.svg",
       "sources": [
-        "data/physical_validation/YSZ_lattice_bins_common_window.csv",
-        "data/physical_validation/YSZ_thermal_coefficients_per_preparation.csv",
-        "data/experimental_references/verified_experimental_coefficients.csv",
-        "data/experimental_references/PROVENANCE.md"
-      ]
+        "data/physical_validation/MIL_relaxed_NEB_profiles.csv",
+        "data/physical_validation/MIL_barriers.csv"
+      ],
+      "title": "Model-optimised hydroxyl-rearrangement pathways in MIL-120(Al)."
     },
     {
       "id": "supplement:13",
@@ -242,36 +247,44 @@
       "stem": "SupplementaryFig13",
       "artwork": "artwork/SupplementaryFig13.svg",
       "sources": [
-        "data/physical_validation/MIL_relaxed_NEB_profiles.csv",
-        "data/physical_validation/MIL_barriers.csv"
-      ]
+        "data/physical_validation/YSZ_lattice_bins_common_window.csv",
+        "data/physical_validation/YSZ_thermal_coefficients_per_preparation.csv",
+        "data/experimental_references/verified_experimental_coefficients.csv",
+        "data/experimental_references/PROVENANCE.md"
+      ],
+      "title": "Lattice parameters and thermal expansion of YSZ."
     }
   ],
   "tables": [
     {
       "object": "Supplementary Table 1",
       "file": "tables/SupplementaryTable1.csv",
-      "title": "Al₂O₃ development stages contributing to the final training set."
+      "title": "Al₂O₃ development stages contributing to the final training set.",
+      "note": "In Supplementary Tables 1–3, teacher-labelled counts refer to DIRECT-selected high-support additions retained in the final student training sets; DFT references are counted separately. Run lengths are specified per task. In iteration 6, 7,949 of 8,000 prescreened candidates in r2–r9 satisfied $p>0.1$; DIRECT retained forty configurations per cycle in r2–r3 and fifty in r4–r9, yielding 380 additions. Al₂O₃ crystal seed pools include lattice-strained structures and random atomic displacements with standard deviations of 0.02, 0.05 and 0.10 Å. The final Al₂O₃ student training set contains 2,580 configurations."
     },
     {
       "object": "Supplementary Table 2",
       "file": "tables/SupplementaryTable2.csv",
-      "title": "YSZ development stages contributing to the final training set."
+      "title": "YSZ development stages contributing to the final training set.",
+      "note": "Final student training set: 4,272 configurations."
     },
     {
       "object": "Supplementary Table 3",
       "file": "tables/SupplementaryTable3.csv",
-      "title": "MIL-120(Al) development stages contributing to the final training set."
+      "title": "MIL-120(Al) development stages contributing to the final training set.",
+      "note": "Final student training set: 6,041 configurations."
     },
     {
       "object": "Supplementary Table 4",
       "file": "tables/SupplementaryTable4.csv",
-      "title": "Development-sampling costs by system and sampling method."
+      "title": "Configuration-exploration costs by system and configuration-generation method.",
+      "note": "Times are summed over atom-count and output-cadence modes within each configuration-generation method. Student entries retain historical execution settings; teacher entries use the selected parallel configurations. System totals are calculated before rounding."
     },
     {
       "object": "Supplementary Table 5",
       "file": "tables/SupplementaryTable5.csv",
-      "title": "Dynamical stability of the final production students."
+      "title": "Dynamical stability of the final student potentials.",
+      "note": "The prescribed duration is 1 ns. Timesteps are 1 fs for Al₂O₃ and YSZ and 0.5 fs for MIL-120(Al). The earliest recorded instability time is determined from the last stored frame."
     }
   ],
   "cost_evidence": {
